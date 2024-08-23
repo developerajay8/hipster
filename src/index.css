@@ -1,0 +1,2119 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.home_background {
+    background: linear-gradient(rgb(1, 32, 31), rgb(0, 173, 169));
+   
+}
+
+.zindex{
+    z-index: 999999;
+}
+
+
+.new{
+
+}
+
+@keyframes shakl{
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.class {
+    padding-bottom: 228px;
+}
+
+.background {
+    background: linear-gradient(rgb(1, 32, 31), rgb(0, 173, 169));
+    width: 100%;
+    height: auto;
+}
+
+.SBackground{
+    background: #FFFFFF;
+    width: 100%;
+    height: auto;
+}
+
+.FI{
+    /* border-top-right-radius: 22px;
+    border-bottom-left-radius: 22px; */
+    border-radius: 22px;
+}
+
+.bor{
+    border: 1px solid #009688;
+}
+
+
+.font-poppins {
+    font-family: Poppins, sans serif;
+    /* font-family: Poppins, sans-serif; */
+}
+
+.bg-background {
+    background-color: #ffffff;
+    width: 100%;
+    height: 1500px;
+    position: fixed;
+    top: 0;
+}
+
+.font {
+    font-weight: 500;
+}
+
+.back-col {
+    background-color: #000000;
+
+}
+
+.transform {
+    transform: scaleX("20px");
+}
+
+
+
+/* Featured Projects */
+
+.Second-bg {
+    background-color: #c2f5b7;
+    z-index: 36;
+    /* position: absolute; */
+    /* position: fixed; */
+    position: relative;
+}
+
+.Box {
+    z-index: 35;
+}
+
+.ZZ {
+    z-index: 4;
+}
+
+.PP {
+    z-index: 3;
+}
+
+.fonts {
+    font-weight: 600;
+}
+
+.b-black {
+    background-image: linear-gradient(144deg, #002423 0%, #0d0d0d 98%);
+}
+
+.aplko{
+    width: 100%;
+    display: flex;
+}
+
+marquee{
+    display: flex;
+}
+
+.slide-image img{
+    width: 100%;
+    height: 250px;
+    /* border: 2px solid red; */
+    transition: transform 1s;
+}
+
+/* img:hover{
+    transform: translateZ(20px);
+} */
+
+.slide-image{
+    height: 250px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    perspective: 100px;
+}
+
+
+/* body{
+    min-height: 100vh;
+     border: 13px solid red; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100% );
+} */
+
+
+
+.container{
+    height: 250px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    /* position: relative; */
+    overflow: hidden;
+}
+
+.slide-container{
+    display: flex;
+    width: calc(250px * 16);
+    animation: scroll 20s linear infinite;
+}
+
+@keyframes scroll{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(calc(-250px * 9));
+    }
+}
+
+.Share {
+    background-image: url(./assets/sharebg.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* padding: 200px 60px; */
+
+}
+
+.Common {
+    /* padding: 200px 60px; */
+    background-color: #ffffff;
+}
+
+.Abroadly {
+    /* padding: 200px 60px; */
+    background-color: #3cab52;
+}
+
+.Case {
+    background-color: #97cafb;
+    /* padding: 200px 60px; */
+}
+
+.bord {
+    border: 1px solid black;
+    border-radius: 50px;
+    background: transparent;
+    font-weight: bold;
+}
+
+.Services {
+    background-color: #ffffff;
+    padding: 60px 80px;
+}
+
+.our_goal {
+    background-image: url(./assets/goalbg.webp);
+    background-size: 100% 120%;
+    /* padding: 80px; */
+    /* display: flex; */
+    /* min-height: 650px; */
+}
+
+.sdc {
+    background-color: #ffd179;
+}
+
+/* .bord li :hover {
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    color: white;
+    border-radius: ;
+} */
+
+.first1 {
+    z-index: 135;
+}
+
+.first2 {
+    z-index: 35;
+}
+
+
+
+
+
+
+/* Client  */
+/* Client  */
+
+
+.client {
+    width: 100%;
+    /* height: 100vh; */
+    background: linear-gradient(to bottom, rgb(54 113 100) 0%, rgb(13 119 114) 25%, rgb(3 103 41) 50%, rgb(53, 99, 74) 75%, rgb(19, 36, 27) 100%);
+    background-size: 100% 400%;
+    background-position: 0 0;
+    /* -webkit-animation: animateGradient 15s ease infinite; */
+    -moz-animation: animateGradient 15s ease infinite;
+    animation: animateGradient 15s ease infinite;
+    /* -webkit-animation-delay: 5s; */
+    -moz-animation-delay: 5s;
+    animation-delay: 5s;
+}
+
+.Truste {
+    background: #000;
+}
+
+.tr {
+    font-weight: 400;
+    text-align: center;
+}
+
+.Makes {
+    background: #fffefe;
+}
+
+.Read {
+    text-decoration: underline;
+    transition-duration: 5s;
+}
+
+.Read:hover {
+    text-decoration: none;
+
+}
+
+.footer {
+    background-image: linear-gradient(to bottom right, #042322, #0b1010);
+    /* padding: 100px; */
+}
+
+.sdfghj {
+    font-size: 50px;
+    color: #FFFFFF;
+    font-weight: 100;
+}
+
+.sdfghj:hover {
+    font-size: 50px;
+    color: #273c75;
+    font-weight: 100;
+}
+
+.boders {
+    border-bottom: 2px solid rgb(255, 255, 255);
+    /* padding-bottom: 30px; */
+    /* width: 230px; */
+}
+
+.acdsjcnds:hover {
+    font-weight: bold;
+    color: #FFFFFF;
+
+}
+
+.aman {
+    border: 1px solid rgb(255, 255, 255);
+}
+
+
+.akak {
+    margin: auto 0px;
+}
+
+#ONE {
+    position: absolute;
+    /* display: none; */
+    z-index: 135;
+}
+
+
+#THREE {
+    position: absolute;
+    /* display: none; */
+    z-index: 35;
+}
+
+#featuredbg {
+    z-index: 135;
+}
+
+#zily {
+    z-index: 35;
+}
+
+#zilystar {
+    z-index: 35;
+}
+
+
+.our {
+    z-index: 135;
+}
+
+.NERW {
+    z-index: 35;
+}
+
+
+
+
+
+.ZILYS {
+    animation-name: ZILYS;
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
+}
+
+
+.Starsha {
+    animation-name: Starsha;
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
+}
+
+
+:hover .BOMB {
+    animation-name: BOMB;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+}
+
+@keyframes BOMB {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.TOPK {
+    animation-name: TOPK;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+}
+
+@keyframes TOPK {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.5);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.TOPKS {
+    animation-name: TOPKS;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+}
+
+@keyframes TOPKS {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.5);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+
+
+:hover .BOMBs {
+    animation-name: BOMBs;
+    animation-iteration-count: infinite;
+    animation-duration: 8s;
+}
+
+@keyframes BOMBs {
+    0% {
+        transform: rotate(0deg);
+        bottom: -228px;
+        left: -150px;
+    }
+
+    50% {
+        bottom: -228px;
+        left: 310px;
+        transform: rotate(360deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+        bottom: -228px;
+        left: -150px;
+    }
+}
+
+:hover .BOMBCS {
+    animation-name: BOMBCS;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    z-index: 35;
+}
+
+@keyframes BOMBCS {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.lokesk {
+    z-index: 5;
+}
+
+.klklkl {
+    z-index: 136;
+}
+
+:hover .ajajajaja {
+    animation-name: ajajajaja;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+
+@keyframes ajajajaja {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.Box {
+    position: absolute;
+    bottom: -136px;
+    right: 0;
+    transform: rotate(270deg);
+}
+
+
+
+.Box::before {
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 72px;
+    background: #00b1ac;
+    left: -85px;
+    bottom: 9px
+}
+
+
+
+.Box {
+    animation-name: Box;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+}
+
+@keyframes Box {
+    0% {
+        bottom: -140px;
+        right: -60px;
+    }
+
+    50% {
+        bottom: -120px;
+        right: -60px;
+    }
+
+    100% {
+        bottom: -140px;
+        right: -60px;
+    }
+}
+
+
+
+.UPER {
+    z-index: 139;
+    width: 38%;
+    height: 100%;
+    position: absolute;
+    top: 90px;
+    right: 320px;
+    animation-name: UPER;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+}
+
+@keyframes UPER {
+    0% {
+        top: 90px;
+        right: 320px;
+    }
+
+    50% {
+        top: 60px;
+        right: 320px;
+    }
+
+    100% {
+        top: 90px;
+        right: 320px;
+    }
+}
+
+
+
+:hover .TWOS {
+    animation-name: TWOS;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+}
+
+@keyframes TWOS {
+    0% {
+        top: -75px;
+        right: 370px;
+    }
+
+    50% {
+        top: -120px;
+        right: 370px;
+    }
+
+    100% {
+        top: -75px;
+        right: 370px;
+    }
+}
+
+
+
+@keyframes ZILYS {
+    0% {
+        top: 0px;
+        right: 200px;
+    }
+
+    50% {
+        top: 0px;
+        right: 500px;
+    }
+
+    100% {
+        top: 0px;
+        right: 200px;
+    }
+}
+
+
+@keyframes Starsha {
+    0% {
+        top: 0px;
+        right: 0px;
+    }
+
+    50% {
+        top: 0px;
+        right: -140px;
+    }
+
+    100% {
+        top: 0px;
+        right: 0px;
+    }
+}
+
+
+.THID {
+    animation-name: THID;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+}
+
+@keyframes THID {
+    0% {
+        top: 0px;
+        right: 0px;
+    }
+
+    50% {
+        top: -30px;
+        right: 0px;
+    }
+
+    100% {
+        top: 0px;
+        right: 0px;
+    }
+}
+
+
+.PENCIL {
+    animation-name: PENCIL;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    position: relative;
+}
+
+
+@keyframes PENCIL {
+    0% {
+        top: -560px;
+        left: -70px;
+    }
+
+    50% {
+        top: -580px;
+        left: -70px;
+    }
+
+    100% {
+        top: -560px;
+        left: -70px;
+    }
+}
+
+.MATAKA {
+    animation-name: MATAKA;
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
+    /* transition-timing-function: ease; */
+    position: relative;
+}
+
+@keyframes MATAKA {
+    0% {
+        top: 0px;
+        right: 0px;
+    }
+
+    50% {
+        top: -30px;
+        right: 0px;
+    }
+
+    100% {
+        top: 0px;
+        right: 0px;
+    }
+}
+
+
+.SUIT {
+    animation-name: SUIT;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+
+@keyframes SUIT {
+    0% {
+        top: -64px;
+        left: 181px;
+    }
+
+    50% {
+        top: -84px;
+        left: 181px;
+    }
+
+    100% {
+        top: -64px;
+        left: 181px;
+    }
+}
+
+.SUITS {
+    animation-name: SUITS;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+}
+
+@keyframes SUITS {
+    0% {
+        top: -64px;
+        left: 320px;
+    }
+
+    50% {
+        top: -84px;
+        left: 320px;
+    }
+
+    100% {
+        top: -64px;
+        left: 320px;
+    }
+}
+
+.SUITSP {
+    animation-name: SUITSP;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+
+@keyframes SUITSP {
+    0% {
+        top: -64px;
+        left: 460px;
+    }
+
+    50% {
+        top: -84px;
+        left: 460px;
+    }
+
+    100% {
+        top: -64px;
+        left: 460px;
+    }
+}
+
+.SUITSPS {
+    animation-name: SUITSPS;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+}
+
+@keyframes SUITSPS {
+    0% {
+        top: -64px;
+        left: 601px;
+    }
+
+    50% {
+        top: -84px;
+        left: 601px;
+    }
+
+    100% {
+        top: -64px;
+        left: 601px;
+    }
+}
+
+.SUITSPST {
+    animation-name: SUITSPST;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+
+@keyframes SUITSPST {
+    0% {
+        top: -64px;
+        left: 741px;
+    }
+
+    50% {
+        top: -84px;
+        left: 741px;
+    }
+
+    100% {
+        top: -64px;
+        left: 741px;
+    }
+}
+
+
+.first3 {
+    z-index: 35;
+    position: absolute;
+    animation-name: first3;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+}
+
+@keyframes first3 {
+    0% {
+        top: 0px;
+        right: 250px;
+    }
+
+    25% {
+        top: 20px;
+        right: 320px;
+    }
+
+    50% {
+        top: -30px;
+        right: 360px;
+    }
+
+    100% {
+        top: -62px;
+        right: 380px;
+    }
+}
+
+.FRITY {
+    z-index: 135;
+    position: relative;
+}
+
+
+.FRUTY {
+    z-index: 35;
+}
+
+.MAI {
+    z-index: 136;
+}
+
+.pre {
+    animation-name: pre;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+
+@keyframes pre {
+    0% {
+        top: 30px;
+        left: 60px;
+    }
+
+    50% {
+        top: 10px;
+        left: 60px;
+    }
+
+    100% {
+        top: 30px;
+        left: 60px;
+    }
+}
+
+
+.pres {
+    animation-name: pres;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+}
+
+@keyframes pres {
+    0% {
+        top: 30px;
+        left: 260px;
+    }
+
+    50% {
+        top: 10px;
+        left: 260px;
+    }
+
+    100% {
+        top: 30px;
+        left: 260px;
+    }
+}
+
+
+.preas {
+    animation-name: preas;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+
+@keyframes preas {
+    0% {
+        top: 30px;
+        right: -70px;
+    }
+
+    50% {
+        top: 10px;
+        right: -70px;
+    }
+
+    100% {
+        top: 30px;
+        right: -70px;
+    }
+}
+
+.lamap{
+    animation-duration: 5s;
+    animation-name: lamap;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes lamap{
+    0%{
+        top: 161px;
+        right: -168px;
+    }
+    50%{
+        top: 138px;
+        right: -168px;
+    }
+    100%{
+        top: 161px;
+        right: -168px;
+    }
+}
+
+
+.lamps{
+    animation-duration: 3s;
+    animation-name: lamps;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes lamps{
+    0%{
+        top: 181px;
+        right: 25px;
+    }
+    50%{
+        top: 171px;
+        right: 25px;
+    }
+    100%{
+        top: 181px;
+        right: 25px;
+    }
+}
+
+.last{
+    animation-duration: 3s;
+    animation-name: last;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes last{
+    0%{
+        top: 30px;
+        right: -70px;
+    }
+    50%{
+        top: 50px;
+        right: -70px;
+    }
+    100%{
+        top: 30px;
+        right: -70px;
+    }
+}
+
+
+.lasts{
+    animation-duration: 4s;
+    animation-name: lasts;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes lasts{
+    0%{
+        top: 20px;
+        right: 0px;
+    }
+    50%{
+        top: 10px;
+        right: 0px;
+    }
+    100%{
+        top: 20px;
+        right: 0px;
+    }
+}
+
+
+.FB{
+    animation-name: FB;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    position: absolute;
+}
+
+@keyframes FB{
+    0%{
+        top: -20px;
+        left: 400px;
+    }
+    50%{
+        top: -20px;
+        left: 770px;
+    }
+    100%{
+        top: -20px;
+        left: 400px;
+    }
+}
+
+
+.FTP{
+    z-index: 135;
+}
+
+.NGo{
+    z-index: 35;
+    animation-name: NGo;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes NGo{
+    0%{
+       transform: rotate(0deg); 
+    }
+    
+    100%{
+       transform: rotate(360deg);
+    }
+}
+
+
+:hover.web1{
+    z-index: 35;
+    animation-name: web1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes web1{
+    0%{
+       transform: rotate(0deg); 
+    }
+    
+    100%{
+       transform: rotate(360deg);
+    }
+    
+}
+
+
+/* .ghghgh{
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 0px 10px gray;
+    position: fixed;
+    top: 40px;
+    z-index: 9999;
+} */
+
+
+
+.bts{
+    animation-name: bts;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bts{
+    0%{
+        top: 0px;
+        left: 0px;
+    }
+    50%{
+        top: -20px;
+        left: 0px;
+    }
+    100%{
+        top: 0px;
+        left: 0px;
+    }
+}
+
+
+
+.BTSP{
+    z-index: 135;
+}
+
+
+
+/* About us page  */
+/* WHO WE ARE CSS START*/
+
+.Top{
+    width: 100%;
+    /* min-height: 480px; */
+    /* border: 1px solid black; */
+    background: url('./assets/aboutbg.webp') center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* .Coconat{ */
+    /* overflow: hidden; */
+    /* transform-style: preserve-3d; */
+/* } */
+
+
+
+.teorra{
+    width: 100%;
+    min-height: 580px;
+    /* margin: auto; */
+    /* border: 1px solid black; */
+    background: url('./assets/teorra.webp') center center;
+    background-size: cover;
+    /* transform:translate3d(0,0,-1px) scale(2); */
+}
+
+.unique{
+    width: 100%;
+    min-height: 680px;
+    /* border: 1px solid black; */
+    background: url('./assets/unique.webp') center center;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    /* margin: auto 0px; */
+}
+
+
+
+
+.uniques{
+    width: 100%;
+    min-height: 680px;
+    /* border: 1px solid black; */
+    background: url('./assets/teorra-feature.webp') center center;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    /* margin: auto 0px; */
+}
+
+.lop{
+    width: 100%;
+    min-height: 600px;
+    /* border: 1px solid black; */
+    background: url('./assets/treasure.webp') center center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+}
+
+.kup{
+    width: 100%;
+    min-height: 600px;
+    /* border: 1px solid black; */
+    background: url('./assets/victory.webp') center center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+}
+
+.tops{
+    width: 100%;
+    /* min-height: 840px; */
+    /* border: 1px solid black; */
+    background: url('./assets/websiteDevelopment.webp') center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.topst{
+    width: 100%;
+    /* min-height: 840px; */
+    /* border: 1px solid black; */
+    background: url('./assets/aio.webp') center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.topstk{
+    width: 100%;
+    /* min-height: 840px; */
+    /* border: 1px solid black; */
+    background: url('./assets/ux.webp') center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.toy{
+    width: 100%;
+    /* min-height: 840px; */
+    /* border: 1px solid black; */
+    background: url('./assets/toy.webp') center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+.Bottom{
+    width: 100%;
+    /* min-height: 480px; */
+    /* border: 1px solid black; */
+    background: url('./assets/aboutus2.webp') center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.sasassa{
+    font-weight: 600;
+}
+
+.fs{
+    font-weight: 400;
+}
+
+.fst{
+    font-weight: 500;
+}
+
+
+.column {
+    background-image: linear-gradient(45deg, #1e7678 15%, #4d7643 50%, #c66716 90%);
+    background-position: 0 0;
+    background-size: 100% 400%;
+    color: #fff;
+    /* -webkit-animation: animateGradient 2s ease infinite; */
+    -moz-animation: animateGradient 2s ease infinite;
+    animation: animateGradient 2s ease infinite;
+    /* -webkit-animation-delay: 2s; */
+    -moz-animation-delay: 2s;
+    animation-delay: 2s;
+}
+
+.fo{
+    font-weight: bold;
+}
+
+
+
+/* Contact us page css start */
+.label{
+    border: 1px solid black;
+}
+
+.textdu{
+    transition: 1s;
+}
+
+
+
+/* NEAR PAGE SECTION CSS START */
+
+.nb{
+    background-position: top center;
+}
+
+
+.Near_Back{
+    width: 100%;
+    min-height: 768px;
+    /* border: 1px solid black; */
+    background: url('./assets/nearbackbottomimg.webp')  center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bbn{
+    border-bottom: 2px solid black;
+}
+
+
+/* Share App Page Section Css Start */
+
+
+.Shares{
+    width: 100%;
+    min-height: 592px;
+    /* margin-left: auto; */
+    border-radius: 25px 0 0 25px;
+    border-top-right-radius: none;
+    /* border: 1px solid black; */
+    background: url('./assets/sharebgs.webp');
+    background-size: cover;
+}
+
+.Commons{
+    width: 100%;
+    min-height: 308px;
+    /* border: 1px solid black; */
+    background: url('./assets/personalisation.webp')  center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.Exit{
+    width: 90%;
+    min-height: 1166px;
+    /* border: 1px solid black; */
+    background: url('./assets/exit.webp') top center;
+    background-size: cover;
+    margin: 0px auto;
+    background-attachment: fixed;
+}
+
+
+/* Common page css Start */
+
+.bb{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+/* 
+.bt1{
+    z-index: 35;
+    animation-name: bt1;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes bt1{
+    0%{
+       transform: rotate(0deg); 
+    }
+    
+    100%{
+       transform: rotate(360deg);
+    }
+} */
+
+.bs{
+    box-shadow: -3px 1px 4px 0px gray;
+}
+
+.wsqss{
+    border-right: 1px solid black;
+}
+
+
+
+
+/* Services */
+/* web development ke css part Start */
+
+.grdnt {
+    background: linear-gradient(-45deg, #528bff, #e854ea, #f5940a);
+    animation: webdevgradient 3s ease infinite;
+    background-size: 200% 200%;
+}
+
+
+.backgrou {
+    background: #130F40;
+    /* animation: webdevgradient 3s ease infinite; */
+    /* background-size: 200% 200%; */
+}
+
+.CAQ{
+    background: linear-gradient(206.84deg, #4B484A -20.22%, #434142 3.12%, #2E2C2D 39.53%, #141414 73.14%);
+}
+
+.FAQ{
+    text-decoration: underline;
+}
+
+.SUM{
+    text-decoration: underline;
+}
+
+.ddd{
+    background: linear-gradient(-90deg, #181e1a, #1b4f4b, #427468, #091716);
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+    cursor: pointer;
+    border-radius: 30px 70px 30px 30px;
+}
+
+.TU{
+    text-decoration: underline;
+}
+
+.ni{
+    width: 100%;
+    /* min-height: 800px; */
+    /* border: 1px solid black; */
+    background: url('./assets/aboutus2.webp') center center;
+    background-size: cover;
+}
+
+.nit{
+    width: 100%;
+    /* min-height: 800px; */
+    /* border: 1px solid black; */
+    background: url('./assets/emp.webp') center center;
+    background-size: cover;
+}
+
+
+
+.d{
+    background-image: linear-gradient(138deg, #002423 0%, #0d0d0d 98%);
+    padding: 30px;
+    border-radius: 30px;
+    border-top-right-radius: 50px;
+    /* height: 600px; */
+    height: 100%;
+}
+
+.rder{
+    border: 1px solid rgba(255, 255, 255, .5);
+}
+
+
+ .blog_second_hover{
+    animation-name: blog_second_hover;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes blog_second_hover{
+    0%{
+        bottom: 24px;
+        right: -20px;
+    }
+    50%{
+        bottom: 24px;
+        right: -40px;
+    }
+    100%{
+        bottom: 24px;
+        right: -20px;
+    }
+} 
+
+
+/* Clients Section Css Start */
+
+
+.sdd{
+    object-fit: contain;
+}
+
+.border_C{
+    border: 1px solid #c1bbbb;
+}
+
+
+
+/* ..........END......... */
+
+
+
+
+
+/* Case css start here */
+.hps_image{
+    width: 100%;
+    height: 921px;
+    background: url('./assets/hps.webp') center center;
+    background-size: cover;
+}
+
+.caseGalob{
+    width: 24%;
+    text-align: center;
+}
+.caseGalob1{
+    max-width: 50px;
+    height: 50px;
+    margin: auto;
+}
+
+.dashboard{
+    border-left: 1px black solid;
+}
+
+.videocontent{
+    max-width: 100%;
+
+}
+
+.videoContenar{
+    max-width: 100%;
+    padding: 100px 0px;
+    background-color: #ccefee;
+}
+.next_case{
+    border-bottom: 2px black solid;
+}
+/* ........end..... */
+
+
+/* BlogOnepage start here */
+.listStyeleo{
+    list-style: disc;
+    margin-left: 50px;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+.listStyeleo li{
+    margin-bottom: 15px;
+}
+
+.spancolor{
+    color: #006a83;
+}
+.storgbolder{
+    font-weight: bolder;
+    color: #222;
+}
+
+.pastHover{
+    padding: 14px 32px;
+    border: 1px solid #009688 !important;
+    display: inline;
+    color: #001817;
+    border-radius: 26px;
+    position: relative;
+}
+.hoverColorg{
+    width: 100%;
+    height: 100%;
+    background-color:#00837f ;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    opacity: 0;
+}
+
+.pastHover:hover .hoverColorg{
+    right: 0;
+}
+.animationBlog{
+    max-width: 248px;
+    min-height: 320px;
+    padding: 30px;
+    background: url('./assets/bgimg.png') center , center ;
+    background-size: cover;
+    border-radius: 40px;
+    position: relative;
+
+}
+
+.animationIMG{
+    position: absolute;
+    bottom: 0;
+    right: -40px;
+    animation: dp_img  ease-in-out 1s infinite alternate;
+    
+}
+@keyframes dp_img{
+    0%{
+        right: -30px;
+    }
+    100%{
+        right: -40px;
+    }
+}
+
+.buttonclg{
+    transition: 0.3s;
+}
+.buttonclg:hover{
+    color: rgb(212, 212, 212);
+    opacity: .9;
+}
+
+.hispterLink{
+    border: 1px #5e5e5e solid;
+}
+
+.rgbacolor{
+    background: rgba(0, 177, 172, .2);
+    border-radius: 50px;
+    color: #001817;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.typesquare{
+    list-style: disc;
+}
+
+.typemet{
+    list-style: decimal;
+}
+
+.bluerbgacolor{
+    background: rgba(0, 177, 172, .2);
+    display: inline-block;
+    border-radius: 50px;
+    text-align: center;
+}
+
+
+
+/* .........end........ */
+
+
+
+td{
+    border: 1px solid #bdb8b8;
+    padding: 10px;
+}
+
+/* .monhover{
+    background: #000;
+    transform-origin: left;
+    transform: translateX('0px');
+}
+
+.monhover :hover{
+    background: #000;
+    transform-origin: left;
+    transform: translateX('100px');
+} */
+
+
+/* .butto{ */
+    /* width: 200px; */
+    /* font-size: 20px; */
+    /* font-weight: bold; */
+    /* position: relative; */
+    /* overflow: hidden; */
+    /* background: transparent; */
+/* } */
+
+/* .dhdhdh{
+    background: green;
+    height: 100%;
+    width: 0;
+    transition: 0.5s;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.butto:hover span{
+    width: 100%;
+} */
+
+
+
+
+
+
+/* Home Slider in Page Section */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  ........................... custom scrollbar .................. */
+::-webkit-scrollbar{
+    width: 5px;
+}
+
+::-webkit-scrollbar-track{
+    background: #000;
+    transition: 2s;
+}
+::-webkit-scrollbar-track:hover{
+    background: #22a6b3;
+    transition: 2s;
+
+}
+
+
+::-webkit-scrollbar-thumb{
+    background: #f0932b;
+    height: 10px;
+}
+
+
+
+
+/* ........................... AloTool Page Css ....................... */
+
+:hover .Alo {
+    animation-name: Alo;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+
+@keyframes Alo {
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+
+    50% {
+        top: -20px;
+        left: 0px;
+    }
+
+    100% {
+        top: 0px;
+        left: 0px;
+    }
+}
+
+
+:hover .Alos {
+    animation-name: Alos;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+}
+
+@keyframes Alos {
+    0% {
+        top: -50px;
+        left: 0px;
+    }
+
+    50% {
+        top: -62px;
+        left: 0px;
+    }
+
+    100% {
+        top: -50px;
+        left: 0px;
+    }
+}
+
+:hover .Alok {
+    animation-name: Alok;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+
+@keyframes Alok {
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+
+    50% {
+        top: -20px;
+        left: 0px;
+    }
+
+    100% {
+        top: 0px;
+        left: 0px;
+    }
+}
+
+
+
+/* Teorra css start properties  */
+
+.cla{
+    letter-spacing: 1.3px;
+}
+
+
+/* .unique {
+    position: fixed;
+    top: 100px; 
+    right: 50px; 
+    width: 590px;
+    height: auto;
+    z-index: 999999;
+  } */
+  
+  
+
+  
+/* .head {
+    position: fixed;
+    top: 0px; 
+    right: 0px; 
+    width: 100%; 
+    height: auto;
+    z-index: 9999999;
+    background-color: #000000;
+  } */
+
+
+
+/* .mt{
+    top: 160px;
+} */
+
+
+
+
+/* -------------------- ves-page css start -------------------- */
+
+.vesshadow{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+.dukenus{
+    width: 100%;
+    min-height: 580px;
+    /* margin: auto; */
+    /* border: 1px solid black; */
+    background: url('./assets/dukenus.webp') center center;
+    background-size: cover;
+    /* transform:translate3d(0,0,-1px) scale(2); */
+}
+
+.tracking{
+    width: 100%;
+    min-height: 483px;
+    /* border: 1px solid black; */
+    background: url('./assets/z4ip-tracking.webp') center center;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    /* margin: auto 0px; */
+}
+
+
+
+
+.games{
+    width: 100%;
+    min-height: 483px;
+    /* border: 1px solid black; */
+    background: url('./assets/z4ip-games.webp') center center;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    /* margin: auto 0px; */
+}
+
+
+/* .z4bottom{
+    width: 100%;
+    min-height: 483px;
+    border: 1px solid black; //
+    background: url('./assets/z4ip-bottom-banner.webp') center center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: auto 0px; //
+} */
+
+
+
+/* ----------------------- bare pack sustainability ------------------------ */
+/* barepack css start */
+
+.wooshi{
+    background: radial-gradient(50% 50.52% at 50% 50%, #FEEEEA 0%, #F87456 100%);
+};
+
+
+.backpare{
+    width: 100%;
+    min-height: 566px;
+    /* border: 1px solid black; */
+    background: url('./assets/barebottom1.webp') center center;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    /* margin: auto 0px; */
+}
+
+.barebottom1{
+    width: 100%;
+    min-height: 566px;
+    /* border: 1px solid black; */
+    background: url('./assets/barebottom1.webp') center center;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    /* margin: auto 0px; */
+}
+
+.packmirror{
+    width: 100%;
+    min-height: 566px;
+    /* border: 1px solid black; */
+    background: url('./assets/Mirror.webp') center center;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    /* margin: auto 0px; */
+}
+
+
+.miroor-bg{
+    background-color: rgba(248, 33, 25, 0.05);
+}
+
+
+
+
+/* -------------------------- new page-------------------- */
+/* .................  10 - min tutor .................... */
+.tutor1{
+    width: 100%;
+    /* height: ; */
+    background: radial-gradient(130.09% 130.09% at 48.97% 0%, #57A2E3 0%, #FD5495 100%);
+    border-radius: 20px;
+}
+
+
+.tutor2{
+    width: 100%;
+    background: radial-gradient(130.09% 130.09% at 48.97% 0%, #FD9009 0%, #FD5495 100%);
+    border-radius: 20px;
+}
+
+ .mobile2 {
+    animation-name: mobile2;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+}
+
+@keyframes mobile2 {
+    0% {
+        
+        top: 0px;
+        left: 100px;
+    }
+
+    50% {
+        top: -28px;
+        left: 100px;
+        
+    }
+
+    100% {
+        
+        top: 0px;
+        left: 100px;
+    }
+}
+
+.mobile1 { 
+    animation-name: mobile1;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+}
+
+@keyframes mobile1 {
+    0% {
+        
+        bottom: -7px;
+        left: 200px;
+    }
+
+    50% {
+        bottom: -32px;
+        left: 200px;
+        
+    }
+
+    100% {
+        
+        bottom: -7px;
+        left: 200px;
+    }
+}
+
+.imagesec{
+    /* content: ""; */
+    /* position: absolute; */
+    /* height: 10px; */
+    /* width: 95%; */
+    background-image: linear-gradient(to top, #ffdfcf, #eeeae9);
+    /* top: 0; */
+    /* left: 5%; */
+    /* border-radius: 25px 0 0 25px; */
+}
+
+
+
+
+/* ------------------------ tueeteredutech page css :start ----------------------- */
+
+
+.tueeterport1{
+    background: linear-gradient(180deg, #6D688C 0%, rgba(72, 134, 217, 0.56) 100%);
+    border-radius: 22px;
+}
+
+.tueeterport2{
+    background: linear-gradient(180deg, #9ae5ed 2.13%, #e5edee 60%, #6bdff0 100%);
+    border-radius: 22px;
+}
+
+
+/* ---------------------  L, HOMMES page css start ------------------- */
+
+.border-class{
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+
+/* clients page hover css */
+
+.hover-shadow-left::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -5px; /* Position the shadow outside the left edge */
+    width: 5px; /* Width of the shadow */
+    height: 100%;
+    box-shadow: -5px 0 5px blueviolet; /* Custom shadow color */
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  .hover-shadow-left:hover::before {
+    opacity: 1;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
