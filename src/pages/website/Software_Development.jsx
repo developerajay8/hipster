@@ -94,7 +94,10 @@ export default function Software_Development() {
               data-aos-duration="700"
             >
               <div className="col-span-1 ">
+                <Link to={'/tueetoredutech'}>
                 <img src={edt} alt="" />
+                </Link>
+                <Link to={'/tueetoredutech'}>
                 <div className="py-[25px]">
                   <h4 className="mb-[12px] text-[24px] font-poppins text-[#001817]">
                     Tueetor — Edutech
@@ -108,10 +111,14 @@ export default function Software_Development() {
                     </li>
                   </ul>
                 </div>
+                </Link>
               </div>
               <div className="col-span-1  mb-[17px]">
                 <div className="lg:pt-[92px] md:pt-[72px]">
+                <Link to={'/mintutor'}>
                   <img src={Sx} alt="" />
+                  </Link>
+                  <Link to={'/mintutor'}>
                   <div className="py-[25px]">
                     <h4 className="mb-[12px] text-[24px] font-poppins text-[#001817]">
                       10-min Tutor — Edutech
@@ -126,6 +133,7 @@ export default function Software_Development() {
                       </li>
                     </ul>
                   </div>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -135,7 +143,10 @@ export default function Software_Development() {
               data-aos-duration="700"
             >
               <div className="col-span-1 ">
+              <Link to={'/physicalteam'}>
                 <img src={SS} alt="" />
+                </Link>
+                <Link to={'/physicalteam'}>
                 <div className="py-[25px]">
                   <h4 className="mb-[12px] text-[24px] font-poppins text-[#001817]">
                     Tbit — Team Engagement
@@ -149,10 +160,14 @@ export default function Software_Development() {
                     </li>
                   </ul>
                 </div>
+                </Link>
               </div>
               <div className="col-span-1  mb-[17px]">
                 <div className="lg:pt-[92px] md:pt-[72px]">
+                <Link to={'/lhommes'}>
                   <img src={olm} alt="" />
+                  </Link>
+                  <Link to={'/lhommes'}>
                   <div className="py-[25px]">
                     <h4 className="mb-[12px] text-[24px] font-poppins text-[#001817]">
                       L’Hommes — Fashion E-commerce
@@ -166,6 +181,7 @@ export default function Software_Development() {
                       </li>
                     </ul>
                   </div>
+                  </Link>
                 </div>
               </div>
             </div>

@@ -48,7 +48,7 @@ const Case = () => {
             <li className="bg-[#ccefee] duration-500  hover:bg-[#00fff7] mb-[20px] mr-[10px] py-[18px] px-[32px]  rounded-full hover:text-[#FFFFFF]  text-[#001817]">
               <Link
                 className="  text-[18px] font-poppins hover:text-[#FFFFFF] duration-1000 text-[#001817]"
-                to={"/wppdevelopment"}
+                to={"/webdevelopment"}
               >
                 Web Development
               </Link>

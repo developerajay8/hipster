@@ -74,7 +74,7 @@ export default function Services() {
               </p>
               <button className="bg-black hover:bg-gray-900 duration-700 py-3 rounded-full items-center">
                 <Link
-                  to={""}
+                  to={"/webdevelopment"}
                   className="text-[#dedede] duration-700 hover:text-[#adadad] px-[20px] font-semibold"
                 >
                   Explore More
@@ -104,17 +104,14 @@ export default function Services() {
           <div className="lg:col-span-2  col-span-2 my-auto lg:mt-0 lg-mt-[16px]">
             <div className="lg:pl-[65px] md:pr-[65px] lg:pr-[0px] pl-[0px]">
               <h2 className="text-[32px] font-poppins text-[#000000] mb-[16px] fo">
-                Web App Development
+              Mobile App Development
               </h2>
               <p className="text-[#657676] xl:text-[20px] sm:text-[18px] text-[16px] mb-[16px] font-poppins">
-                We build websites that thrive at the intersection of business
-                goals and user needs. In a world where most web traffic is on
-                mobile, our team creates responsive, fast, and secure websites
-                that work elegantly across mobile and desktop.
+              Hipster offers a broad spectrum of mobile app development services, including iOS, Android, React Native, and Flutter development. More importantly, we are here to support you through pre and post-development via prototyping, testing, technical guidance, and more.
               </p>
               <button className="bg-black hover:bg-gray-900 duration-700 py-3 rounded-full items-center">
                 <Link
-                  to={""}
+                  to={"/mobileappdevelopment"}
                   className="text-[#dedede] duration-700 hover:text-[#adadad] px-[20px] font-semibold"
                 >
                   Explore More
@@ -130,17 +127,14 @@ export default function Services() {
           <div className="lg:col-span-2  col-span-2 lg:pb-[0px] pb-[20px] my-auto  ">
             <div className="md:pr-[65px] pr-[0px]">
               <h2 className="text-[32px] font-poppins text-[#000000] mb-[16px] fo">
-                Web App Development
+              UI/UX
               </h2>
               <p className="text-[#657676] xl:text-[20px] sm:text-[18px] text-[16px] mb-[16px] font-poppins">
-                We build websites that thrive at the intersection of business
-                goals and user needs. In a world where most web traffic is on
-                mobile, our team creates responsive, fast, and secure websites
-                that work elegantly across mobile and desktop.
+              The best designs instill confidence in your brand and product. They inspire users to purchase, use and evangelise your product. Our designers conduct user research and create information architecture and prototypes to upkeep your brand’s visual identity and ensure that your product is showcased appropriately in the digital space.
               </p>
               <button className="bg-black hover:bg-gray-900 duration-700 py-3 rounded-full items-center">
                 <Link
-                  to={""}
+                  to={"/uiuxdesign"}
                   className="text-[#dedede] duration-700 hover:text-[#adadad] px-[20px] font-semibold"
                 >
                   Explore More
@@ -170,17 +164,17 @@ export default function Services() {
           <div className="lg:col-span-2  col-span-2 my-auto lg:mt-0 lg-mt-[16px]">
             <div className="lg:pl-[65px] md:pr-[65px] lg:pr-[0px] pl-[0px]">
               <h2 className="text-[32px] font-poppins text-[#000000] mb-[16px] fo">
-                Web App Development
+              Software Development
               </h2>
               <p className="text-[#657676] xl:text-[20px] sm:text-[18px] text-[16px] mb-[16px] font-poppins">
-                We build websites that thrive at the intersection of business
-                goals and user needs. In a world where most web traffic is on
-                mobile, our team creates responsive, fast, and secure websites
-                that work elegantly across mobile and desktop.
+              Creating tailor-made software for your business needs is our forte! Our team works with a flow to cover every stage from inception to completion in understanding your requirements through to testing and final releases.
+              </p>
+              <p className="text-[#657676] xl:text-[20px] sm:text-[18px] text-[16px] mb-[16px] font-poppins">
+Look no further if you are searching for a ready-to-use tool. Hipster offers a wide range of convenient solutions that work across industries. Examples include hybrid event management, learning management, customer loyalty, and social community platforms.
               </p>
               <button className="bg-black hover:bg-gray-900 duration-700 py-3 rounded-full items-center">
                 <Link
-                  to={""}
+                  to={"/softwaredevelopment"}
                   className="text-[#dedede] duration-700 hover:text-[#adadad] px-[20px] font-semibold"
                 >
                   Explore More
@@ -301,7 +295,7 @@ export default function Services() {
                 while keeping their sight on the overall ship architecture.
               </p>
               <button className="bg-[#ffd179] text-[#1a1a1a] px-[35px] py-[14px] font-semibold mt-[10px] md:mt-[40px] rounded-full">
-                Work with us
+               <Link to={'/contact'}>Work with us</Link>
               </button>
             </div>
           </div>

@@ -109,7 +109,10 @@ export default function Web_Development() {
           <div className="pt-[60px]">
             <div className="grid md:grid-cols-2 grid-cols-1 gap-[80px] xl:px-[0px] lg:px-[14px] md:px-[20px] sm:px-[100px] px-[20px]" data-aos="slide-up" data-aos-duration="1000">
               <div className="col-span-1 ">
+                <Link to={"/lhommes"}>
                 <img src={Fx} alt="" />
+                </Link>
+                <Link to={"/lhommes"}>
                 <div className="py-[25px]">
                   <h4 className='mb-[12px] text-[24px] font-poppins text-[#001817]'>L’Hommes — Fashion E-commerce</h4>
                   <h3 className='lg:text-[32px] text-[24px] font-poppins font-bold text-[#001817]'>Custom suits e-commerce platform with fit visualization</h3>
@@ -117,41 +120,55 @@ export default function Web_Development() {
                     <li className='text-[14px] font-poppins text-[#000000]'>Personalized Fashion</li>
                   </ul>
                 </div>
+                </Link>
               </div>
               <div className="col-span-1  mb-[17px]">
                 <div className='lg:pt-[92px] md:pt-[72px]'>
+                <Link to={'/mintutor'}>
                   <img src={Sx} alt="" />
+                  </Link>
+                    <Link to={'/mintutor'}>
                   <div className="py-[25px]">
-                    <h4 className='mb-[12px] text-[24px] font-poppins text-[#001817]'>L’Hommes — Fashion E-commerce</h4>
-                    <h3 className='lg:text-[32px] text-[24px] font-semibold font-poppins text-[#001817]'>Custom suits e-commerce platform with fit visualization</h3>
+                    <h4 className='mb-[12px] text-[24px] font-poppins text-[#001817]'>10-min Tutor — Edutech</h4>
+                    <h3 className='lg:text-[32px] text-[24px] font-semibold font-poppins text-[#001817]'>On-demand tutor app with video-telephony & marketplace functionalities</h3>
                     <ul className='mt-[20px]'>
-                      <li className='text-[14px] font-poppins text-[#000000]'>Personalized Fashion</li>
+                      <li className='text-[14px] font-poppins text-[#000000]'>On-Demand Video Solutions, Education Tech</li>
                     </ul>
+                    
                   </div>
+                  </Link>
                 </div>
               </div>
             </div>
             <div className="grid md:grid-cols-2 grid-cols-1 gap-[80px] xl:px-[0px] lg:px-[14px] md:px-[20px] sm:px-[100px] px-[20px]" data-aos="slide-up"data-aos-duration="1000">
               <div className="col-span-1 ">
+              <Link to={'/tueetoredutech'}>
                 <img src={edt} alt="" />
+                </Link>
+                <Link to={'/tueetoredutech'}>
                 <div className="py-[25px]">
-                  <h4 className='mb-[12px] text-[24px] font-poppins text-[#001817]'>L’Hommes — Fashion E-commerce</h4>
-                  <h3 className='lg:text-[32px] text-[24px] font-poppins font-bold text-[#001817]'>Custom suits e-commerce platform with fit visualization</h3>
+                  <h4 className='mb-[12px] text-[24px] font-poppins text-[#001817]'>Tueetor — Edutech</h4>
+                  <h3 className='lg:text-[32px] text-[24px] font-poppins font-bold text-[#001817]'>Online platform for finding digital tutors</h3>
                   <ul classNameclassName='mt-[20px]'>
-                    <li className='text-[14px] font-poppins text-[#000000]'>Personalized Fashion</li>
+                    <li className='text-[14px] font-poppins text-[#000000]'>Match Making Platform, Education Tech</li>
                   </ul>
                 </div>
+                </Link>
               </div>
               <div className="col-span-1  mb-[17px]">
                 <div className='lg:pt-[92px] md:pt-[72px]'>
+                <Link to={'/accesetsingapore'}>
                   <img src={ast} alt="" />
+                  </Link>
+                  <Link to={'/accesetsingapore'}>
                   <div className="py-[25px]">
-                    <h4 className='mb-[12px] text-[24px] font-poppins text-[#001817]'>L’Hommes — Fashion E-commerce</h4>
-                    <h3 className='lg:text-[32px] text-[24px] font-semibold font-poppins text-[#001817]'>Custom suits e-commerce platform with fit visualization</h3>
+                    <h4 className='mb-[12px] text-[24px] font-poppins text-[#001817]'>Acceset Singapore — Mental Health Care</h4>
+                    <h3 className='lg:text-[32px] text-[24px] font-semibold font-poppins text-[#001817]'>Transforming mental health care through anonymous online text-based therapy.</h3>
                     <ul className='mt-[20px]'>
-                      <li className='text-[14px] font-poppins text-[#000000]'>Personalized Fashion</li>
+                      <li className='text-[14px] font-poppins text-[#000000]'>Mental Health</li>
                     </ul>
                   </div>
+                  </Link>
                 </div>
               </div>
             </div>

@@ -88,7 +88,7 @@ export default function Home() {
   return (
     <>
       <div className="">
-        <div className=" h-[90vh] sm:h-[100vh] home_background">
+        <div className=" pb-[225px]  home_background">
           <div className=" max-w-[1416px] mx-auto  z-[99999999] grid grid-cols-12 pt-[120px] sm:pt-[170px] md:px-[50px] sm:px-[15px] px-[0px] text-white">
             <div className=" xl:col-span-5 col-span-12 ml-[20px] ">
               <h2 className="text-[#ffffff] xl:text-[40px] lg:text-[50px] md:leading-[40px] md:text-[30px] sm:text-[30px] text-[30px] font-poppins xl:leading-[47px] sm:leading-[40px] lg:leading-[70px]">
