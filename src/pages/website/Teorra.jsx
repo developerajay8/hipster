@@ -17,249 +17,12 @@ import Container7 from '../../components/Container7';
 export default function Teorra() {
   return (
     <div>
-      {/* <div className='lg:mt-[80px] md:mt-[50px] mt-[30px]'>
-        <div className="xl:mx-[118px] md:mx-[45px] mx-[15px] mb-[48px]">
-          <h2>
-            <span className='md:text-[30px] sm:text-[24px] text-[16px] font-poppins'>
-              <span className='md:text-[30px] sm:text-[24px] text-[16px] text-[#00b0ab] font-poppins font-semibold'> Teorra </span> — Sustainability Technology
-            </span>
-
-            <div className='md:mt-[10px]'>
-              <span className='xl:text-[48px] md:text-[40px] sm:text-[30px] text-[24px] text-[#000000] font-poppins font-semibold'>A smart B2B marketplace for sustainable products, connecting businesses with verified suppliers and simplifying orders.</span>
-            </div>
-          </h2>
-        </div>
-        <div className='w-[100%] h-[100%] md:px-[0px] px-[14px]'>
-          <img className='w-[100%] h-[100%]' src={trro} alt="" />
-        </div>
-      </div>
-      <div className='pt-[80px]'>
-        <Container4>
-          <div className="grid md:grid-cols-5 grid-cols-1 xl:px-[0px] lg:px-[20px] px-[30px]">
-            <div className="md:col-span-3 col-span-1  lg:pr-[50px] pr-[20px]">
-              <h2 className='lg:text-[50px] text-[35px] text-[#000000] font-poppins mb-[15px]'>Overview</h2>
-              <p className='font-poppins sm:text-[20px] text-[16px] mt-[25px] text-[#606e6e]'>TEORRA is an intelligent platform that simplifies the process of acquiring sustainable goods. The platform assists the buyer in locating suitable products, linking buyers with confirmed suppliers, and overseeing your orders – all within a single platform.</p>
-            </div>
-            <div className="md:col-span-2 col-span-1 lg:pt-0 sm:pt-[80px] pt-[45px]">
-              <div className="mb-[35px]">
-                <p className='text-[18px] font-poppins text-[#001817] mb-[10px]'>Client</p>
-                <p className='text-[24px] text-[#001817] font-semibold'>Teorra</p>
-              </div>
-              <div className="flex mb-[35px]">
-                <div className=''>
-                  <p className='text-[18px] font-poppins mb-[10px] text-[#001817]'>Period</p>
-                  <p className='text-[24px] font-poppins font-semibold text-[#001817]'>2022-23</p>
-                </div>
-                <div className='ml-[45px]'>
-                  <p className='text-[18px] font-poppins mb-[10px] text-[#001817]'>Geography</p>
-                  <p className='text-[24px] font-poppins font-semibold text-[#001817]'>Singapore</p>
-                </div>
-                <div className=''></div>
-              </div>
-              <div className='mb-[35px]'>
-                <p className='text-[18px] text-[#001817] mb-[10px] font-poppins'>Work Done</p>
-                <div className="flex-wrap flex">
-                  <li className='list-none mb-[20px] px-[9px] w-[114px]'>
-                    <Link to={''}>
-                      <img className='w-[50px] h-[50px] mx-[22px]' src={int} alt="" />
-                    </Link>
-                    <li className='text-center  text-[#001817] font-semibold'>
-                      <Link to={''}>
-                        Website
-                      </Link>
-                    </li>
-                  </li>
-                  <li className='list-none mb-[20px] px-[9px] w-[114px]'>
-                    <Link to={''}>
-                      <img className='w-[50px] h-[50px] mx-[22px]' src={ui_ux} alt="" />
-                    </Link>
-                    <li className='text-center  text-[#001817] font-semibold'>
-                      <Link to={''}>
-                        UI/UX
-                      </Link>
-                    </li>
-                  </li>
-                  <li className='list-none mb-[20px] px-[9px] w-[114px]'>
-                    <Link to={''}>
-                      <img className='w-[50px] h-[50px] mx-[22px]' src={int} alt="" />
-                    </Link>
-                    <li className='text-center  text-[#001817] font-semibold'>
-                      <Link to={''}>
-                        Website
-                      </Link>
-                    </li>
-                  </li>
-                  <li className='list-none mb-[20px] px-[9px] w-[114px]'>
-                    <Link to={''}>
-                      <img className='w-[50px] h-[50px] mx-[22px]' src={ui_ux} alt="" />
-                    </Link>
-                    <li className='text-center  text-[#001817] font-semibold'>
-                      <Link to={''}>
-                        UI/UX
-                      </Link>
-                    </li>
-                  </li>
-                  <li className='list-none mb-[20px] px-[9px] w-[114px]'>
-                    <Link to={''}>
-                      <img className='w-[50px] h-[50px] mx-[22px]' src={int} alt="" />
-                    </Link>
-                    <li className='text-center  text-[#001817] font-semibold'>
-                      <Link to={''}>
-                        Website
-                      </Link>
-                    </li>
-                  </li>
-                  <li className='list-none mb-[20px] px-[9px] w-[114px]'>
-                    <Link to={''}>
-                      <img className='w-[50px] h-[50px] mx-[22px]' src={ui_ux} alt="" />
-                    </Link>
-                    <li className='text-center  text-[#001817] font-semibold'>
-                      <Link to={''}>
-                        UI/UX
-                      </Link>
-                    </li>
-                  </li>
-                  <li className='list-none mb-[20px] px-[9px] w-[114px]'>
-                    <Link to={''}>
-                      <img className='w-[50px] h-[50px] mx-[22px]' src={int} alt="" />
-                    </Link>
-                    <li className='text-center  text-[#001817] font-semibold'>
-                      <Link to={''}>
-                        Website
-                      </Link>
-                    </li>
-                  </li>
-                  <li className='list-none mb-[20px] px-[9px] w-[114px]'>
-                    <Link to={''}>
-                      <img className='w-[50px] h-[50px] mx-[22px]' src={ui_ux} alt="" />
-                    </Link>
-                    <li className='text-center  text-[#001817] font-semibold'>
-                      <Link to={''}>
-                        UI/UX
-                      </Link>
-                    </li>
-                  </li>
-
-
-
-                </div>
-              </div>
-            </div>
-          </div>
-        </Container4>
-      </div>
-      <div className="py-[80px] ">
-        <div className='lg:mx-[198px] md:mx-[100px] mx-[30px]'>
-          <h2 className='mb-[15px] text-[50px] font-poppins text-[#000000]'>Services</h2>
-          <ul className='flex flex-wrap'>
-            <li className='bg-[#ccefee] duration-1000  hover:bg-[#73dedb] mb-[20px] mr-[10px] py-[18px] px-[32px] w-[204px] rounded-full'>
-              <Link className='text-[18px] font-poppins hover:text-[#FFFFFF] duration-1000 text-[#001817]' to={''}>Product Design</Link>
-            </li>
-
-            <li className='bg-[#ccefee] duration-1000  hover:bg-[#73dedb] mb-[20px] mr-[10px] py-[18px] px-[32px] w-[244px] rounded-full'>
-              <Link className='text-[18px] font-poppins hover:text-[#FFFFFF] duration-1000 text-[#001817]' to={''}>Web Development</Link>
-            </li>
-
-            <li className='bg-[#ccefee] duration-1000  hover:bg-[#73dedb] mb-[20px] mr-[10px] py-[18px] px-[32px] w-[114px] rounded-full'>
-              <Link className='text-[18px] font-poppins hover:text-[#FFFFFF] duration-1000 text-[#001817]' to={''}>UI/UX</Link>
-            </li>
-            <li className='bg-[#ccefee] duration-1000  hover:bg-[#73dedb] mb-[20px] mr-[10px] py-[18px] px-[32px] w-[254px] rounded-full'>
-              <Link className='text-[18px] font-poppins hover:text-[#FFFFFF] duration-1000 text-[#001817]' to={''}>Cloud infrastructure</Link>
-            </li>
-          </ul>
-        </div>
-      </div>
-
       
-      <div className=''>
-        <Container4>
-          <div className="w-full p-[40px] rounded-xl bg-[#e6e4b7]">
-            <div className="teorra"></div>
-          </div>
-          <div className="mt-[50px]">
-            <h5 className='text-[48px] font-poppins cla text-center'>Sustainability  <span className='text-[#00b0ab] '>  geared buyer-seller marketplace platform</span></h5>
-          </div>
-          <p className='mt-[20px] text-[20px] mx-auto text-[#606e6e] font-poppins max-w-[604px]'>
-            Buyers simply create an account, browse items, and connect with verified sustainability suppliers. Payment is done on the platform and is secure.
-          </p>
-        </Container4>
-      </div>
-
-      <Container7>
-        <div className="mt-[80px] grid grid-cols-2">
-          <div className="col-span-1 border my-auto font-poppins">
-            <h2 className='text-[32px] text-[#000000]'>Unique features</h2>
-            <ul className='list-disc py-[30px] text-[#666666] font-poppins text-[20px]  px-[20px]'>
-              <li>Direct quote request between buyer and seller</li>
-              <li>Multi-currency support</li>
-              <li>Multiple payment gateway integration</li>
-              <li>E-commerce related features like product reviews, product comparison, promo codes and, sales support system</li>
-              <li>A synchronous communication dashboard between buyers and sellers</li>
-              <li>Shipping fees calculation mechanism for sellers to set the shipping fees</li>
-              <li>Comprehensive sellers’ dashboard</li>
-            </ul>
-          </div>
-          <div className="col-span-1 w-[590] border my-[20px] ">
-            <div className='unique'></div>
-          </div>
-        </div>
-      </Container7>
-
-
-      <Container7>
-        <div className="mt-[80px] grid grid-cols-2">
-          <div className="col-span-1 w-[590] border my-[20px] ">
-            <div className='uniques'></div>
-          </div>
-          <div className="col-span-1 border my-auto font-poppins pl-[48px] ml-[20px]">
-            <h2 className='text-[32px] text-[#000000]'>Unique features</h2>
-            <ul className='list-disc py-[30px] text-[#666666] font-poppins text-[20px]  px-[20px]'>
-              <li>Direct quote request between buyer and seller</li>
-              <li>Multi-currency support</li>
-              <li>Multiple payment gateway integration</li>
-              <li>E-commerce related features like product reviews, product comparison, promo codes and, sales support system</li>
-              <li>A synchronous communication dashboard between buyers and sellers</li>
-              <li>Shipping fees calculation mechanism for sellers to set the shipping fees</li>
-              <li>Comprehensive sellers’ dashboard</li>
-            </ul>
-          </div>
-        </div>
-      </Container7>
-
-      <div className="videoContenar">
-        <div className="flex justify-center">
-          <video autoPlay muted loop className="max-w-[1500px]">
-            <source
-              src={
-                "https://hipster-inc.com/wp-content/uploads/2023/04/teorra-video.mp4"
-              }
-              type="video/mp4"
-            />
-          </video>
-        </div>
-      </div>
-
-      <div className="max-w-[100%] bg-[#CBE9DF]">
-        <div className="max-w-[1376px]  ml-[160px] bg-[#CBE9DF]  border">
-          <div className="grid grid-cols-2">
-            <div className="col-span-1 border my-auto">
-              <h5 className='text-[48px] font-poppins text-[#000000] '>
-                Dashboard
-                <span className='text-[#00b0ab]'> for suppliers</span>
-              </h5>
-              <p className='mt-[10px] text-[20px] text-[#606e6e]'>Suppliers can register online, upon vetting and approval, a supplier will be able to create a store, add products and reach customers. Through the self-help dashboard, Suppliers can get analytics on sales and connect with their buyers.</p>
-            </div>
-            <div className="col-span-1 border ml-[70px]">
-              <img className='' src={supplier} alt="" />
-            </div>
-          </div>
-        </div>
-      </div> */}
 
 
 
       <div className="lg:mt-[80px] md:mt-[110px] mt-[110px]">
-        <div className="xl:mx-[118px] md:mx-[45px] mx-[15px] mb-[48px]">
+        <div className="max-w-[1300px] mx-auto xl:px-0 px-[20px] mb-[48px]">
           <h2>
             <span className="md:text-[30px] sm:text-[24px] text-[16px] font-poppins" data-aos="slide-down" data-aos-duration="2000">
               <span className="md:text-[30px] sm:text-[24px] text-[16px] text-[#00b0ab] font-poppins font-semibold">
@@ -336,16 +99,16 @@ export default function Teorra() {
           </h2>
           <ul className="flex flex-wrap">
             <li className="bg-[#ccefee] duration-1000 hover:bg-[#73dedb] mb-[20px] mr-[10px] py-[18px] px-[32px] w-[204px] rounded-full">
-              <Link className="text-[18px] font-poppins hover:text-[#FFFFFF] duration-1000 text-[#001817]" to={''}>Product Design</Link>
+              <Link className="text-[18px] font-poppins hover:text-[#FFFFFF] duration-1000 text-[#001817]" to={'/shareapp'}>Product Design</Link>
             </li>
             <li className="bg-[#ccefee] duration-1000 hover:bg-[#73dedb] mb-[20px] mr-[10px] py-[18px] px-[32px] w-[244px] rounded-full">
-              <Link className="text-[18px] font-poppins hover:text-[#FFFFFF] duration-1000 text-[#001817]" to={''}>Web Development</Link>
+              <Link className="text-[18px] font-poppins hover:text-[#FFFFFF] duration-1000 text-[#001817]" to={'/webdevelopment'}>Web Development</Link>
             </li>
             <li className="bg-[#ccefee] duration-1000 hover:bg-[#73dedb] mb-[20px] mr-[10px] py-[18px] px-[32px] w-[114px] rounded-full">
-              <Link className="text-[18px] font-poppins hover:text-[#FFFFFF] duration-1000 text-[#001817]" to={''}>UI/UX</Link>
+              <Link className="text-[18px] font-poppins hover:text-[#FFFFFF] duration-1000 text-[#001817]" to={'/uiuxdesign'}>UI/UX</Link>
             </li>
             <li className="bg-[#ccefee] duration-1000 hover:bg-[#73dedb] mb-[20px] mr-[10px] py-[18px] px-[32px] w-[254px] rounded-full">
-              <Link className="text-[18px] font-poppins hover:text-[#FFFFFF] duration-1000 text-[#001817]" to={''}>Cloud infrastructure</Link>
+              <Link className="text-[18px] font-poppins hover:text-[#FFFFFF] duration-1000 text-[#001817]" to={'/shareapp'}>Cloud infrastructure</Link>
             </li>
           </ul>
         </div>
@@ -367,10 +130,10 @@ export default function Teorra() {
         </Container4>
       </div>
       <Container7>
-        <div className="mt-[80px] grid md:grid-cols-2 grid-cols-1 gap-4 md:mx-[0px] mx-[15px]">
+        <div className="mt-[80px] grid md:grid-cols-2 grid-cols-1 gap-4 md:mx-[0px] xl:px-[0px] px-[20px] mx-[15px]">
           <div className=" my-auto font-poppins " data-aos="slide-right" data-aos-duration="1000">
             <h2 className="text-[32px] text-[#000000]">Unique features</h2>
-            <ul className="list-disc py-[30px] text-[#666666] font-poppins text-[20px] px-[20px]">
+            <ul className="list-disc py-[30px] text-[#666666] font-poppins sm:text-[20px] text-[16px] sm:px-[20px]  ">
               <li>Direct quote request between buyer and seller</li>
               <li>Multi-currency support</li>
               <li>Multiple payment gateway integration</li>
@@ -386,13 +149,13 @@ export default function Teorra() {
         </div>
       </Container7>
       <Container7>
-        <div className="mt-[80px] grid md:grid-cols-2 grid-cols-1 gap-4">
+        <div className="mt-[80px] grid md:grid-cols-2 grid-cols-1 xl:px-[0px] px-[20px] gap-4">
           <div className=" my-[20px]">
             <div className="uniques"></div>
           </div>
           <div className=" my-auto font-poppins md:pl-[48px] md:ml-[20px] md:mx-[0px] mx-[15px]" data-aos="slide-left" data-aos-duration="1000">
             <h2 className="text-[32px] text-[#000000]">Unique features</h2>
-            <ul className="list-disc py-[30px] text-[#666666] font-poppins text-[20px] px-[20px]">
+            <ul className="list-disc py-[30px] text-[#666666] font-poppins sm:text-[20px] text-[16px] sm:px-[20px]">
               <li>Direct quote request between buyer and seller</li>
               <li>Multi-currency support</li>
               <li>Multiple payment gateway integration</li>
@@ -411,8 +174,9 @@ export default function Teorra() {
           </video>
         </div>
       </div>
+
       <div className="max-w-full bg-[#CBE9DF]">
-        <div className="max-w-[1376px] md:ml-[160px]  md:mx-[0px] mx-[15px] bg-[#CBE9DF] ">
+        <div className="max-w-[1376px] md:ml-[160px] mx-auto px-[20px] xl:px-0 bg-[#CBE9DF] ">
           <div className="grid md:grid-cols-2 grid-cols-1 gap-4">
             <div className=" my-auto" data-aos="slide-right" data-aos-duration="2000">
               <h5 className="text-[48px] font-poppins text-[#000000]">
@@ -655,20 +419,26 @@ export default function Teorra() {
 
       <div className="py-[80px]">
         <div className=" lg:mx-[198px] md:mx-[80px] mx-[30px] ">
-          <div>
-            <h2 className='text-center text-[42px] text-[#000000] font-poppins '>
-              <Link className='bbn' to={''}>Next Case Study</Link>
-            </h2>
-            <div className="py-[50px] text-center">
-              <div className='text-[24px] font-poppins text-[#001817] mb-[15px]'>
-                <Link to={''}>ACE Card - Food and Bevarages</Link>
-              </div>
-              <h3 className='font-semibold text-[32px] max-w-[500px] mx-auto text-center leading-[42px] text-[#001817] font-poppins'>
-                <Link className='mb-[12px]' to={''}>Easily book your favourite restaurants while earning points, and enjoying exclusive rewards.</Link>
-              </h3>
-            </div>
+         
 
-          </div>
+          <div className="">
+  <h2 className="text-center text-[28px] md:text-[36px] lg:text-[42px] text-[#000000] font-poppins">
+    <Link className="bbn" to={"/acecard"}>
+      Next Case Study
+    </Link>
+  </h2>
+  <div className="py-[30px] md:py-[40px] lg:py-[50px] text-center">
+    <div className="text-[18px] md:text-[20px] lg:text-[24px] font-poppins text-[#001817] mb-[10px] md:mb-[12px] lg:mb-[15px]">
+      <Link to={"/acecard"}>ACE Card - Food and Bevarages</Link>
+    </div>
+    <h3 className="font-semibold text-[24px] md:text-[28px] lg:text-[32px] max-w-[100%] md:max-w-[600px] lg:max-w-[500px] mx-auto text-center leading-[30px] md:leading-[36px] lg:leading-[42px] text-[#001817] font-poppins">
+      <Link className="mb-[8px] md:mb-[10px] lg:mb-[12px]" to={""}>
+      Easily book your favourite restaurants while earning points, and enjoying exclusive rewards.
+      </Link>
+    </h3>
+  </div>
+</div>
+
         </div>
       </div>
 

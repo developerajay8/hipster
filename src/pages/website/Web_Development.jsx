@@ -23,28 +23,14 @@ export default function Web_Development() {
   return (
     <div>
       <Container4>
-        <div className=" py-[80px] xl:px-0 lg:px-[30px] md:px-[40px] sm:px-[30px] px-[26px]">
+        <div className=" pt-[100px] sm:pb-[80px] pb-[50px] xl:px-0 lg:px-[30px] md:px-[40px] sm:px-[30px] px-[26px]">
           <div className="">
-            <h1 className='lg:text-[56px] md:text-[42px] sm:text-[35px] text-[35px]  font-poppins text-[#000000]' data-aos="slide-right">
-              <span className='hover:text-[#718093] textdu'>W</span>
-              <span className='hover:text-[#273c75] textdu'>e</span>
-              <span className='hover:text-[#00a8ff] textdu'>b</span>
-              <span className='pl-[12px]'></span>
-              <span className='hover:text-[#4cd137] textdu'>D</span>
-              <span className='hover:text-[#dcdde1] textdu'>e</span>
-              <span className='hover:text-[#2f3640] textdu'>v</span>
-              <span className='hover:text-[#f5f6fa] textdu'>e</span>
-              <span className='hover:text-[#487eb0] textdu'>l</span>
-              <span className='hover:text-[#487eb0] textdu'>o</span>
-              <span className='hover:text-[#487eb0] textdu'>p</span>
-              <span className='hover:text-[#487eb0] textdu'>m</span>
-              <span className='hover:text-[#487eb0] textdu'>e</span>
-              <span className='hover:text-[#487eb0] textdu'>n</span>
-              <span className='hover:text-[#487eb0] textdu'>t</span>
+            <h1 className='lg:text-[56px] md:text-[42px] sm:text-[35px] text-[35px]  font-poppins text-[#000000]' data-aos="slide-right" data-aos-duration="500">
+            Web Development
 
             </h1>
-            <h2 data-aos="slide-left" className='max-w-[865px] font-semibold text-[#001817] xl:text-[32px] lg:text-[28px] sm:text-[24px]
-           text-[22px] font-poppins lg:mt-[60px] md:mt-[30px] sm:mt-[18px] mt-[16px] mb-[15px] leading-[40px]'>A website is the face and hands to a brand. Besides being a powerful marketing tool, it dramatically increases business efficiency. </h2>
+            <h2 className='max-w-[865px] font-semibold text-[#001817] xl:text-[32px] lg:text-[28px] sm:text-[24px]
+           text-[22px] font-poppins lg:mt-[60px] md:mt-[30px] sm:mt-[18px] mt-[16px] mb-[15px] sm:leading-[40px] leading-[27px]' data-aos="slide-left" data-aos-duration="500">A website is the face and hands to a brand. Besides being a powerful marketing tool, it dramatically increases business efficiency.</h2>
           </div>
         </div>
       </Container4>
@@ -240,7 +226,7 @@ export default function Web_Development() {
             <div className=' max-w-[1140px]'>
               {accordElems}
             </div>
-            <p className='mt-[48px] mb-[15px] text-[20px] font-poppins text-[#FFFFFF] '>Still have more questions? Check out our full list of <Link className='FAQ' to={'/'}>FAQ</Link> .Alternatively, <Link className='SUM' to={''}>send us a message.</Link></p>
+            <p className='mt-[48px] mb-[15px] sm:text-[20px] text-[16px] font-poppins text-[#FFFFFF] '>Still have more questions? Check out our full list of <Link className='FAQ' to={'/'}>FAQ</Link> .Alternatively, <Link className='SUM' to={''}>send us a message.</Link></p>
           </div>
         </Container4>
       </div>

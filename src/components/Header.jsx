@@ -204,7 +204,7 @@ export default function Header() {
                 </div>
                 {items.map((item, index) => {
                   return (
-                    <li key={index} className="text-[40px] font">
+                    <li key={index} className="ms:text-[40px] text-[25px] font">
                       <Link onClick={closeMenu} to={item.url}>
                         {item.name}
                       </Link>

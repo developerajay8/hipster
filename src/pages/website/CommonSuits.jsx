@@ -11,7 +11,7 @@ export default function CommonSuits() {
   return (
     <div>
       <div className='lg:mt-[80px] md:mt-[110px] mt-[110px]'>
-        <div className="xl:mx-[118px] md:mx-[45px] mx-[15px] mb-[48px]">
+        <div className="max-w-[1300px] mx-auto xl:px-0 px-[20px] mb-[48px] ">
           <h2>
             <span className='md:text-[30px] sm:text-[24px] text-[16px] font-poppins'>
               <span className='md:text-[30px] sm:text-[24px] text-[16px] text-[#00b0ab] font-poppins font-semibold'>Common Suits</span>
@@ -23,7 +23,7 @@ export default function CommonSuits() {
             </div>
           </h2>
         </div>
-        <div className='w-[100%] h-[100%] md:px-[0px] px-[14px]'>
+        <div className='w-[100%] h-[100%] '>
           <img className='w-[100%] h-[100%]' src={commonbanner} alt="" />
         </div>
       </div>
@@ -98,24 +98,22 @@ export default function CommonSuits() {
           </h2>
           <ul className="flex flex-wrap">
             <li className='bg-[#ccefee] mb-[20px] duration-1000  hover:bg-[#73dedb] mr-[10px] py-[18px] px-[32px] w-[204px] rounded-full'>
-              <Link className='text-[18px] font-poppins hover:text-[#FFFFFF] duration-1000 text-[#001817]' to={''}>Product Design</Link>
+              <Link className='text-[18px] font-poppins hover:text-[#FFFFFF] duration-1000 text-[#001817]' to={'/shareapp'}>Product Design</Link>
             </li>
             <li className='bg-[#ccefee] duration-1000  hover:bg-[#73dedb] mb-[20px] mr-[10px] py-[18px] px-[32px] w-[234px] rounded-full'>
-              <Link className='text-[18px] font-poppins hover:text-[#FFFFFF] duration-1000 text-[#001817]' to={''}>Web Development</Link>
+              <Link className='text-[18px] font-poppins hover:text-[#FFFFFF] duration-1000 text-[#001817]' to={'/webdevelopment'}>Web Development</Link>
             </li>
             <li className='bg-[#ccefee] duration-1000  hover:bg-[#73dedb] mb-[20px] mr-[10px] py-[18px] px-[32px] w-[114px] rounded-full'>
-              <Link className='text-[18px] font-poppins hover:text-[#FFFFFF] duration-1000 text-[#001817]' to={''}>UI/UX</Link>
+              <Link className='text-[18px] font-poppins hover:text-[#FFFFFF] duration-1000 text-[#001817]' to={'/uiuxdesign'}>UI/UX</Link>
             </li>
-            <li className='bg-[#ccefee] duration-1000  hover:bg-[#73dedb] mb-[20px] mr-[10px] py-[18px] px-[32px] w-[445px] rounded-full'>
-              <Link className='text-[18px] font-poppins hover:text-[#FFFFFF] duration-1000 text-[#001817]' to={''}>Customized Fashion Ecommerce Platform</Link>
-            </li>
+            
           </ul>
         </div>
       </div>
 
       
       <div className="bg-[#FFFFFF] ">
-        <div className='xl:mx-[198px] lg:mx-[90px] md:mx-[40px] mx-[20px] sm:py-[80px] py-[10px]'>
+        <div className='max-w-[1140px] mx-auto xl:px-0 px-[20px] sm:py-[80px] py-[10px]'>
           <div className="grid md:grid-cols-5 grid-cols-1">
             <div className="md:col-span-2 col-span-1 max-w-[100%] max-h-[100%]">
               <img className='w-[100%] h-[100%] Common' src={personalisation} alt="" />
@@ -124,7 +122,7 @@ export default function CommonSuits() {
               <h2 className='lg:text-[50px] md:text-[35px] sm:text-[31px] text-[24px] fon-poppins text-[#001817] xl:leading-[70px] lg:leading-[50px] md:leading-[40px] sm:leading-[30px] leading-[30px] font-semibold mb-[15px]'>Personalized
                 <span className='text-[#00b0ab]'> fashion</span></h2>
 
-              <p className='text-[20px] text-[#657676] font-poppins mb-[23px] text-justify'>
+              <p className='sm:text-[20px] text-[16px] text-[#657676] font-poppins mb-[23px] sm:text-justify'>
                 The hallmark of a good rendering is photorealism. Today customers want to see and sense the product before purchasing. Apparel rendering allows the customer to make and see every change in real time, capturing all visual aspects of the garments. There are hundreds of 2D models and permutations allowing for visualisation in fabric, the garments. There are hundreds of 2D models and permutations allowing for visualisation in fabric, pocket style, collar style, sleeve style, buttons and more.
               </p>
 
@@ -133,19 +131,26 @@ export default function CommonSuits() {
         </div>
       </div>
 
-      <div className="mt-[50px] mb-[70px] mx-[198px]">
+      <div className="mt-[50px] mb-[70px] sm:mx-[198px]">
         <div className="grid grid-cols-1">
-          <div className="col-span-1 text-center mx-auto">
-            <h5 className='text-[48px] font-poppins text-[#000000]'>
-              Improved online-to-offline
-              <span className='text-[48px] font-poppins text-[#00b0ab]'> retail experience</span>
-            </h5>
-            <p className='mt-[20px] max-w-[684px] mx-auto text-[20px] font-poppins text-[#606e6e]'>The Common Suits website now provides a variety of products, prices, and customization options, along with order tracking for online customers. Those who prefer physical stores can easily schedule appointments after viewing the online catalog.</p>
-            <div className='mt-[50px] bg-[#ccefee] w-[100%] h-[1166px] rounded-[20px]'>
-              <div className=' Exit'>
-                {/* <img src={exit} className='' alt="" /> */}
-              </div>
-            </div>
+          <div className="col-span-1 text-center sm:mx-auto">
+          <h5 className='text-[24px] sm:text-[36px] md:text-[48px] font-poppins text-[#000000]'>
+  Improved online-to-offline
+  <span className='text-[24px] sm:text-[36px] md:text-[48px] font-poppins text-[#00b0ab]'>
+    retail experience
+  </span>
+</h5>
+
+            <p className='mt-[20px] sm:max-w-[684px] sm:mx-auto sm:text-[20px] text-[16px] font-poppins text-[#606e6e]'>The Common Suits website now provides a variety of products, prices, and customization options, along with order tracking for online customers. Those who prefer physical stores can easily schedule appointments after viewing the online catalog.</p>
+
+            
+            {/* <div className='mt-[50px] bg-[#ccefee] w-[100%] h-[1166px] rounded-[20px]'> */}
+
+              {/* <div className=' Exit'>
+                <img src={exit} className='' alt="" /> 
+              </div> */}
+
+            {/* </div> */}
           </div>
         </div>
       </div>
@@ -178,16 +183,17 @@ export default function CommonSuits() {
         </div>
       </div> */}
 
-      <div className='my-[80px] ml-[160px] '>
-        <div className="grid grid-cols-2">
+      <div className='my-[80px] xl:px-0 px-[20px] lg:ml-[160px] '>
+        <div className="grid md:grid-cols-2">
           <div className="col-span-1 my-auto">
-            <h5 className='text-[48px] text-[#000000] font-poppins leading-[60px]'>
-              How technology
-              <span className='text-[#00b0ba]'> will make fashion more sustainable</span>
-            </h5>
-            <p className='text-[20px] font-poppins mt-[10px] text-[#606e6e] text-justify'>
-              The fashion industry is notorious for emitting more greenhouse gases than aviation and shipping combined. As sustainability becomes a key concern for ecologically sensitive buyers, customised become more prized over mass-produced pieces. At the same time, retailers avoid overstocking, overproducing and having unsold supplies thrown away in landfills.
-            </p>
+          <h5 className='text-[24px] md:text-[48px] text-[#000000] font-poppins leading-[32px] md:leading-[60px]'>
+  How technology
+  <span className='text-[#00b0ba]'> will make fashion more sustainable</span>
+</h5>
+<p className='text-[16px] sm:text-[20px] font-poppins mt-[8px] md:mt-[10px] text-[#606e6e] '>
+  The fashion industry is notorious for emitting more greenhouse gases than aviation and shipping combined. As sustainability becomes a key concern for ecologically sensitive buyers, customised become more prized over mass-produced pieces. At the same time, retailers avoid overstocking, overproducing and having unsold supplies thrown away in landfills.
+</p>
+
           </div>
           <div className="col-span-1">
             <img className='w-[100%] h-[100%]' src={cna} alt="" />
@@ -195,7 +201,7 @@ export default function CommonSuits() {
         </div>
       </div>
 
-      <div className='py-[50px] px-[168px]'>
+      {/* <div className='py-[50px] px-[168px]'>
         <div className="">
           <h5 className='text-[48px] text-[#000000] font-poppins leading-[60px] mb-[80px]'>
             Other benefits
@@ -281,7 +287,7 @@ export default function CommonSuits() {
 
           </div>
         </div>
-      </div>
+      </div> */}
 
 
       <div className='py-[80px] '>
@@ -307,21 +313,29 @@ export default function CommonSuits() {
           </div>
         </div>
       </div>
-      <div className="py-[80px]">
+
+
+      
+
+
+      <div className="md:py-[80px] sm:py-[50px]  py-[34px]">
         <div className=" lg:mx-[198px] md:mx-[80px] mx-[30px] ">
           <div>
-            <h2 className='text-center text-[42px] text-[#000000] font-poppins '>
-              <Link className='bbn' to={''}>Next Case Study</Link>
+            <h2 className="text-center text-[28px] md:text-[36px] lg:text-[42px] text-[#000000] font-poppins">
+              <Link className="bbn" to={"/kwsh"}>
+                Next Case Study
+              </Link>
             </h2>
-            <div className="py-[50px] text-center">
-              <div className='text-[24px] font-poppins text-[#001817] mb-[15px]'>
-                <Link to={''}>Abroadly - Travel</Link>
+            <div className="py-[30px] md:py-[40px] lg:py-[50px] text-center">
+              <div className="text-[18px] md:text-[20px] lg:text-[24px] font-poppins text-[#001817] mb-[10px] md:mb-[12px] lg:mb-[15px]">
+                <Link to={"/kwsh"}>Abroadly - Travel</Link>
               </div>
-              <h3 className='font-semibold text-[32px] max-w-[500px] mx-auto text-center leading-[42px] text-[#001817] font-poppins'>
-                <Link className='mb-[12px]' to={''}>An interactive "Home away from Home" community for backpackers, travellers and hosts</Link>
+              <h3 className="font-semibold text-[24px] md:text-[28px] lg:text-[32px] max-w-[100%] md:max-w-[600px] lg:max-w-[500px] mx-auto text-center leading-[30px] md:leading-[36px] lg:leading-[42px] text-[#001817] font-poppins">
+                <Link className="mb-[8px] md:mb-[10px] lg:mb-[12px]" to={""}>
+                An interactive "Home away from Home" community for backpackers, travellers and hosts
+                </Link>
               </h3>
             </div>
-
           </div>
         </div>
       </div>

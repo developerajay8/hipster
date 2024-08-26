@@ -462,11 +462,19 @@ import new3 from "./new3.webp";
 import new4 from "./new4.webp";
 import new5 from "./new5.webp";
 import blackstaurn from "./black_saturn.webp";
+import z4 from "./z4ip-banner.webp";
+import alotool from "./alotool-banner.webp";
+import kwshbanner from "./kwshbanner.webp";
+import hps from "./hps.webp";
 
 
 
 
 
+export{hps};
+export{kwshbanner};
+export{alotool};
+export{z4};
 export{blackstaurn};
 export{new1};
 export{new2};

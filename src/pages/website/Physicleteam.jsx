@@ -15,7 +15,7 @@ export default function Physicleteam() {
     return (
         <div>
             <div className='lg:mt-[80px] md:mt-[110px] mt-[110px]'>
-                <div className="xl:mx-[118px] md:mx-[45px] mx-[15px] mb-[48px]">
+                <div className="max-w-[1300px] mx-auto xl:px-0 px-[20px] mb-[48px]">
                     <h2>
                         <span className='wow animate__animated animate__slideInDown md:text-[30px] sm:text-[24px] text-[16px] font-poppins'>
                             <span className='md:text-[30px] sm:text-[24px] text-[16px] text-[#00b0ab] font-poppins font-semibold'>Tbit </span>
@@ -27,13 +27,15 @@ export default function Physicleteam() {
                         </div>
                     </h2>
                 </div>
-                <div className='w-[100%] new nb h-[100%] md:px-[0px] px-[14px]'>
-                    <img className='shakl' src={ready} alt="" />
-                </div>
+                
+
+                <div className="w-full h-full ">
+          <img className="w-full h-full" src={ready} alt="" />
+        </div>
             </div>
             <div className='md:pt-[80px] pt-[30px]'>
                 <Container4>
-                    <div className="grid md:grid-cols-5 grid-cols-1 xl:px-[0px] lg:px-[20px] px-[30px]">
+                    <div className="grid md:grid-cols-5 grid-cols-1 xl:px-[0px] px-[20px] ">
                         <div className="md:col-span-3 col-span-1 wow animate__animated animate__slideInLeft lg:pr-[50px] pr-[20px]">
                             <h2 className='lg:text-[50px] text-[35px] text-[#000000] font-poppins mb-[15px]'>Overview</h2>
                             <p className='font-poppins sm:text-[20px] text-[16px] mt-[25px] text-[#606e6e]'>In 2020, Hipster worked with Alternate Video Production to develop a virtual event management platform. Following the success of the first project, they embarked on a second project, Team Built It or Tbit. It is a dynamic platform that can accommodate a wide range of team bonding activities.</p>
@@ -114,23 +116,44 @@ export default function Physicleteam() {
                     </div>
                 </Container4>
             </div>
-            <div className="md:py-[80px] py-[40px] ">
-                <div className='lg:mx-[198px] md:mx-[100px] mx-[30px]'>
-                    <h2 className='mb-[15px] text-[50px] font-poppins text-[#000000]'>Services</h2>
-                    <ul className='flex flex-wrap'>
-                        <li className='bg-[#ccefee] mb-[20px] duration-1000  hover:bg-[#73dedb] mr-[10px] py-[18px] px-[32px] w-[204px] rounded-full'>
-                            <Link className='text-[18px] font-poppins hover:text-[#FFFFFF] duration-1000 text-[#001817]' to={''}>Product Design</Link>
-                        </li>
 
-                        <li className='bg-[#ccefee] duration-1000  hover:bg-[#73dedb] mb-[20px] mr-[10px] py-[18px] px-[32px] w-[294px] rounded-full'>
-                            <Link className='text-[18px] font-poppins hover:text-[#FFFFFF] duration-1000 text-[#001817]' to={''}>Graphic Design Services</Link>
-                        </li>
-                        <li className='bg-[#ccefee] duration-1000  hover:bg-[#73dedb] mb-[20px] mr-[10px] py-[18px] px-[32px] w-[234px] rounded-full'>
-                            <Link className='text-[18px] font-poppins hover:text-[#FFFFFF] duration-1000 text-[#001817]' to={''}>Web Development</Link>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+            <div className="md:py-[80px] sm:py-[50px] mx-auto max-w-[1140px] xl:px-[0px] px-[20px]  py-[34px] ">
+        <div className="">
+          <h2 className="mb-[15px] text-[50px] font-poppins text-[#000000]">
+            Services
+          </h2>
+          <ul className="flex flex-wrap">
+            
+
+            <li className="bg-[#ccefee] duration-500  hover:bg-[#00fff7] mb-[20px] mr-[10px] py-[18px] px-[32px]  rounded-full hover:text-[#FFFFFF]  text-[#001817]">
+              <Link
+                className="  text-[18px] font-poppins hover:text-[#FFFFFF] duration-1000 text-[#001817]"
+                to={"/uiuxdesign"}
+              >
+                Graphic Design Services 
+              </Link>
+            </li>
+
+            <li className="bg-[#ccefee] duration-500  hover:bg-[#00fff7] mb-[20px] mr-[10px] py-[18px] px-[32px]  rounded-full hover:text-[#FFFFFF]  text-[#001817]">
+              <Link
+                className="  text-[18px] font-poppins hover:text-[#FFFFFF] duration-1000 text-[#001817]"
+                to={"/shareapp"}
+              >
+                Product Design
+              </Link>
+            </li>
+
+            <li className="bg-[#ccefee] duration-1000  hover:bg-[#73dedb] mb-[20px] mr-[10px] py-[18px] px-[32px] rounded-full">
+              <Link
+                className="text-[18px] font-poppins hover:text-[#FFFFFF] duration-1000 text-[#001817]"
+                to={"/webdevelopment"}
+              >
+                Web Development
+              </Link>
+            </li>
+          </ul>
+        </div>
+      </div>
 
             <div className="bg-[#FFFFFF]">
                 <div className="max-w-[1200px] mx-auto p-4 sm:grid sm:grid-cols-2">
@@ -140,7 +163,7 @@ export default function Physicleteam() {
                             As its name implies, the platform serves as a tool for organizers to create and run hybrid or digital treasure hunts in an intuitive or easy way. It can be used for, but is not limited to, team building, educational purposes and corporate engagement. The app has gone live since July 2021.
                         </p>
                     </div>
-                    <div className="mx-[20px] sm:mx-[20px]">
+                    <div className="mx-[20px] sm:mt-0 mt-3 sm:mx-[20px]">
                         <div className="bg-[#D9EAFF] px-[20px] sm:px-[50px] pb-[20px] sm:pb-[50px] rounded-[20px]">
                             <img className='lop' src="" alt="" />
                         </div>
@@ -150,7 +173,7 @@ export default function Physicleteam() {
 
 
 
-            <div className='mt-[80px] h-[auto] relative xl:p-[0px] md:p-[20px] p-[15px]'>
+            <div className='sm:mt-[80px] h-[auto] relative xl:p-[0px] md:p-[20px] p-[15px]'>
                 <div className='md:bg-[#D9EAFF] z-[-1] left-0 absolute w-[78%] h-[100%] rounded-[0px_20px_20px_0px]'>
                     {/* absolute position */}
                 </div>
@@ -283,22 +306,26 @@ export default function Physicleteam() {
 
 
 
-            <div className="py-[80px]">
+            <div className="sm:py-[80px]">
                 <div className=" lg:mx-[198px] md:mx-[80px] mx-[30px] ">
-                    <div>
-                        <h2 className='text-center text-[42px] text-[#000000] font-poppins '>
-                            <Link className='bbn' to={''}>Next Case Study</Link>
-                        </h2>
-                        <div className="py-[50px] text-center">
-                            <div className='text-[24px] font-poppins text-[#001817] mb-[15px]'>
-                                <Link to={''}>z4ip - Cognitive Learning & Activity Tracker</Link>
-                            </div>
-                            <h3 className='font-semibold text-[32px] max-w-[500px] mx-auto text-center leading-[42px] text-[#001817] font-poppins'>
-                                <Link className='mb-[12px]' to={''}>An app to check user's cognitive performance along with daily activity tracking.</Link>
-                            </h3>
-                        </div>
+                <div className="">
+  <h2 className="text-center text-[28px] md:text-[36px] lg:text-[42px] text-[#000000] font-poppins">
+    <Link className="bbn" to={"/z4ip"}>
+      Next Case Study
+    </Link>
+  </h2>
+  <div className="py-[30px] md:py-[40px] lg:py-[50px] text-center">
+    <div className="text-[18px] md:text-[20px] lg:text-[24px] font-poppins text-[#001817] mb-[10px] md:mb-[12px] lg:mb-[15px]">
+      <Link to={"/z4ip"}>z4ip — Cognitive Learning & Activity Tracker</Link>
+    </div>
+    <h3 className="font-semibold text-[24px] md:text-[28px] lg:text-[32px] max-w-[100%] md:max-w-[600px] lg:max-w-[500px] mx-auto text-center leading-[30px] md:leading-[36px] lg:leading-[42px] text-[#001817] font-poppins">
+      <Link className="mb-[8px] md:mb-[10px] lg:mb-[12px]" to={""}>
+      An app to check user's cognitive performance along with daily activity tracking.
+      </Link>
+    </h3>
+  </div>
+</div>
 
-                    </div>
                 </div>
             </div>
         </div>

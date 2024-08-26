@@ -16,10 +16,10 @@ export default function Autonewplay() {
   return (
     <div className="slider-container">
       <Slider {...settings}>
-        <div className="max-w-[584px] border">
+        <div className="max-w-[584px] ">
           <img src={ves1} alt="" />
         </div>
-        <div className="max-w-[584px] border">
+        <div className="max-w-[584px] ">
           <img src={ves2} alt="" />
         </div>
         

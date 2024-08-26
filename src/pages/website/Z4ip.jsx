@@ -3,7 +3,7 @@
 
 
 import React from 'react'
-import { back, Downlogo, int, ratingbox, star, supplier, trro, ui_ux, vesbanner, z4bottom, z4icon } from '../../assets'
+import { back, Downlogo, int, ratingbox, star, supplier, trro, ui_ux, vesbanner, z4, z4bottom, z4icon } from '../../assets'
 import { Link } from 'react-router-dom'
 import { TiArrowRight } from "react-icons/ti";
 import { PiCircleFill } from "react-icons/pi";
@@ -21,7 +21,7 @@ export default function Z4ip() {
 
 
       <div className="lg:mt-[80px] md:mt-[110px] mt-[110px]">
-        <div className="xl:mx-[118px] md:mx-[45px] mx-[15px] mb-[48px]">
+        <div className="max-w-[1300px] mx-auto xl:px-[0px] px-[20px] mb-[48px]">
           <h2>
             <span className="md:text-[30px] sm:text-[24px] text-[16px] font-poppins" data-aos="slide-down" data-aos-duration="2000">
               <span className="md:text-[30px] sm:text-[24px] text-[16px] text-[#00b0ab] font-poppins font-semibold">
@@ -37,15 +37,15 @@ export default function Z4ip() {
             </div>
           </h2>
         </div>
-        <div className="w-full h-full md:px-0 px-[14px]">
-          <img className="w-full h-full" src={vesbanner} alt="" />
+        <div className="w-full h-full ">
+          <img className="w-full h-full" src={z4} alt="" />
         </div>
       </div>
 
 
       <div className="pt-20">
         <Container4>
-          <div className="grid md:grid-cols-5 grid-cols-1 xl:px-0 lg:px-5 px-7">
+          <div className="grid md:grid-cols-5 grid-cols-1 xl:px-0 px-[20px]">
             <div className="md:col-span-3 col-span-1 lg:pr-12 pr-5" data-aos="slide-right" data-aos-duration="1000">
               <h2 className="lg:text-5xl text-3xl text-black font-poppins mb-4">Overview</h2>
               <p className="font-poppins sm:text-lg text-sm mt-6 text-gray-600">
@@ -108,30 +108,37 @@ export default function Z4ip() {
           </div>
         </Container4>
       </div>
-      <div className="py-20">
-        <div className="lg:mx-48 md:mx-24 mx-8">
+
+      <div className="sm:py-20">
+        <Container4>
+        <div className=" xl:px-0 px-[20px] ">
           <h2 className="mb-4 text-5xl font-poppins text-black">Services</h2>
           <ul className="flex flex-wrap">
-            <li className="bg-teal-100 duration-1000 hover:bg-teal-500 mb-5 mr-2 py-4 px-8 w-72 rounded-full">
-              <Link className="text-lg font-poppins hover:text-white duration-1000 text-gray-800" to={''}>Mobile App Development</Link>
+            <li className="bg-[#ccefee] duration-1000  hover:bg-[#73dedb] mb-[20px] mr-[10px] py-[18px] px-[32px] rounded-full">
+              <Link className="text-lg font-poppins hover:text-white duration-1000 text-gray-800" to={'/mobileappdevelopment'}>Mobile App Development</Link>
             </li>
-            <li className="bg-teal-100 duration-1000 hover:bg-teal-500 mb-5 mr-2 py-4 px-8 w-64 rounded-full">
-              <Link className="text-lg font-poppins hover:text-white duration-1000 text-gray-800" to={''}>Web Development</Link>
+            <li className="bg-[#ccefee] duration-1000  hover:bg-[#73dedb] mb-[20px] mr-[10px] py-[18px] px-[32px]  rounded-full">
+              <Link className="text-lg font-poppins hover:text-white duration-1000 text-gray-800" to={'/webdevelopment'}>Web Development</Link>
             </li>
-            <li className="bg-teal-100 duration-1000 hover:bg-teal-500 mb-5 mr-2 py-4 px-8 w-28 rounded-full">
-              <Link className="text-lg font-poppins hover:text-white duration-1000 text-gray-800" to={''}>UI/UX</Link>
+            <li className="bg-[#ccefee] duration-1000  hover:bg-[#73dedb] mb-[20px] mr-[10px] py-[18px] px-[32px]  rounded-full">
+              <Link className="text-lg font-poppins hover:text-white duration-1000 text-gray-800" to={'/uiuxdesign'}>UI/UX</Link>
             </li>
-            <li className="bg-teal-100 duration-1000 hover:bg-teal-500 mb-5 mr-2 py-4 px-8 w-52 rounded-full">
-              <Link className="text-lg font-poppins hover:text-white duration-1000 text-gray-800" to={''}>Product Design</Link>
+            <li className="bg-[#ccefee] duration-1000  hover:bg-[#73dedb] mb-[20px] mr-[10px] py-[18px] px-[32px] rounded-full">
+              <Link className="text-lg font-poppins hover:text-white duration-1000 text-gray-800" to={'/shareapp'}>Product Design</Link>
             </li>
           </ul>
         </div>
+        </Container4>
       </div>
+
+<div className="xl:x-[0px] px-[20px] ">
       <Container4>
         <div className="w-full p-10 Coconat rounded-xl bg-indigo-100">
           <div className="dukenus"></div>
         </div>
       </Container4>
+      </div>
+
       <Container7>
         <div className="mt-20 grid md:grid-cols-2 grid-cols-1 gap-4 md:mx-0 mx-4">
           <div className="my-auto font-poppins" data-aos="slide-right" data-aos-duration="1000">
@@ -139,17 +146,19 @@ export default function Z4ip() {
             <p className="text-gray-600 text-xl mt-5 font-poppins">
               Through 5-minute game sessions spread across the day, Z4ip will assess your processing speed, spatial working memory, and reaction time.
             </p>
-            <ul className="list-disc py-7 text-gray-600 font-poppins text-xl px-5">
+            <ul className="list-disc py-7 text-gray-600 font-poppins text-xl sm:px-5 px-2">
               <li><strong>Symbol Search Game:</strong> Find the pair below that matches one of the pairs on top</li>
               <li><strong>Dot Memory Game:</strong> Remember where the dots were while trying to find the ‘F’s</li>
               <li><strong>Reaction Time Game:</strong> Respond as fast as you can when the timer starts</li>
             </ul>
           </div>
+
           <div className="my-5">
             <div className="games"></div>
           </div>
         </div>
       </Container7>
+
       <Container7>
         <div className="mt-20 grid md:grid-cols-2 grid-cols-1 gap-4">
           <div className="my-5">
@@ -163,7 +172,7 @@ export default function Z4ip() {
             <p className="text-gray-600 text-xl mt-5 font-poppins">
               You can easily keep track of how you are performing with a summary display of your past game scores. Learn more about how your performance fluctuates with your lifestyle choices (e.g., being sleep-deprived). Reward points will be given along the way as you play.
             </p>
-            <ul className="list-disc py-7 text-gray-600 font-poppins text-xl px-5">
+            <ul className="list-disc py-7 text-gray-600 font-poppins text-xl sm:px-5 px-2">
               <li>Summary display of past game scores</li>
               <li>Receive notifications for game sessions</li>
               <li>Set timings to indicate when you may be too busy to play</li>
@@ -351,10 +360,10 @@ export default function Z4ip() {
 
 
 
-      <div className="h-[34px]"></div>
-      <div className="w-full z4bottom">
-        <img src={z4bottom} alt="" />
-      </div>
+      {/* <div className="h-[34px]"></div>
+      <div className="xl:hidden block w-full z4bottom">
+        <img src={z4bottom}  alt="" />
+      </div> */}
 
 
 
@@ -392,22 +401,27 @@ export default function Z4ip() {
 
 
 
-      <div className="py-[80px]">
+      <div className="sm:py-[80px] ">
         <div className=" lg:mx-[198px] md:mx-[80px] mx-[30px] ">
-          <div>
-            <h2 className='text-center text-[42px] text-[#000000] font-poppins '>
-              <Link className='bbn' to={''}>Next Case Study</Link>
-            </h2>
-            <div className="py-[50px] text-center">
-              <div className='text-[24px] font-poppins text-[#001817] mb-[15px]'>
-                <Link to={''}>VES - QR Code Smart Kiosk Check-In & Instant Badge Printing With VESolution</Link>
-              </div>
-              <h3 className='font-semibold text-[32px] max-w-[500px] mx-auto text-center leading-[42px] text-[#001817] font-poppins'>
-                <Link className='mb-[12px]' to={''}>Discovering Seamless Event Registration and Management.</Link>
-              </h3>
-            </div>
 
-          </div>
+          <div className="">
+  <h2 className="text-center text-[28px] md:text-[36px] lg:text-[42px] text-[#000000] font-poppins">
+    <Link className="bbn" to={"/vesqr"}>
+      Next Case Study
+    </Link>
+  </h2>
+  <div className="py-[30px] md:py-[40px] lg:py-[50px] text-center">
+    <div className="text-[18px] md:text-[20px] lg:text-[24px] font-poppins text-[#001817] mb-[10px] md:mb-[12px] lg:mb-[15px]">
+      <Link to={"/vesqr"} >VES - QR Code Smart Kiosk Check-In & Instant Badge Printing With VESolution</Link>
+    </div>
+    <h3 className="font-semibold text-[24px] md:text-[28px] lg:text-[32px] max-w-[100%] md:max-w-[600px] lg:max-w-[500px] mx-auto text-center leading-[30px] md:leading-[36px] lg:leading-[42px] text-[#001817] font-poppins">
+      <Link className="mb-[8px] md:mb-[10px] lg:mb-[12px]" to={""}>
+      Discovering Seamless Event Registration and Management.
+      </Link>
+    </h3>
+  </div>
+</div>
+
         </div>
       </div>
 

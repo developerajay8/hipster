@@ -1,7 +1,7 @@
 
 
 import React from 'react'
-import { back, barebisness, discover, discoverbarepack, dishres, Downlogo, int, ratingbox, star, supplier, trro, ui_ux, vesbanner, z4bottom, z4icon } from '../../assets'
+import { back, barebisness, discover, discoverbarepack, dishres, Downlogo, int, kwshbanner, ratingbox, star, supplier, trro, ui_ux, vesbanner, z4bottom, z4icon } from '../../assets'
 import { Link } from 'react-router-dom'
 import { TiArrowRight } from "react-icons/ti";
 import { PiCircleFill } from "react-icons/pi";
@@ -19,7 +19,7 @@ export default function Kwsh() {
 
 
       <div className="lg:mt-[80px] md:mt-[110px] mt-[110px]">
-        <div className="xl:mx-[118px] md:mx-[45px] mx-[15px] mb-[48px]">
+        <div className="xl:px-0 px-[20px] max-w-[1300px] mx-auto mb-[48px]">
           <h2>
             <span className="md:text-[30px] sm:text-[24px] text-[16px] font-poppins" data-aos="slide-down" data-aos-duration="2000">
               <span className="md:text-[30px] sm:text-[24px] text-[16px] text-[#00b0ab] font-poppins font-semibold">
@@ -36,14 +36,14 @@ export default function Kwsh() {
           </h2>
         </div>
         <div className="w-full h-full md:px-0 px-[14px]">
-          <img className="w-full h-full" src={discover} alt="" />
+          <img className="w-full h-full" src={kwshbanner} alt="" />
         </div>
       </div>
 
 
       <div className="pt-20">
         <Container4>
-          <div className="grid md:grid-cols-5 grid-cols-1 xl:px-0  px-5">
+          <div className="grid md:grid-cols-5 grid-cols-1 xl:px-0  sm:px-5 px-3">
             <div className="md:col-span-3 col-span-1 lg:pr-12 pr-5" data-aos="slide-right" data-aos-duration="1000">
               <h2 className="lg:text-5xl text-3xl text-black font-poppins mb-4">Overview</h2>
               <p className="font-poppins sm:text-lg text-sm mt-6 text-gray-600">
@@ -101,19 +101,21 @@ export default function Kwsh() {
         </Container4>
       </div>
       <div className="py-20">
-        <div className="lg:mx-48 md:mx-24 mx-8">
+        <Container4>
+        <div className="xl:px-0 px-[20px] ">
           <h2 className="mb-4 text-5xl font-poppins text-black">Services</h2>
           <ul className="flex flex-wrap">
             <li className="bg-teal-100 duration-1000 hover:bg-teal-500 mb-5 mr-2 py-4 px-8 w-[205px] rounded-full">
-              <Link className="text-lg font-poppins hover:text-white duration-1000 text-gray-800" to={''}>Product Design</Link>
+              <Link className="text-lg font-poppins hover:text-white duration-1000 text-gray-800" to={'/softwaredevelopment'}>Product Design</Link>
             </li>
 
             <li className="bg-teal-100 duration-1000 hover:bg-teal-500 mb-5 mr-2 py-4 px-8 w-[130px] rounded-full">
-              <Link className="text-lg font-poppins hover:text-white duration-1000 text-gray-800" to={''}>UI/UX</Link>
+              <Link className="text-lg font-poppins hover:text-white duration-1000 text-gray-800" to={'/uiuxdesign'}>UI/UX</Link>
             </li>
             
           </ul>
         </div>
+        </Container4>
       </div>
 
 
@@ -190,7 +192,7 @@ export default function Kwsh() {
 
 
       <div className="bg-[#ddf3ff] py-[80px] sm:py-[40px] xl:px-[0px] px-[20px]">
-        <div className="max-w-[1220px] mx-auto border gap-[8px] grid grid-cols-1 md:grid-cols-5">
+        <div className="max-w-[1220px] mx-auto  gap-[8px] grid grid-cols-1 md:grid-cols-5">
           <div className="col-span-3 md:pr-[73px] my-auto md:text-left">
             <h2 className="text-[40px] sm:text-[30px] md:text-[50px] text-[#000000] font-poppins mb-[15px]">
               Flutter App as V2
@@ -214,20 +216,27 @@ export default function Kwsh() {
 
       <div className="py-[80px]">
         <div className=" lg:mx-[198px] md:mx-[80px] mx-[30px] ">
-          <div>
-            <h2 className='text-center text-[42px] text-[#000000] font-poppins '>
-              <Link className='bbn' to={''}>Next Case Study</Link>
-            </h2>
-            <div className="py-[50px] text-center">
-              <div className='text-[24px] font-poppins text-[#001817] mb-[15px]'>
-                <Link to={''}>Imavox - Event Technology, Multimedia, Event Management</Link>
-              </div>
-              <h3 className='font-semibold text-[32px] max-w-[500px] mx-auto text-center leading-[42px] text-[#001817] font-poppins'>
-                <Link className='mb-[12px]' to={''}>A multimedia and technical event solutions company that covers medium to large events in Europe, Africa and Asia.</Link>
-              </h3>
-            </div>
+          
 
-          </div>
+
+          <div className="">
+  <h2 className="text-center text-[28px] md:text-[36px] lg:text-[42px] text-[#000000] font-poppins">
+    <Link className="bbn" to={"/barepack"}>
+      Next Case Study
+    </Link>
+  </h2>
+  <div className="py-[30px] md:py-[40px] lg:py-[50px] text-center">
+    <div className="text-[18px] md:text-[20px] lg:text-[24px] font-poppins text-[#001817] mb-[10px] md:mb-[12px] lg:mb-[15px]">
+      <Link to={""}>barePack - Sustainability Solution</Link>
+    </div>
+    <h3 className="font-semibold text-[24px] md:text-[28px] lg:text-[32px] max-w-[100%] md:max-w-[600px] lg:max-w-[500px] mx-auto text-center leading-[30px] md:leading-[36px] lg:leading-[42px] text-[#001817] font-poppins">
+      <Link className="mb-[8px] md:mb-[10px] lg:mb-[12px]" to={""}>
+      Reducing plastic waste and promoting reusable packaging through tech
+      </Link>
+    </h3>
+  </div>
+</div>
+
         </div>
       </div>
 

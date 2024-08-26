@@ -23,8 +23,8 @@ export default function Vesqr() {
 
 
 
-      <div className="lg:mt-[80px] md:mt-[110px] mt-[110px]">
-        <div className="xl:mx-[118px] md:mx-[45px] mx-[15px] mb-[48px]">
+      <div className="lg:mt-[80px]  md:mt-[110px] mt-[110px]">
+        <div className="max-w-[1300px] xl:px-0 px-[20px] mx-auto mb-[48px]">
           <h2>
             <span className="md:text-[30px] sm:text-[24px] text-[16px] font-poppins" data-aos="slide-down" data-aos-duration="2000">
               <span className="md:text-[30px] sm:text-[24px] text-[16px] text-[#00b0ab] font-poppins font-semibold">
@@ -44,9 +44,10 @@ export default function Vesqr() {
           <img className="w-full h-full" src={vesbanner} alt="" />
         </div>
       </div>
+
       <div className="pt-[80px]">
         <Container4>
-          <div className="grid md:grid-cols-5 grid-cols-1 xl:px-0 lg:px-[20px] px-[30px]">
+          <div className="grid md:grid-cols-5 grid-cols-1 xl:px-0 px-[20px]">
             <div className="md:col-span-3 col-span-1 lg:pr-[50px] pr-[20px]" data-aos="slide-right" data-aos-duration="1000">
               <h2 className="lg:text-[50px] text-[35px] text-[#000000] font-poppins mb-[15px]">Overview</h2>
               <p className="font-poppins sm:text-[20px] text-[16px] mt-[25px] text-[#606e6e]">
@@ -112,24 +113,27 @@ export default function Vesqr() {
           </div>
         </Container4>
       </div>
-      <div className="py-[80px]">
-        <div className="lg:mx-[198px] md:mx-[100px] mx-[30px]">
+
+      <div className="sm:py-[80px] xl:px-[0px] px-[20px]">
+        <Container4>
+        <div className="">
           <h2 className="mb-[15px] text-[50px] font-poppins text-[#000000]">Services</h2>
           <ul className="flex flex-wrap">
 
             <li className="bg-[#ccefee] duration-1000 hover:bg-[#73dedb] mb-[20px] mr-[10px] py-[18px] px-[32px] w-[294px] rounded-full">
-              <Link className="text-[18px] font-poppins hover:text-[#FFFFFF] duration-1000 text-[#001817]" to={''}>Mobile App Development</Link>
+              <Link className="text-[18px] font-poppins hover:text-[#FFFFFF] duration-1000 text-[#001817]" to={'/mobileappdevelopment'}>Mobile App Development</Link>
             </li>
 
             <li className="bg-[#ccefee] duration-1000 hover:bg-[#73dedb] mb-[20px] mr-[10px] py-[18px] px-[32px] w-[254px] rounded-full">
-              <Link className="text-[18px] font-poppins hover:text-[#FFFFFF] duration-1000 text-[#001817]" to={''}>Other technoliges</Link>
+              <Link className="text-[18px] font-poppins hover:text-[#FFFFFF] duration-1000 text-[#001817]" to={'/shareapp'}>Other technoliges</Link>
             </li>
           </ul>
         </div>
+        </Container4>
       </div>
 
 
-      <div className="">
+      {/* <div className="">
         <Container4>
           <div className="border mt-[50px] mb-[70px] grid grid-cols-2">
             <div className="col-span-1">
@@ -148,9 +152,9 @@ export default function Vesqr() {
             </div>
           </div>
         </Container4>
-      </div>
+      </div> */}
 
-      <div className="">
+      {/* <div className="">
         <Container4>
           <div className="border mt-[50px] mb-[70px] grid grid-cols-1">
             <h5 className='text-[48px] font-poppins text-center text-[#000000]'>Event Check-in</h5>
@@ -159,14 +163,12 @@ export default function Vesqr() {
               <Autonewplay />
             </div>
 
-            {/* <div className="absolute w-[full] h-[260px] bg-[#008dff] mt ">
-
-            </div> */}
+           
           </div>
         </Container4>
-      </div>
+      </div> */}
 
-      <div className="">
+      {/* <div className="">
         <Container4>
           <div className="border mt-[50px] gap-[20px] mb-[70px] grid grid-cols-5">
             <div className="border relative bg-[#eeeef1]">
@@ -281,31 +283,189 @@ export default function Vesqr() {
             
           </div>
         </Container4>
+      </div> */}
+
+      <div className="">
+        <Container4>
+          <div className=" mt-[50px] xl:px-[0px] px-[20px] mb-[70px] grid md:grid-cols-2">
+            <div className="col-span-1">
+              <video autoPlay muted loop className="w-full sm:h-[416px] h-[350px]">
+                <source src={"https://hipster-inc.com/wp-content/uploads/2023/08/ves-video.mp4"} type="video/mp4" />
+              </video>
+            </div>
+            <div className="col-span-1 sm:pl-[50px] my-[auto] ">
+              <h2 className='text-[32px] font-poppins font-[500] text-[#000000]'>
+              Pre-event registration
+              </h2>
+              <ul className='list-disc px-[20px] py-[30px] text-[20px] text-[#666666]  font-poppins'>
+                  <li>Easily change and edit form fields to suit your event’s needs.</li>
+                  <li>Upon successful registration, a confirmation email containing a QR Code e-Ticket will be sent to guests.</li>
+              </ul>
+            </div>
+          </div>
+        </Container4>
       </div>
 
+      <div className="sm:block hidden">
+        <Container4>
+          <div className=" mt-[50px] mb-[70px] grid grid-cols-1">
+            <h5 className='text-[48px] font-poppins text-center text-[#000000]'>Event Check-in</h5>
+            <p className='text-[20px] max-w-[684px] text-center font-poppins text-[#606e6e] mt-[20px] mx-auto'>Guests simply need to scan the QR code at the event and collect their name badges.</p>
+            <div className="mt-[100px]  max-w-[584px] mx-auto ">
+              <Autonewplay />
+            </div>
 
+            {/* <div className="absolute w-[full] h-[260px] bg-[#008dff] mt ">
+
+            </div> */}
+          </div>
+        </Container4>
+      </div>
+
+      <div className=" sm:block hidden">
+        <Container4>
+          <div className="  mt-[50px] xl:px-[0px] px-[12px] gap-[20px] mb-[70px] grid xl:grid-cols-5 lg:grid-cols-4 sm:grid-cols-3  grid-cols-1 ">
+            <div className="border relative bg-[#eeeef1]">
+              <img src={back} alt="" />
+              <div className="w-[70px] h-[70px] rounded-[50px]  top-[45px] right-[35%] absolute bg-[#fff] vesshadow ">
+                
+              </div>
+              <div className="py-[10px] px-[12px] border mt-[30px] text-center">
+                <h6 className="mt-[8px] font-[500] max-w-[184px] leading-[22px] text-[#001817] text-[18px] ">Disseminate QR Code e-Tickets via Email</h6>
+                <p className='max-w-[184px] text-[14px] text-[#6b7d7c] mt-[12px] '>Automatically send out customized registration confirmation emails with QR Code e-Tickets to guests</p>
+              </div>
+            </div>
+
+            <div className="border relative bg-[#eeeef1]">
+              <img src={back} alt="" />
+              <div className="w-[70px] h-[70px] rounded-[50px]  top-[45px] right-[35%] absolute bg-[#fff] vesshadow ">
+                
+              </div>
+              <div className="py-[10px] px-[12px] border mt-[30px] text-center">
+                <h6 className="mt-[8px] font-[500] max-w-[184px] leading-[22px] text-[#001817] text-[18px] ">Disseminate QR Code e-Tickets via Email</h6>
+                <p className='max-w-[184px] text-[14px] text-[#6b7d7c] mt-[12px] '>Automatically send out customized registration confirmation emails with QR Code e-Tickets to guests</p>
+              </div>
+            </div>
+
+            <div className="border relative bg-[#eeeef1]">
+              <img src={back} alt="" />
+              <div className="w-[70px] h-[70px] rounded-[50px]  top-[45px] right-[35%] absolute bg-[#fff] vesshadow ">
+                
+              </div>
+              <div className="py-[10px] px-[12px] border mt-[30px] text-center">
+                <h6 className="mt-[8px] font-[500] max-w-[184px] leading-[22px] text-[#001817] text-[18px] ">Disseminate QR Code e-Tickets via Email</h6>
+                <p className='max-w-[184px] text-[14px] text-[#6b7d7c] mt-[12px] '>Automatically send out customized registration confirmation emails with QR Code e-Tickets to guests</p>
+              </div>
+            </div>
+
+            <div className="border relative bg-[#eeeef1]">
+              <img src={back} alt="" />
+              <div className="w-[70px] h-[70px] rounded-[50px]  top-[45px] right-[35%] absolute bg-[#fff] vesshadow ">
+                
+              </div>
+              <div className="py-[10px] px-[12px] border mt-[30px] text-center">
+                <h6 className="mt-[8px] font-[500] max-w-[184px] leading-[22px] text-[#001817] text-[18px] ">Disseminate QR Code e-Tickets via Email</h6>
+                <p className='max-w-[184px] text-[14px] text-[#6b7d7c] mt-[12px] '>Automatically send out customized registration confirmation emails with QR Code e-Tickets to guests</p>
+              </div>
+            </div>
+
+            <div className="border relative bg-[#eeeef1]">
+              <img src={back} alt="" />
+              <div className="w-[70px] h-[70px] rounded-[50px]  top-[45px] right-[35%] absolute bg-[#fff] vesshadow ">
+                
+              </div>
+              <div className="py-[10px] px-[12px] border mt-[30px] text-center">
+                <h6 className="mt-[8px] font-[500] max-w-[184px] leading-[22px] text-[#001817] text-[18px] ">Disseminate QR Code e-Tickets via Email</h6>
+                <p className='max-w-[184px] text-[14px] text-[#6b7d7c] mt-[12px] '>Automatically send out customized registration confirmation emails with QR Code e-Tickets to guests</p>
+              </div>
+            </div>
+
+            <div className="border relative bg-[#eeeef1]">
+              <img src={back} alt="" />
+              <div className="w-[70px] h-[70px] rounded-[50px]  top-[45px] right-[35%] absolute bg-[#fff] vesshadow ">
+                
+              </div>
+              <div className="py-[10px] px-[12px] border mt-[30px] text-center">
+                <h6 className="mt-[8px] font-[500] max-w-[184px] leading-[22px] text-[#001817] text-[18px] ">Disseminate QR Code e-Tickets via Email</h6>
+                <p className='max-w-[184px] text-[14px] text-[#6b7d7c] mt-[12px] '>Automatically send out customized registration confirmation emails with QR Code e-Tickets to guests</p>
+              </div>
+            </div>
+
+            <div className="border relative bg-[#eeeef1]">
+              <img src={back} alt="" />
+              <div className="w-[70px] h-[70px] rounded-[50px]  top-[45px] right-[35%] absolute bg-[#fff] vesshadow ">
+                
+              </div>
+              <div className="py-[10px] px-[12px] border mt-[30px] text-center">
+                <h6 className="mt-[8px] font-[500] max-w-[184px] leading-[22px] text-[#001817] text-[18px] ">Disseminate QR Code e-Tickets via Email</h6>
+                <p className='max-w-[184px] text-[14px] text-[#6b7d7c] mt-[12px] '>Automatically send out customized registration confirmation emails with QR Code e-Tickets to guests</p>
+              </div>
+            </div>
+
+            <div className="border relative bg-[#eeeef1]">
+              <img src={back} alt="" />
+              <div className="w-[70px] h-[70px] rounded-[50px]  top-[45px] right-[35%] absolute bg-[#fff] vesshadow ">
+                
+              </div>
+              <div className="py-[10px] px-[12px] border mt-[30px] text-center">
+                <h6 className="mt-[8px] font-[500] max-w-[184px] leading-[22px] text-[#001817] text-[18px] ">Disseminate QR Code e-Tickets via Email</h6>
+                <p className='max-w-[184px] text-[14px] text-[#6b7d7c] mt-[12px] '>Automatically send out customized registration confirmation emails with QR Code e-Tickets to guests</p>
+              </div>
+            </div>
+
+            <div className="border relative bg-[#eeeef1]">
+              <img src={back} alt="" />
+              <div className="w-[70px] h-[70px] rounded-[50px]  top-[45px] right-[35%] absolute bg-[#fff] vesshadow ">
+                
+              </div>
+              <div className="py-[10px] px-[12px] border mt-[30px] text-center">
+                <h6 className="mt-[8px] font-[500] max-w-[184px] leading-[22px] text-[#001817] text-[18px] ">Disseminate QR Code e-Tickets via Email</h6>
+                <p className='max-w-[184px] text-[14px] text-[#6b7d7c] mt-[12px] '>Automatically send out customized registration confirmation emails with QR Code e-Tickets to guests</p>
+              </div>
+            </div>
+
+            <div className="border relative bg-[#eeeef1]">
+              <img src={back} alt="" />
+              <div className="w-[70px] h-[70px] rounded-[50px]  top-[45px] right-[35%] absolute bg-[#fff] vesshadow ">
+                
+              </div>
+              <div className="py-[10px] px-[12px] border mt-[30px] text-center">
+                <h6 className="mt-[8px] font-[500] max-w-[184px] leading-[22px] text-[#001817] text-[18px] ">Disseminate QR Code e-Tickets via Email</h6>
+                <p className='max-w-[184px] text-[14px] text-[#6b7d7c] mt-[12px] '>Automatically send out customized registration confirmation emails with QR Code e-Tickets to guests</p>
+              </div>
+            </div>
+            
+          </div>
+        </Container4>
+      </div>
 
       
 
 
 
 
-      <div className="py-[80px]">
+      <div className="sm:py-[80px] py-[10px]">
         <div className=" lg:mx-[198px] md:mx-[80px] mx-[30px] ">
-          <div>
-            <h2 className='text-center text-[42px] text-[#000000] font-poppins '>
-              <Link className='bbn' to={''}>Next Case Study</Link>
-            </h2>
-            <div className="py-[50px] text-center">
-              <div className='text-[24px] font-poppins text-[#001817] mb-[15px]'>
-                <Link to={''}>Bettr Coffee - Food and Beverage (F&B)</Link>
-              </div>
-              <h3 className='font-semibold text-[32px] max-w-[500px] mx-auto text-center leading-[42px] text-[#001817] font-poppins'>
-                <Link className='mb-[12px]' to={''}>A socially conscious and environmentally friendly coffee subscription service.</Link>
-              </h3>
-            </div>
+          
 
-          </div>
+
+          <div className="">
+  <h2 className="text-center text-[28px] md:text-[36px] lg:text-[42px] text-[#000000] font-poppins">
+    <Link className="bbn" to={"/bettrcoffee"}>
+      Next Case Study
+    </Link>
+  </h2>
+  <div className="py-[30px] md:py-[40px] lg:py-[50px] text-center">
+    <div className="text-[18px] md:text-[20px] lg:text-[24px] font-poppins text-[#001817] mb-[10px] md:mb-[12px] lg:mb-[15px]">
+      <Link to={"/bettrcoffee"}>Bettr Coffee - Food and Beverage (F&B)</Link>
+    </div>
+    <h3 className="font-semibold text-[24px] md:text-[28px] lg:text-[32px] max-w-[100%] md:max-w-[600px] lg:max-w-[500px] mx-auto text-center leading-[30px] md:leading-[36px] lg:leading-[42px] text-[#001817] font-poppins">
+      <Link className="mb-[8px] md:mb-[10px] lg:mb-[12px]" to={""}>
+      A socially conscious and environmentally friendly coffee subscription service.      </Link>
+    </h3>
+  </div>
+</div>
+
         </div>
       </div>
 

@@ -95,7 +95,7 @@ export default function Min_tutor() {
     <div>
 
       <div className='lg:mt-[80px] md:mt-[110px] mt-[110px]'>
-        <div className="xl:mx-[118px] md:mx-[45px] mx-[15px] mb-[48px]">
+        <div className="max-w-[1300px] mx-auto xl:px-0 px-[20px] mb-[48px]">
           <h2>
             <span className='md:text-[30px] sm:text-[24px] text-[16px] font-poppins'>
               <span className='md:text-[30px] sm:text-[24px] text-[16px] text-[#00b0ab] font-poppins font-semibold'> 10-min Tutor </span>
@@ -222,17 +222,15 @@ export default function Min_tutor() {
           </h2>
           <ul className="flex flex-wrap">
             <li className='bg-[#ccefee] duration-500  hover:bg-[#00fff7] mb-[20px] mr-[10px] py-[18px] px-[32px]  rounded-full hover:text-[#FFFFFF]  text-[#001817]'>
-              <Link className='  text-[18px] font-poppins hover:text-[#FFFFFF] duration-1000 text-[#001817]' to={''}>Mobile App Development</Link>
+              <Link className='  text-[18px] font-poppins hover:text-[#FFFFFF] duration-1000 text-[#001817]' to={'/mobileappdevelopment'}>Mobile App Development</Link>
             </li>
             <li className='bg-[#ccefee] duration-500  hover:bg-[#00fff7] mb-[20px] mr-[10px] py-[18px] px-[32px]  rounded-full hover:text-[#FFFFFF]  text-[#001817]'>
-              <Link className='  text-[18px] font-poppins ' to={''}>Graphic Design Services</Link>
+              <Link className='  text-[18px] font-poppins ' to={'/uiuxdesign'}>Graphic Design Services</Link>
             </li>
-            <li className='bg-[#ccefee] duration-1000  hover:bg-[#73dedb] mb-[20px] mr-[10px] py-[18px] px-[32px]  rounded-full'>
-              <Link className='text-[18px] font-poppins hover:text-[#FFFFFF] duration-1000 text-[#001817]' to={''}>SEO</Link>
-            </li>
+           
 
             <li className='bg-[#ccefee] duration-1000  hover:bg-[#73dedb] mb-[20px] mr-[10px] py-[18px] px-[32px] rounded-full'>
-              <Link className='text-[18px] font-poppins hover:text-[#FFFFFF] duration-1000 text-[#001817]' to={''}>Web Development</Link>
+              <Link className='text-[18px] font-poppins hover:text-[#FFFFFF] duration-1000 text-[#001817]' to={'/webdevelopment'}>Web Development</Link>
             </li>
           </ul>
         </div>
@@ -355,20 +353,27 @@ export default function Min_tutor() {
 
       <div className="py-[80px]">
         <div className=" lg:mx-[198px] md:mx-[80px] mx-[30px] ">
-          <div>
-            <h2 className='text-center text-[42px] text-[#000000] font-poppins '>
-              <Link className='bbn' to={''}>Next Case Study</Link>
-            </h2>
-            <div className="py-[50px] text-center">
-              <div className='text-[24px] font-poppins text-[#001817] mb-[15px]'>
-                <Link to={''}>Qaf Dictionary - Education and Reference</Link>
-              </div>
-              <h3 className='font-semibold text-[32px] max-w-[500px] mx-auto text-center leading-[42px] text-[#001817] font-poppins'>
-                <Link className='mb-[12px]' to={''}>Design for Arabic reading for non-native users</Link>
-              </h3>
-            </div>
+          
 
-          </div>
+
+          <div className="">
+  <h2 className="text-center text-[28px] md:text-[36px] lg:text-[42px] text-[#000000] font-poppins">
+    <Link className="bbn" to={"/hybridems"}>
+      Next Case Study
+    </Link>
+  </h2>
+  <div className="py-[30px] md:py-[40px] lg:py-[50px] text-center">
+    <div className="text-[18px] md:text-[20px] lg:text-[24px] font-poppins text-[#001817] mb-[10px] md:mb-[12px] lg:mb-[15px]">
+      <Link to={"/hybridems"}>Qaf Dictionary - Education and Reference</Link>      
+    </div>
+    <h3 className="font-semibold text-[24px] md:text-[28px] lg:text-[32px] max-w-[100%] md:max-w-[600px] lg:max-w-[500px] mx-auto text-center leading-[30px] md:leading-[36px] lg:leading-[42px] text-[#001817] font-poppins">
+      <Link className="mb-[8px] md:mb-[10px] lg:mb-[12px]" to={"/hybridems"}>
+      Design for Arabic reading for non-native users
+      </Link>
+    </h3>
+  </div>
+</div>
+
         </div>
       </div>
 

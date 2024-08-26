@@ -118,7 +118,7 @@ export default function Barebottom() {
             <li className="bg-[#ccefee] duration-500  hover:bg-[#00fff7] mb-[20px] mr-[10px] py-[18px] px-[32px]  rounded-full hover:text-[#FFFFFF]  text-[#001817]">
               <Link
                 className="  text-[18px] font-poppins hover:text-[#FFFFFF] duration-1000 text-[#001817]"
-                to={""}
+                to={"/mobileappdevelopment"}
               >
                 Mobile App Development
               </Link>
@@ -127,7 +127,7 @@ export default function Barebottom() {
             <li className="bg-[#ccefee] duration-500  hover:bg-[#00fff7] mb-[20px] mr-[10px] py-[18px] px-[32px]  rounded-full hover:text-[#FFFFFF]  text-[#001817]">
               <Link
                 className="  text-[18px] font-poppins hover:text-[#FFFFFF] duration-1000 text-[#001817]"
-                to={""}
+                to={"/uiuxdesign"}
               >
                 UI/UX
               </Link>
@@ -136,7 +136,7 @@ export default function Barebottom() {
             <li className="bg-[#ccefee] duration-1000  hover:bg-[#73dedb] mb-[20px] mr-[10px] py-[18px] px-[32px] rounded-full">
               <Link
                 className="text-[18px] font-poppins hover:text-[#FFFFFF] duration-1000 text-[#001817]"
-                to={""}
+                to={"/softwaredevelopment"}
               >
                 Cloud Infrastructure
               </Link>
@@ -227,7 +227,7 @@ export default function Barebottom() {
 
 
       <div className="bg-[#ddf3ff] py-[80px] sm:py-[40px] xl:px-[0px] px-[20px]">
-        <div className="max-w-[1220px] mx-auto border gap-[8px] grid grid-cols-1 md:grid-cols-5">
+        <div className="max-w-[1220px] mx-auto  gap-[8px] grid grid-cols-1 md:grid-cols-5">
           <div className="col-span-3 md:pr-[73px] my-auto md:text-left">
             <h2 className="text-[40px] sm:text-[30px] md:text-[50px] text-[#000000] font-poppins mb-[15px]">
               Flutter App as V2
@@ -251,20 +251,26 @@ export default function Barebottom() {
 
       <div className="py-[80px]">
         <div className=" lg:mx-[198px] md:mx-[80px] mx-[30px] ">
-          <div>
-            <h2 className='text-center text-[42px] text-[#000000] font-poppins '>
-              <Link className='bbn' to={''}>Next Case Study</Link>
-            </h2>
-            <div className="py-[50px] text-center">
-              <div className='text-[24px] font-poppins text-[#001817] mb-[15px]'>
-                <Link to={''}>Imavox - Event Technology, Multimedia, Event Management</Link>
-              </div>
-              <h3 className='font-semibold text-[32px] max-w-[500px] mx-auto text-center leading-[42px] text-[#001817] font-poppins'>
-                <Link className='mb-[12px]' to={''}>A multimedia and technical event solutions company that covers medium to large events in Europe, Africa and Asia.</Link>
-              </h3>
-            </div>
+          
 
-          </div>
+<div className="">
+  <h2 className="text-center text-[28px] md:text-[36px] lg:text-[42px] text-[#000000] font-poppins">
+    <Link className="bbn" to={"/shareapp"}>
+      Next Case Study
+    </Link>
+  </h2>
+  <div className="py-[30px] md:py-[40px] lg:py-[50px] text-center">
+    <div className="text-[18px] md:text-[20px] lg:text-[24px] font-poppins text-[#001817] mb-[10px] md:mb-[12px] lg:mb-[15px]">
+      <Link to={""}>Imavox - Event Technology, Multimedia, Event Management</Link>
+    </div>
+    <h3 className="font-semibold text-[24px] md:text-[28px] lg:text-[32px] max-w-[100%] md:max-w-[600px] lg:max-w-[500px] mx-auto text-center leading-[30px] md:leading-[36px] lg:leading-[42px] text-[#001817] font-poppins">
+      <Link className="mb-[8px] md:mb-[10px] lg:mb-[12px]" to={""}>
+      A multimedia and technical event solutions company that covers medium to large events in Europe, Africa and Asia.
+      </Link>
+    </h3>
+  </div>
+</div>
+
         </div>
       </div>
 

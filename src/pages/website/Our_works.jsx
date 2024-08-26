@@ -115,8 +115,8 @@ export default function Our_Works() {
             </div>
             <div className="lg:col-span-2 sm:col-span-12 col-span-6 flex-wrap ">
               <div className="">
-                <div className="flex justify-between items-center">
-                  <h1 className="text-[52px] font-poppins text-[#000000]">
+                <div className="flex justify-between pb-[20px] items-center">
+                  <h1 className="md:text-[52px] text-[42px] font-poppins text-[#000000]">
                     Our Work
                   </h1>
                   <div className="flex items-center gap-8">
@@ -125,47 +125,52 @@ export default function Our_Works() {
                     <FaListOl className="border  " />
                   </div>
                 </div>
-                <div className="grid grid-cols-2 pb-[45px] mb-[13px]">
-                  <Link to={"/near"}>
-                    <div className="sm:col-span-1 col-span-2 xl:my-0 my-auto sm:mx-0 mx-auto max-w-[480px] max-h-[336px]">
-                      <Nearslider />
-                    </div>
-                  </Link>
-                  <Link to={"/near"}>
-                    <div className="sm:col-span-1 col-span-2 py-[25px] pl-[45px]">
-                      <h4 className="font-poppins text-[#001817] text-[16px] mt-[24px] mb-[12px]">
-                        NEAR — Lifestyle
-                      </h4>
-                      <h3 className="font-poppins text-[#001817] lg:text-[28px] text-[22px] font-semibold">
-                        Augmented Reality (AR) enabled mobile app for an
-                        interactive walking experience
-                      </h3>
-                      <ul className="font-poppins text-[14px] text-#000000] mt-[20px]">
-                        <a>
-                          Gamification in Tech
-                          <span>, </span>
-                        </a>
-                        <a>
-                          Event Management
-                          <span>, </span>
-                        </a>
-                        <a>
-                          Mobile Apps
-                          <span>, </span>
-                        </a>
-                        <a>
-                          Admin Panel / Dashboard
-                          <span>, </span>
-                        </a>
-                        <a>
-                          UI/UX Design
-                          <span>, </span>
-                        </a>
-                      </ul>
-                    </div>
-                  </Link>
-                </div>
               </div>
+              <div className="grid grid-cols-2 sm:pb-[45px] mb-[13px]">
+                
+                  <div className="sm:col-span-1 col-span-2 xl:my-0 my-auto sm:mx-0 mx-auto max-w-[480px] max-h-[336px]">
+                  <Link to={"/near"}>
+                    <img src={third} className="" alt="" />
+                    </Link>
+                  </div>
+                
+                
+                  <div className="sm:col-span-1 col-span-2 py-[25px] sm:pl-[45px]">
+                  <Link to={"/near"}>
+                    <h4 className="font-poppins text-[#001817] text-[16px] mt-[24px] mb-[12px]">
+                      NEAR — Lifestyle
+                    </h4>
+                    <h3 className="font-poppins text-[#001817] lg:text-[28px] text-[22px] font-semibold">
+                      Augmented Reality (AR) enabled mobile app for an
+                      interactive walking experience
+                    </h3>
+                    <ul className="font-poppins text-[14px] text-#000000] mt-[20px]">
+                      <a>
+                        Gamification in Tech
+                        <span>, </span>
+                      </a>
+                      <a>
+                        Event Management
+                        <span>, </span>
+                      </a>
+                      <a>
+                        Mobile Apps
+                        <span>, </span>
+                      </a>
+                      <a>
+                        Admin Panel / Dashboard
+                        <span>, </span>
+                      </a>
+                      <a>
+                        UI/UX Design
+                        <span>, </span>
+                      </a>
+                    </ul>
+                    </Link>
+                  </div>
+                
+              </div>
+
               <div className="">
                 <Link to={"/shareapp"}>
                   <div className="grid grid-cols-2 pb-[45px] mb-[13px]">
@@ -224,12 +229,12 @@ export default function Our_Works() {
               </div>
               <div className="">
                 <Link to={"/commonsuits"}>
-                  <div className="grid grid-cols-2 pb-[45px] mb-[13px]">
+                  <div className="grid grid-cols-2 sm:pb-[45px] mb-[13px]">
                     <div className="sm:col-span-1 col-span-2 xl:my-0 my-auto sm:mx-0 mx-auto max-w-[480px] max-h-[336px]">
                       <img src={Smart1} className="FI" alt="" />
                       {/* <Shareapp/> */}
                     </div>
-                    <div className="sm:col-span-1 col-span-2 py-[25px] pl-[45px]">
+                    <div className="sm:col-span-1 col-span-2 py-[25px] sm:pl-[45px]">
                       <h4 className="font-poppins text-[#001817] text-[16px] mt-[24px] mb-[12px]">
                         Common Suits — Fashion E-commerce
                       </h4>
@@ -250,7 +255,7 @@ export default function Our_Works() {
               <div className="">
                 <Link to={"/abroadly"}>
                   <div className="grid grid-cols-2 pb-[45px] mb-[13px]">
-                    <div className="sm:col-span-1 col-span-2 py-[25px] pr-[45px]">
+                    <div className="sm:col-span-1 col-span-2 py-[25px] sm:pr-[45px] ">
                       <h4 className="font-poppins text-[#001817] text-[16px] mt-[24px] mb-[12px]">
                         Abroadly — Travel
                       </h4>
@@ -273,11 +278,11 @@ export default function Our_Works() {
               </div>
               <div className="">
                 <Link to={"/case"}>
-                  <div className="grid grid-cols-2 pb-[45px] mb-[13px]">
+                  <div className="grid grid-cols-2 sm:pb-[45px] mb-[13px]">
                     <div className="sm:col-span-1 col-span-2 xl:my-0 my-auto sm:mx-0 mx-auto max-w-[480px] max-h-[336px]">
                       <img src={Smart3} className="FI" alt="" />
                     </div>
-                    <div className="sm:col-span-1 col-span-2 py-[25px] pl-[45px]">
+                    <div className="sm:col-span-1 col-span-2 py-[25px] sm:pl-[45px]">
                       <h4 className="font-poppins text-[#001817] text-[16px] mt-[24px] mb-[12px]">
                         {" "}
                         CASE — Non-Profit
@@ -297,8 +302,8 @@ export default function Our_Works() {
               </div>
               <div className="">
                 <Link to={"/physicleteam"}>
-                  <div className="grid grid-cols-2 pb-[45px] mb-[13px]">
-                    <div className="sm:col-span-1 col-span-2 py-[25px] pr-[45px]">
+                  <div className="grid grid-cols-2 sm:pb-[45px] mb-[13px]">
+                    <div className="sm:col-span-1 col-span-2 py-[25px] sm:pr-[45px]">
                       <h4 className="font-poppins text-[#001817] text-[16px] mt-[24px] mb-[12px]">
                         Tbit — Team Engagement
                       </h4>
@@ -320,11 +325,11 @@ export default function Our_Works() {
               </div>
               <div className="">
                 <Link to={"/z4ip"}>
-                  <div className="grid grid-cols-2 pb-[45px] mb-[13px]">
+                  <div className="grid grid-cols-2 sm:pb-[45px] mb-[13px]">
                     <div className="sm:col-span-1 col-span-2 xl:my-0 my-auto sm:mx-0 mx-auto max-w-[480px] max-h-[336px]">
                       <img src={Smart5} className="FI" alt="" />
                     </div>
-                    <div className="sm:col-span-1 col-span-2 py-[25px] pl-[45px]">
+                    <div className="sm:col-span-1 col-span-2 py-[25px] sm:pl-[45px]">
                       <h4 className="font-poppins text-[#001817] text-[16px] mt-[24px] mb-[12px]">
                         z4ip — Cognitive Learning & Activity Tracker
                       </h4>
@@ -345,7 +350,7 @@ export default function Our_Works() {
               <div className="">
                 <Link to={"/vesqr"}>
                   <div className="grid grid-cols-2 pb-[45px] mb-[13px]">
-                    <div className="sm:col-span-1 col-span-2 py-[25px] pr-[45px]">
+                    <div className="sm:col-span-1 col-span-2 py-[25px] sm:pr-[45px]">
                       <h4 className="font-poppins text-[#001817] text-[16px] mt-[24px] mb-[12px]">
                         VES — QR Code Smart Kiosk Check-In & Instant Badge
                         Printing With VESolution
@@ -365,11 +370,11 @@ export default function Our_Works() {
               </div>
               <div className="">
                 <Link to={"/bettrcoffee"}>
-                  <div className="grid grid-cols-2 pb-[45px] mb-[13px]">
+                  <div className="grid grid-cols-2 sm:pb-[45px] mb-[13px]">
                     <div className="sm:col-span-1 col-span-2 xl:my-0 my-auto sm:mx-0 mx-auto max-w-[480px] max-h-[336px]">
                       <img src={Smart7} className="FI" alt="" />
                     </div>
-                    <div className="sm:col-span-1 col-span-2 py-[25px] pl-[45px]">
+                    <div className="sm:col-span-1 col-span-2 py-[25px] sm:pl-[45px]">
                       <h4 className="font-poppins text-[#001817] text-[16px] mt-[24px] mb-[12px]">
                         Bettr Coffee — Food and Beverage (F&B)
                       </h4>
@@ -389,7 +394,7 @@ export default function Our_Works() {
               <div className="">
                 <Link to={"/teorra"}>
                   <div className="grid grid-cols-2 pb-[45px] mb-[13px]">
-                    <div className="sm:col-span-1 col-span-2 py-[25px] pr-[45px]">
+                    <div className="sm:col-span-1 col-span-2 py-[25px] sm:pr-[45px]">
                       <h4 className="font-poppins text-[#001817] text-[16px] mt-[24px] mb-[12px]">
                         Teorra — Sustainability Technology
                       </h4>
@@ -417,7 +422,7 @@ export default function Our_Works() {
                     <div className="sm:col-span-1 col-span-2 xl:my-0 my-auto sm:mx-0 mx-auto max-w-[480px] max-h-[336px]">
                       <img src={Smart9} className="FI" alt="" />
                     </div>
-                    <div className="sm:col-span-1 col-span-2 py-[25px] pl-[45px]">
+                    <div className="sm:col-span-1 col-span-2 py-[25px] sm:pl-[45px]">
                       <h4 className="font-poppins text-[#001817] text-[16px] mt-[24px] mb-[12px]">
                         ACE Card — Food and Bevarages
                       </h4>
@@ -438,7 +443,7 @@ export default function Our_Works() {
               <div className="">
                 <Link to={"/alotool"}>
                   <div className="grid grid-cols-2 pb-[45px] mb-[13px]">
-                    <div className="sm:col-span-1 col-span-2 py-[25px] pr-[45px]">
+                    <div className="sm:col-span-1 col-span-2 py-[25px] sm:pr-[45px]">
                       <Link to={"/alotool"}>
                         <h4 className="font-poppins text-[#001817] text-[16px] mt-[24px] mb-[12px]">
                           AIO — Event Registration tool
@@ -466,7 +471,7 @@ export default function Our_Works() {
                     <div className="sm:col-span-1 col-span-2 xl:my-0 my-auto sm:mx-0 mx-auto max-w-[480px] max-h-[336px]">
                       <img src={Smart11} className="FI" alt="" />
                     </div>
-                    <div className="sm:col-span-1 col-span-2 py-[25px] pl-[45px]">
+                    <div className="sm:col-span-1 col-span-2 py-[25px] sm:pl-[45px]">
                       <h4 className="font-poppins text-[#001817] text-[16px] mt-[24px] mb-[12px]">
                         10-min Tutor — Edutech
                       </h4>
@@ -484,7 +489,7 @@ export default function Our_Works() {
               <div className="">
                 <Link to={"/hybridems"}>
                   <div className="grid grid-cols-2 pb-[45px] mb-[13px]">
-                    <div className="sm:col-span-1 col-span-2 py-[25px] pr-[45px]">
+                    <div className="sm:col-span-1 col-span-2 py-[25px] sm:pr-[45px]">
                       <h4 className="font-poppins text-[#001817] text-[16px] mt-[24px] mb-[12px]">
                         Hybrid EMS — Hybrid Event management Platform
                       </h4>
@@ -508,7 +513,7 @@ export default function Our_Works() {
                     <div className="sm:col-span-1 col-span-2 xl:my-0 my-auto sm:mx-0 mx-auto max-w-[480px] max-h-[336px]">
                       <img src={Smart13} className="FI" alt="" />
                     </div>
-                    <div className="sm:col-span-1 col-span-2 py-[25px] pl-[45px]">
+                    <div className="sm:col-span-1 col-span-2 py-[25px] sm:pl-[45px]">
                       <h4 className="font-poppins text-[#001817] text-[16px] mt-[24px] mb-[12px]">
                         WSG — Workforce Singapore — Career Guidance
                       </h4>
@@ -528,7 +533,7 @@ export default function Our_Works() {
               <div className="">
                 <Link to={"/somethingnew"}>
                   <div className="grid grid-cols-2 pb-[45px] mb-[13px]">
-                    <div className="sm:col-span-1 col-span-2 py-[25px] pr-[45px]">
+                    <div className="sm:col-span-1 col-span-2 py-[25px] sm:pr-[45px]">
                       <h4 className="font-poppins text-[#001817] text-[16px] mt-[24px] mb-[12px]">
                         SomethingNew — Mental Health
                       </h4>
@@ -554,7 +559,7 @@ export default function Our_Works() {
                     <div className="sm:col-span-1 col-span-2 xl:my-0 my-auto sm:mx-0 mx-auto max-w-[480px] max-h-[336px]">
                       <img src={Smart15} className="FI" alt="" />
                     </div>
-                    <div className="sm:col-span-1 col-span-2 py-[25px] pl-[45px]">
+                    <div className="sm:col-span-1 col-span-2 py-[25px] sm:pl-[45px]">
                       <h4 className="font-poppins text-[#001817] text-[16px] mt-[24px] mb-[12px]">
                         Renonation — Real Estate, Renovation
                       </h4>
@@ -572,7 +577,7 @@ export default function Our_Works() {
               <div className="">
                 <Link to={"/tueetoredutech"}>
                   <div className="grid grid-cols-2 pb-[45px] mb-[13px]">
-                    <div className="sm:col-span-1 col-span-2 py-[25px] pr-[45px]">
+                    <div className="sm:col-span-1 col-span-2 py-[25px] sm:pr-[45px]">
                       <h4 className="font-poppins text-[#001817] text-[16px] mt-[24px] mb-[12px]">
                         Tueetor — Edutech
                       </h4>
@@ -595,7 +600,7 @@ export default function Our_Works() {
                     <div className="sm:col-span-1 col-span-2 xl:my-0 my-auto sm:mx-0 mx-auto max-w-[480px] max-h-[336px]">
                       <img src={Smart17} className="FI" alt="" />
                     </div>
-                    <div className="sm:col-span-1 col-span-2 py-[25px] pl-[45px]">
+                    <div className="sm:col-span-1 col-span-2 py-[25px] sm:pl-[45px]">
                       <h4 className="font-poppins text-[#001817] text-[16px] mt-[24px] mb-[12px]">
                         KWSH — Agile Project Management
                       </h4>
@@ -613,7 +618,7 @@ export default function Our_Works() {
               <div className="">
                 <Link to={"/barebottom"}>
                   <div className="grid grid-cols-2 pb-[45px] mb-[13px]">
-                    <div className="sm:col-span-1 col-span-2 py-[25px] pr-[45px]">
+                    <div className="sm:col-span-1 col-span-2 py-[25px] sm:pr-[45px]">
                       <h4 className="font-poppins text-[#001817] text-[16px] mt-[24px] mb-[12px]">
                         barePack — Sustainability Solution
                       </h4>
@@ -637,7 +642,7 @@ export default function Our_Works() {
                     <div className="sm:col-span-1 col-span-2 xl:my-0 my-auto sm:mx-0 mx-auto max-w-[480px] max-h-[336px]">
                       <img src={Smart19} className="FI" alt="" />
                     </div>
-                    <div className="sm:col-span-1 col-span-2 py-[25px] pl-[45px]">
+                    <div className="sm:col-span-1 col-span-2 py-[25px] sm:pl-[45px]">
                       <h4 className="font-poppins text-[#001817] text-[16px] mt-[24px] mb-[12px]">
                         Acceset Singapore — Mental Health Care
                       </h4>
@@ -655,7 +660,10 @@ export default function Our_Works() {
               <div className="">
                 <Link to={"/lhommes"}>
                   <div className="grid grid-cols-2 pb-[45px] mb-[13px]">
-                    <div className="sm:col-span-1 col-span-2 py-[25px] pr-[45px]">
+                    <div
+                      className="sm:col-span-1 col-span-2 py-[25px] sm:
+                    pr-[45px]"
+                    >
                       <h4 className="font-poppins text-[#001817] text-[16px] mt-[24px] mb-[12px]">
                         L’Hommes — Fashion E-commerce
                       </h4>

@@ -10,7 +10,7 @@ export default function Footer() {
   const Footer = [
     {
       name: "About us",
-      url: "/aboutus"
+      url: "/ourwork"
     },
     {
       name: "Process",
@@ -22,7 +22,7 @@ export default function Footer() {
     },
     {
       name: "Learning Hub",
-      url: "/learninghub"
+      url: "/blog"
     },
     {
       name: "Career",
@@ -30,7 +30,7 @@ export default function Footer() {
     },
     {
       name: "Contact us",
-      url: "/contactus"
+      url: "/contact"
     }
   ]
 
@@ -103,7 +103,7 @@ export default function Footer() {
     },
     {
       name: "UI/UX Design",
-      url: "/ui/uxdesign"
+      url: "/uiuxdesign"
     },
     {
       name: "Software Development",
@@ -138,7 +138,7 @@ export default function Footer() {
             <div className="col-span-1 leading-[57px]">
               <h2 className='text-[50px] font-poppins text-[#FFFFFF]'>Have an idea ?</h2>
 
-              {/* <Link to={""} className='text-[#FFFFFF] text-[40px] font-[100] font-poppins'>Let's discuss</Link> */}
+              
 
               <a className='sdfghj mb-[15px]  ' href="">Let's discuss</a>
               <div className='boders pb-[0px] w-[254px]'></div>
@@ -228,8 +228,8 @@ export default function Footer() {
           </div>
           <div className="grid sm:grid-cols-2 grid-cols-1 gap-10 pt-[0px] xl:px-[10px] px-[14px] ">
             <div className="col-span-1 text-[#FFFFFF] font-poppins"><Link to={""}>Privacy Policy</Link> <Link to={""}>Sitemap</Link> </div>
-            <div className=" col-span-1 pb-[20px]">
-              <ul className='flex text-white lg:gap-[60px] md:gap-[40px] gap-[25px] float-right text-[18px] duration-700  font-poppins'>
+            <div className="sm:block hidden col-span-1 pb-[20px]">
+              <ul className=' flex text-white lg:gap-[60px] md:gap-[40px] gap-[25px] float-right text-[18px] duration-700  font-poppins'>
                 <li className='hover:text-gray-800 duration-700'>
                   <Link to={''}>Facebook</Link>
                 </li>

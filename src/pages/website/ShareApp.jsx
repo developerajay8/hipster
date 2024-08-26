@@ -81,16 +81,16 @@ export default function ShareApp() {
         </Container4>
       </div>
 
-      <div className="py-[80px] xl:px-[0px] px-[20px]">
+      <div className="sm:py-[80px] py-[12px] xl:px-[0px] px-[20px]">
         <Container4>
         <div className=''>
           <h2 className='mb-[15px] text-[50px] font-poppins text-[#000000]'>Services</h2>
           <ul className='flex flex-wrap'>
             <li className='bg-[#ccefee] mb-[20px] duration-1000  hover:bg-[#73dedb] mr-[10px] py-[18px] px-[32px] w-[294px] rounded-full'>
-              <Link className='text-[18px] font-poppins hover:text-[#FFFFFF] duration-1000 text-[#001817]' to={''}>Mobile App Development</Link>
+              <Link className='text-[18px] font-poppins hover:text-[#FFFFFF] duration-1000 text-[#001817]' to={'/mobileappdevelopment'}>Mobile App Development</Link>
             </li>
             <li className='bg-[#ccefee] duration-1000  hover:bg-[#73dedb] mb-[20px] mr-[10px] py-[18px] px-[32px] w-[234px] rounded-full'>
-              <Link className='text-[18px] font-poppins hover:text-[#FFFFFF] duration-1000 text-[#001817]' to={''}>Web Development</Link>
+              <Link className='text-[18px] font-poppins hover:text-[#FFFFFF] duration-1000 text-[#001817]' to={'/webdevelopment'}>Web Development</Link>
             </li>
           </ul>
         </div>
@@ -129,8 +129,8 @@ export default function ShareApp() {
 
       <div className="md:h-[120px] h-[30px]"></div>
       <div className="xl:block hidden">
-        <div className="max-w-[1200px] Shares ml-auto">
-          <div className="grid grid-cols-5 py-[80px] mx-[100px]">
+        <div className="max-w-[1200px] Shares sm:ml-auto">
+          <div className="grid md:grid-cols-5 py-[80px] mx-[100px]">
             <div className="col-span-2"></div>
             <div className="col-span-3">
               <p className='text-[20px] font-poppins text-[#FFFFFF] font-semibold'>Share is designed to solve the pain points associated with individuals not seeking help for mental health related issues. It is also really simple for administrators to manage.</p>
@@ -157,8 +157,8 @@ export default function ShareApp() {
 
 
       <div className='md:pt-[80px]'></div>
-      <div className="xl:pl-[80px] md:pl-[30px] md:pr-[4px] pl-[15px] pr-[12px] bg-[#5787ca]">
-        <div className="grid md:grid-cols-2 grid-cols-1 gap-9">
+      <div className=" md:pr-[4px] pr-[12px] bg-[#5787ca]">
+        <div className="grid md:grid-cols-2 max-w-[1440px] mx-auto xl:px-0 px-[20px] grid-cols-1 gap-9">
           <div className='md:col-span-1 col-span-1 md:my-auto md:pt-[0px] pt-[30px]'>
             <div>
               <h2 className='mb-[30px] text-[48px] font-poppins text-[#FFFFFF] lg:leading-[70px] leading-[55px]'>App landing page</h2>
@@ -194,22 +194,26 @@ export default function ShareApp() {
           </div>
         </div>
       </div>
-      <div className="py-[80px]">
+      <div className="sm:py-[80px]">
         <div className=" lg:mx-[198px] md:mx-[80px] mx-[30px] ">
-          <div>
-            <h2 className='text-center text-[42px] text-[#000000] font-poppins '>
-              <Link className='bbn' to={''}>Next Case Study</Link>
-            </h2>
-            <div className="py-[50px] text-center">
-              <div className='text-[24px] font-poppins text-[#001817] mb-[15px]'>
-                <Link to={''}>Share App - Mental Health</Link>
-              </div>
-              <h3 className='font-semibold text-[32px] max-w-[500px] mx-auto text-center leading-[42px] text-[#001817] font-poppins'>
-                <Link className='mb-[12px]' to={''}>On-demand therapy app that allows one to find a therapist instantly.</Link>
-              </h3>
-            </div>
+        <div className="">
+  <h2 className="text-center text-[28px] md:text-[36px] lg:text-[42px] text-[#000000] font-poppins">
+    <Link className="bbn" to={"/commonsuits"}>
+      Next Case Study
+    </Link>
+  </h2>
+  <div className="py-[30px] md:py-[40px] lg:py-[50px] text-center">
+    <div className="text-[18px] md:text-[20px] lg:text-[24px] font-poppins text-[#001817] mb-[10px] md:mb-[12px] lg:mb-[15px]">
+      <Link to={"/commonsuits"}>Common Suits — Fashion E-commerce</Link>
+    </div>
+    <h3 className="font-semibold text-[24px] md:text-[28px] lg:text-[32px] max-w-[100%] md:max-w-[600px] lg:max-w-[500px] mx-auto text-center leading-[30px] md:leading-[36px] lg:leading-[42px] text-[#001817] font-poppins">
+      <Link className="mb-[8px] md:mb-[10px] lg:mb-[12px]" to={""}>
+      Visualisation technology to improve the online and offline retail experience
+      </Link>
+    </h3>
+  </div>
+</div>
 
-          </div>
         </div>
       </div>
     </div>
