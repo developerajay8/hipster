@@ -466,11 +466,13 @@ import z4 from "./z4ip-banner.webp";
 import alotool from "./alotool-banner.webp";
 import kwshbanner from "./kwshbanner.webp";
 import hps from "./hps.webp";
+import business from "./business.png";
 
 
 
 
 
+export{business};
 export{hps};
 export{kwshbanner};
 export{alotool};

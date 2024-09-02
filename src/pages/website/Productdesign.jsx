@@ -33,7 +33,7 @@ import { Link } from "react-router-dom";
 import Container2 from "../../components/Container2";
 import SimpleSlider from "./SimpleSlider";
 
-export default function Software_Development() {
+export default function Productdesign() {
   const accordElems = Data.map((d, i) => {
     // console.log(d,i);
     return (
@@ -50,8 +50,6 @@ export default function Software_Development() {
   return (
     <div>
       <Container4>
-        
-
         <div className=" pt-[100px] sm:pb-[80px] pb-[50px] xl:px-0 lg:px-[30px] md:px-[40px] sm:px-[20px] px-[20px]">
           <div className="">
             <h1
@@ -59,7 +57,7 @@ export default function Software_Development() {
               data-aos="slide-right"
               data-aos-duration="500"
             >
-              Enterprise Software Development
+              Product Design
             </h1>
             <h2
               className="max-w-[865px] font-semibold text-[#001817] xl:text-[32px] lg:text-[28px] sm:text-[24px]
@@ -67,7 +65,9 @@ export default function Software_Development() {
               data-aos="slide-left"
               data-aos-duration="500"
             >
-              Enterprise Software Development is a multi-disciplinary approach, and often includes functions such as CRM (Customer Relationship Management), BI (Business Intelligence), operations and order fulfillment, online payment processing, accounting, just to name a few.
+              Product design is the process designers use to blend user needs
+              with business goals to help brands make consistently successful
+              products.
             </h2>
           </div>
         </div>
@@ -93,48 +93,90 @@ export default function Software_Development() {
               data-aos="slide-up"
               data-aos-duration="700"
             >
-              <div className="col-span-1 ">
-                <Link to={'/tueetoredutech'}>
-                <img src={edt} alt="" />
-                </Link>
-                <Link to={'/tueetoredutech'}>
-                <div className="py-[25px]">
-                  <h4 className="mb-[12px] text-[24px] font-poppins text-[#001817]">
-                    Tueetor — Edutech
-                  </h4>
-                  <h3 className="lg:text-[32px] text-[24px] font-poppins font-bold text-[#001817]">
-                    Online platform for finding digital tutors
-                  </h3>
-                  <ul classNameclassName="mt-[20px]">
-                    <li className="text-[14px] font-poppins text-[#000000]">
-                      Match Making Platform, Education Tech
-                    </li>
-                  </ul>
+              <div className="col-span-1  mb-[17px]">
+                <div className="lg:pt-[92px] md:pt-[72px]">
+                  <Link to={"/mintutor"}>
+                    <img src={Sx} alt="" />
+                  </Link>
+                  <Link to={"/mintutor"}>
+                    <div className="py-[25px]">
+                      <h4 className="mb-[12px] text-[24px] font-poppins text-[#001817]">
+                        10-min Tutor — Edutech
+                      </h4>
+                      <h3 className="lg:text-[32px] text-[24px] font-semibold font-poppins text-[#001817]">
+                        On-demand tutor app with video-telephony & marketplace
+                        functionalities
+                      </h3>
+                      <ul className="mt-[20px]">
+                        <li className="text-[14px] font-poppins text-[#000000]">
+                          On-Demand Video Solutions, Education Tech
+                        </li>
+                      </ul>
+                    </div>
+                  </Link>
                 </div>
-                </Link>
               </div>
               <div className="col-span-1  mb-[17px]">
                 <div className="lg:pt-[92px] md:pt-[72px]">
-                <Link to={'/mintutor'}>
-                  <img src={Sx} alt="" />
+                  <Link to={"/lhommes"}>
+                    <img src={olm} alt="" />
                   </Link>
-                  <Link to={'/mintutor'}>
+                  <Link to={"/lhommes"}>
+                    <div className="py-[25px]">
+                      <h4 className="mb-[12px] text-[24px] font-poppins text-[#001817]">
+                        L’Hommes — Fashion E-commerce
+                      </h4>
+                      <h3 className="lg:text-[32px] text-[24px] font-semibold font-poppins text-[#001817]">
+                        Custom suits e-commerce platform with fit visualization
+                      </h3>
+                      <ul className="mt-[20px]">
+                        <li className="text-[14px] font-poppins text-[#000000]">
+                          Personalized Fashion
+                        </li>
+                      </ul>
+                    </div>
+                  </Link>
+                </div>
+              </div>
+              <div className="col-span-1 ">
+                <Link to={"/physicleteam"}>
+                  <img src={SS} alt="" />
+                </Link>
+                <Link to={"/physicleteam"}>
                   <div className="py-[25px]">
                     <h4 className="mb-[12px] text-[24px] font-poppins text-[#001817]">
-                      10-min Tutor — Edutech
+                      Tbit — Team Engagement
                     </h4>
-                    <h3 className="lg:text-[32px] text-[24px] font-semibold font-poppins text-[#001817]">
-                      On-demand tutor app with video-telephony & marketplace
-                      functionalities
+                    <h3 className="lg:text-[32px] text-[24px] font-poppins font-bold text-[#001817]">
+                      A physical team-building app: say no to boring activities!
                     </h3>
-                    <ul className="mt-[20px]">
+                    <ul classNameclassName="mt-[20px]">
                       <li className="text-[14px] font-poppins text-[#000000]">
-                        On-Demand Video Solutions, Education Tech
+                        Gamification in Tech, Event Management
                       </li>
                     </ul>
                   </div>
-                  </Link>
-                </div>
+                </Link>
+              </div>
+              <div className="col-span-1 ">
+                <Link to={"/tueetoredutech"}>
+                  <img src={edt} alt="" />
+                </Link>
+                <Link to={"/tueetoredutech"}>
+                  <div className="py-[25px]">
+                    <h4 className="mb-[12px] text-[24px] font-poppins text-[#001817]">
+                      Tueetor — Edutech
+                    </h4>
+                    <h3 className="lg:text-[32px] text-[24px] font-poppins font-bold text-[#001817]">
+                      Online platform for finding digital tutors
+                    </h3>
+                    <ul classNameclassName="mt-[20px]">
+                      <li className="text-[14px] font-poppins text-[#000000]">
+                        Match Making Platform, Education Tech
+                      </li>
+                    </ul>
+                  </div>
+                </Link>
               </div>
             </div>
             <div
@@ -142,48 +184,7 @@ export default function Software_Development() {
               data-aos="slide-up"
               data-aos-duration="700"
             >
-              <div className="col-span-1 ">
-              <Link to={'/physicleteam'}>
-                <img src={SS} alt="" />
-                </Link>
-                <Link to={'/physicleteam'}>
-                <div className="py-[25px]">
-                  <h4 className="mb-[12px] text-[24px] font-poppins text-[#001817]">
-                    Tbit — Team Engagement
-                  </h4>
-                  <h3 className="lg:text-[32px] text-[24px] font-poppins font-bold text-[#001817]">
-                    A physical team-building app: say no to boring activities!
-                  </h3>
-                  <ul classNameclassName="mt-[20px]">
-                    <li className="text-[14px] font-poppins text-[#000000]">
-                      Gamification in Tech, Event Management
-                    </li>
-                  </ul>
-                </div>
-                </Link>
-              </div>
-              <div className="col-span-1  mb-[17px]">
-                <div className="lg:pt-[92px] md:pt-[72px]">
-                <Link to={'/lhommes'}>
-                  <img src={olm} alt="" />
-                  </Link>
-                  <Link to={'/lhommes'}>
-                  <div className="py-[25px]">
-                    <h4 className="mb-[12px] text-[24px] font-poppins text-[#001817]">
-                      L’Hommes — Fashion E-commerce
-                    </h4>
-                    <h3 className="lg:text-[32px] text-[24px] font-semibold font-poppins text-[#001817]">
-                      Custom suits e-commerce platform with fit visualization
-                    </h3>
-                    <ul className="mt-[20px]">
-                      <li className="text-[14px] font-poppins text-[#000000]">
-                        Personalized Fashion
-                      </li>
-                    </ul>
-                  </div>
-                  </Link>
-                </div>
-              </div>
+              
             </div>
           </div>
         </Container4>

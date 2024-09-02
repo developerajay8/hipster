@@ -1,11 +1,25 @@
 import React from 'react'
 import { TiArrowRight } from "react-icons/ti";
 import Container2 from './Container2';
-import { Ajay, bomb, pencil3, two, warning } from '../assets';
+import { Ajay, bomb, business, pencil3, two, warning } from '../assets';
 import { Link } from 'react-router-dom';
-
+import { useState } from 'react';
 
 export default function Footer() {
+
+  const [showContent, setShowContent] = useState(false);
+  const [position, setPosition] = useState({ top: 0 });
+
+  const handleReadMore = (e) => {
+    e.preventDefault();
+    const rect = e.target.getBoundingClientRect();
+    setPosition({ top: rect.top + window.scrollY });
+    setShowContent(true);
+  };
+
+  const closeContent = () => {
+    setShowContent(false);
+  };
 
   const Footer = [
     {
@@ -117,12 +131,12 @@ export default function Footer() {
 
   return (
     <div>
-      {/* <div className='bg-[#001e1d] py-[20px] xl:px-[18px] '>
+      {/* <div className='bg-[#001e1d] py-[20px]  '>
         <Container2>
           <div className="grid grid-cols-1  box-border ">
             <div className="flex items-center gap-1 xl:px-[0px] BTSP">
               <img src={warning} alt="" />
-              <div className='text-[#FFFFFF] font-poppins text-[14px]'>We have recently received complaints that members of the public are targeted by some agents through WhatsApp who claim to be from Hipster Private Limited and using our UEN ...
+              <div className='text-[#FFFFFF] font-poppins text-[14px] truncate'>We have recently received complaints that members of the public are targeted by some agents through WhatsApp who claim to be from Hipster Private Limited and using our UEN ...
               </div>
               <button className=' text-[#FFFFFF] font-poppins font-semibold text-[14px]'>
                 <Link className='Read mx-auto pb-1' to={""}>Read More</Link>
@@ -131,6 +145,56 @@ export default function Footer() {
           </div>
         </Container2>
       </div> */}
+
+
+<div className='bg-[#001e1d] py-[20px]'>
+      <Container2>
+        <div className="grid grid-cols-1 box-border">
+          <div className="flex items-center gap-1 xl:px-[0px] BTSP">
+            <img src={warning} alt="Warning" />
+            <div className='text-[#FFFFFF] font-poppins text-[14px] truncate'>
+              We have recently received complaints that members of the public are targeted by some agents through WhatsApp who claim to be from Hipster Private Limited and using our UEN ...
+            </div>
+            <button className='text-[#FFFFFF] font-poppins font-semibold text-[14px]'>
+              <Link className='Read mx-auto pb-1' to={""} onClick={handleReadMore}>Read More</Link>
+            </button>
+          </div>
+
+          {showContent && (
+            <div
+              style={{ position: 'absolute', top: position.top, left: '50%', transform: 'translateX(-50%)' }}
+              className="bg-white p-4 rounded-lg shadow-md z-50 max-w-[800px] w-full"
+            >
+              <h2 className="md:text-[20px] sm:text-[17px] text-[14px] font-semibold text-black">More Information</h2>
+              <p className="text-gray-700 my-4">
+              We have recently received complaints that members of the public are targeted by some agents through WhatsApp who claim to be from Hipster Private Limited and using our UEN number of Hipster Private Limited to prove that they are legit Singapore companies.
+              </p>
+
+              <p className="text-gray-700 my-4">
+              They also use a similar looking domain name, our logo, and address on the website to make it as similar & credible as possible.
+              </p>
+
+              <p className="text-gray-700 my-4">
+              We want to make it very clear that Our company doesn't appoint any agent/recruiter for this so call 'money earning by apps rating' or 'any Ponzi scheme' where you need to deposit any money to get jobs.
+
+              </p>
+
+              <p className="text-gray-700 my-4">
+              Our jobs are always posted on official company pages on social media such as Linkedin, Instagram, Facebook and WSG.
+              </p>
+              <button
+                className="bg-black text-white font-bold px-8 py-3 rounded-full"
+                onClick={closeContent}
+              >
+                Close
+              </button>
+            </div>
+          )}
+        </div>
+      </Container2>
+    </div>
+
+      
 
       <div className='footer py-[100px]'>
         <Container2>

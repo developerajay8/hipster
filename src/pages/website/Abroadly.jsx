@@ -208,7 +208,7 @@ export default function Abroadly() {
             <li className="bg-[#ccefee] duration-1000  hover:bg-[#73dedb] mb-[20px] mr-[10px] py-[18px] px-[32px] w-[234px] rounded-full">
               <Link
                 className="text-[18px] font-poppins hover:text-[#FFFFFF] duration-1000 text-[#001817]"
-                to={""}
+                to={"/webdevelopment"}
               >
                 Web Development
               </Link>
@@ -216,7 +216,7 @@ export default function Abroadly() {
             <li className="bg-[#ccefee] duration-1000  hover:bg-[#73dedb] mb-[20px] mr-[10px] py-[18px] px-[32px] w-[114px] rounded-full">
               <Link
                 className="text-[18px] font-poppins hover:text-[#FFFFFF] duration-1000 text-[#001817]"
-                to={""}
+                to={"/uiuxdesign"}
               >
                 UI/UX
               </Link>
@@ -224,6 +224,8 @@ export default function Abroadly() {
           </ul>
         </div>
       </div>
+
+      
 
       {/* Compleate responsive */}
       <div className="">

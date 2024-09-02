@@ -67,7 +67,7 @@ export default function O_T_H_P() {
               <h3 className='lg:text-[28px] text-[22px] font-poppins mb-[16px] text-[#000000] font-semibold'>Survey App</h3>
               <p className='lg:text-[20px] text-[16px] text-[#596868] font-poppins '>Create surveys with complex question logic using the survey app. Pick from various question types – like multiple choice, scaling, conditional questions, and more. Roles can also be assigned within your organization, giving individuals different levels of access.</p>
               <div className="my-[20px]">
-                <Link className='px-[20px] rounded-full py-[14px] bg-dark text-[#efecec] font-poppins' to={''}>Explore more</Link>
+                <Link className='px-[20px] rounded-full py-[14px] bg-dark text-[#efecec] font-poppins' to={'/kwsh'}>Explore more</Link>
               </div>
             </div>
             <div className="col-span-1 lg:pl-[60px] pl-[12px] pt-[48px] pr-[12px]"data-aos="slide-left" data-aos-duration="500">
@@ -75,7 +75,7 @@ export default function O_T_H_P() {
               <h3 className='lg:text-[28px] text-[22px] font-poppins mb-[16px] text-[#000000] font-semibold'>Hybrid Event Management Platform</h3>
               <p className='lg:text-[20px] text-[16px] text-[#596868] font-poppins '>Virtual Breaker is a platform by Hipster that powers all your onsite and virtual events –be it meetings, exhibitions, or conferences. This platform seamlessly connects your in-person and virtual attendees for an interactive and engaging event experience. Find out more by visiting Virtual Breaker’s website.</p>
               <div className="my-[20px]">
-                <Link className='px-[20px] rounded-full py-[14px] bg-dark text-[#efecec] font-poppins' to={''}>Explore more</Link>
+                <Link className='px-[20px] rounded-full py-[14px] bg-dark text-[#efecec] font-poppins' to={'https://virtualbreaker.com/'}>Explore more</Link>
               </div>
             </div>
           </div>
@@ -87,7 +87,7 @@ export default function O_T_H_P() {
               <h3 className='lg:text-[28px] text-[22px] font-poppins mb-[16px] text-[#000000] font-semibold'>Learning Management Platform</h3>
               <p className='lg:text-[20px] text-[16px] text-[#596868] font-poppins '>This all-in-one cloud-based system brings experiential learning everywhere and anywhere – from online learning, scheduling of classes, and connecting educators to students. Use technology to focus time on student learning rather than fulfilling administrative duties.</p>
               <div className="my-[20px]">
-                <Link className='px-[20px] rounded-full py-[14px] bg-dark text-[#efecec] font-poppins' to={''}>Explore more</Link>
+                <Link className='px-[20px] rounded-full py-[14px] bg-dark text-[#efecec] font-poppins' to={'/tueetoredutech'}>Explore more</Link>
               </div>
             </div>
             <div className="col-span-1 lg:pl-[60px] pl-[12px] pt-[48px] pr-[12px]" data-aos="slide-left" data-aos-duration="500">

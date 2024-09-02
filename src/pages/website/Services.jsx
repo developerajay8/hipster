@@ -34,8 +34,7 @@ export default function Services() {
               data-aos="slide-up"
               data-aos-duration="1000"
             >
-              Creating awesome applications and websites is part of our daily
-              life at Hipster. We offer customized and off-the-shelf solutions.{" "}
+              Unlock your growth potential with our comprehensive range of tailored digital services: driving online visibility, engaging audiences, and delivering measurable results.{" "}
             </h2>
           </div>
         </div>
@@ -64,13 +63,11 @@ export default function Services() {
           <div className="lg:col-span-2  col-span-2 my-auto  lg:pb-[0px] pb-[20px]">
             <div className="md:pr-[65px] pr-[0px]">
               <h2 className="text-[32px] font-poppins text-[#000000] mb-[16px] fo">
-                Web App Development
+              Branding
               </h2>
               <p className="text-[#657676] xl:text-[20px] sm:text-[18px] text-[16px] mb-[16px] font-poppins">
-                We build websites that thrive at the intersection of business
-                goals and user needs. In a world where most web traffic is on
-                mobile, our team creates responsive, fast, and secure websites
-                that work elegantly across mobile and desktop.
+              Build a distinctive brand identity that resonates with your audience. Our branding services encompass market research, brand strategy, and visual identity design, ensuring that your brand stands out in the competitive landscape.
+
               </p>
               <button className="bg-black hover:bg-gray-900 duration-700 py-3 rounded-full items-center">
                 <Link
@@ -104,10 +101,10 @@ export default function Services() {
           <div className="lg:col-span-2  col-span-2 my-auto lg:mt-0 lg-mt-[16px]">
             <div className="lg:pl-[65px] md:pr-[65px] lg:pr-[0px] pl-[0px]">
               <h2 className="text-[32px] font-poppins text-[#000000] mb-[16px] fo">
-              Mobile App Development
+              Social Media Management
               </h2>
               <p className="text-[#657676] xl:text-[20px] sm:text-[18px] text-[16px] mb-[16px] font-poppins">
-              Hipster offers a broad spectrum of mobile app development services, including iOS, Android, React Native, and Flutter development. More importantly, we are here to support you through pre and post-development via prototyping, testing, technical guidance, and more.
+              Cultivate a vibrant social media presence with our expert management services. From content creation to community engagement, we help you leverage social platforms to enhance brand visibility and connect with your audience.
               </p>
               <button className="bg-black hover:bg-gray-900 duration-700 py-3 rounded-full items-center">
                 <Link
@@ -127,10 +124,10 @@ export default function Services() {
           <div className="lg:col-span-2  col-span-2 lg:pb-[0px] pb-[20px] my-auto  ">
             <div className="md:pr-[65px] pr-[0px]">
               <h2 className="text-[32px] font-poppins text-[#000000] mb-[16px] fo">
-              UI/UX
+              Performance Marketing
               </h2>
               <p className="text-[#657676] xl:text-[20px] sm:text-[18px] text-[16px] mb-[16px] font-poppins">
-              The best designs instill confidence in your brand and product. They inspire users to purchase, use and evangelise your product. Our designers conduct user research and create information architecture and prototypes to upkeep your brand’s visual identity and ensure that your product is showcased appropriately in the digital space.
+              Amplify your online reach and drive conversions through targeted performance marketing strategies. Our team leverages data-driven insights to craft campaigns that maximize ROI and deliver measurable results.
               </p>
               <button className="bg-black hover:bg-gray-900 duration-700 py-3 rounded-full items-center">
                 <Link
@@ -164,14 +161,12 @@ export default function Services() {
           <div className="lg:col-span-2  col-span-2 my-auto lg:mt-0 lg-mt-[16px]">
             <div className="lg:pl-[65px] md:pr-[65px] lg:pr-[0px] pl-[0px]">
               <h2 className="text-[32px] font-poppins text-[#000000] mb-[16px] fo">
-              Software Development
+              Designing and Editing
               </h2>
               <p className="text-[#657676] xl:text-[20px] sm:text-[18px] text-[16px] mb-[16px] font-poppins">
-              Creating tailor-made software for your business needs is our forte! Our team works with a flow to cover every stage from inception to completion in understanding your requirements through to testing and final releases.
+              Elevate your visual presence with captivating design and precision editing. Our talented team brings your creative vision to life through impactful imagery, graphics, and visual storytelling.
               </p>
-              <p className="text-[#657676] xl:text-[20px] sm:text-[18px] text-[16px] mb-[16px] font-poppins">
-Look no further if you are searching for a ready-to-use tool. Hipster offers a wide range of convenient solutions that work across industries. Examples include hybrid event management, learning management, customer loyalty, and social community platforms.
-              </p>
+              
               <button className="bg-black hover:bg-gray-900 duration-700 py-3 rounded-full items-center">
                 <Link
                   to={"/softwaredevelopment"}
@@ -185,40 +180,191 @@ Look no further if you are searching for a ready-to-use tool. Hipster offers a w
         </div>
       </Container4>
 
-      {/* <Container4>
-        <div className="xl:py-[80px] py-[40px] xl:px-0 lg:px-[30px] grid lg:grid-cols-5 grid-cols-2">
-          <div className='lg:col-span-2  col-span-2 my-auto lg:mx-0 md:mx-[110px] sm:mx-[30px] mx-[20px] '>
-            <div className='md:pr-[65px] pr-[0px]'>
-              <h2 className='text-[32px] font-poppins text-[#000000] mb-[16px] fo'>Web App Development</h2>
-              <p className='text-[#657676] xl:text-[20px] sm:text-[18px] text-[16px] mb-[16px] font-poppins'>We build websites that thrive at the intersection of business goals and user needs. In a world where most web traffic is on mobile, our team creates responsive, fast, and secure websites that work elegantly across mobile and desktop.</p>
-              <button className='bg-black hover:bg-gray-900 duration-700 py-3 rounded-full items-center'>
-                <Link to={""} className='text-[#dedede] duration-700 hover:text-[#adadad] px-[20px] font-semibold'>Explore More</Link>
+
+      <Container4>
+        <div className="xl:py-[80px] py-[40px] xl:px-0 px-[20px] grid lg:grid-cols-5 grid-cols-2">
+          <div className="lg:col-span-2  col-span-2 my-auto  lg:pb-[0px] pb-[20px]">
+            <div className="md:pr-[65px] pr-[0px]">
+              <h2 className="text-[32px] font-poppins text-[#000000] mb-[16px] fo">
+              Media Production
+              </h2>
+              <p className="text-[#657676] xl:text-[20px] sm:text-[18px] text-[16px] mb-[16px] font-poppins">
+              From concept to execution, our media production services encompass video, audio, and multimedia content creation, ensuring compelling storytelling that captivates your audience.
+
+              </p>
+              <button className="bg-black hover:bg-gray-900 duration-700 py-3 rounded-full items-center">
+                <Link
+                  to={"/webdevelopment"}
+                  className="text-[#dedede] duration-700 hover:text-[#adadad] px-[20px] font-semibold"
+                >
+                  Explore More
+                </Link>
               </button>
             </div>
           </div>
-          <div className='lg:col-span-3  col-span-2 md:px-0 px-[20px] lg:ml-auto lg:mx-0 max-w-[643px] max-h-[468px] mx-auto  '>
-            <img src={img3} className='w-[100%] h-[100%]  md:mb-0 my-auto xl:mt-0 mt-[20px]' alt="" />
+          <div className="lg:col-span-3  col-span-2  lg:ml-auto  max-w-[643px] max-h-[468px] lg:mx-auto  ">
+            <img
+              src={img1}
+              className="w-[100%] h-[100%]  md:mb-0 my-auto xl:mt-0 mt-[20px]"
+              alt=""
+            />
           </div>
         </div>
       </Container4>
 
-
       <Container4>
-        <div className="xl:py-[80px] py-[40px] xl:px-0 lg:px-[30px] grid lg:grid-cols-5 grid-cols-2">
-          <div className='lg:col-span-3  col-span-2 md:px-0 px-[20px] lg:mr-auto lg:mx-0 max-w-[643px] max-h-[468px] mx-auto  '>
-            <img src={img4} className='w-[100%] h-[100%]  md:mb-0 my-auto ' alt="" />
+        <div className="xl:py-[80px] py-[40px] xl:px-0 px-[20px] grid lg:grid-cols-5 grid-cols-2">
+          <div className="lg:col-span-3  col-span-2 lg:mr-auto lg:mb-0 mb-[20px] max-w-[643px] max-h-[468px] lg:mx-auto  ">
+            <img
+              src={img2}
+              className="w-[100%] h-[100%]  md:mb-0 my-auto "
+              alt=""
+            />
           </div>
-          <div className='lg:col-span-2  col-span-2 my-auto lg:mx-0 md:mx-[110px] sm:mx-[30px] mx-[20px] xl:mt-0 mt-[20px]'>
-            <div className='md:pl-[65px] pl-[0px]'>
-              <h2 className='text-[32px] font-poppins text-[#000000] mb-[16px] fo'>Web App Development</h2>
-              <p className='text-[#657676] xl:text-[20px] sm:text-[18px] text-[16px] mb-[16px] font-poppins'>We build websites that thrive at the intersection of business goals and user needs. In a world where most web traffic is on mobile, our team creates responsive, fast, and secure websites that work elegantly across mobile and desktop.</p>
-              <button className='bg-black hover:bg-gray-900 duration-700 py-3 rounded-full items-center'>
-                <Link to={""} className='text-[#dedede] duration-700 hover:text-[#adadad] px-[20px] font-semibold'>Explore More</Link>
+          <div className="lg:col-span-2  col-span-2 my-auto lg:mt-0 lg-mt-[16px]">
+            <div className="lg:pl-[65px] md:pr-[65px] lg:pr-[0px] pl-[0px]">
+              <h2 className="text-[32px] font-poppins text-[#000000] mb-[16px] fo">
+              Creative Production
+              </h2>
+              <p className="text-[#657676] xl:text-[20px] sm:text-[18px] text-[16px] mb-[16px] font-poppins">
+              Immerse your audience in captivating narratives with our creative production services, spanning from ideation to execution, delivering innovative and engaging content.
+              </p>
+              <button className="bg-black hover:bg-gray-900 duration-700 py-3 rounded-full items-center">
+                <Link
+                  to={"/mobileappdevelopment"}
+                  className="text-[#dedede] duration-700 hover:text-[#adadad] px-[20px] font-semibold"
+                >
+                  Explore More
+                </Link>
               </button>
             </div>
           </div>
         </div>
-      </Container4> */}
+      </Container4>
+
+      <Container4>
+        <div className="xl:py-[80px] py-[40px] xl:px-0 px-[20px] grid lg:grid-cols-5 grid-cols-2">
+          <div className="lg:col-span-2  col-span-2 lg:pb-[0px] pb-[20px] my-auto  ">
+            <div className="md:pr-[65px] pr-[0px]">
+              <h2 className="text-[32px] font-poppins text-[#000000] mb-[16px] fo">
+              CGI & 2D, 3D
+              </h2>
+              <p className="text-[#657676] xl:text-[20px] sm:text-[18px] text-[16px] mb-[16px] font-poppins">
+              Achieve immersive visual experiences with our cutting-edge CGI and 2D/3D animation services. We bring imagination to life, creating stunning visual content that captivates and enthralls.
+              </p>
+              <button className="bg-black hover:bg-gray-900 duration-700 py-3 rounded-full items-center">
+                <Link
+                  to={"/uiuxdesign"}
+                  className="text-[#dedede] duration-700 hover:text-[#adadad] px-[20px] font-semibold"
+                >
+                  Explore More
+                </Link>
+              </button>
+            </div>
+          </div>
+          <div className="lg:col-span-3 col-span-2  lg:ml-auto  max-w-[643px] max-h-[468px] lg:mx-auto  ">
+            <img
+              src={img3}
+              className="w-[100%] h-[100%]  md:mb-0 my-auto xl:mt-0 mt-[20px]"
+              alt=""
+            />
+          </div>
+        </div>
+      </Container4>
+
+      <Container4>
+        <div className="xl:py-[80px] py-[40px] xl:px-0 px-[20px] grid lg:grid-cols-5 grid-cols-2">
+          <div className="lg:col-span-3  col-span-2 lg:mr-auto lg:mb-0 mb-[20px] max-w-[643px] max-h-[468px] lg:mx-auto  ">
+            <img
+              src={img4}
+              className="w-[100%] h-[100%]  lg:mb-0  my-auto "
+              alt=""
+            />
+          </div>
+          <div className="lg:col-span-2  col-span-2 my-auto lg:mt-0 lg-mt-[16px]">
+            <div className="lg:pl-[65px] md:pr-[65px] lg:pr-[0px] pl-[0px]">
+              <h2 className="text-[32px] font-poppins text-[#000000] mb-[16px] fo">
+               Website and App Development
+              </h2>
+              <p className="text-[#657676] xl:text-[20px] sm:text-[18px] text-[16px] mb-[16px] font-poppins">
+              Leverage responsive and user-centric design with our website and app development services. Our expert team delivers seamless digital experiences that drive engagement and conversions.
+              </p>
+              
+              <button className="bg-black hover:bg-gray-900 duration-700 py-3 rounded-full items-center">
+                <Link
+                  to={"/softwaredevelopment"}
+                  className="text-[#dedede] duration-700 hover:text-[#adadad] px-[20px] font-semibold"
+                >
+                  Explore More
+                </Link>
+              </button>
+            </div>
+          </div>
+        </div>
+      </Container4>
+
+      <Container4>
+        <div className="xl:py-[80px] py-[40px] xl:px-0 px-[20px] grid lg:grid-cols-5 grid-cols-2">
+          <div className="lg:col-span-2  col-span-2 lg:pb-[0px] pb-[20px] my-auto  ">
+            <div className="md:pr-[65px] pr-[0px]">
+              <h2 className="text-[32px] font-poppins text-[#000000] mb-[16px] fo">
+              Web Application
+              </h2>
+              <p className="text-[#657676] xl:text-[20px] sm:text-[18px] text-[16px] mb-[16px] font-poppins">
+              Streamline your business operations with custom web applications tailored to your specific needs. Our solutions enhance efficiency, productivity, and user experience.
+              </p>
+              <button className="bg-black hover:bg-gray-900 duration-700 py-3 rounded-full items-center">
+                <Link
+                  to={"/uiuxdesign"}
+                  className="text-[#dedede] duration-700 hover:text-[#adadad] px-[20px] font-semibold"
+                >
+                  Explore More
+                </Link>
+              </button>
+            </div>
+          </div>
+          <div className="lg:col-span-3 col-span-2  lg:ml-auto  max-w-[643px] max-h-[468px] lg:mx-auto  ">
+            <img
+              src={img3}
+              className="w-[100%] h-[100%]  md:mb-0 my-auto xl:mt-0 mt-[20px]"
+              alt=""
+            />
+          </div>
+        </div>
+      </Container4>
+
+      <Container4>
+        <div className="xl:py-[80px] py-[40px] xl:px-0 px-[20px] grid lg:grid-cols-5 grid-cols-2">
+          <div className="lg:col-span-3  col-span-2 lg:mr-auto lg:mb-0 mb-[20px] max-w-[643px] max-h-[468px] lg:mx-auto  ">
+            <img
+              src={img4}
+              className="w-[100%] h-[100%]  lg:mb-0  my-auto "
+              alt=""
+            />
+          </div>
+          <div className="lg:col-span-2  col-span-2 my-auto lg:mt-0 lg-mt-[16px]">
+            <div className="lg:pl-[65px] md:pr-[65px] lg:pr-[0px] pl-[0px]">
+              <h2 className="text-[32px] font-poppins text-[#000000] mb-[16px] fo">
+              ERP (Enterprise Resource Planning)
+              </h2> 
+              <p className="text-[#657676] xl:text-[20px] sm:text-[18px] text-[16px] mb-[16px] font-poppins">
+              Optimize your business processes and data management with our ERP solutions, helping you integrate and manage core business functions seamlessly.
+              </p>
+              
+              <button className="bg-black hover:bg-gray-900 duration-700 py-3 rounded-full items-center">
+                <Link
+                  to={"/softwaredevelopment"}
+                  className="text-[#dedede] duration-700 hover:text-[#adadad] px-[20px] font-semibold"
+                >
+                  Explore More
+                </Link>
+              </button>
+            </div>
+          </div>
+        </div>
+      </Container4>
+
+      
 
       <div className="grid grid-cols-2 gap-6 xl:pb-[0px] pb-[20px] ">
         <div className="col-span-1 lg:block hidden max-w-[750px] max-h-[497px]">
@@ -271,7 +417,7 @@ Look no further if you are searching for a ready-to-use tool. Hipster offers a w
             </li>
           </ul>
           <button className="bg-slate-800 text-[#FFFFFF] px-[40px] py-[14px] font-semibold mt-[23px] rounded-full">
-            Explore More
+            <Link to={'/othertechnoliges'}>Explore More</Link>
           </button>
         </div>
       </div>

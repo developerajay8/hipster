@@ -174,14 +174,18 @@ export default function Web_Development() {
             </div>
             <div className=" grid md:grid-cols-2 grid-cols-1 gap-[80px] xl:px-[0px] lg:px-[14px] md:px-[20px] sm:px-[100px] px-[20px]" data-aos="slide-up"data-aos-duration="1000">
               <div className="col-span-1 ">
+              <Link to={'/abroadly'}>
                 <img src={atn} alt="" />
+                </Link>
+                <Link to={'/abroadly'}>
                 <div className="py-[25px]">
-                  <h4 className='mb-[12px] text-[24px] font-poppins text-[#001817]'>L’Hommes — Fashion E-commerce</h4>
-                  <h3 className='lg:text-[32px] text-[24px] font-poppins font-bold text-[#001817]'>Custom suits e-commerce platform with fit visualization</h3>
+                  <h4 className='mb-[12px] text-[24px] font-poppins text-[#001817]'>Abroadly — Travel</h4>
+                  <h3 className='lg:text-[32px] text-[24px] font-poppins font-bold text-[#001817]'>An interactive "Home away from Home" community for backpackers, travellers and hosts</h3>
                   <ul classNameclassName='mt-[20px]'>
-                    <li className='text-[14px] font-poppins text-[#000000]'>Personalized Fashion</li>
+                    <li className='text-[14px] font-poppins text-[#000000]'>Match Making Platform, Mobile Apps, Web App, Admin Panel / Dashboard, UI/UX Design</li>
                   </ul>
                 </div>
+                </Link>
               </div>
             </div>
           </div>

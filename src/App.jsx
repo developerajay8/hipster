@@ -109,6 +109,8 @@ import Somethingnew from './pages/website/Somethingnew';
 import Wsg from './pages/website/Wsg';
 import Hybridems from './pages/website/Hybridems';
 import Lhommes from './pages/website/Lhommes';
+import Productdesign from './pages/website/Productdesign';
+import Othertechnoliges from './pages/website/Othertechnoliges';
 
 function App() {
   const routes = createBrowserRouter(
@@ -513,6 +515,12 @@ function App() {
           },{
             path:"lhommes",
             element:<Lhommes/>
+          },{
+            path:"productdesign",
+            element:<Productdesign/>
+          },{
+            path:"othertechnoliges",
+            element:<Othertechnoliges/>
           }
         ]
       }

@@ -349,7 +349,7 @@ function Makeshipster() {
             />
           </div>
 
-          <div className="PENCIL md:block hidden">
+          {/* <div className="PENCIL md:block hidden">
             <img
               src={polygonball}
               className="absolute top-[-100px] left-[30px]"
@@ -365,7 +365,7 @@ function Makeshipster() {
               className="absolute top-[-37px] left-[122px]"
               alt=""
             />
-          </div>
+          </div> */}
         </div>
       </Container2>
     </div>

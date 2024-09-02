@@ -98,7 +98,7 @@ export default function CommonSuits() {
           </h2>
           <ul className="flex flex-wrap">
             <li className='bg-[#ccefee] mb-[20px] duration-1000  hover:bg-[#73dedb] mr-[10px] py-[18px] px-[32px] w-[204px] rounded-full'>
-              <Link className='text-[18px] font-poppins hover:text-[#FFFFFF] duration-1000 text-[#001817]' to={'/shareapp'}>Product Design</Link>
+              <Link className='text-[18px] font-poppins hover:text-[#FFFFFF] duration-1000 text-[#001817]' to={'/productdesign'}>Product Design</Link>
             </li>
             <li className='bg-[#ccefee] duration-1000  hover:bg-[#73dedb] mb-[20px] mr-[10px] py-[18px] px-[32px] w-[234px] rounded-full'>
               <Link className='text-[18px] font-poppins hover:text-[#FFFFFF] duration-1000 text-[#001817]' to={'/webdevelopment'}>Web Development</Link>

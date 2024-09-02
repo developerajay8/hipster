@@ -8,6 +8,7 @@ import {
   abroadly,
   bagicon,
   bomb,
+  business,
   c1,
   c2,
   c3,
@@ -88,19 +89,19 @@ export default function Home() {
   return (
     <>
       <div className="">
-        <div className=" pb-[225px]  home_background">
+        <div className=" pb-[225px]  home_background "> 
           <div className=" max-w-[1416px] mx-auto  z-[99999999] grid grid-cols-12 pt-[120px] sm:pt-[170px] md:px-[50px] sm:px-[15px] px-[0px] text-white">
             <div className=" xl:col-span-5 col-span-12 ml-[20px] ">
               <h2 className="text-[#ffffff] xl:text-[40px] lg:text-[50px] md:leading-[40px] md:text-[30px] sm:text-[30px] text-[30px] font-poppins xl:leading-[47px] sm:leading-[40px] lg:leading-[70px]">
-                <span>P</span>roblem solvers <br className="xl:block hidden" />{" "}
-                equipped with the tools <br className="xl:block hidden" /> of
-                design and tech
+              At Business10X, we <br className="xl:block hidden" />{" "}
+              don't follow trends <br className="xl:block hidden" />  we set them.
+
               </h2>
               <p className="my-[30px] text-[18px] font-poppins text-[#cccccc]">
-                We are a digital agency based in Singapore that{" "}
-                <br className="xl:block hidden" /> specialises in creating
-                user-centric tech <br className="xl:block hidden" />
-                applications and platforms for businesses worldwide.
+              We simplify growth. By understanding your {" "}
+                <br className="xl:block hidden" />business, we identify opportunities and execute  <br className="xl:block hidden" />
+                strategies that deliver results. We create an <br className="xl:block hidden"/>
+                {/* ecosystem that keeps you ahead of the <br className="xl:block hidden"/> competition. Business10X delivers measurable <br className="xl:block hidden"/> results with processes you can trust. Our proven <br className="xl:block hidden"/> track record and commitment to transparency<br className="xl:block hidden"/> ensure your investments drive lasting growth. */}
               </p>
               <button className="list-none py-[14px] bg-white px-[40px] xl:rounded-full rounded-full text-[#05201f] font-poppins">
                 <li className="transform">
@@ -808,7 +809,7 @@ function Goalsec() {
               <br className="lg:block hidden" /> using this proven approach?
             </div>
             <button className="sdc mt-[30px] py-[14px] px-[40px] font-semibold font-poppins text-[14px] text-[#05201f] rounded-full">
-              <Link to={""}>Let's get started</Link>
+              <Link to={"/contact"}>Let's get started</Link>
             </button>
           </div>
           <div className="lg:col-span-1 md:col-span-2 sm:col-span-2 col-span-2 max-w-[516px] max-h-[397px] mx-auto my-[53px]">
@@ -1044,6 +1045,7 @@ function Makeshipster() {
               </button>
               <img
                 src={descriptionlogo}
+                // src={business}
                 className="max-w-[191px] max-h-[62px] sm:block hidden"
                 alt=""
               />

@@ -1,0 +1,119 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Gradient Background</title>
+    <style>
+
+html, body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.animated-bg {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, rgb(1, 32, 31), rgb(0, 173, 169));
+    background-size: 400% 400%;
+    transition: background 0.5s ease;
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="animated-bg"></div>
+    <script>
+
+
+const animatedBg = document.querySelector('.animated-bg');
+
+document.addEventListener('mousemove', (e) => {
+    const x = e.clientX / window.innerWidth;
+    const y = e.clientY / window.innerHeight;
+
+    // Starting colors from the given gradient
+    const startColor1 = [1, 32, 31];
+    const startColor2 = [0, 173, 169];
+
+    // Calculate new colors based on cursor position
+    const color1 = `rgb(${Math.floor(startColor1[0] + (255 - startColor1[0]) * x)}, 
+                        ${Math.floor(startColor1[1] + (255 - startColor1[1]) * y)}, 
+                        ${Math.floor(startColor1[2] + (255 - startColor1[2]) * (1 - x))})`;
+                        
+    const color2 = `rgb(${Math.floor(startColor2[0] + (255 - startColor2[0]) * (1 - x))}, 
+                        ${Math.floor(startColor2[1] + (255 - startColor2[1]) * (1 - y))}, 
+                        ${Math.floor(startColor2[2] + (255 - startColor2[2]) * x)})`;
+
+    // Apply the new gradient background
+    animatedBg.style.background = `linear-gradient(45deg, ${color1}, ${color2})`;
+});
+
+
+    </script>
+</body>
+</html> -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Gradient Background</title>
+    <style>
+        html, body {
+            margin: 0;
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .animated-bg {
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(45deg, rgb(1, 32, 31), rgb(0, 173, 169));
+            background-size: 100% 100%;
+            transition: background 0.5s ease;
+        }
+    </style>
+</head>
+<body>
+    <div class="animated-bg"></div>
+    <script>
+        const animatedBg = document.querySelector('.animated-bg');
+        let animationFrameId;
+
+        document.addEventListener('mousemove', (e) => {
+            if (animationFrameId) {
+                cancelAnimationFrame(animationFrameId);
+            }
+
+            animationFrameId = requestAnimationFrame(() => {
+                const x = e.clientX / window.innerWidth;
+                const y = e.clientY / window.innerHeight;
+
+                // Base colors for gradient
+                // const startColor1 = [1, 32, 31];
+                const startColor2 = [0, 173, 169];
+
+                // Calculate new colors based on cursor position
+                const color1 = `rgb(${Math.floor(startColor1[0] + (255 - startColor1[0]) * x)}, 
+                                    ${Math.floor(startColor1[1] + (255 - startColor1[1]) * y)}, 
+                                    ${Math.floor(startColor1[2] + (255 - startColor1[2]) * (1 - x))})`;
+                                    
+                const color2 = `rgb(${Math.floor(startColor2[0] + (255 - startColor2[0]) * (1 - x))}, 
+                                    ${Math.floor(startColor2[1] + (255 - startColor2[1]) * (1 - y))}, 
+                                    ${Math.floor(startColor2[2] + (255 - startColor2[2]) * x)})`;
+
+                // Apply the new gradient background
+                animatedBg.style.background = `linear-gradient(45deg, ${color1}, ${color2})`;
+            });
+        });
+    </script>
+</body>
+</html>
