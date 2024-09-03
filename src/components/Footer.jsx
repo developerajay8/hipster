@@ -108,24 +108,24 @@ export default function Footer() {
 
   const Foots = [
     {
-      name: "Web Development",
-      url: "/webdevelopment"
+      name: "Web Application",
+      url: "/webapplication"
     },
     {
-      name: "Mobile App Development",
-      url: "/mobileappdevelopment"
+      name: "Website and App Development",
+      url: "/websiteandappdevelopment"
     },
     {
-      name: "UI/UX Design",
-      url: "/uiuxdesign"
+      name: "CGI & 2D, 3D",
+      url: "/cgi"
     },
     {
-      name: "Software Development",
-      url: "/softwaredevelopment"
+      name: "Social Media Management",
+      url: "/socialmedia"
     },
     {
-      name: "Off The Shelf Products",
-      url: "/offtheshelfproducts"
+      name: "Branding",
+      url: "/branding"
     }
   ]
 
@@ -147,7 +147,7 @@ export default function Footer() {
       </div> */}
 
 
-<div className='bg-[#001e1d] py-[20px]'>
+{/* <div className='bg-[#001e1d] py-[20px]'>
       <Container2>
         <div className="grid grid-cols-1 box-border">
           <div className="flex items-center gap-1 xl:px-[0px] BTSP">
@@ -155,7 +155,7 @@ export default function Footer() {
             <div className='text-[#FFFFFF] font-poppins text-[14px] truncate'>
               We have recently received complaints that members of the public are targeted by some agents through WhatsApp who claim to be from Hipster Private Limited and using our UEN ...
             </div>
-            <button className='text-[#FFFFFF] font-poppins font-semibold text-[14px]'>
+            <button className='text-[#FFFFFF] w-[120px] font-poppins font-semibold text-[14px]'>
               <Link className='Read mx-auto pb-1' to={""} onClick={handleReadMore}>Read More</Link>
             </button>
           </div>
@@ -192,7 +192,7 @@ export default function Footer() {
           )}
         </div>
       </Container2>
-    </div>
+    </div> */}
 
       
 
@@ -239,7 +239,7 @@ export default function Footer() {
                     (foot, ind) => {
                       return (
                         <li className='mb-[8px] acdsjcnds duration-[1s]' key={ind}>
-                          <Link to={foot.url}>{foot.name}</Link>
+                          <div className='cursor-pointer'>{foot.name}</div>
                         </li>
                       )
                     }
@@ -254,7 +254,7 @@ export default function Footer() {
                     (foot, ind) => {
                       return (
                         <li className='mb-[8px] acdsjcnds duration-[1s]' key={ind}>
-                          <Link to={foot.url}>{foot.name}</Link>
+                          <div className='cursor-pointer'>{foot.name}</div>
                         </li>
                       )
                     }

@@ -27,14 +27,15 @@ export default function Tueetoredutech() {
           <h2>
             <span className="md:text-[30px] sm:text-[24px] text-[16px] font-poppins">
               <span className="md:text-[30px] sm:text-[24px] text-[16px] text-[#00b0ab] font-poppins font-semibold">
-                Tueetor{" "}
+              Web 
+              {" "}
               </span>
-              — Edutech
+              — Application
             </span>
 
             <div className="md:mt-[10px] mt-[5px]">
-              <span className="xl:text-[48px] md:text-[40px] sm:text-[30px] text-[24px] text-[#000000] font-poppins font-semibold">
-                Online platform for finding digital tutors
+            <span className="text-[22px] sm:text-[27px] md:text-[32px] lg:text-[34px] text-[#000000] font-poppins font-semibold">
+            Streamline your business operations with custom web applications tailored to your specific needs. Our solutions enhance efficiency, productivity, and user experience.  
               </span>
             </div>
           </h2>

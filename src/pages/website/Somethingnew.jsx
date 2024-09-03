@@ -35,14 +35,14 @@ export default function Somethingnew() {
           <h2>
             <span className="md:text-[30px] sm:text-[24px] text-[16px] font-poppins">
               <span className="md:text-[30px] sm:text-[24px] text-[16px] text-[#00b0ab] font-poppins font-semibold">
-                SomethingNew
+              CGI &  
               </span>
-              — Mental Health
+               — 2D, 3D
             </span>
 
             <div className="md:mt-[10px] mt-[5px]">
-              <span className="xl:text-[48px] md:text-[40px] sm:text-[30px] text-[24px] text-[#000000] font-poppins font-semibold">
-                Chat-based application to provide mental health support
+            <span className="text-[22px] sm:text-[27px] md:text-[32px] lg:text-[34px] text-[#000000] font-poppins font-semibold">
+            Achieve immersive visual experiences with our cutting-edge CGI and 2D/3D animation services. We bring imagination to life, creating stunning visual content that captivates and enthralls.
               </span>
             </div>
           </h2>

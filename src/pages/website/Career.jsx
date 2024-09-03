@@ -11,8 +11,8 @@ import { IoIosArrowRoundForward } from "react-icons/io";
 import { Link } from 'react-router-dom'
 import Container2 from '../../components/Container2'
 import SimpleSliders from './SimpleSliders';
-import Counter2 from './counter2';
-import Counter from './counter';
+// import Counter2 from './counter2';
+// import Counter from './counter';
 
 
 export default function Career() {
@@ -25,22 +25,24 @@ export default function Career() {
   //   }
   // )
 
-  const [clients, setClient] = useState(1);
+  // last comment const [clients, setClient] = useState(1);
+
+
   // const [client,setClie] = useState(1);
   // const [clien,setCli] = useState(1);
 
-  useEffect(() => {
-    const clientInterval = setInterval(() => {
-      setClient((prev) => {
-        if (prev < 50) {
-          return prev + 1;
-        } else {
-          clearInterval(clientInterval);
-          return prev;
-        }
-      });
-    }, 50);
-  }, []);
+  // useEffect(() => {
+  //   const clientInterval = setInterval(() => {
+  //     setClient((prev) => {
+  //       if (prev < 50) {
+  //         return prev + 1;
+  //       } else {
+  //         clearInterval(clientInterval);
+  //         return prev;
+  //       }
+  //     });
+  //   }, 50);
+  // }, []);
 
   return (
     <div>
@@ -70,7 +72,7 @@ export default function Career() {
               Great tech takes great people.</h2>
             <p className='max-w-[575px] sm:text-center mx-auto mb-[24px] text-[20px] font-poppins '>We aspire to create websites and applications for all ages, whether ten or a hundred years old. Technology should make our lives better, safer, and not harder.</p>
             <p className=' flex text-center font-bold text-[#38b1ac] items-center mt-[15px] text-[20px] font-poppins leading-[40px]'>
-              <Link className='sm:mx-auto' to={""}>Read Hipster’s full story </Link>
+              {/* <Link className='sm:mx-auto' to={""}>Read Hipster’s full story </Link> */}
               {/* <IoIosArrowRoundForward className='text-3xl mx-auto' /> */}
             </p>
           </div>
@@ -78,9 +80,51 @@ export default function Career() {
         </Container4>
       </div>
 
+      <form className='max-w-[1240px] mx-auto sm:py-[40px] py-[20px]' action="">
+                <div className="mb-[40px]">
+                  <input
+                    type="text"
+                    placeholder="Your name*"
+                    className="border-none w-[100%] p-[8px] text-[20px] md:text-[24px] font-poppins text-[#252424]"
+                  />
+                  <div className="border"></div>
+                </div>
+                <div className="mb-[40px]">
+                  <input
+                    type="email"
+                    placeholder="Your email*"
+                    className="border-none w-[100%] p-[8px] text-[20px] md:text-[24px] font-poppins text-[#252424]"
+                  />
+                  <div className="border"></div>
+                </div>
+                <div className="mb-[40px]">
+                  <input
+                    type="number"
+                    placeholder="Contact number"
+                    className="border-none w-[100%] p-[8px] text-[20px] md:text-[24px] font-poppins text-[#252424]"
+                  />
+                  <div className="border"></div>
+                </div>
+                <div className="mb-[40px]">
+                  <textarea
+                    className="border-none w-[100%] p-[8px] text-[20px] md:text-[24px] font-poppins text-[#252424]"
+                    placeholder="Tell us about Your project"
+                  ></textarea>
+                  <div className="border"></div>
+                </div>
+                <div className="">
+                  <button
+                    type="submit"
+                    className="text-[14px] label px-[20px] hover:bg-black hover:text-white py-[14px] rounded-full"
+                  >
+                    Send request
+                  </button>
+                </div>
+              </form>
+
 
 {/* Counter ++ */}
-      <div className="w-full relative">
+      {/* <div className="w-full relative">
         <img src={blackstaurn} className="w-full inset-1  flex  items-center justify-center" alt="" />
         <Container4>
         <div className="font-[poppins] xl:my-[120px]  lg:my-[80px] md:my-[10px] absolute inset-0 max-w-[1140px] mx-auto  px-[15px] lg:py-[100px] sm:py-[50px] py-[18px]">
@@ -125,9 +169,9 @@ export default function Career() {
           </div>
         </div>
       </Container4>
-      </div>
+      </div> */}
 
-      <div className="md:py-[80px] sm:py-[65px] py-[28px]">
+      {/* <div className="md:py-[80px] sm:py-[65px] py-[28px]">
         <Container4>
           <div className="lg:h-[80px] md:h-[50px]"></div>
           <div className="grid grid-cols-1 md:px-[0px] px-[18px]">
@@ -163,9 +207,9 @@ export default function Career() {
             </div>
           </div>
         </Container4>
-      </div>
+      </div> */}
 
-      <div className="">
+      {/* <div className="">
         <div className='lg:h-[80px] md:h-[50px] '></div>
         <h2 className='text-[50px] text-[#000000] font-poppins text-center'>Our locations</h2>
         <div className='lg:h-[80px] md:h-[50px] h-[40px]'></div>
@@ -227,7 +271,7 @@ export default function Career() {
             <img src={Lion} alt="" />
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div>
         {/* <SimpleSliders/> */}

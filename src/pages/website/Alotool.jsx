@@ -65,180 +65,7 @@ import Container4 from "../../components/Container4";
 import Container7 from "../../components/Container7";
 
 export default function Alotool() {
-  const features = [
-    {
-      title: "Disseminate QR Code e-Tickets via Email",
-      description:
-        "Automatically send out customized registration confirmation emails with QR Code e-Tickets to guests",
-      icon: (
-        <svg
-          className="w-12 h-12 text-teal-500"
-          fill="none"
-          stroke="currentColor"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth={2}
-            d="M3 10h4v4H3zM17 10h4v4h-4zM12 14h.01M12 10h.01M4 4h16v2H4zM4 18h16v2H4z"
-          />
-        </svg>
-      ),
-    },
-    {
-      title: "Facilitate Check-in with QR Scan",
-      description:
-        "Effortlessly scan the QR Code from the confirmation email or e-Ticket on mobile. Checking in a guest only takes a moment.",
-      icon: (
-        <svg
-          className="w-12 h-12 text-teal-500"
-          fill="none"
-          stroke="currentColor"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth={2}
-            d="M3 10h4v4H3zM17 10h4v4h-4zM12 14h.01M12 10h.01M4 4h16v2H4zM4 18h16v2H4z"
-          />
-        </svg>
-      ),
-    },
-    {
-      title: "QR-less Check-in with Name Search",
-      description:
-        "For guests without an e-Ticket, simply confirm their attendance by name, email, ID, or company name",
-      icon: (
-        <svg
-          className="w-12 h-12 text-teal-500"
-          fill="none"
-          stroke="currentColor"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth={2}
-            d="M3 10h4v4H3zM17 10h4v4h-4zM12 14h.01M12 10h.01M4 4h16v2H4zM4 18h16v2H4z"
-          />
-        </svg>
-      ),
-    },
-    {
-      title: "Instant Name Badge Printing",
-      description:
-        "Print personalized delegate badges on the spot in less than two secs",
-      icon: (
-        <svg
-          className="w-12 h-12 text-teal-500"
-          fill="none"
-          stroke="currentColor"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth={2}
-            d="M3 10h4v4H3zM17 10h4v4h-4zM12 14h.01M12 10h.01M4 4h16v2H4zM4 18h16v2H4z"
-          />
-        </svg>
-      ),
-    },
-    ,
-    {
-      title: "Instant Name Badge Printing",
-      description:
-        "Print personalized delegate badges on the spot in less than two secs",
-      icon: (
-        <svg
-          className="w-12 h-12 text-teal-500"
-          fill="none"
-          stroke="currentColor"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth={2}
-            d="M3 10h4v4H3zM17 10h4v4h-4zM12 14h.01M12 10h.01M4 4h16v2H4zM4 18h16v2H4z"
-          />
-        </svg>
-      ),
-    },
-    ,
-    {
-      title: "Instant Name Badge Printing",
-      description:
-        "Print personalized delegate badges on the spot in less than two secs",
-      icon: (
-        <svg
-          className="w-12 h-12 text-teal-500"
-          fill="none"
-          stroke="currentColor"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth={2}
-            d="M3 10h4v4H3zM17 10h4v4h-4zM12 14h.01M12 10h.01M4 4h16v2H4zM4 18h16v2H4z"
-          />
-        </svg>
-      ),
-    },
-    ,
-    {
-      title: "Instant Name Badge Printing",
-      description:
-        "Print personalized delegate badges on the spot in less than two secs",
-      icon: (
-        <svg
-          className="w-12 h-12 text-teal-500"
-          fill="none"
-          stroke="currentColor"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth={2}
-            d="M3 10h4v4H3zM17 10h4v4h-4zM12 14h.01M12 10h.01M4 4h16v2H4zM4 18h16v2H4z"
-          />
-        </svg>
-      ),
-    },
-    ,
-    {
-      title: "Instant Name Badge Printing",
-      description:
-        "Print personalized delegate badges on the spot in less than two secs",
-      icon: (
-        <svg
-          className="w-12 h-12 text-teal-500"
-          fill="none"
-          stroke="currentColor"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth={2}
-            d="M3 10h4v4H3zM17 10h4v4h-4zM12 14h.01M12 10h.01M4 4h16v2H4zM4 18h16v2H4z"
-          />
-        </svg>
-      ),
-    },
-  ];
+  
 
   return (
     <div>
@@ -248,15 +75,15 @@ export default function Alotool() {
             <span className="md:text-[30px] sm:text-[24px] text-[16px] font-poppins">
               <span className="md:text-[30px] sm:text-[24px] text-[16px] text-[#00b0ab] font-poppins font-semibold">
                 {" "}
-                AIO{" "}
+                Performance 
+{" "}
               </span>
-              — Event Registration tool
+              — Marketing
             </span>
 
             <div className="md:mt-[10px] mt-[5px]">
-              <span className="xl:text-[48px] md:text-[40px] sm:text-[30px] text-[24px] text-[#000000] font-poppins font-semibold">
-                An Interactive and Multi-Functioning Mobile App for Physical
-                Events.
+            <span className="text-[22px] sm:text-[27px] md:text-[32px] lg:text-[34px] text-[#000000] font-poppins font-semibold">
+            Amplify your online reach and drive conversions through targeted performance marketing strategies. Our team leverages data-driven insights to craft campaigns that maximize ROI and deliver measurable results.
               </span>
             </div>
           </h2>
@@ -421,32 +248,7 @@ export default function Alotool() {
 
       <div className="">
 
-{/* bina matlab ka code */}
-        {/* <div className="  bg-gray-50 py-12">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900">Find our work</h2>
-            <p className="text-gray-600">
-              We bring the right expertise mix to create a holistic digital
-              solution.
-            </p>
-          </div>
-          <div className="flex flex-wrap justify-center">
-            {features.map((feature, index) => (
-              <div
-                key={index}
-                className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 p-4"
-              >
-                <div className="bg-white rounded-lg shadow-lg p-6 text-center transform hover:scale-105 transition-transform duration-300">
-                  <div className="mb-4">{feature.icon}</div>
-                  <h3 className="text-teal-700 text-lg font-semibold mb-2">
-                    {feature.title}
-                  </h3>
-                  <p className="text-gray-600">{feature.description}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div> */}
+
 
 
         <Container7>
@@ -508,82 +310,7 @@ export default function Alotool() {
         </Container7>
       </div>
 
-      {/* <div className="bg-[#f3903f0d] py-[100px] ">
-        <Container2>
-          <div className="">
-            <h2 className='font-poppins text-center font-semibold text-[#000000] text-[32px] md:text-[50px] mb-[50px] '>
-              Features overview</h2>
-
-            <div className="grid grid-cols-2 mx-[88px]">
-              <div className="col-span-1 ">
-                <div className=" mr-[26px] pt-[42px] px-[27px] rounded-[31px] bg-[#f3903f] font-poppins">
-                  <h2 className='font-poppins font-semibold text-[#ffffff] text-[32px] md:text-[48px] mb-[42px]'>
-                    Stay on task!</h2>
-                  <img src={aloevent} alt="" />
-                </div>
-
-                <div className=" mt-[240px] py-[42px] px-[27px] rounded-[31px] bg-[#6c8297] font-poppins">
-                  <h2 className='font-poppins font-semibold text-[#ffffff] text-[32px] md:text-[48px] mb-[42px]'>
-                    Feedback & note-taking</h2>
-                  <img src={aloevent} alt="" />
-                </div>
-
-                <div className="mt-[46px]  flex gap-[22px] justify-center">
-                  <div className="">
-                    <div className=" relative mr-[26px] w-[142px] h-[144px]">
-                      <img className='' src={agenda} alt="" />
-                    </div>
-                    <div className=" mt-[20px] relative mr-[26px] w-[142px] h-[144px]">
-                      <img className='' src={agenda} alt="" />
-                    </div>
-                  </div>
-
-                  <div className="mt-[80px]">
-                    <div className=" relative mr-[26px] w-[142px] h-[144px]">
-                      <img className='' src={agenda} alt="" />
-                    </div>
-                    <div className=" mt-[20px] relative mr-[26px] w-[142px] h-[144px]">
-                      <img className='' src={agenda} alt="" />
-                    </div>
-                  </div>
-
-                </div>
-
-
-              </div>
-              <div className="col-span-1 ">
-                <div className=" rounded-[31px] ml-[26px] font-poppins">
-                  <div className=" mt-[128px] ">
-                    <div className="flex">
-                      <div className="Alo relative mr-[26px] w-[142px] h-[144px]">
-                        <img className='' src={agenda} alt="" />
-                      </div>
-                      <div className="Alos relative mr-[26px] w-[142px] h-[144px]">
-                        <img className='' src={venue} alt="" />
-                      </div>
-                      <div className="Alok relative mr-[26px] w-[142px] h-[144px]">
-                        <img className='' src={sponsers} alt="" />
-                      </div>
-                    </div>
-                  </div>
-                  <div className=" mt-[79px] pt-[42px] px-[27px] rounded-[31px] bg-[#fdc319] font-poppins">
-                    <h2 className='font-poppins font-semibold text-[#ffffff] text-[32px] md:text-[48px] mb-[42px]'>
-                      Display speakers & sponsors info
-                    </h2>
-                    <img src={aloevent} alt="" />
-                  </div>
-
-                  <div className=" mt-[240px] py-[42px] px-[27px] rounded-[31px] bg-[#f3903f] font-poppins">
-                    <h2 className='font-poppins font-semibold text-[#ffffff] text-[32px] md:text-[48px] mb-[42px]'>
-                      Engage users</h2>
-                    <img src={aloevent} alt="" />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </Container2>
-      </div> */}
+      
 
       <div className="py-[80px]">
         <div className=" lg:mx-[198px] md:mx-[80px] mx-[30px] ">

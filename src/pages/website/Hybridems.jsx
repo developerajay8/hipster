@@ -49,15 +49,14 @@ export default function Hybridems() {
           <h2>
             <span className="md:text-[30px] sm:text-[24px] text-[16px] font-poppins">
               <span className="md:text-[30px] sm:text-[24px] text-[16px] text-[#00b0ab] font-poppins font-semibold">
-                Hybrid EMS
+              Media 
               </span>
-              — Hybrid Event management Platform
+              — Production
             </span>
 
             <div className="md:mt-[10px] mt-[5px]">
-              <span className="xl:text-[48px] md:text-[40px] sm:text-[30px] text-[24px] text-[#000000] font-poppins font-semibold">
-                Transforming how hybrid and virtual events are planned and
-                executed.
+            <span className="text-[22px] sm:text-[27px] md:text-[32px] lg:text-[34px] text-[#000000] font-poppins font-semibold">
+            From concept to execution, our media production services encompass video, audio, and multimedia content creation, ensuring compelling storytelling that captivates your audience.
               </span>
             </div>
           </h2>

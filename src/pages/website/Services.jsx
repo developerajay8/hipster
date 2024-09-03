@@ -47,13 +47,11 @@ export default function Services() {
         <div className="col-span-3 my-auto xl:py-[80px] sm:py-[40px] py-[40px] xl:pl-[80px] pl-[20px] sm:pl-[40px]  xl:pr-[80px] sm:pr-[40px] pr-[20px]">
           
             <h2 className="text-[32px] font-poppins mb-[15px] text-[#ffffff]">
-              No, we don’t sell <br className="lg:block hidden"/> technology. <br className="lg:block hidden" /> We sell solutions.
+            No, we don't sell services. We sell solutions tailored according to your need. 
             </h2>
+
             <p className="sm:text-[18px] text-[16px] font-poppins  text-[#ffffff] mb-[19px]">
-              Software isn’t cookie-cutter, neither is it just the application
-              of technology. It’s creating a solution that can meet the
-              company’s needs, goals, budget and works well for the people using
-              them.
+              At Business10X, we don’t just offer services—we deliver solutions precisely tailored to your unique needs. As a marketing agency, our focus is on understanding the distinct challenges faced by your business and crafting strategies that drive growth. Whether it’s enhancing your digital presence or optimizing your performance, we provide customized solutions that are as dynamic and versatile as the businesses we serve. With Business10X, you’re not just investing in services; you’re investing in growth, innovation, and success.
             </p>
           
         </div>
@@ -71,7 +69,7 @@ export default function Services() {
               </p>
               <button className="bg-black hover:bg-gray-900 duration-700 py-3 rounded-full items-center">
                 <Link
-                  to={"/webdevelopment"}
+                  to={"/branding"}
                   className="text-[#dedede] duration-700 hover:text-[#adadad] px-[20px] font-semibold"
                 >
                   Explore More
@@ -108,7 +106,7 @@ export default function Services() {
               </p>
               <button className="bg-black hover:bg-gray-900 duration-700 py-3 rounded-full items-center">
                 <Link
-                  to={"/mobileappdevelopment"}
+                  to={"/socialmedia"}
                   className="text-[#dedede] duration-700 hover:text-[#adadad] px-[20px] font-semibold"
                 >
                   Explore More
@@ -131,7 +129,7 @@ export default function Services() {
               </p>
               <button className="bg-black hover:bg-gray-900 duration-700 py-3 rounded-full items-center">
                 <Link
-                  to={"/uiuxdesign"}
+                  to={"/performancemarketing"}
                   className="text-[#dedede] duration-700 hover:text-[#adadad] px-[20px] font-semibold"
                 >
                   Explore More
@@ -169,7 +167,7 @@ export default function Services() {
               
               <button className="bg-black hover:bg-gray-900 duration-700 py-3 rounded-full items-center">
                 <Link
-                  to={"/softwaredevelopment"}
+                  to={"/designingandediting"}
                   className="text-[#dedede] duration-700 hover:text-[#adadad] px-[20px] font-semibold"
                 >
                   Explore More
@@ -194,7 +192,7 @@ export default function Services() {
               </p>
               <button className="bg-black hover:bg-gray-900 duration-700 py-3 rounded-full items-center">
                 <Link
-                  to={"/webdevelopment"}
+                  to={"/mediaproduction"}
                   className="text-[#dedede] duration-700 hover:text-[#adadad] px-[20px] font-semibold"
                 >
                   Explore More
@@ -231,7 +229,7 @@ export default function Services() {
               </p>
               <button className="bg-black hover:bg-gray-900 duration-700 py-3 rounded-full items-center">
                 <Link
-                  to={"/mobileappdevelopment"}
+                  to={"/creativeproduction"}
                   className="text-[#dedede] duration-700 hover:text-[#adadad] px-[20px] font-semibold"
                 >
                   Explore More
@@ -254,7 +252,7 @@ export default function Services() {
               </p>
               <button className="bg-black hover:bg-gray-900 duration-700 py-3 rounded-full items-center">
                 <Link
-                  to={"/uiuxdesign"}
+                  to={"/cgi"}
                   className="text-[#dedede] duration-700 hover:text-[#adadad] px-[20px] font-semibold"
                 >
                   Explore More
@@ -292,7 +290,7 @@ export default function Services() {
               
               <button className="bg-black hover:bg-gray-900 duration-700 py-3 rounded-full items-center">
                 <Link
-                  to={"/softwaredevelopment"}
+                  to={"/websiteandappdevelopment"}
                   className="text-[#dedede] duration-700 hover:text-[#adadad] px-[20px] font-semibold"
                 >
                   Explore More
@@ -315,7 +313,7 @@ export default function Services() {
               </p>
               <button className="bg-black hover:bg-gray-900 duration-700 py-3 rounded-full items-center">
                 <Link
-                  to={"/uiuxdesign"}
+                  to={"/webapplication"}
                   className="text-[#dedede] duration-700 hover:text-[#adadad] px-[20px] font-semibold"
                 >
                   Explore More
@@ -353,7 +351,7 @@ export default function Services() {
               
               <button className="bg-black hover:bg-gray-900 duration-700 py-3 rounded-full items-center">
                 <Link
-                  to={"/softwaredevelopment"}
+                  to={"/erps"}
                   className="text-[#dedede] duration-700 hover:text-[#adadad] px-[20px] font-semibold"
                 >
                   Explore More
@@ -366,7 +364,7 @@ export default function Services() {
 
       
 
-      <div className="grid grid-cols-2 gap-6 xl:pb-[0px] pb-[20px] ">
+      {/* <div className="grid grid-cols-2 gap-6 xl:pb-[0px] pb-[20px] ">
         <div className="col-span-1 lg:block hidden max-w-[750px] max-h-[497px]">
           <img src={ont} className="w-[100%] h-[100%]" alt="" />
         </div>
@@ -446,7 +444,7 @@ export default function Services() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

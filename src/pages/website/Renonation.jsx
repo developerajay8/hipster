@@ -32,15 +32,14 @@ export default function Renonation() {
           <h2>
             <span className="md:text-[30px] sm:text-[24px] text-[16px] font-poppins">
               <span className="md:text-[30px] sm:text-[24px] text-[16px] text-[#00b0ab] font-poppins font-semibold">
-                Renonation 
+              Website
               </span>
-                 Real Estate, Renovation
+               — and App Development
             </span>
 
             <div className="md:mt-[10px] mt-[5px]">
-              <span className="xl:text-[48px] md:text-[40px] sm:text-[30px] text-[24px] text-[#000000] font-poppins font-semibold">
-                A trusted and reliable source for home renovation and interior
-                design.
+            <span className="text-[22px] sm:text-[27px] md:text-[32px] lg:text-[34px] text-[#000000] font-poppins font-semibold">
+            Leverage responsive and user-centric design with our website and app development services. Our expert team delivers seamless digital experiences that drive engagement and conversions.
               </span>
             </div>
           </h2>

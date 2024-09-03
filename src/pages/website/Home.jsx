@@ -89,25 +89,25 @@ export default function Home() {
   return (
     <>
       <div className="">
-        <div className=" pb-[225px]  home_background "> 
+        <div className="h-[100vh] home_background ">
           <div className=" max-w-[1416px] mx-auto  z-[99999999] grid grid-cols-12 pt-[120px] sm:pt-[170px] md:px-[50px] sm:px-[15px] px-[0px] text-white">
             <div className=" xl:col-span-5 col-span-12 ml-[20px] ">
               <h2 className="text-[#ffffff] xl:text-[40px] lg:text-[50px] md:leading-[40px] md:text-[30px] sm:text-[30px] text-[30px] font-poppins xl:leading-[47px] sm:leading-[40px] lg:leading-[70px]">
-              At Business10X, we <br className="xl:block hidden" />{" "}
-              don't follow trends <br className="xl:block hidden" />  we set them.
-
+                At Business10X, we <br className="xl:block hidden" /> don't
+                follow trends <br className="xl:block hidden" /> we set them.
               </h2>
               <p className="my-[30px] text-[18px] font-poppins text-[#cccccc]">
-              We simplify growth. By understanding your {" "}
-                <br className="xl:block hidden" />business, we identify opportunities and execute  <br className="xl:block hidden" />
-                strategies that deliver results. We create an <br className="xl:block hidden"/>
+                We simplify growth. By understanding your{" "}
+                <br className="xl:block hidden" />
+                business, we identify opportunities and execute{" "}
+                <br className="xl:block hidden" />
+                strategies that deliver results.{" "}
+                <br className="xl:block hidden" />
                 {/* ecosystem that keeps you ahead of the <br className="xl:block hidden"/> competition. Business10X delivers measurable <br className="xl:block hidden"/> results with processes you can trust. Our proven <br className="xl:block hidden"/> track record and commitment to transparency<br className="xl:block hidden"/> ensure your investments drive lasting growth. */}
               </p>
               <button className="list-none py-[14px] bg-white px-[40px] xl:rounded-full rounded-full text-[#05201f] font-poppins">
                 <li className="transform">
-                  <Link to={"/contact"}>
-                    Contact us
-                  </Link>
+                  <Link to={"/contact"}>Contact us</Link>
                 </li>
               </button>
             </div>
@@ -192,11 +192,11 @@ export default function Home() {
       </div>
 
       <Allcomponent />
-      <NEAR ref={ref} />
-      <Share />
-      <Common />
-      <Abroadly />
-      <Case />
+      <Branding ref={ref} />
+      <Social />
+      <Marketing />
+      <Designing />
+      <Media />
       <Our_Services />
       <Goalsec />
       <Clientsf />
@@ -217,12 +217,11 @@ function Allcomponent() {
           <Link to={"./Near"}>
             <img src={new1} className="rounded-[25px] " alt="" />
             <div className="">
-              <h4 className="font-poppins text-[#001817] text-[24px] mt-[24px] mb-[12px]">
-                NEAR — Lifestyle
+              <h4 className="font-poppins text-[#001817] text-[20px] mt-[24px] mb-[12px]">
+              Branding
               </h4>
               <h3 className="font-poppins text-[#001817] text-[24px] font-medium">
-                Augmented Reality (AR) enabled mobile app for an interactive
-                walking experience
+              Build a distinctive brand identity that resonates with your audience. Our branding services encompass market research, brand strategy, and visual identity design, ensuring that your brand stands out in the competitive landscape.
               </h3>
               <ul className="font-poppins text-[14px] text-#000000] mt-[20px]">
                 <a>
@@ -255,11 +254,10 @@ function Allcomponent() {
             <img src={new2} className="rounded-[25px] " alt="" />
             <div className="">
               <h4 className="font-poppins text-[#001817] text-[24px] mt-[24px] mb-[12px]">
-                Share App — Mental Health
+              Social Media Management
               </h4>
-              <h3 className="font-poppins text-[#001817] text-[24px] font-medium">
-                On-demand therapy app that allows one to find a therapist
-                instantly.
+              <h3 className="font-poppins text-[#001817] text-[20px] font-medium">
+              Cultivate a vibrant social media presence with our expert management services. From content creation to community engagement, we help you leverage social platforms to enhance brand visibility and connect with your audience.
               </h3>
               <ul className="font-poppins text-[14px] text-#000000] mt-[20px]">
                 <a>
@@ -307,11 +305,10 @@ function Allcomponent() {
             <img src={new3} className="rounded-[25px] " alt="" />
             <div className="">
               <h4 className="font-poppins text-[#001817] text-[24px] mt-[24px] mb-[12px]">
-                Common Suits — Fashion E-commerce
+              Performance Marketing
               </h4>
-              <h3 className="font-poppins text-[#001817] text-[24px] font-medium">
-                Visualisation technology to improve the online and offline
-                retail experience
+              <h3 className="font-poppins text-[#001817] text-[20px] font-medium">
+              Amplify your online reach and drive conversions through targeted performance marketing strategies. Our team leverages data-driven insights to craft campaigns that maximize ROI and deliver measurable results.
               </h3>
               <ul className="font-poppins text-[14px] text-#000000] mt-[20px]">
                 <a>
@@ -328,11 +325,10 @@ function Allcomponent() {
             <img src={new4} className="rounded-[25px] " alt="" />
             <div className="">
               <h4 className="font-poppins text-[#001817] text-[24px] mt-[24px] mb-[12px]">
-                Abroadly — Travel
+              Designing and Editing
               </h4>
-              <h3 className="font-poppins text-[#001817] text-[24px] font-medium">
-                An interactive "Home away from Home" community for backpackers,
-                travellers and hosts
+              <h3 className="font-poppins text-[#001817] text-[20px] font-medium">
+              Elevate your visual presence with captivating design and precision editing. Our talented team brings your creative vision to life through impactful imagery, graphics, and visual storytelling.
               </h3>
               <ul className="font-poppins text-[14px] text-#000000] mt-[20px]">
                 <a>
@@ -350,10 +346,10 @@ function Allcomponent() {
             <div className="">
               <h4 className="font-poppins text-[#001817] text-[24px] mt-[24px] mb-[12px]">
                 {" "}
-                CASE — Non-Profit
+                Media Production
               </h4>
-              <h3 className="font-poppins text-[#001817] text-[24px] font-medium">
-                Revamp of CASE and CaseTrust websites
+              <h3 className="font-poppins text-[#001817] text-[20px] font-medium">
+              From concept to execution, our media production services encompass video, audio, and multimedia content creation, ensuring compelling storytelling that captivates your audience.
               </h3>
               <ul className="font-poppins text-[14px] text-#000000] mt-[20px]">
                 <a>
@@ -368,20 +364,22 @@ function Allcomponent() {
   );
 }
 
-function NEAR() {
+function Branding() {
   return (
-    <div className="w-full lg:block hidden overflow-hidden Second-bg sm:px-[60px] px-[16px] xl:py-[200px] md:py-[70px] py-[15px] lg:py-[140px]">
-      <Link to={"./Near"}>
+    <div className=" lg:block hidden xl:py-[100px] py-[80px] xl:px-0 px-[30px] overflow-hidden Second-bg ">
+      <Link to={"./branding"}>
         <Container>
-          <div className="grid grid-cols-3 relative">
-            <div className="lg:col-span-1 md:col-span-5 sm:col-span-5 col-span-6 lg:pb-0 pb-[30px] xl:pl-[150px] lg:pl-[50px] pt-5">
-              <div className="text-[#031a1b] text-[20px] font-poppins cursor-pointer fonts">
-                NEAR
+          <div className="grid grid-cols-3 gap-4 relative max-w-[1300px] mx-auto">
+            <div className="lg:col-span-1 md:col-span-5 sm:col-span-5 col-span-6 lg:pb-0 pb-[30px]  pt-5">
+              <div className="text-[#031a1b] text-[30px] font-poppins cursor-pointer fonts">
+                Branding
               </div>
-              <h3 className="my-[30px] text-[#031a1b] text-[26px] font-poppins font-semibold leading-[32px]">
-                <Link to={"./Near"}>
-                  Augmented Reality (AR) enabled mobile app for an interactive
-                  walking experience
+              <h3 className="my-[30px] text-[#031a1b] text-[16px] font-poppins font-semibold leading-[27px] ">
+                <Link to={"./branding"}>
+                  Build a distinctive brand identity that resonates with your
+                  audience. Our branding services encompass market research,
+                  brand strategy, and visual identity design, ensuring that your
+                  brand stands out in the competitive landscape.
                 </Link>
               </h3>
               <p className="text-[#334545] text-[14px] font-poppins">
@@ -458,20 +456,19 @@ function NEAR() {
   );
 }
 
-function Share() {
+function Social() {
   return (
-    <div className="w-full lg:block hidden Share relative sm:px-[60px] px-[16px]  xl:py-[200px] py-[70px] lg:py-[140px]">
-      <Link to={"./ShareApp"}>
+    <div className="lg:block hidden xl:py-[100px] py-[80px] xl:px-0 px-[30px] Share relative ">
+      <Link to={"./socialmedia"}>
         <Container>
-          <div className="grid grid-cols-3">
-            <div className="lg:col-span-1 md:col-span-5 sm:col-span-5 col-span-6 lg:pb-0 pb-[30px] xl:pl-[150px] lg:pl-[50px] pt-5">
-              <div className="text-[#031a1b] text-[20px] font-poppins cursor-pointer fonts">
-                Share App
+          <div className="grid grid-cols-3 gap-4 max-w-[1300px] mx-auto">
+            <div className="lg:col-span-1 md:col-span-5 sm:col-span-5 col-span-6 lg:pb-0 pb-[30px] pt-5">
+              <div className="text-[#031a1b] text-[30px] font-poppins cursor-pointer fonts">
+              Social Media Management
               </div>
-              <h3 className="my-[30px] text-[#031a1b] text-[25px] font-poppins font-bold leading-[32px]">
-                <Link to={"./ShareApp"}>
-                  On-demand therapy app that allows one to find a therapist
-                  instantly
+              <h3 className="my-[30px] text-[#031a1b] text-[16px]  font-poppins font-semibold leading-[27px] ">
+                <Link to={"./socialmedia"}>
+                Cultivate a vibrant social media presence with our expert management services. From content creation to community engagement, we help you leverage social platforms to enhance brand visibility and connect with your audience.
                 </Link>
               </h3>
               <p className="text-[#334545] text-[14px] font-poppins">
@@ -537,19 +534,19 @@ function Share() {
   );
 }
 
-function Common() {
+function Marketing() {
   return (
-    <div className="w-full lg:block hidden Common overflow-hidden sm:px-[60px] px-[16px]  xl:py-[200px] py-[70px] lg:py-[140px]">
-      <Link to={"./CommonSuits"}>
+    <div className=" lg:block hidden xl:py-[100px] py-[80px] xl:px-0 px-[30px] Common overflow-hidden ">
+      <Link to={"./performancemarketing"}>
         <Container>
-          <div className="grid grid-cols-3">
-            <div className=" lg:col-span-1 md:col-span-5 sm:col-span-5 col-span-6 lg:pb-0 pb-[30px] xl:pl-[150px] lg:pl-[50px] pt-5 my-auto">
-              <div className="text-[#031a1b] text-[20px] font-poppins cursor-pointer fonts">
-                Common Suits
+          <div className="grid grid-cols-3 gap-4 max-w-[1300px] mx-auto">
+            <div className=" lg:col-span-1 md:col-span-5 sm:col-span-5 col-span-6 lg:pb-0 pb-[30px]  pt-5 my-auto">
+              <div className="text-[#031a1b] text-[30px] font-poppins cursor-pointer fonts">
+              Performance Marketing
               </div>
-              <h3 className="my-[30px] text-[#031a1b] text-[25px] font-poppins font-bold leading-[32px]">
-                <Link to={"./CommonSuits"}>
-                  Custom suits e-commerce platform with fit visualization Suit
+              <h3 className="my-[30px] text-[#031a1b] text-[16px] font-poppins font-semibold leading-[27px] ">
+                <Link to={"./performancemarketing"}>
+                Amplify your online reach and drive conversions through targeted performance marketing strategies. Our team leverages data-driven insights to craft campaigns that maximize ROI and deliver measurable results.
                 </Link>
               </h3>
               <p className="text-[#334545] text-[14px] font-poppins">
@@ -614,20 +611,19 @@ function Common() {
   );
 }
 
-function Abroadly() {
+function Designing() {
   return (
-    <div className="w-full lg:block hidden Abroadly sm:px-[60px] px-[16px]  xl:py-[200px] py-[70px] lg:py-[140px]">
-      <Link to={"./Abroadly"}>
+    <div className=" lg:block hidden Abroadly xl:py-[100px] py-[80px] xl:px-0 px-[30px]">
+      <Link to={"./designingandediting"}>
         <Container>
-          <div className="grid grid-cols-3 ">
-            <div className="lg:col-span-1 md:col-span-5 sm:col-span-5 col-span-6 lg:pb-0 pb-[30px] xl:pl-[150px] lg:pl-[50px] pt-5 my-auto">
-              <div className="text-[#FFFFFF] text-[20px] font-poppins cursor-pointer fonts">
-                Abroadly
+          <div className="grid grid-cols-3 gap-4 max-w-[1300px] mx-auto">
+            <div className="lg:col-span-1 md:col-span-5 sm:col-span-5 col-span-6 lg:pb-0 pb-[30px] pt-5 my-auto">
+              <div className="text-[#FFFFFF] text-[30px] font-poppins cursor-pointer fonts">
+              Designing and Editing
               </div>
-              <h3 className="my-[30px] text-[#FFFFFF] text-[25px] font-poppins font-bold leading-[32px]">
-                <Link to={"./Abroadly"}>
-                  An interactive "Home away from Home" community for
-                  backpackers, travellers and hosts
+              <h3 className="my-[30px] text-[#ffffff] text-[16px] font-poppins font-semibold leading-[27px] ">
+                <Link to={"./designingandediting"}>
+                Elevate your visual presence with captivating design and precision editing. Our talented team brings your creative vision to life through impactful imagery, graphics, and visual storytelling.
                 </Link>
               </h3>
               <p className="text-[#FFFFFF] text-[14px] font-poppins">
@@ -698,18 +694,20 @@ function Abroadly() {
   );
 }
 
-function Case() {
+function Media() {
   return (
-    <div className="w-full lg:block hidden Case overflow-hidden sm:px-[60px] px-[16px]  xl:py-[200px] py-[70px] lg:py-[140px]">
+    <div className="w-full lg:block hidden Case overflow-hidden xl:pt-[100px] pb-[190px] pt-[80px] xl:px-0 px-[30px]">
       <Container>
-        <Link to={"/Case"}>
-          <div className="grid grid-cols-3">
-            <div className=" lg:col-span-1 md:col-span-5 sm:col-span-5 col-span-6 lg:pb-0 pb-[30px] xl:pl-[150px] lg:pl-[50px] pt-5 my-auto ">
-              <div className="text-[#031a1b] text-[20px] font-poppins cursor-pointer fonts">
-                CASE
+        <Link to={"/mediaproduction"}>
+          <div className="grid grid-cols-3 gap-4 max-w-[1300px] mx-auto">
+            <div className=" lg:col-span-1 md:col-span-5 sm:col-span-5 col-span-6 lg:pb-0 pb-[30px] pt-5 my-auto ">
+              <div className="text-[#031a1b] text-[30px] font-poppins cursor-pointer fonts">
+              Media Production
               </div>
-              <h3 className="my-[30px] text-[#031a1b] text-[25px] font-poppins font-bold leading-[32px]">
-                Revamp of CASE and CaseTrust websites
+              <h3 className="my-[30px] text-[#031a1b] text-[16px]  font-poppins font-semibold leading-[27px] ">
+                <Link to={"./mediaproduction"}>
+                From concept to execution, our media production services encompass video, audio, and multimedia content creation, ensuring compelling storytelling that captivates your audience.
+                </Link>
               </h3>
               <p className="text-[#334545] text-[14px] font-poppins">
                 Consumer Forum, Web app
@@ -785,7 +783,9 @@ function Our_Services() {
 
         </div>
       </div> */}
-      <MultipleSlider />
+      <div>
+        <MultipleSlider />
+      </div>
     </div>
   );
 }
@@ -794,7 +794,7 @@ function Goalsec() {
   return (
     <div className=" our_goal py-[80px] lg:px-[80px] md:px-[60px] sm:px-[20px] px-[10px]   overflow-hidden">
       <Container2>
-        <div className="grid grid-cols-2  ">
+        <div className="grid grid-cols-2  gap-4">
           <div className="lg:col-span-1 md:col-span-2 sm:col-span-2 col-span-2  ">
             <h2 className="xl:text-[50px] lg:text-[50px] md:text-[50px]  sm:text-[40px] text-[38px] text-[#ffffff] font-poppins mb-[15px] xl:leading-[62px] lg:leading-[52px] md:leading-[60px]">
               Achieve your goal <br className="lg:block hidden" /> with our
@@ -1018,29 +1018,23 @@ function Makeshipster() {
         <div className="grid grid-cols-1  ">
           <div className="lg:px-[20px] md:px-[25px] sm:px-[30px] px-[20px]">
             <h2 className="text-[50px] mb-[15px] text-[#000000] font-poppins">
-              What makes
-              <br className="md:block hidden" /> Hipster hip?
+              What Makes Business
+              <br className="md:block hidden" /> 10X Different?
             </h2>
             <p className="text-[16px] font-poppins text-[#706b6b] mb-[30px] leading-[26px] xl:max-w-[60%]">
-              Hipster was founded in 2016 by Nikhil and Bok after a dinner
-              discussion in a hawker center. Back then, they did most of the
-              work out of a HDB flat. As a pragmatic entrepreneur, Nikhil
-              believes that technology only makes sense when it is commercially
-              viable. We might not always tell you what you want to hear, but we
-              definitely problem-solve with you.
+              At Business10X, we’re not just another digital agency—we’re your
+              growth partners, your digital strategy gurus, and your secret
+              weapon in the race to the top. So, what sets us apart from the
+              crowd? Let’s break it down:
             </p>
             <p className="text-[16px] font-poppins text-[#706b6b] mb-[30px] xl:max-w-[60%]">
-              Today, we have two main offices, Singapore and India. We don't
-              follow corporate conventions such as a work dress code, but we
-              take our work seriously.
+              Okay, not literally, but it might as well be! The digital landscape is ever-changing, and we stay ahead of the curve. We’re constantly exploring new tools, trends, and technologies to keep your business at the forefront of the industry.
             </p>
             <div className="flex justify-between">
-              
-
               <button className="relative overflow-hidden px-10 py-[13px] bg-transparent text-gray-800 font-medium border border-gray-800 rounded-full group">
                 <span className="absolute inset-0 w-full h-full bg-blue-500 transition-transform transform -translate-x-full group-hover:translate-x-0"></span>
                 <span className="relative text-gray-800 font-poppins font-semibold group-hover:text-white">
-                  <Link to={""}>Let's Talk</Link>
+                  <Link to={"/contact"}>Let's Talk</Link>
                 </span>
               </button>
               <img

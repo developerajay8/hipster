@@ -159,7 +159,7 @@ const Usefultool = () => {
               </div>
             </div>
             <h1 className="md:text-[48px] text-[30px] leading-[1.2] mb-[24px] text-center mt-[80px]">
-              20 Useful Tools for Every Startup in 2024
+            The Power of Social Media Marketing
             </h1>
             <div className="flex items-center justify-center gap-3 mt-[30px] pb-[24px]">
               <FaRegCalendar className="text-[25px]" />
@@ -174,83 +174,49 @@ const Usefultool = () => {
 
         <div className="px-[15px] font-[poppins]">
           <div>
-            <h1 className="md:text-[28px] text-[26px] md:mt-[40px] mb-[30px] leading-[1.2] font-medium">
+            {/* <h1 className="md:text-[28px] text-[26px] md:mt-[40px] mb-[30px] leading-[1.2] font-medium">
               <b>20 TOOLS EVERY STARTUP SHOULD HAVE</b>
-            </h1>
+            </h1> */}
             <p className="mb-[20px]  text-[16px] md:text-[20px] leading-[28px] md:leading-[32px] text-[#222]">
-              Finding the courage to start something of your own never comes
-              easy, and although, we might not be able to magically gift you
-              that courage, we can surely help you obtain twenty absolute
-              must-have tools needed for every startup to make a mark!
+            Social media marketing has become an essential tool for businesses to connect with their target audience and increase brand awareness. With the rise of platforms like Facebook, Instagram, Twitter, and LinkedIn, businesses have the opportunity to reach millions of potential customers.
             </p>
             <p className="mb-[20px] text-[16px] md:text-[20px] md:leading-[32px] leading-[28px] text-[#222]">
-              These tools enable your startup to function in a more organized
-              way as they specifically cater to entrepreneurs’ unlimited and
-              diverse demands. Moreover, the best part is that most of them are
-              free, so they remarkably cut down on costs and always seem worth a
-              try!
+            One of the key benefits of social media marketing is its ability to target specific demographics. Businesses can create targeted ads based on factors such as age, location, interests, and behavior. This allows them to reach the right people at the right time, increasing the chances of converting them into customers.
             </p>
 
-            <h1 className="md:text-[28px] text-[26px] mt-[40px] mb-[30px] leading-[1.2] font-medium">
+            {/* <h1 className="md:text-[28px] text-[26px] mt-[40px] mb-[30px] leading-[1.2] font-medium">
               <strong>1. Microsoft Teams</strong>
-            </h1>
+            </h1> */}
             <p className="mb-[20px] text-[16px] md:text-[20px] leading-[28px] md:leading-[32px] text-[#222]">
-              This video-conferencing tool makes the list without saying since
-              each startup is built on communication. The only slight surprise
-              is that ZOOM was not the top choice. Due to increasing privacy and
-              security concerns regarding ZOOM, Teams seems like the better
-              alternative. It includes similar features like screen sharing and
-              recording meetings. Additional features consist of access to
-              Office apps, 1TB of OneDrive storage and more. There is a free and
-              a paid version available, but Microsoft has begun a six-month free
-              trial of the paid version during the pandemic, which will be
-              followed by charging each user $5 per subsequent month.{" "}
-              <b>Google Hangouts Meet</b> is another similar and viable option
+            Another advantage of social media marketing is its cost-effectiveness. Compared to traditional advertising methods, such as TV or print ads, social media marketing is much more affordable. Businesses can set a budget that suits their needs and adjust it as necessary. This makes it accessible to businesses of all sizes, from startups to large corporations.
             </p>
 
-            <h2 className="md:text-[28px] text-[26px] mt-[40px] mb-[30px] leading-[1.2] font-medium">
+            {/* <h2 className="md:text-[28px] text-[26px] mt-[40px] mb-[30px] leading-[1.2] font-medium">
               <strong>2. Google Docs</strong>
-            </h2>
+            </h2> */}
             <p className="mb-[20px]  text-[16px] md:text-[20px] leading-[28px] md:leading-[32px] text-[#222]">
-              This popular tool is a must for all startups due to its ability to
-              simplify viewing, sharing, and editing important
-              documents/proposals. It even allows team members to add comments
-              and detect the presence of another member working on the same
-              document. Moreover, it displays the exact time when the document
-              was last edited. It has many other benefits and serves as a great
-              tool to ensure everyone is literally on the same page (Yes! PUN
-              INTENDED!)
+            Moreover, social media marketing allows businesses to engage with their audience on a personal level. By responding to comments, messages, and reviews, businesses can build trust and loyalty with their customers. This two-way communication also provides valuable insights into customer preferences and allows businesses to tailor their marketing strategies accordingly.
             </p>
 
-            <h2 className=" text-[26px] md:text-[28px] mt-[40px] mb-[30px] leading-[1.2] font-medium">
+            {/* <h2 className=" text-[26px] md:text-[28px] mt-[40px] mb-[30px] leading-[1.2] font-medium">
               <strong>3. AngelList</strong>
-            </h2>
+            </h2> */}
             <p className="mb-[20px] text-[16px] md:text-[20px] leading-[28px] md:leading-[32px] text-[#222]">
-              It reveals valuable information about startup related issues by
-              listing out startup jobs, investors, etc. It even provides several
-              filters to streamline searches and quicken the process of finding
-              exactly what you are looking for. Thus, this is a tool that can’t
-              be ignored.
+            Furthermore, social media marketing can boost website traffic and improve search engine rankings. By sharing links to their website or blog posts, businesses can drive traffic and increase their online visibility. Additionally, social media activity, such as likes, shares, and comments, can positively impact search engine rankings, making it easier for potential customers to find them.
             </p>
-
+{/* 
             <h2 className="text-[26px] md:text-[28px] mt-[40px] mb-[30px] leading-[1.2] font-medium">
               <strong> 4. Canva</strong>
-            </h2>
+            </h2> */}
             <p className="mb-[20px] text-[16px] md:text-[20px] leading-[28px] md:leading-[32px] text-[#222]">
-              Canva is currently the largest platform for designing graphics. It
-              offers plenty of templates to choose from with numerous free
-              options available. There is no shortage of the number of aesthetic
-              images and graphics present within this platform. It’s convenient
-              and easy to navigate around, which makes it very attractive for
-              entrepreneurs who wish to creatively position their brand in the
-              market without hiring a graphic designer.
+            In conclusion, social media marketing offers numerous benefits for businesses. From targeted advertising to cost-effectiveness and customer engagement, it has become an indispensable tool in today’s digital age. By harnessing the power of social media, businesses can effectively promote their products or services and stay ahead of the competition.
             </p>
-            <p className="mb-[20px] text-[16px] md:text-[20px] leading-[28px] md:leading-[32px] text-[#222]">
+            {/* <p className="mb-[20px] text-[16px] md:text-[20px] leading-[28px] md:leading-[32px] text-[#222]">
               Click here
               <Link to={'/ios14'} className="text-[#006a83] hover:text-[#000000]">What is new in iOS 14</Link>?
-            </p>
+            </p> */}
 
-            {data.map((fulldata, i) => {
+            {/* {data.map((fulldata, i) => {
               return (
                 <>
                   <h2 className="text-[26px] md:text-[28px] mt-[40px] mb-[30px] leading-[1.2] font-medium">
@@ -270,7 +236,7 @@ const Usefultool = () => {
                   </p>
                 </>
               );
-            })}
+            })} */}
           </div>
         </div>
           <Portfolio />

@@ -7,67 +7,29 @@ import Portfolio from "./Portfolio";
 const Startup = () => {
   const prograp = [
     {
-      title: "Sustainable Transportation",
+      // title: "Sustainable Transportation",
       prograp1:
-        "Singapore is committed to reducing its carbon footprint and has set a target to phase out internal combustion engine (ICE) vehicles by 2040. A startup that focuses on developing sustainable transportation solutions, such as electric vehicles, charging infrastructure, and smart transportation systems, could be well-positioned to meet the growing demand for eco-friendly transportation.",
+        "One of the leading digital marketing agencies in India is XYZ Digital. With a team of experienced professionals, XYZ Digital offers a wide range of services, including search engine optimization (SEO), social media marketing, pay-per-click advertising, and content marketing. They have a proven track record of helping businesses increase their online visibility and drive targeted traffic to their websites.",
     },
     {
-      title: "Virtual Events and Experiences",
+      // title: "Virtual Events and Experiences",
       prograp1:
-        "The pandemic has accelerated the adoption of virtual events and experiences, creating opportunities for startups that provide innovative solutions for virtual conferences, trade shows, and entertainment events. A startup that offers immersive virtual experiences or hybrid events that combine both physical and virtual components could be well-positioned to succeed in this market.",
-      prograp2:
-        "Virtual Events and Experiences allow you to create highly engaging digital events that can be accessed by multiple attendees, in real time.",
-      Bluetext: "Click here for more information.",
+        "Another notable agency is ABC Marketing Solutions. They specialize in creating customized digital marketing strategies tailored to the unique needs of each client. Their services include website design and development, email marketing, online reputation management, and conversion rate optimization. ABC Marketing Solutions takes a data-driven approach to ensure that their clients achieve measurable results.",
+     
     },
     {
-      title: "Healthtech",
+      // title: "Healthtech",
       prograp1:
-        "The healthcare industry is undergoing a digital transformation, and startups that provide innovative solutions for telemedicine, medical diagnostics, and personalized medicine could be well-positioned to meet the growing demand for healthcare services in Singapore. The government is also actively supporting the development of a smart healthcare ecosystem in Singapore, creating opportunities for startups that can leverage emerging technologies like AI and big data analytics.",
-      boldtext: "You can also check:",
-      BlueText: "Mental health solutions",
+        "For businesses looking to tap into the power of influencer marketing, DEF Influencer Agency is a top choice. They have a vast network of influencers across various industries and can help businesses connect with the right influencers to promote their products or services. DEF Influencer Agency also provides comprehensive campaign management and analytics to track the success of influencer marketing campaigns.",
+      // boldtext: "You can also check:",
+      // BlueText: "Mental health solutions",
     },
     {
-      title: "Food and Beverage",
+      // title: "Food and Beverage",
       prograp1:
-        "Singapore has a thriving food and beverage industry, and startups that offer innovative food products, such as plant-based meats, functional foods, or specialty snacks, could be well-positioned to succeed in this market. Additionally, startups that offer innovative solutions for food delivery or food waste reduction could also find success in Singapore’s competitive F&B industry.",
-    },
-    {
-      title: "Sustainable Fashion",
-      prograp1:
-        "The fashion industry is a significant contributor to global carbon emissions, and there is a growing demand for sustainable and ethical fashion options. A startup that offers sustainable fashion solutions, such as eco-friendly fabrics, circular fashion models, or supply chain transparency, could be well-positioned to meet the growing demand for sustainable fashion in Singapore.",
-      boldtext: "Click here for:",
-      BlueText: "Personalized fashion",
-    },
-    {
-      title: "Digital Wallet for Cryptocurrencies",
-      prograp1:
-        "Digital Wallet is a platform that supports multiple cryptocurrencies. It provides seamless transactions and secure storage, while supporting clients worldwide. We are continually researching new technologies and providing our users with the best possible experience using cryptocurrency.",
-    },
-    {
-      title: "Virtual Reality Education",
-      prograp1:
-        "Virtual Reality Education is an immersive and interactive education platform providing a unique way to create a virtual learning environment for students. With our mission to enhance the future of learning, we believe that our platform will bring forth new insights and perspectives on how best to improve the teaching and learning process.",
-      prograp2:
-        "Virtual Reality is the next frontier in education. If you are thinking about developing an education application,",
-      Bluetext: "click here.",
-    },
-    {
-      title: "Smart Home Automation",
-      prograp1:
-        "The smart home automation platform provides users with control over their home appliances, lighting and security, as well as energy usage. The platform is developed using the latest technology and can be integrated with many existing devices. The result is a simple and fast system that gives users more power in their homes.",
-    },
-    {
-      title: "AI-based Financial Advisory",
-      prograp1:
-        "Develop an AI-based financial advisory platform that provides personalized financial advice and investment recommendations. The system will use artificial intelligence, such as machine learning and deep learning, to analyze user data and provide personalized recommendations.",
-    },
-    {
-      title: "Autonomous Delivery Robots",
-      prograp1:
-        "Autonomous Delivery Robots are a new class of delivery robot that can operate independently, making use of artificial intelligence (AI) and sensor technology to deliver goods and materials to the customers.",
-      prograp2:
-        "It’s important to note that these are just general startup ideas, and any successful business idea will require careful research, planning, and execution. Additionally, there may be other factors to consider, such as regulatory requirements, competition, and market demand.",
-    },
+        "In conclusion, India is home to some of the best digital marketing agencies in the world. Whether you need help with SEO, social media marketing, or influencer marketing, there is a digital marketing agency in India that can meet your needs. By harnessing the power of digital marketing, businesses can reach a wider audience, increase brand awareness, and drive more conversions.",
+    }
+    
   ];
 
   return (
@@ -76,7 +38,7 @@ const Startup = () => {
         <div className=" sm:mb-[48px] md:mb-[48px] mb-[20px]">
           <div className="px-[15px] mb-[24px] ">
             <h1 className=" text-[30px] md:text-[48px] pt-[20px] md:pt-[80px] leading-[1.2] text-center font-[400] md:font-[600] ">
-              2024 Top 10 Startup trends in Singapore
+            India’s Best Digital Marketing
             </h1>
             <div className="flex items-center justify-center gap-3 mt-[30px] pb-[24px]">
               <FaRegCalendar className=" text-[20px] md:text-[25px]" />
@@ -92,22 +54,21 @@ const Startup = () => {
               />
               <p className="text-[16px] md:text-[20px] pb-[20px] leading-[28px] md:leading-[32px] text-[#222] font-[900]">
                 <b>
-                  Here are a few general startup ideas that could be relevant
-                  for Singapore in the future:
+                India has emerged as a global hub for digital marketing, with a plethora of agencies and professionals offering top-notch services. The digital landscape in India is constantly evolving, and businesses are increasingly recognizing the importance of having a strong online presence. In this article, we will explore some of the best digital marketing agencies in India and the services they provide.
                 </b>
               </p>
 
               {prograp.map((data, i) => {
                 return (
                   <div key={i}>
-                    <h2 className=" mb-[20px]">
+                    <h2 className=" mb-[10px]">
                       <strong className="text-[28px] md:leading-[32px] leading-[28px] md:text-[32px] font-[600] ">{data.title}</strong>
                     </h2>
-                    <p className=" text-[16px] md:text-[20px] md:leading-[32px] leading-[28px] mb-[20px]">{data.prograp1}</p>
-                    <p className="  text-[16px] md:text-[20px] mb-[20px]">
+                    <p className=" text-[16px] md:text-[20px] md:leading-[32px] leading-[28px] mb-[10px]">{data.prograp1}</p>
+                    <p className="  text-[16px] md:text-[20px] mb-[10px]">
                       {data.prograp2} <span className="text-[#006a83]">{data.Bluetext}</span>
                     </p>
-                    <div className=" text-[16px] md:text-[20px] font-[800] pb-[40px] md:pb-[40px] ">
+                    <div className=" text-[16px] md:text-[20px] font-[800] pb-[40px] md:pb-[20px] ">
                       <strong>{data.boldtext} <span className="text-[#006a83]">{data.BlueText}</span></strong>
                     </div>
                   </div>

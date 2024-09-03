@@ -12,84 +12,7 @@ import Container7 from '../../components/Container7';
 
 
 export default function Min_tutor() {
-  const features = [
-    {
-      title: 'Disseminate QR Code e-Tickets via Email',
-      description: 'Automatically send out customized registration confirmation emails with QR Code e-Tickets to guests',
-      icon: (
-        <svg className="w-12 h-12 text-teal-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 10h4v4H3zM17 10h4v4h-4zM12 14h.01M12 10h.01M4 4h16v2H4zM4 18h16v2H4z" />
-        </svg>
-      ),
-    },
-    {
-      title: 'Facilitate Check-in with QR Scan',
-      description: 'Effortlessly scan the QR Code from the confirmation email or e-Ticket on mobile. Checking in a guest only takes a moment.',
-      icon: (
-        <svg className="w-12 h-12 text-teal-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 10h4v4H3zM17 10h4v4h-4zM12 14h.01M12 10h.01M4 4h16v2H4zM4 18h16v2H4z" />
-        </svg>
-      ),
-    },
-    {
-      title: 'QR-less Check-in with Name Search',
-      description: 'For guests without an e-Ticket, simply confirm their attendance by name, email, ID, or company name',
-      icon: (
-        <svg className="w-12 h-12 text-teal-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 10h4v4H3zM17 10h4v4h-4zM12 14h.01M12 10h.01M4 4h16v2H4zM4 18h16v2H4z" />
-        </svg>
-      ),
-    },
-    {
-      title: 'Instant Name Badge Printing',
-      description: 'Print personalized delegate badges on the spot in less than two secs',
-      icon: (
-        <svg className="w-12 h-12 text-teal-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 10h4v4H3zM17 10h4v4h-4zM12 14h.01M12 10h.01M4 4h16v2H4zM4 18h16v2H4z" />
-        </svg>
-      ),
-    },
-    ,
-    {
-      title: 'Instant Name Badge Printing',
-      description: 'Print personalized delegate badges on the spot in less than two secs',
-      icon: (
-        <svg className="w-12 h-12 text-teal-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 10h4v4H3zM17 10h4v4h-4zM12 14h.01M12 10h.01M4 4h16v2H4zM4 18h16v2H4z" />
-        </svg>
-      ),
-    },
-    ,
-    {
-      title: 'Instant Name Badge Printing',
-      description: 'Print personalized delegate badges on the spot in less than two secs',
-      icon: (
-        <svg className="w-12 h-12 text-teal-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 10h4v4H3zM17 10h4v4h-4zM12 14h.01M12 10h.01M4 4h16v2H4zM4 18h16v2H4z" />
-        </svg>
-      ),
-    },
-    ,
-    {
-      title: 'Instant Name Badge Printing',
-      description: 'Print personalized delegate badges on the spot in less than two secs',
-      icon: (
-        <svg className="w-12 h-12 text-teal-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 10h4v4H3zM17 10h4v4h-4zM12 14h.01M12 10h.01M4 4h16v2H4zM4 18h16v2H4z" />
-        </svg>
-      ),
-    },
-    ,
-    {
-      title: 'Instant Name Badge Printing',
-      description: 'Print personalized delegate badges on the spot in less than two secs',
-      icon: (
-        <svg className="w-12 h-12 text-teal-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 10h4v4H3zM17 10h4v4h-4zM12 14h.01M12 10h.01M4 4h16v2H4zM4 18h16v2H4z" />
-        </svg>
-      ),
-    },
-  ];
+  
 
   return (
     <div>
@@ -98,12 +21,14 @@ export default function Min_tutor() {
         <div className="max-w-[1300px] mx-auto xl:px-0 px-[20px] mb-[48px]">
           <h2>
             <span className='md:text-[30px] sm:text-[24px] text-[16px] font-poppins'>
-              <span className='md:text-[30px] sm:text-[24px] text-[16px] text-[#00b0ab] font-poppins font-semibold'> 10-min Tutor </span>
-              — Edutech
+              <span className='md:text-[30px] sm:text-[24px] text-[16px] text-[#00b0ab] font-poppins font-semibold'> Designing  </span>
+              — and Editing
             </span>
 
             <div className='md:mt-[10px] mt-[5px]'>
-              <span className='xl:text-[48px] md:text-[40px] sm:text-[30px] text-[24px] text-[#000000] font-poppins font-semibold'>On-demand tutor app with video-telephony & marketplace functionalities</span>
+            <span className="text-[22px] sm:text-[27px] md:text-[32px] lg:text-[34px] text-[#000000] font-poppins font-semibold">
+            Elevate your visual presence with captivating design and precision editing. Our talented team brings your creative vision to life through impactful imagery, graphics, and visual storytelling.
+              </span>
             </div>
           </h2>
         </div>

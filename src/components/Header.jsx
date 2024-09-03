@@ -23,10 +23,10 @@ export default function Header() {
       name: "Home",
       url: "/",
     },
-    {
-      name: "Our Work",
-      url: "/ourwork",
-    },
+    // {
+    //   name: "Our Work",
+    //   url: "/ourwork",
+    // },
     {
       name: "Who we are",
       url: "/whoweare",
@@ -43,25 +43,45 @@ export default function Header() {
 
   const SItems = [
     {
-      name: "Web Development",
-      url: "/webdevelopment",
+      name: "Web Application",
+      url: "/webapplication",
     },
     {
-      name: "Mobile App Development",
-      url: "/mobileappdevelopment",
+      name: "Website and App Development",
+      url: "/websiteandappdevelopment",
     },
     {
-      name: "UI/UX Design",
-      url: "/uiuxdesign",
+      name: "CGI & 2D, 3D",
+      url: "/cgi",
     },
     {
-      name: "Software Development",
-      url: "/softwaredevelopment",
+      name: "Social Media Management",
+      url: "/socialmedia",
     },
     {
-      name: "Off The Shelf Products",
-      url: "/offtheshelfproducts",
+      name: "Branding",
+      url: "/branding",
     },
+    {
+      name: "Performance marketing",
+      url: "/performancemarketing",
+    },
+    {
+      name: "Designing and editing",
+      url: "/designingandediting",
+    },
+    {
+      name: "Media production",
+      url: "/mediaproduction",
+    },
+    {
+      name: "Creative production",
+      url: "/creativeproduction",
+    },
+    {
+      name: "ERP",
+      url: "/erps",
+    }
   ];
 
   const TItems = [
@@ -135,11 +155,11 @@ export default function Header() {
 
   const SIItems = [
     {
-      name: "hello@hipster-inc.com",
+      name: "get@tenx.business",
       url: "/facebook",
     },
     {
-      name: "+65 82314107",
+      name: "+91 80589 85959",
       url: "/instagram",
     },
   ];
@@ -204,7 +224,7 @@ export default function Header() {
                 </div>
                 {items.map((item, index) => {
                   return (
-                    <li key={index} className="ms:text-[40px] text-[25px] font">
+                    <li key={index} className="lg:text-[40px] md:text-[32px] text-[25px] font">
                       <Link onClick={closeMenu} to={item.url}>
                         {item.name}
                       </Link>
@@ -250,9 +270,9 @@ export default function Header() {
                 {FItems.map((Fitem, index) => {
                   return (
                     <li key={index} className="text-[18px] pb-[10px] leading-4">
-                      <Link onClick={closeMenu} to={Fitem.url}>
+                      <div className="cursor-pointer">
                         {Fitem.name}
-                      </Link>
+                      </div>
                     </li>
                   );
                 })}
@@ -278,17 +298,17 @@ export default function Header() {
                 {SIItems.map((Siitem, index) => {
                   return (
                     <li key={index} className="text-[18px] pb-[4px] leading-6">
-                      <Link onClick={closeMenu} to={Siitem.url}>
+                      <div className="cursor-pointer">
                         {Siitem.name}
-                      </Link>
+                      </div>
                     </li>
                   );
                 })}
 
-                <div className="text-[18px] pb-[4px] leading-6">
+                <div className="text-[18px] cursor-pointer pb-[4px] leading-6">
                   60 Kaki Bukit Place #10-14
                 </div>
-                <div className="text-[18px] pb-[4px] leading-6">
+                <div className="text-[18px] cursor-pointer pb-[4px] leading-6">
                   Eunos Techpark, Singapore 415979
                 </div>
               </ul>

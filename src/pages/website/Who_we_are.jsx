@@ -30,26 +30,13 @@ import { TiArrowRight } from "react-icons/ti";
 import { Link } from "react-router-dom";
 import Container2 from "../../components/Container2";
 import Container4 from "../../components/Container4";
-import Counter from "./counter";
-import Counter2 from "./counter2";
+
 
 export default function Who_we_are() {
-  const [clients, setClient] = useState(1);
   // const [client,setClie] = useState(1);
   // const [clien,setCli] = useState(1);
 
-  useEffect(() => {
-    const clientInterval = setInterval(() => {
-      setClient((prev) => {
-        if (prev < 50) {
-          return prev + 1;
-        } else {
-          clearInterval(clientInterval);
-          return prev;
-        }
-      });
-    }, 50);
-  }, []);
+
 
 
  
@@ -62,25 +49,14 @@ export default function Who_we_are() {
         <div className=" py-[80px] xl:px-0 lg:px-[30px] md:px-[40px] sm:px-[30px] px-[26px]">
           <div className="">
             <h1 className="lg:text-[56px] md:text-[42px] sm:text-[35px] text-[35px]  font-poppins text-[#000000]">
-              <span className="hover:text-[#718093] textdu">W</span>
-              <span className="hover:text-[#273c75] textdu">h</span>
-              <span className="hover:text-[#00a8ff] textdu">o</span>
-              <span className="pl-[12px]"></span>
-              <span className="hover:text-[#4cd137] textdu">w</span>
-              <span className="hover:text-[#dcdde1] textdu">e</span>
-              <span className="pl-[12px]"></span>
-              <span className="hover:text-[#2f3640] textdu">a</span>
-              <span className="hover:text-[#f5f6fa] textdu">r</span>
-              <span className="hover:text-[#487eb0] textdu">e</span>
-              {/* Who we are */}
+              Who we are
             </h1>
             <h2
-              className="max-w-[865px] font-semibold text-[#001817] xl:text-[32px] lg:text-[28px] sm:text-[24px]
+              className=" font-semibold text-[#001817] xl:text-[32px] lg:text-[28px] sm:text-[24px]
            text-[22px] font-poppins lg:mt-[60px] md:mt-[30px] sm:mt-[18px] mt-[16px] mb-[15px]"
               data-aos="slide-up"
             >
-              A full-service software development company based in Singapore. We
-              create user-centric digital solutions.{" "}
+             At Business10X, we are more than just a digital agency—we are a dynamic team of innovators, strategists, and problem-solvers dedicated to elevating your business to new heights. Our mission is simple: to drive exponential growth for our clients through cutting-edge digital solutions tailored to their unique needs.
             </h2>
           </div>
         </div>
@@ -91,20 +67,18 @@ export default function Who_we_are() {
           <div className="grid md:grid-cols-3 grid-col-2 gap-6">
             <div className="md:col-span-1 grid-cols-2 md:pr-[15px] pr-[0px]">
               <h2 className="font-poppins md:text-[32px] text-[24px] md:mb-[15px] mb-0 text-[#001817] font-semibold">
-                Our Goal
+              Our Approach
               </h2>
             </div>
             <div className="md:col-span-2 col-span-2 md:pl-[15px] pl-[0px]">
               <p className="md:text-[20px] text-[16px] font-poppins text-[#6d7676]">
-                Since the beginning, our primary goal is to help our clients
-                build solutions that matter. We use technology to help users and
-                make the world a better place. 🌈
+              We believe that every business has its own story, challenges, and potential. That’s why we take a customized approach to everything we do. We start by diving deep into your business, understanding your goals, and identifying the obstacles in your path. From there, we craft strategies that are not only innovative but also aligned with your vision, ensuring that every action we take is a step towards your success.🌈
               </p>
             </div>
           </div>
         </Container4>
-        <div className="md:h-[100px] h-[40px]"></div>
-        <Container4>
+        {/* <div className="md:h-[100px] h-[40px]"></div> */}
+        {/* <Container4>
           <div className="grid grid-cols-2 gap-6">
             <div className="md:col-span-1 col-span-2 pr-[15px]">
               <img src={ogl} className="max-w-[145px] max-h-[106px]" alt="" />
@@ -113,22 +87,34 @@ export default function Who_we_are() {
               <img src={ogr} className="max-w-[145px] max-h-[106px]" alt="" />
             </div>
           </div>
-        </Container4>
+        </Container4> */}
         <div className="md:h-[100px] h-[40px]"></div>
         <Container4>
           <div className="grid grid-cols-3 gap-6">
             <div className="md:col-span-1 col-span-3 md:pr-[15px] pr-0">
               <h2 className="font-poppins md:text-[32px] text-[24px] mb-[15px] text-[#001817] sasassa">
-                Simply put, we are not just software{" "}
-                <br className="sm:block hidden md:hidden" /> providers.
+              Our Expertise
               </h2>
             </div>
             <div className="md:col-span-2 col-span-3 md:pl-[15px] pl-0">
               <p className="md:text-[20px] text-[16px] font-poppins text-[#6d7676]">
-                We are a passionate bunch providing digital solutions for
-                change-makers. ❤️ Hipster is a software development company
-                based in Singapore, but we are proud to say that our clients
-                come from all over the world. 🌎
+                With years of experience in the digital landscape, our team brings a wealth of knowledge in areas like SEO, performance marketing, ❤️ content strategy, and more. But we don’t just rest on our laurels; we are constantly evolving, staying ahead of industry trends to provide you with the latest and most effective solutions.🌎
+
+              </p>
+            </div>
+          </div>
+        </Container4>
+
+        <Container4>
+          <div className="grid grid-cols-3 sm:pt-[50px] pt-[30px] gap-6">
+            <div className="md:col-span-1 col-span-3 md:pr-[15px] pr-0">
+              <h2 className="font-poppins md:text-[32px] text-[24px] mb-[15px] text-[#001817] sasassa">
+              Our Philosophy
+              </h2>
+            </div>
+            <div className="md:col-span-2 col-span-3 md:pl-[15px] pl-0">
+              <p className="md:text-[20px] text-[16px] font-poppins text-[#6d7676]">
+              At Business10X, we believe in the power of partnership. We don’t just work for you; we work with you. Our collaborative approach ensures that we are always in sync with your objectives, providing transparency, communication, and results that matter.
               </p>
             </div>
           </div>
@@ -137,11 +123,11 @@ export default function Who_we_are() {
         <Container4>
           <div className="">
             <h2 className="xl:text-[42px] lg:text-[32px] md:text-[28px] sm:text-[24px] text-[20px] font-poppins text-[#001817]">
-              We have proudly provided tech solutions that have enabled service
-              providers to <u>educate the younger generation,</u>
-              <u>get food delivered without plastic waste,</u> and{" "}
-              <u>transform the mental health scene,</u>
+            Choosing Business10X means choosing a partner who is as invested in your success as you are. <u>We bring passion, dedication, and a relentless drive to see your business grow.</u>
+              <u>We measure our success by your success,</u> and{" "}
+              <u>we are committed to delivering results that go beyond expectations.</u>
             </h2>
+              
           </div>
         </Container4>
       </div>
@@ -173,52 +159,7 @@ export default function Who_we_are() {
         </div>
       </Container4>
 
-      <div className="w-full relative">
-        <img src={blackstaurn} className="w-full inset-1  flex  items-center justify-center" alt="" />
-        <Container4>
-        <div className="font-[poppins] xl:my-[120px]  lg:my-[80px] md:my-[10px] absolute inset-0 max-w-[1140px] mx-auto  px-[15px] lg:py-[100px] sm:py-[50px] py-[18px]">
-          <div className="grid grid-cols-3  lg:py-[100px] sm:py-[50px] py-[18px] border rounded-3xl text-[white]">
-            <div className=" flex justify-center">
-              <div className="">
-                <h2 className="text-[20px] gap-3 sm:text-[32px] md:text-[48px] lg:text-[66px] font-semibold">
-                  {clients}
-                  <span>+</span>
-                </h2>
-                <p className=" text-[16px] md:leading-[32px] leading-[28px] md:text-[20px]">
-                  Happy clients
-                </p>
-              </div>
-            </div>
-
-            <div className=" flex justify-center">
-              <div>
-                <h2 className="text-[20px] sm:text-[32px] md:text-[48px] lg:text-[66px] gap-3 font-semibold flex">
-                <Counter />
-                  <span>+</span>
-                </h2>
-                <p className=" text-[16px] md:leading-[32px] leading-[28px] md:text-[20px]">
-                Completed Projects
-                </p>
-              </div>
-            </div>
-
-            <div className=" flex justify-center">
-              <div>
-                <h2 className="text-[20px] sm:text-[32px] md:text-[48px] lg:text-[66px] flex gap-3 font-semibold">
-                <Counter2 />
-                  <span>+</span>
-                </h2>
-                <p className=" text-[16px] md:leading-[32px] leading-[28px] md:text-[20px]">
-                Skilled Experts
-                </p>
-              </div>
-            </div>
-
-            
-          </div>
-        </div>
-      </Container4>
-      </div>
+      
 
       <div className="">
         <div className="grid md:grid-cols-5 grid-cols-1">
@@ -227,16 +168,13 @@ export default function Who_we_are() {
               className="xl:text-[50px] sm:text-[35px] text-[32px] font-poppins text-[#000000] mb-[15px] fs xl:leading-[60px] leading-[40px]"
               data-aos="slide-up"
             >
-              People at the heart of all we do
+              At Business10X, we believe
             </h2>
             <p
               className="lg:text-[20px] sm:text-[16px] text-[#6d7676] font-poppins"
               data-aos="slide-up"
             >
-              Digital products need to be user-centric, secure, reliable and
-              scalable. At Hipster, your projects are in the good hands of our
-              specialised team of UI/UX designers👩🏻‍🎨, developers 👨🏻‍💻, and project
-              managers👱🏽‍♀️
+               that great experiences are the cornerstone of successful businesses. Our mission is to craft solutions that not only meet the needs of our clients but also enrich the lives of the people they serve.
             </p>
           </div>
           <div className="md:col-span-2 col-span-1 xl:px-[80px] px-[40px] xl:py-[80px] py-[40px] column xl:leading-[60px] sm:leading-[45px] leading-[37px]">
@@ -244,7 +182,7 @@ export default function Who_we_are() {
               className="mb-[15px] text-[#ffffff] xl:text-[50px] sm:text-[36px] text-[32px] font-poppins"
               data-aos="zoom-in"
             >
-              We design and develop experiences that make people’s lives better.
+              Business10X not only drives business growth but also transforms companies into well-recognized brands.
             </h2>
           </div>
         </div>
@@ -274,8 +212,8 @@ export default function Who_we_are() {
                   No one is ever fully prepared to do the job the first time
                   they do it. Thankfully, we are continually gaining experience
                   under our belt. Still, there is always more to learn with
-                  technology. This keeps us grounded, open to new ideas,
-                  challenging assumptions and pushing the boundaries of tech.
+                  technology. This keeps us grounded, open to new ideas.
+                  
                 </p>
               </div>
             </div>
@@ -288,29 +226,21 @@ export default function Who_we_are() {
 }
 
 
-
 function Makeshipster() {
   return (
-    <div className="md:pt-[150px] sm:pt-[90px]  md:pb-[100px] sm:pb-[80px] pb-[40px] Makes relative">
+    <div className="md:pt-[150px] sm:pt-[90px] pt-[40px] md:pb-[100px] sm:pb-[80px] pb-[40px] Makes relative">
       <Container2>
         <div className="grid grid-cols-1  ">
           <div className="lg:px-[20px] md:px-[25px] sm:px-[30px] px-[20px]">
-            <h2 className="lg:text-[50px] md:text-[40px] text-[35px] mb-[15px] text-[#000000] font-poppins">
-              What makes
-              <br className="md:block hidden" /> Hipster hip?
+            <h2 className="text-[50px] mb-[15px] text-[#000000] font-poppins">
+            What Makes Business
+              <br className="md:block hidden" /> 10X Different?
             </h2>
             <p className="text-[16px] font-poppins text-[#706b6b] mb-[30px] leading-[26px] xl:max-w-[60%]">
-              Hipster was founded in 2016 by Nikhil and Bok after a dinner
-              discussion in a hawker center. Back then, they did most of the
-              work out of a HDB flat. As a pragmatic entrepreneur, Nikhil
-              believes that technology only makes sense when it is commercially
-              viable. We might not always tell you what you want to hear, but we
-              definitely problem-solve with you.
+              At Business10X, we’re not just another digital agency—we’re your growth partners, your digital strategy gurus, and your secret weapon in the race to the top. So, what sets us apart from the crowd? Let’s break it down:
             </p>
             <p className="text-[16px] font-poppins text-[#706b6b] mb-[30px] xl:max-w-[60%]">
-              Today, we have two main offices, Singapore and India. We don't
-              follow corporate conventions such as a work dress code, but we
-              take our work seriously.
+            Okay, not literally, but it might as well be! The digital landscape is ever-changing, and we stay ahead of the curve. We’re constantly exploring new tools, trends, and technologies to keep your business at the forefront of the industry.
             </p>
             <div className="flex justify-between">
               
@@ -318,11 +248,12 @@ function Makeshipster() {
               <button className="relative overflow-hidden px-10 py-[13px] bg-transparent text-gray-800 font-medium border border-gray-800 rounded-full group">
                 <span className="absolute inset-0 w-full h-full bg-blue-500 transition-transform transform -translate-x-full group-hover:translate-x-0"></span>
                 <span className="relative text-gray-800 font-poppins font-semibold group-hover:text-white">
-                  <Link to={""}>Let's Talk</Link>
+                  <Link to={"/contact"}>Let's Talk</Link>
                 </span>
               </button>
               <img
                 src={descriptionlogo}
+                // src={business}
                 className="max-w-[191px] max-h-[62px] sm:block hidden"
                 alt=""
               />
@@ -349,7 +280,7 @@ function Makeshipster() {
             />
           </div>
 
-          {/* <div className="PENCIL md:block hidden">
+          <div className="PENCIL md:block hidden">
             <img
               src={polygonball}
               className="absolute top-[-100px] left-[30px]"
@@ -365,7 +296,7 @@ function Makeshipster() {
               className="absolute top-[-37px] left-[122px]"
               alt=""
             />
-          </div> */}
+          </div>
         </div>
       </Container2>
     </div>

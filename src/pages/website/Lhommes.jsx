@@ -55,14 +55,14 @@ export default function Lhommes() {
           <h2>
             <span className="md:text-[30px] sm:text-[24px] text-[16px] font-poppins">
               <span className="md:text-[30px] sm:text-[24px] text-[16px] text-[#00b0ab] font-poppins font-semibold">
-              L’Hommes 
+              ERP
               </span>
-              — Fashion E-commerce
+              — (Enterprise Resource Planning)
             </span>
 
             <div className="md:mt-[10px] mt-[5px]">
-              <span className="xl:text-[48px] md:text-[40px] sm:text-[30px] text-[24px] text-[#000000] font-poppins font-semibold">
-              Custom suits e-commerce platform with fit visualization
+            <span className="text-[22px] sm:text-[27px] md:text-[32px] lg:text-[34px] text-[#000000] font-poppins font-semibold">
+            Optimize your business processes and data management with our ERP solutions, helping you integrate and manage core business functions seamlessly.
               </span>
             </div>
           </h2>

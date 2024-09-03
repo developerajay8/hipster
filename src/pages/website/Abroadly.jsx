@@ -65,15 +65,16 @@ export default function Abroadly() {
             <span className="md:text-[30px] sm:text-[24px] text-[16px] font-poppins">
               <span className="md:text-[30px] sm:text-[24px] text-[16px] text-[#00b0ab] font-poppins font-semibold">
                 {" "}
-                Abroadly
+                Branding
               </span>
-              — Travel
             </span>
 
             <div className="mt-[10px]">
-              <span className="xl:text-[48px] md:text-[40px] sm:text-[30px] text-[24px] text-[#000000] font-poppins font-semibold">
-                Visualisation technology to improve the online and offline
-                retail experience
+              <span className="text-[22px] sm:text-[27px] md:text-[32px] lg:text-[34px] text-[#000000] font-poppins font-semibold">
+                Build a distinctive brand identity that resonates with your
+                audience. Our branding services encompass market research, brand
+                strategy, and visual identity design, ensuring that your brand
+                stands out in the competitive landscape.
               </span>
             </div>
           </h2>
@@ -224,8 +225,6 @@ export default function Abroadly() {
           </ul>
         </div>
       </div>
-
-      
 
       {/* Compleate responsive */}
       <div className="">

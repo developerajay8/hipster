@@ -291,26 +291,19 @@ export default function Clients() {
 
 function Makeshipster() {
     return (
-      <div className="md:pt-[150px] sm:pt-[90px] pt-[50px]  md:pb-[100px] sm:pb-[80px] pb-[40px] Makes relative">
+      <div className="md:pt-[150px] sm:pt-[90px] pt-[40px] md:pb-[100px] sm:pb-[80px] pb-[40px] Makes relative">
         <Container2>
           <div className="grid grid-cols-1  ">
             <div className="lg:px-[20px] md:px-[25px] sm:px-[30px] px-[20px]">
-              <h2 className="lg:text-[50px] md:text-[40px] text-[35px] mb-[15px] text-[#000000] font-poppins">
-                What makes
-                <br className="md:block hidden" /> Hipster hip?
+              <h2 className="text-[50px] mb-[15px] text-[#000000] font-poppins">
+              What Makes Business
+                <br className="md:block hidden" /> 10X Different?
               </h2>
               <p className="text-[16px] font-poppins text-[#706b6b] mb-[30px] leading-[26px] xl:max-w-[60%]">
-                Hipster was founded in 2016 by Nikhil and Bok after a dinner
-                discussion in a hawker center. Back then, they did most of the
-                work out of a HDB flat. As a pragmatic entrepreneur, Nikhil
-                believes that technology only makes sense when it is commercially
-                viable. We might not always tell you what you want to hear, but we
-                definitely problem-solve with you.
+                At Business10X, we’re not just another digital agency—we’re your growth partners, your digital strategy gurus, and your secret weapon in the race to the top. So, what sets us apart from the crowd? Let’s break it down:
               </p>
               <p className="text-[16px] font-poppins text-[#706b6b] mb-[30px] xl:max-w-[60%]">
-                Today, we have two main offices, Singapore and India. We don't
-                follow corporate conventions such as a work dress code, but we
-                take our work seriously.
+              Okay, not literally, but it might as well be! The digital landscape is ever-changing, and we stay ahead of the curve. We’re constantly exploring new tools, trends, and technologies to keep your business at the forefront of the industry.
               </p>
               <div className="flex justify-between">
                 
@@ -318,11 +311,12 @@ function Makeshipster() {
                 <button className="relative overflow-hidden px-10 py-[13px] bg-transparent text-gray-800 font-medium border border-gray-800 rounded-full group">
                   <span className="absolute inset-0 w-full h-full bg-blue-500 transition-transform transform -translate-x-full group-hover:translate-x-0"></span>
                   <span className="relative text-gray-800 font-poppins font-semibold group-hover:text-white">
-                    <Link to={""}>Let's Talk</Link>
+                    <Link to={"/contact"}>Let's Talk</Link>
                   </span>
                 </button>
                 <img
                   src={descriptionlogo}
+                  // src={business}
                   className="max-w-[191px] max-h-[62px] sm:block hidden"
                   alt=""
                 />

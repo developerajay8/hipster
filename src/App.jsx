@@ -6,12 +6,8 @@ import Who_we_are from './pages/website/Who_we_are';
 import Services from './pages/website/Services';
 import Contact from './pages/website/Contact';
 import WebsiteMain from './pages/website/main';
-import Our_Works from './pages/website/Our_works';
-import Web_Development from './pages/website/Web_Development';
-import Mobile_App_Development from './pages/website/Mobile_App_Development';
-import UIUX_Design from './pages/website/UIUX_Design';
-import Software_Development from './pages/website/Software_Development';
-import O_T_H_P from './pages/website/O_T_H_P';
+// import Our_Works from './pages/website/Our_works';
+
 import Process from './pages/website/Process';
 import Career from './pages/website/Career';
 import Blog from './pages/website/Blog';
@@ -111,6 +107,16 @@ import Hybridems from './pages/website/Hybridems';
 import Lhommes from './pages/website/Lhommes';
 import Productdesign from './pages/website/Productdesign';
 import Othertechnoliges from './pages/website/Othertechnoliges';
+import Webapplication from './pages/website/Webapplication';
+import Website_and_app_development from './pages/website/Website_and_app_development';
+import CGI from './pages/website/CGI';
+import Socialmedia from './pages/website/Socialmedia';
+import Branding from './pages/website/Branding';
+import Performancemarkating from './pages/website/Performancemarkating';
+import Designingandedited from './pages/website/Designingandedited';
+import Mediaproduction from './pages/website/Mediaproduction';
+import Creativeproducation from './pages/website/Creativeproducation';
+import Erps from './pages/website/Erps';
 
 function App() {
   const routes = createBrowserRouter(
@@ -123,10 +129,10 @@ function App() {
             path:"/",
             element:<Home/>
           },
-          {
-            path:"ourwork",
-            element:<Our_Works/>
-          },
+          // {
+          //   path:"ourwork",
+          //   element:<Our_Works/>
+          // },
           {
             path:"whoweare",
             element:<Who_we_are/>
@@ -140,25 +146,45 @@ function App() {
             element:<Contact/>
           },
           {
-            path:"webdevelopment",
-            element:<Web_Development/>
+            path:"webapplication",
+            element:<Webapplication/>
           },
           {
-            path:"mobileappdevelopment",
-            element:<Mobile_App_Development/>
+            path:"websiteandappdevelopment",
+            element:<Website_and_app_development/>
           },
           {
-            path:"uiuxdesign",
-            element:<UIUX_Design/>
+            path:"cgi",
+            element:<CGI/>
           }
           ,
           {
-            path:"softwaredevelopment",
-            element:<Software_Development/>
+            path:"socialmedia",
+            element:<Socialmedia/>
           },
           {
-            path:"offtheshelfproducts",
-            element:<O_T_H_P/>
+            path:"branding",
+            element:<Branding/>
+          },
+          {
+            path:"performancemarketing",
+            element:<Performancemarkating/>
+          },
+          {
+            path:"designingandediting",
+            element:<Designingandedited/>
+          },
+          {
+            path:"mediaproduction",
+            element:<Mediaproduction/>
+          },
+          {
+            path:"creativeproduction",
+            element:<Creativeproducation/>
+          },
+          {
+            path:"erps",
+            element:<Erps/>
           },
           {
             path:"process",

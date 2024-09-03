@@ -12,25 +12,20 @@ import SimpleSlider from './SimpleSlider';
 import Marquee from 'react-fast-marquee';
 
 
-export default function Web_Development() {
-  const accordElems = Data.map(
-    (d, i) => {
-      // console.log(d,i);
-      return <Accord key={i} title={d.title} body={d.body} seo={d.seo} sep={d.sep} seps={d.seps} />
-
-    }
-  )
+export default function Performancemarkating() {
+ 
   return (
     <div>
       <Container4>
         <div className=" pt-[100px] sm:pb-[80px] pb-[50px] xl:px-0 lg:px-[30px] md:px-[40px] sm:px-[30px] px-[26px]">
           <div className="">
             <h1 className='lg:text-[56px] md:text-[42px] sm:text-[35px] text-[35px]  font-poppins text-[#000000]' data-aos="slide-right" data-aos-duration="500">
-            Web Development
+            Performance Marketing
+
 
             </h1>
-            <h2 className='max-w-[865px] font-semibold text-[#001817] xl:text-[32px] lg:text-[28px] sm:text-[24px]
-           text-[22px] font-poppins lg:mt-[60px] md:mt-[30px] sm:mt-[18px] mt-[16px] mb-[15px] sm:leading-[40px] leading-[27px]' data-aos="slide-left" data-aos-duration="500">A website is the face and hands to a brand. Besides being a powerful marketing tool, it dramatically increases business efficiency.</h2>
+            <h2 className=' font-semibold text-[#001817] xl:text-[32px] lg:text-[28px] sm:text-[24px]
+           text-[22px] font-poppins lg:mt-[60px] md:mt-[30px] sm:mt-[18px] mt-[16px] mb-[15px] sm:leading-[40px] leading-[27px]' data-aos="slide-left" data-aos-duration="500">Amplify your online reach and drive conversions through targeted performance marketing strategies. Our team leverages data-driven insights to craft campaigns that maximize ROI and deliver measurable results.</h2>
           </div>
         </div>
       </Container4>
@@ -40,21 +35,24 @@ export default function Web_Development() {
       <div className="py-[80px]">
         <Container4>
           <div className="grid grid-cols-1 xl:px-[0px] lg:px-[10px] md:px-[30px] px-[20px] ">
-            <h2 className='lg:text-[46px] text-[35px] font-poppins font-semibold mb-[15px] text-[#000000]'>Our recipe to making successful websites</h2>
+            <h2 className='lg:text-[46px] text-[35px] font-poppins font-semibold mb-[15px] text-[#000000]'>How we achieve result:
+            </h2>
           </div>
 
 
           <div className="grid md:grid-cols-2 grid-cols-1 gap-6 lg:px-[0px] md:px-[60px] sm:px-[100px] px-[10px]">
             <div className="col-span-1 lg:pr-[60px] pr-[12px] pt-[48px] pl-[12px]" data-aos="slide-right" data-aos-duration="1000">
               <img src={Nimble} alt="" />
-              <h3 className='lg:text-[28px] text-[22px] font-poppins mb-[16px] text-[#000000] font-semibold'>Nimble Team</h3>
-              <p className='lg:text-[20px] text-[16px] text-[#596868] font-poppins '>As a digital agency with experience working with companies across industries, we utilize creative website development strategies. Working on multiple projects exposes us to different technologies and keeps us at the forefront of the industry.</p>
+              <h3 className='lg:text-[28px] text-[22px] font-poppins mb-[16px] text-[#000000] font-semibold'>Multi-Channel Marketing: </h3>
+              <p className='lg:text-[20px] text-[16px] text-[#596868] font-poppins '>Business10X leverages multiple digital channels, including search engines, social media, email, and display networks, to run comprehensive marketing campaigns. This multi-channel approach ensures broad reach and consistent brand messaging across platforms.
+              </p>
             </div>
             <div className="col-span-1 lg:pl-[60px] pl-[12px] pt-[48px] pr-[12px]" data-aos="slide-left" data-aos-duration="1000">
               <img src={notched} alt="" />
-              <h3 className='lg:text-[28px] text-[22px] font-poppins mb-[16px] text-[#000000] font-semibold'>Top-notched <br />
+              <h3 className='lg:text-[28px] text-[22px] font-poppins mb-[16px] text-[#000000] font-semibold'>Performance Tracking and Analytics: <br />
                 Quality & Security</h3>
-              <p className='lg:text-[20px] text-[16px] text-[#596868] font-poppins '>We conduct rigorous quality assurance testing of the website before going live. We also take security measures such as SSL and data encryption, making asset files private and using 2FA login.</p>
+              <p className='lg:text-[20px] text-[16px] text-[#596868] font-poppins '>Business10X uses advanced analytics tools to monitor campaign performance in real-time. This allows them to quickly identify what’s working and what’s not, making adjustments on the fly to improve results.
+              </p>
             </div>
           </div>
 
@@ -62,14 +60,15 @@ export default function Web_Development() {
           <div className="grid md:grid-cols-2 grid-cols-1 gap-6 lg:px-[0px] md:px-[60px] sm:px-[100px] px-[10px]">
             <div className="col-span-1 lg:pr-[60px] pr-[12px] pt-[48px] pl-[12px]" data-aos="slide-right" data-aos-duration="1000">
               <img src={Focus} alt="" />
-              <h3 className='lg:text-[28px] text-[22px] font-poppins mb-[16px] text-[#000000] font-semibold'>Focus on ROI</h3>
-              <p className='lg:text-[20px] text-[16px] text-[#596868] font-poppins '>We work with you to solve your business problems and don’t copy-paste solutions. Through our SEO optimization services, analytics integration and create multi language websites to help you reach your target audience and results.</p>
+              <h3 className='lg:text-[28px] text-[22px] font-poppins mb-[16px] text-[#000000] font-semibold'>Cost Efficiency and ROI Maximization: </h3>
+              <p className='lg:text-[20px] text-[16px] text-[#596868] font-poppins '> Business10X carefully manages and optimizes marketing budgets to ensure that every dollar spent delivers maximum value. They focus on reducing waste and increasing efficiency, leading to better ROI for clients.</p>
             </div>
             <div className="col-span-1 lg:pl-[60px] pl-[12px] pt-[48px] pr-[12px]" data-aos="slide-left" data-aos-duration="1000">
               <img src={Mirror} alt="" />
-              <h3 className='lg:text-[28px] text-[22px] font-poppins mb-[16px] text-[#000000] font-semibold'>Responsive Websites <br />
-                Quality & Security</h3>
-              <p className='lg:text-[20px] text-[16px] text-[#596868] font-poppins '>Hipster’s experience with responsive design is handy in a world where majority of the web traffic is on mobile. Our websites work elegantly across devices, be it desktop, tablets or mobile.</p>
+              <h3 className='lg:text-[28px] text-[22px] font-poppins mb-[16px] text-[#000000] font-semibold'>Data-Driven  <br />
+              Campaign Strategy:</h3>
+              <p className='lg:text-[20px] text-[16px] text-[#596868] font-poppins '>Business10X starts by conducting thorough market research to understand the client’s industry, competitors, and target audience. This research informs the development of a tailored performance marketing strategy designed to reach the right people at the right time.
+              </p>
             </div>
           </div>
 
@@ -77,29 +76,29 @@ export default function Web_Development() {
         </Container4>
       </div>
 
+
+
       <div className="">
         <div className="grid md:grid-cols-5 grid-cols-1">
           <div className="md:col-span-3 col-span-1 p-[20px] grdnt ">
             <div className="max-w-[535px] my-auto mx-auto">
               <div className="my-[100px]">
-                <h2 className='text-[50px] font-poppins mb-[15px] text-[#FFFFFF] '>Websites promote you 24/7</h2>
-                <p className='text-[20px] font-poppins text-[#FFFFFF]'>Hipster Inc. understands the importance of the website to your business. Our forte lies in creating websites that are stunning, responsive, and functional.</p>
+                <h2 className='text-[50px] font-poppins mb-[15px] text-[#FFFFFF] '>By leveraging the performance marketing strategies, Business10X helps</h2>
+                <p className='text-[20px] font-poppins text-[#FFFFFF]'>clients achieve measurable growth, increase their customer base, and maximize the return on their marketing investments.</p>
               </div>
             </div>
           </div>
           <div className="md:col-span-2 col-span-1 p-[20px] backgrou">
             <div className="max-w-[310px] my-auto mx-auto ">
               <div className="my-[160px]">
-                <h2 className='text-[50px] font-poppins mb-[15px] leading-[60px] text-[#FFFFFF] '>Only the
-                  best is good
-                  enough.</h2>
+                <h2 className='text-[50px] font-poppins mb-[15px] leading-[60px] text-[#FFFFFF] '>Result driven marketing campaigns.</h2>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div className="py-[80px]">
+      {/* <div className="py-[80px]">
         <Container4>
           <div className="grid grid-cols-1 xl:px-[0px] lg:px-[10px] md:px-[70px] sm:px-[40px] px-[12px]">
             <h2 className=' lg:text-[46px] md:text-[38px] text-[34px]  font-poppins text-[#000000] font-semibold'>Our work</h2>
@@ -191,66 +190,11 @@ export default function Web_Development() {
           </div>
 
         </Container4>
-      </div>
+      </div> */}
 
-      <div className="py-[80px] bg-[#e6e8f9]">
-        <Container4>
-          <div className="grid grid-cols-1 xl:px-[0px] lg:px-[10px] md:px-[70px] sm:px-[40px] px-[12px]">
-            <h2 className='lg:text-[46px] md:text-[38px] sm:text-[30px] text-[30px] text-[#000000] font-poppins font-bold'>Our Process</h2>
-          </div>
+      
 
-          <div className="grid md:grid-cols-2 grid-cols-1 lg:px-[0px] md:px-[50px] sm:px-[80px] px-[12px]">
-            <div className="col-span-1 pt-[48px] px-[15px]">
-              <h1 className='font-poppins text-[60px]'>1</h1>
-              <div className="lg:pr-[60px] ">
-                <h3 className='lg:text-[28px] text-[22px] font-poppins text-[#000000] font-[600]'>Discover, Define and Strategize</h3>
-                <p className='lg:text-[20px] text-[16px] font-poppins mt-[20px] text-[#576464]'>We listen to your short and long term goals. Study your industry, conduct competitor's research and recommend you the right solutions. We don't just wait for instructions from you, we offer our point of view.</p>
-              </div>
-            </div>
-            <div className="col-span-1 pt-[48px] px-[15px]">
-              <h1 className='font-poppins text-[60px]'>2</h1>
-              <div className="lg:pr-[60px] ">
-                <h3 className='lg:text-[28px] text-[22px] font-poppins text-[#000000] font-[600]'>Design and Evaluate</h3>
-                <p className='lg:text-[20px] text-[16px] font-poppins mt-[20px] text-[#576464]'>UI UX design is crucial to a website’s success. Prototyping is a key activity that we undertake in the early project stage. This enables all stakeholders to visualise the product, interact with it and make changes early.</p>
-              </div>
-            </div>
-            {/* <div className="col-span-1"></div> */}
-          </div>
-
-          <div className="grid md:grid-cols-2 grid-cols-1 lg:px-[0px] md:px-[50px] sm:px-[80px] px-[12px]">
-            <div className="col-span-1 pt-[48px] px-[15px]">
-              <h1 className='font-poppins text-[60px]'>3</h1>
-              <div className="lg:pr-[60px] ">
-                <h3 className='lg:text-[28px] text-[22px] font-poppins text-[#000000] font-[600]'>Code, Test and Launch</h3>
-                <p className='lg:text-[20px] text-[16px] font-poppins mt-[20px] text-[#576464]'>Our frontend and backend developers work together to provide you with an end-to-end solution. Following this, we optimize the SEO and do vigorous quality assurance testing before launching it.</p>
-              </div>
-            </div>
-            <div className="col-span-1 pt-[48px] px-[15px]">
-              <h1 className='font-poppins text-[60px]'>4</h1>
-              <div className="lg:pr-[60px] ">
-                <h3 className='lg:text-[28px] text-[22px] font-poppins text-[#000000] font-[600]'>Evolve</h3>
-                <p className='lg:text-[20px] text-[16px] font-poppins mt-[20px] text-[#576464]'>As time goes by, your software needs may change. Hipster is here to support you and ensure your business’ tech solution remains relevant.</p>
-              </div>
-            </div>
-            {/* <div className="col-span-1"></div> */}
-          </div>
-        </Container4>
-      </div>
-
-      <div className="py-[80px] lg:px-[20px] md:px-[50px] px-[10px] CAQ">
-        <Container4>
-          <div className="grid grid-cols-1">
-            <h2 className='lg:text-[46px] md:text-[38px] sm:text-[30px] text-[30px] text-[#FFFFFF] font-poppins'>Commonly Asked Questions</h2>
-          </div>
-
-          <div className="grid grid-cols-1 pt-[60px]">
-            <div className=' max-w-[1140px]'>
-              {accordElems}
-            </div>
-            <p className='mt-[48px] mb-[15px] sm:text-[20px] text-[16px] font-poppins text-[#FFFFFF] '>Still have more questions? Check out our full list of <Link className='FAQ' to={'/'}>FAQ</Link> .Alternatively, <Link className='SUM' to={''}>send us a message.</Link></p>
-          </div>
-        </Container4>
-      </div>
+      
 
 
      

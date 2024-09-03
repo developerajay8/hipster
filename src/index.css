@@ -305,11 +305,7 @@ marquee{
     font-weight: 100;
 }
 
-.sdfghj:hover {
-    font-size: 50px;
-    color: #273c75;
-    font-weight: 100;
-}
+
 
 .boders {
     border-bottom: 2px solid rgb(255, 255, 255);
@@ -1438,6 +1434,7 @@ marquee{
     background: linear-gradient(-90deg, #181e1a, #1b4f4b, #427468, #091716);
     background-size: 400% 400%;
     animation: gradientBG 15s ease infinite;
+    gap: 20px;
     cursor: pointer;
     border-radius: 30px 70px 30px 30px;
 }

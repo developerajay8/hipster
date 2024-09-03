@@ -17,15 +17,23 @@ const Case = () => {
   return (
     <>
       <div className='mt-[80px] md:mt-[110px]'>
-        <div className="max-w-[1300px] mx-auto px-[20px] mb-[48px]">
-          <h2 className='text-[16px] sm:text-[24px] md:text-[30px] font-poppins'>
-            <span className='text-[#00b0ab] font-semibold'>CASE</span> — Non-Profit
-          </h2>
-          <div className='mt-[10px]'>
-            <span className='text-[24px] sm:text-[30px] md:text-[40px] xl:text-[48px] text-[#000000] font-poppins font-semibold'>
-              Revamp of CASE and CaseTrust websites
+        
+
+        <div className="max-w-[1300px] mx-auto xl:px-0 px-[20px] mb-[48px]">
+          <h2>
+            <span className="md:text-[30px] sm:text-[24px] text-[16px] font-poppins">
+              <span className="md:text-[30px] sm:text-[24px] text-[16px] text-[#00b0ab] font-poppins font-semibold">
+                {" "}
+                Social Media 
+              </span> — Management
             </span>
-          </div>
+
+            <div className="mt-[10px]">
+              <span className="text-[22px] sm:text-[27px] md:text-[32px] lg:text-[34px] text-[#000000] font-poppins font-semibold">
+              Cultivate a vibrant social media presence with our expert management services. From content creation to community engagement, we help you leverage social platforms to enhance brand visibility and connect with your audience.
+              </span>
+            </div>
+          </h2>
         </div>
         <div className='w-full h-full'>
           <img className='w-full h-full' src={hps} alt="Case Image" />

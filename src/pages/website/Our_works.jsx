@@ -126,6 +126,7 @@ export default function Our_Works() {
                   </div>
                 </div>
               </div>
+
               <div className="grid grid-cols-2 sm:pb-[45px] mb-[13px]">
                 
                   <div className="sm:col-span-1 col-span-2 xl:my-0 my-auto sm:mx-0 mx-auto max-w-[480px] max-h-[336px]">
@@ -140,7 +141,7 @@ export default function Our_Works() {
                     <h4 className="font-poppins text-[#001817] text-[16px] mt-[24px] mb-[12px]">
                       NEAR — Lifestyle
                     </h4>
-                    <h3 className="font-poppins text-[#001817] lg:text-[28px] text-[22px] font-semibold">
+                    <h3 className="font-poppins text-[#001817] lg:text-[23px] text-[19px] font-semibold">
                       Augmented Reality (AR) enabled mobile app for an
                       interactive walking experience
                     </h3>
@@ -170,7 +171,6 @@ export default function Our_Works() {
                   </div>
                 
               </div>
-
               <div className="">
                 <Link to={"/shareapp"}>
                   <div className="grid grid-cols-2 pb-[45px] mb-[13px]">
@@ -178,7 +178,7 @@ export default function Our_Works() {
                       <h4 className="font-poppins text-[#001817] text-[16px] mt-[24px] mb-[12px]">
                         Share App — Mental Health
                       </h4>
-                      <h3 className="font-poppins text-[#001817] lg:text-[28px] text-[22px] font-semibold">
+                      <h3 className="font-poppins text-[#001817] lg:text-[23px] text-[19px] font-semibold">
                         On-demand therapy app that allows one to find a
                         therapist instantly.
                       </h3>
@@ -238,7 +238,7 @@ export default function Our_Works() {
                       <h4 className="font-poppins text-[#001817] text-[16px] mt-[24px] mb-[12px]">
                         Common Suits — Fashion E-commerce
                       </h4>
-                      <h3 className="font-poppins text-[#001817] lg:text-[28px] text-[22px] font-semibold">
+                      <h3 className="font-poppins text-[#001817] lg:text-[23px] text-[19px] font-semibold">
                         Visualisation technology to improve the online and
                         offline retail experience
                       </h3>
@@ -257,11 +257,10 @@ export default function Our_Works() {
                   <div className="grid grid-cols-2 pb-[45px] mb-[13px]">
                     <div className="sm:col-span-1 col-span-2 py-[25px] sm:pr-[45px] ">
                       <h4 className="font-poppins text-[#001817] text-[16px] mt-[24px] mb-[12px]">
-                        Abroadly — Travel
+                      Branding
                       </h4>
-                      <h3 className="font-poppins text-[#001817] lg:text-[28px] text-[22px] font-semibold">
-                        An interactive "Home away from Home" community for
-                        backpackers, travellers and hosts
+                      <h3 className="font-poppins text-[#001817] lg:text-[23px] text-[19px] font-semibold">
+                      Build a distinctive brand identity that resonates with your audience. Our branding services encompass market research, brand strategy, and visual identity design, ensuring that your brand stands out in the competitive landscape.
                       </h3>
                       <ul className="font-poppins text-[14px] text-#000000] mt-[20px]">
                         <a>
@@ -285,10 +284,10 @@ export default function Our_Works() {
                     <div className="sm:col-span-1 col-span-2 py-[25px] sm:pl-[45px]">
                       <h4 className="font-poppins text-[#001817] text-[16px] mt-[24px] mb-[12px]">
                         {" "}
-                        CASE — Non-Profit
+                        Social Media Management
                       </h4>
-                      <h3 className="font-poppins text-[#001817] lg:text-[28px] text-[22px] font-semibold">
-                        Revamp of CASE and CaseTrust websites
+                      <h3 className="font-poppins text-[#001817] lg:text-[23px] text-[19px] font-semibold">
+                      Cultivate a vibrant social media presence with our expert management services. From content creation to community engagement, we help you leverage social platforms to enhance brand visibility and connect with your audience.
                       </h3>
                       <ul className="font-poppins text-[14px] text-#000000] mt-[20px]">
                         <a>
@@ -307,7 +306,7 @@ export default function Our_Works() {
                       <h4 className="font-poppins text-[#001817] text-[16px] mt-[24px] mb-[12px]">
                         Tbit — Team Engagement
                       </h4>
-                      <h3 className="font-poppins text-[#001817] lg:text-[28px] text-[22px] font-semibold">
+                      <h3 className="font-poppins text-[#001817] lg:text-[23px] text-[19px] font-semibold">
                         A physical team-building app: say no to boring
                         activities!
                       </h3>
@@ -333,7 +332,7 @@ export default function Our_Works() {
                       <h4 className="font-poppins text-[#001817] text-[16px] mt-[24px] mb-[12px]">
                         z4ip — Cognitive Learning & Activity Tracker
                       </h4>
-                      <h3 className="font-poppins text-[#001817] lg:text-[28px] text-[22px] font-semibold">
+                      <h3 className="font-poppins text-[#001817] lg:text-[23px] text-[19px] font-semibold">
                         An app to check user's cognitive performance along with
                         daily activity tracking.
                       </h3>
@@ -355,7 +354,7 @@ export default function Our_Works() {
                         VES — QR Code Smart Kiosk Check-In & Instant Badge
                         Printing With VESolution
                       </h4>
-                      <h3 className="font-poppins text-[#001817] lg:text-[28px] text-[22px] font-semibold">
+                      <h3 className="font-poppins text-[#001817] lg:text-[23px] text-[19px] font-semibold">
                         Discovering Seamless Event Registration and Management.
                       </h3>
                       <ul className="font-poppins text-[14px] text-#000000] mt-[20px]">
@@ -378,7 +377,7 @@ export default function Our_Works() {
                       <h4 className="font-poppins text-[#001817] text-[16px] mt-[24px] mb-[12px]">
                         Bettr Coffee — Food and Beverage (F&B)
                       </h4>
-                      <h3 className="font-poppins text-[#001817] lg:text-[28px] text-[22px] font-semibold">
+                      <h3 className="font-poppins text-[#001817] lg:text-[23px] text-[19px] font-semibold">
                         A socially conscious and environmentally friendly coffee
                         subscription service.
                       </h3>
@@ -398,7 +397,7 @@ export default function Our_Works() {
                       <h4 className="font-poppins text-[#001817] text-[16px] mt-[24px] mb-[12px]">
                         Teorra — Sustainability Technology
                       </h4>
-                      <h3 className="font-poppins text-[#001817] lg:text-[28px] text-[22px] font-semibold">
+                      <h3 className="font-poppins text-[#001817] lg:text-[23px] text-[19px] font-semibold">
                         A smart B2B marketplace for sustainable products,
                         connecting businesses with verified suppliers and
                         simplifying orders.
@@ -426,7 +425,7 @@ export default function Our_Works() {
                       <h4 className="font-poppins text-[#001817] text-[16px] mt-[24px] mb-[12px]">
                         ACE Card — Food and Bevarages
                       </h4>
-                      <h3 className="font-poppins text-[#001817] lg:text-[28px] text-[22px] font-semibold">
+                      <h3 className="font-poppins text-[#001817] lg:text-[23px] text-[19px] font-semibold">
                         Easily book your favourite restaurants while earning
                         points, and enjoying exclusive rewards.
                       </h3>
@@ -446,11 +445,10 @@ export default function Our_Works() {
                     <div className="sm:col-span-1 col-span-2 py-[25px] sm:pr-[45px]">
                       <Link to={"/alotool"}>
                         <h4 className="font-poppins text-[#001817] text-[16px] mt-[24px] mb-[12px]">
-                          AIO — Event Registration tool
+                        Performance Marketing
                         </h4>
-                        <h3 className="font-poppins text-[#001817] lg:text-[28px] text-[22px] font-semibold">
-                          An Interactive and Multi-Functioning Mobile App for
-                          Physical Events.
+                        <h3 className="font-poppins text-[#001817] lg:text-[23px] text-[19px] font-semibold">
+                        Amplify your online reach and drive conversions through targeted performance marketing strategies. Our team leverages data-driven insights to craft campaigns that maximize ROI and deliver measurable results
                         </h3>
                         <ul className="font-poppins text-[14px] text-#000000] mt-[20px]">
                           <a>
@@ -473,11 +471,10 @@ export default function Our_Works() {
                     </div>
                     <div className="sm:col-span-1 col-span-2 py-[25px] sm:pl-[45px]">
                       <h4 className="font-poppins text-[#001817] text-[16px] mt-[24px] mb-[12px]">
-                        10-min Tutor — Edutech
+                      Designing and Editing
                       </h4>
-                      <h3 className="font-poppins text-[#001817] lg:text-[28px] text-[22px] font-semibold">
-                        On-demand tutor app with video-telephony & marketplace
-                        functionalities
+                      <h3 className="font-poppins text-[#001817] lg:text-[23px] text-[19px] font-semibold">
+                      Elevate your visual presence with captivating design and precision editing. Our talented team brings your creative vision to life through impactful imagery, graphics, and visual storytelling.
                       </h3>
                       <ul className="font-poppins text-[14px] text-#000000] mt-[20px]">
                         <a>On-Demand Video Solutions, Education Tech</a>
@@ -491,11 +488,10 @@ export default function Our_Works() {
                   <div className="grid grid-cols-2 pb-[45px] mb-[13px]">
                     <div className="sm:col-span-1 col-span-2 py-[25px] sm:pr-[45px]">
                       <h4 className="font-poppins text-[#001817] text-[16px] mt-[24px] mb-[12px]">
-                        Hybrid EMS — Hybrid Event management Platform
+                      Media Production
                       </h4>
-                      <h3 className="font-poppins text-[#001817] lg:text-[28px] text-[22px] font-semibold">
-                        Transforming how hybrid and virtual events are planned
-                        and executed.
+                      <h3 className="font-poppins text-[#001817] lg:text-[23px] text-[19px] font-semibold">
+                      From concept to execution, our media production services encompass video, audio, and multimedia content creation, ensuring compelling storytelling that captivates your audience.
                       </h3>
                       <ul className="font-poppins text-[14px] text-#000000] mt-[20px]">
                         <a>Event Management</a>
@@ -515,10 +511,11 @@ export default function Our_Works() {
                     </div>
                     <div className="sm:col-span-1 col-span-2 py-[25px] sm:pl-[45px]">
                       <h4 className="font-poppins text-[#001817] text-[16px] mt-[24px] mb-[12px]">
-                        WSG — Workforce Singapore — Career Guidance
+                      Creative — Production
+
                       </h4>
-                      <h3 className="font-poppins text-[#001817] lg:text-[28px] text-[22px] font-semibold">
-                        Pilot of Mobile Kiosks.
+                      <h3 className="font-poppins text-[#001817] lg:text-[23px] text-[19px] font-semibold">
+                      Immerse your audience in captivating narratives with our creative production services, spanning from ideation to execution, delivering innovative and engaging content.
                       </h3>
                       <ul className="font-poppins text-[14px] text-#000000] mt-[20px]">
                         <a>
@@ -535,10 +532,10 @@ export default function Our_Works() {
                   <div className="grid grid-cols-2 pb-[45px] mb-[13px]">
                     <div className="sm:col-span-1 col-span-2 py-[25px] sm:pr-[45px]">
                       <h4 className="font-poppins text-[#001817] text-[16px] mt-[24px] mb-[12px]">
-                        SomethingNew — Mental Health
+                      CGI & — 2D, 3D
                       </h4>
-                      <h3 className="font-poppins text-[#001817] lg:text-[28px] text-[22px] font-semibold">
-                        Chat-based application to provide mental health support
+                      <h3 className="font-poppins text-[#001817] lg:text-[23px] text-[19px] font-semibold">
+                      Achieve immersive visual experiences with our cutting-edge CGI and 2D/3D animation services. We bring imagination to life, creating stunning visual content that captivates and enthralls.
                       </h3>
                       <ul className="font-poppins text-[14px] text-#000000] mt-[20px]">
                         <a>
@@ -553,6 +550,7 @@ export default function Our_Works() {
                   </div>
                 </Link>
               </div>
+
               <div className="">
                 <Link to={"/renonation"}>
                   <div className="grid grid-cols-2 pb-[45px] mb-[13px]">
@@ -561,11 +559,10 @@ export default function Our_Works() {
                     </div>
                     <div className="sm:col-span-1 col-span-2 py-[25px] sm:pl-[45px]">
                       <h4 className="font-poppins text-[#001817] text-[16px] mt-[24px] mb-[12px]">
-                        Renonation — Real Estate, Renovation
+                      Website — and App Development
                       </h4>
-                      <h3 className="font-poppins text-[#001817] lg:text-[28px] text-[22px] font-semibold">
-                        A trusted and reliable source for home renovation and
-                        interior design.
+                      <h3 className="font-poppins text-[#001817] lg:text-[23px] text-[19px] font-semibold">
+                      Leverage responsive and user-centric design with our website and app development services. Our expert team delivers seamless digital experiences that drive engagement and conversions.
                       </h3>
                       <ul className="font-poppins text-[14px] text-#000000] mt-[20px]">
                         <a>Match Making Platform, Web App</a>
@@ -579,10 +576,10 @@ export default function Our_Works() {
                   <div className="grid grid-cols-2 pb-[45px] mb-[13px]">
                     <div className="sm:col-span-1 col-span-2 py-[25px] sm:pr-[45px]">
                       <h4 className="font-poppins text-[#001817] text-[16px] mt-[24px] mb-[12px]">
-                        Tueetor — Edutech
+                      Web — Application
                       </h4>
-                      <h3 className="font-poppins text-[#001817] lg:text-[28px] text-[22px] font-semibold">
-                        Online platform for finding digital tutors
+                      <h3 className="font-poppins text-[#001817] lg:text-[23px] text-[19px] font-semibold">
+                      Streamline your business operations with custom web applications tailored to your specific needs. Our solutions enhance efficiency, productivity, and user experience.
                       </h3>
                       <ul className="font-poppins text-[14px] text-#000000] mt-[20px]">
                         <a>Match Making Platform, Education Tech</a>
@@ -604,7 +601,7 @@ export default function Our_Works() {
                       <h4 className="font-poppins text-[#001817] text-[16px] mt-[24px] mb-[12px]">
                         KWSH — Agile Project Management
                       </h4>
-                      <h3 className="font-poppins text-[#001817] lg:text-[28px] text-[22px] font-semibold">
+                      <h3 className="font-poppins text-[#001817] lg:text-[23px] text-[19px] font-semibold">
                         Change the way you do survey, get rid of the old ways of
                         doing hardcopies survey and digitalise this process.
                       </h3>
@@ -622,7 +619,7 @@ export default function Our_Works() {
                       <h4 className="font-poppins text-[#001817] text-[16px] mt-[24px] mb-[12px]">
                         barePack — Sustainability Solution
                       </h4>
-                      <h3 className="font-poppins text-[#001817] lg:text-[28px] text-[22px] font-semibold">
+                      <h3 className="font-poppins text-[#001817] lg:text-[23px] text-[19px] font-semibold">
                         Reducing plastic waste and promoting reusable packaging
                         through tech
                       </h3>
@@ -646,7 +643,7 @@ export default function Our_Works() {
                       <h4 className="font-poppins text-[#001817] text-[16px] mt-[24px] mb-[12px]">
                         Acceset Singapore — Mental Health Care
                       </h4>
-                      <h3 className="font-poppins text-[#001817] lg:text-[28px] text-[22px] font-semibold">
+                      <h3 className="font-poppins text-[#001817] lg:text-[23px] text-[19px] font-semibold">
                         Transforming mental health care through anonymous online
                         text-based therapy.
                       </h3>
@@ -665,10 +662,10 @@ export default function Our_Works() {
                     pr-[45px]"
                     >
                       <h4 className="font-poppins text-[#001817] text-[16px] mt-[24px] mb-[12px]">
-                        L’Hommes — Fashion E-commerce
+                      ERP — (Enterprise Resource Planning)
                       </h4>
-                      <h3 className="font-poppins text-[#001817] lg:text-[28px] text-[22px] font-semibold">
-                        Custom suits e-commerce platform with fit visualization
+                      <h3 className="font-poppins text-[#001817] lg:text-[23px] text-[19px] font-semibold">
+                      Optimize your business processes and data management with our ERP solutions, helping you integrate and manage core business functions seamlessly.
                       </h3>
                       <ul className="font-poppins text-[14px] text-#000000] mt-[20px]">
                         <a>Personalized Fashion</a>

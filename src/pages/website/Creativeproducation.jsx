@@ -14,7 +14,8 @@ import Container2 from '../../components/Container2'
 import SimpleSlider from './SimpleSlider';
 
 
-export default function O_T_H_P() {
+
+export default function Creativeproducation() {
   const accordElems = Data.map(
     (d, i) => {
       // console.log(d,i);
@@ -32,15 +33,15 @@ export default function O_T_H_P() {
               data-aos="slide-right"
               data-aos-duration="500"
             >
-              Off The Shelf Products
+              Creative Production
             </h1>
             <h2
-              className="max-w-[865px] font-semibold text-[#001817] xl:text-[32px] lg:text-[28px] sm:text-[24px]
+              className=" font-semibold text-[#001817] xl:text-[32px] lg:text-[28px] sm:text-[24px]
            text-[22px] font-poppins lg:mt-[60px] md:mt-[30px] sm:mt-[18px] mt-[16px] mb-[15px] sm:leading-[40px] leading-[27px]"
               data-aos="slide-left"
               data-aos-duration="500"
             >
-              Creating tailor-made software for your business needs is our forte! Our team works with a flow to cover every stage from inception to completion in understanding your requirements through to testing and final releases.
+              Immerse your audience in captivating narratives with our creative production services, spanning from ideation to execution, delivering innovative and engaging content.
             </h2>
           </div>
         </div>
@@ -53,27 +54,30 @@ export default function O_T_H_P() {
         <Container4>
           <div className="grid grid-cols-1 xl:px-[0px] lg:px-[10px] md:px-[30px] px-[20px] ">
             <h2 className='lg:text-[46px] text-[35px] font-poppins font-semibold mb-[15px] text-[#000000]'>Need to launch quickly?</h2>
-            <h5 className='text-[20px] text-[#000000] font-poppins'>We’re here for you. Check out our commercial ready-made products</h5>
+            <h5 className='text-[20px] text-[#000000] font-poppins'>We’re here for you.</h5>
           </div>
           <div className="h-[60px]"></div>
           <div className="grid grid-cols-1 xl:px-[0px] lg:px-[10px] md:px-[30px] px-[20px] ">
-            <h2 className='lg:text-[46px] text-[35px] font-poppins font-semibold mb-[15px] text-[#000000]'>Our Design Principles</h2>
+            <h2 className='lg:text-[46px] text-[35px] font-poppins font-semibold mb-[15px] text-[#000000]'>Our process: 
+            </h2>
           </div>
 
 
           <div className="grid md:grid-cols-2 grid-cols-1 gap-6 lg:px-[0px] md:px-[60px] sm:px-[100px] px-[10px]">
             <div className="col-span-1 lg:pr-[60px] pr-[12px] pt-[48px] pl-[12px]" data-aos="slide-right" data-aos-duration="500">
               <img src={f} alt="" />
-              <h3 className='lg:text-[28px] text-[22px] font-poppins mb-[16px] text-[#000000] font-semibold'>Survey App</h3>
-              <p className='lg:text-[20px] text-[16px] text-[#596868] font-poppins '>Create surveys with complex question logic using the survey app. Pick from various question types – like multiple choice, scaling, conditional questions, and more. Roles can also be assigned within your organization, giving individuals different levels of access.</p>
+              <h3 className='lg:text-[28px] text-[22px] font-poppins mb-[16px] text-[#000000] font-semibold'>Audience-Centric Approach: </h3>
+              <p className='lg:text-[20px] text-[16px] text-[#596868] font-poppins '>Business10X tailors creative production strategies to meet the specific needs and preferences of the client’s target audience. By understanding the audience's demographics, interests, and behaviors, the agency creates content that resonates on a deeper level, driving higher engagement and conversion rates.
+              </p>
               <div className="my-[20px]">
                 <Link className='px-[20px] rounded-full py-[14px] bg-dark text-[#efecec] font-poppins' to={'/kwsh'}>Explore more</Link>
               </div>
             </div>
             <div className="col-span-1 lg:pl-[60px] pl-[12px] pt-[48px] pr-[12px]"data-aos="slide-left" data-aos-duration="500">
               <img src={s} alt="" />
-              <h3 className='lg:text-[28px] text-[22px] font-poppins mb-[16px] text-[#000000] font-semibold'>Hybrid Event Management Platform</h3>
-              <p className='lg:text-[20px] text-[16px] text-[#596868] font-poppins '>Virtual Breaker is a platform by Hipster that powers all your onsite and virtual events –be it meetings, exhibitions, or conferences. This platform seamlessly connects your in-person and virtual attendees for an interactive and engaging event experience. Find out more by visiting Virtual Breaker’s website.</p>
+              <h3 className='lg:text-[28px] text-[22px] font-poppins mb-[16px] text-[#000000] font-semibold'>Brand Consistency and Identity:</h3>
+              <p className='lg:text-[20px] text-[16px] text-[#596868] font-poppins '> Through creative production, Business10X ensures that all content reflects the client’s brand identity and values. This consistency across all creative outputs strengthens brand recognition and builds trust with the audience.
+              </p>
               <div className="my-[20px]">
                 <Link className='px-[20px] rounded-full py-[14px] bg-dark text-[#efecec] font-poppins' to={'https://virtualbreaker.com/'}>Explore more</Link>
               </div>
@@ -84,29 +88,27 @@ export default function O_T_H_P() {
           <div className="grid md:grid-cols-2 grid-cols-1 gap-6 lg:px-[0px] md:px-[60px] sm:px-[100px] px-[10px]">
             <div className="col-span-1 lg:pr-[60px] pr-[12px] pt-[48px] pl-[12px]" data-aos="slide-right" data-aos-duration="500">
               <img src={t} alt="" />
-              <h3 className='lg:text-[28px] text-[22px] font-poppins mb-[16px] text-[#000000] font-semibold'>Learning Management Platform</h3>
-              <p className='lg:text-[20px] text-[16px] text-[#596868] font-poppins '>This all-in-one cloud-based system brings experiential learning everywhere and anywhere – from online learning, scheduling of classes, and connecting educators to students. Use technology to focus time on student learning rather than fulfilling administrative duties.</p>
+              <h3 className='lg:text-[28px] text-[22px] font-poppins mb-[16px] text-[#000000] font-semibold'>Cutting-Edge Technology and Techniques:
+              </h3>
+              <p className='lg:text-[20px] text-[16px] text-[#596868] font-poppins '>Business10X leverages the latest technology and creative tools to produce high-quality content that is both innovative and effective. From state-of-the-art video production equipment to advanced design software, the agency ensures that every creative project is executed to the highest standards.
+              </p>
               <div className="my-[20px]">
                 <Link className='px-[20px] rounded-full py-[14px] bg-dark text-[#efecec] font-poppins' to={'/tueetoredutech'}>Explore more</Link>
               </div>
             </div>
             <div className="col-span-1 lg:pl-[60px] pl-[12px] pt-[48px] pr-[12px]" data-aos="slide-left" data-aos-duration="500">
               <img src={fo} alt="" />
-              <h3 className='lg:text-[28px] text-[22px] font-poppins mb-[16px] text-[#000000] font-semibold'>Virtual Streaming Platform</h3>
-              <p className='lg:text-[20px] text-[16px] text-[#596868] font-poppins '>Connect with your customers virtually. The virtual streaming platform can be used for businesses such as (but not limited to):</p>
-              <ul className='text-[14px] font-poppins'>
-                <li>Teleconsultation with doctors</li>
-                <li>E-learning with tutors</li>
-                <li>Virtual events</li>
-                <li>Live shopping</li>
-              </ul>
+              <h3 className='lg:text-[28px] text-[22px] font-poppins mb-[16px] text-[#000000] font-semibold'>Comprehensive Creative Services:
+              </h3>
+              <p className='lg:text-[20px] text-[16px] text-[#596868] font-poppins '>Business10X offers end-to-end creative production services, from concept development to final execution. This comprehensive approach ensures that every aspect of the creative process is managed seamlessly, resulting in a polished and professional final product.</p>
+              
               <div className="my-[20px]">
                 <Link className='px-[20px] rounded-full py-[14px] bg-dark text-[#efecec] font-poppins' to={''}>Explore more</Link>
               </div>
             </div>
           </div>
 
-          <div className="grid md:grid-cols-2 grid-cols-1 gap-6 lg:px-[0px] md:px-[60px] sm:px-[100px] px-[10px]">
+          {/* <div className="grid md:grid-cols-2 grid-cols-1 gap-6 lg:px-[0px] md:px-[60px] sm:px-[100px] px-[10px]">
             <div className="col-span-1 lg:pr-[60px] pr-[12px] pt-[48px] pl-[12px]" data-aos="slide-right" data-aos-duration="500">
               <img src={fi} alt="" />
               <h3 className='lg:text-[28px] text-[22px] font-poppins mb-[16px] text-[#000000] font-semibold'>Feedback App</h3>
@@ -123,7 +125,7 @@ export default function O_T_H_P() {
                 <Link className='px-[20px] rounded-full py-[14px] bg-dark text-[#efecec] font-poppins' to={''}>Explore more</Link>
               </div>
             </div>
-          </div>
+          </div> */}
 
         </Container4>
       </div>
@@ -133,15 +135,15 @@ export default function O_T_H_P() {
           <div className="md:col-span-3 col-span-1 p-[20px] grdnt ">
             <div className="max-w-[535px] my-auto mx-auto">
               <div className="my-[100px]">
-                <h2 className='text-[50px] font-poppins mb-[15px] text-[#FFFFFF] '>Hipster’s special formula</h2>
-                <p className='text-[20px] font-poppins text-[#FFFFFF]'>Most commercial off-the-shelf applications are standardized with little room for customization. Understanding that business needs are very different, we offer a good level of customization when you work with us. This allows you to get the benefits of both bespoke and off the shelf product.</p>
+                <h2 className='text-[50px] font-poppins mb-[15px] text-[#FFFFFF] '>Through its creative production services</h2>
+                <p className='text-[20px] font-poppins text-[#FFFFFF]'>Business10X empowers clients to grow by delivering innovative, high-quality content that enhances brand visibility, fosters audience connection, and drives business success.</p>
               </div>
             </div>
           </div>
           <div className="md:col-span-2 col-span-1 p-[20px] backgrou">
             <div className="max-w-[310px] my-auto mx-auto ">
               <div className="my-[160px]">
-                <h2 className='text-[50px] font-poppins mb-[15px] leading-[60px] text-[#FFFFFF] '>80% Ready-made & 20% customized</h2>
+                <h2 className='text-[50px] font-poppins mb-[15px] leading-[60px] text-[#FFFFFF] '>Innovative and captivating content</h2>
               </div>
             </div>
           </div>
@@ -161,13 +163,13 @@ export default function O_T_H_P() {
             <div className="col-span-1  my-auto"data-aos="slide-left" data-aos-duration="500">
               <div className='px-[15px]'>
                 <h3 className=' lg:text-[32px] text-[22px] lg:leading-[60px] leading-[40px] TU text-[#000000] font-poppins'>
-                  <Link to={'/webdevelopment'}>Website Development</Link>
+                  <Link to={'/creativeproduction'}>Creative Production</Link>
                 </h3>
                 <h3 className=' lg:text-[32px] text-[22px] lg:leading-[60px] leading-[40px] TU text-[#000000] font-poppins'>
-                  <Link to={'/mobileappdevelopment'}>Mobile App Development</Link>
+                  <Link to={'/branding'}>Branding</Link>
                 </h3>
                 <h3 className=' lg:text-[32px] text-[22px] lg:leading-[60px] leading-[40px] TU text-[#000000] font-poppins'>
-                  <Link to={'/uiuxdesign'}>UI/UX Design</Link>
+                  <Link to={'/cgi'}>CGI & 2D, 3D</Link>
                 </h3>
               </div>
             </div>
