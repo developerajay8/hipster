@@ -1,7 +1,7 @@
 import React from 'react'
 import { TiArrowRight } from "react-icons/ti";
 import Container2 from './Container2';
-import { Ajay, bomb, business, pencil3, two, warning } from '../assets';
+import { Ajay, blogos, bomb, business, pencil3, two, warning } from '../assets';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 
@@ -216,7 +216,7 @@ export default function Footer() {
 
           <div className="grid max-w-[1416px] mx-auto grid-cols-1 akak pb-7 xl:px-[10px] px-[20px]">
             <div className="">
-              <img src={Ajay} className='max-w-[206px] max-h-[68px] pb-[20px]' alt="" />
+              <img src={blogos} className='max-w-[206px] max-h-[68px] pb-[20px]' alt="" />
             </div>
             <div className='flex items-center '>
               <p className='text-[#FFFFFF] font-poppins text-[20px]'>Subscribe to our newsletter </p>

@@ -7,6 +7,7 @@ import {
   Process,
   abroadly,
   bagicon,
+  blogos,
   bomb,
   business,
   c1,
@@ -90,8 +91,8 @@ export default function Home() {
     <>
       <div className="">
         <div className="h-[100vh] home_background ">
-          <div className=" max-w-[1416px] mx-auto  z-[99999999] grid grid-cols-12 pt-[120px] sm:pt-[170px] md:px-[50px] sm:px-[15px] px-[0px] text-white">
-            <div className=" xl:col-span-5 col-span-12 ml-[20px] ">
+          <div className=" max-w-[1416px] mx-auto  z-[99999999] grid grid-cols-12 pt-[120px] sm:pt-[170px]  px-[20px] text-white">
+            <div className=" xl:col-span-5 col-span-12  ">
               <h2 className="text-[#ffffff] xl:text-[40px] lg:text-[50px] md:leading-[40px] md:text-[30px] sm:text-[30px] text-[30px] font-poppins xl:leading-[47px] sm:leading-[40px] lg:leading-[70px]">
                 At Business10X, we <br className="xl:block hidden" /> don't
                 follow trends <br className="xl:block hidden" /> we set them.
@@ -368,7 +369,7 @@ function Allcomponent() {
 
 function Branding() {
   return (
-    <div className=" lg:block hidden xl:py-[100px] py-[80px] xl:px-[20px] px-[30px] overflow-hidden Second-bg ">
+    <div className=" lg:block hidden xl:py-[100px] py-[80px] sm:px-[100px] px-[20px] overflow-hidden Second-bg ">
       <Link to={"./branding"}>
         <Container>
           <div className="grid grid-cols-3 gap-4 relative max-w-[1416px] mx-auto">
@@ -460,7 +461,7 @@ function Branding() {
 
 function Social() {
   return (
-    <div className="lg:block hidden xl:py-[100px] py-[80px] xl:px-5 px-[30px] Share relative ">
+    <div className="lg:block hidden xl:py-[100px] py-[80px] sm:px-[100px] px-[20px] Share relative ">
       <Link to={"./socialmedia"}>
         <Container>
           <div className="grid grid-cols-3 gap-4 max-w-[1416px] mx-auto">
@@ -538,7 +539,7 @@ function Social() {
 
 function Marketing() {
   return (
-    <div className=" lg:block hidden xl:py-[100px] py-[80px] xl:px-5 px-[30px] Common overflow-hidden ">
+    <div className=" lg:block hidden xl:py-[100px] py-[80px] sm:px-[100px] px-[20px] Common overflow-hidden ">
       <Link to={"./performancemarketing"}>
         <Container>
           <div className="grid grid-cols-3 gap-4 max-w-[1416px] mx-auto">
@@ -615,7 +616,7 @@ function Marketing() {
 
 function Designing() {
   return (
-    <div className=" lg:block hidden Abroadly xl:py-[100px] py-[80px] xl:px-5 px-[30px]">
+    <div className=" lg:block hidden Abroadly xl:py-[100px] py-[80px] sm:px-[100px] px-[20px]">
       <Link to={"./designingandediting"}>
         <Container>
           <div className="grid grid-cols-3 gap-4 max-w-[1416px] mx-auto">
@@ -698,7 +699,7 @@ function Designing() {
 
 function Media() {
   return (
-    <div className="w-full lg:block hidden Case overflow-hidden xl:pt-[100px] pb-[190px] pt-[80px] xl:px-5 px-[30px]">
+    <div className="w-full lg:block hidden Case overflow-hidden xl:pt-[100px] pb-[190px] pt-[80px] sm:px-[100px] px-[20px]">
       <Container>
         <Link to={"/mediaproduction"}>
           <div className="grid grid-cols-3 gap-4 max-w-[1416px] mx-auto">
@@ -760,7 +761,7 @@ function Media() {
 
 function Our_Services() {
   return (
-    <div className=" xl:block hidden Services xl:px-5 px-[20px]">
+    <div className=" xl:block hidden Services sm:px-[100px] px-[20px]">
       <div
         className="grid grid-cols-1 max-w-[1416px] mx-auto"
         data-aos="slide-down"
@@ -794,7 +795,7 @@ function Our_Services() {
 
 function Goalsec() {
   return (
-    <div className=" our_goal py-[80px] lg:px-[80px] md:px-[60px] sm:px-[20px] px-[10px]   overflow-hidden">
+    <div className=" our_goal py-[80px] sm:px-[100px] px-[20px]  overflow-hidden">
       <Container2>
         <div className="grid grid-cols-2 max-w-[1416px] mx-auto gap-4">
           <div className="lg:col-span-1 md:col-span-2 sm:col-span-2 col-span-2  ">
@@ -825,7 +826,7 @@ function Goalsec() {
 
 function Clientsf() {
   return (
-    <div className="client  md:py-[100px] sm:py-[70px]  py-[30px] xl:px-[20px] md:px-[20px] sm:px-[15px] px-[15px]">
+    <div className="client  md:py-[100px] sm:py-[70px]  py-[30px] sm:px-[100px] px-[20px]">
       <Container2>
         <div className=" grid grid-cols-2 max-w-[1416px] mx-auto">
           <div className="relative lg:col-span-1 md:col-span-2 sm:col-span-2 col-span-2 pr-[80px]">
@@ -884,7 +885,7 @@ function Clientsf() {
 
 function Trusted() {
   return (
-    <div className="pt-[80px] xl:px-5 px-[20px] pb-[120px] Truste">
+    <div className="pt-[80px] sm:px-[100px] px-[20px] pb-[120px] Truste">
       <div className=" max-w-[1416px] mx-auto">
         <h2 className="text-[50px] text-[#FFFFFF] mb-[30px] font-poppins tr">
           Trusted by
@@ -1015,7 +1016,7 @@ function Trusted() {
 
 function Makeshipster() {
   return (
-    <div className="md:pt-[150px]  sm:pt-[90px] pt-[40px] md:pb-[100px] sm:pb-[80px] pb-[40px] Makes relative px-[20px] xl:px-5">
+    <div className="md:pt-[150px]  sm:pt-[90px] pt-[40px] md:pb-[100px] sm:pb-[80px] pb-[40px] Makes relative px-[20px] sm:px-[100px]">
       
         <div className="grid grid-cols-1 max-w-[1416px] mx-auto ">
           <div className="lg:px-[20px] md:px-[25px] sm:px-[30px] px-[20px]">
@@ -1040,8 +1041,8 @@ function Makeshipster() {
                 </span>
               </button>
               <img
-                src={descriptionlogo}
-                // src={business}
+                // src={descriptionlogo}
+                src={blogos}
                 className="max-w-[191px] max-h-[62px] sm:block hidden"
                 alt=""
               />
