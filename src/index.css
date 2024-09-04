@@ -1050,15 +1050,15 @@ marquee{
 
 @keyframes FB{
     0%{
-        top: -20px;
+        top: -112px;
         left: 400px;
     }
     50%{
-        top: -20px;
+        top: -112px;
         left: 770px;
     }
     100%{
-        top: -20px;
+        top: -112px;
         left: 400px;
     }
 }

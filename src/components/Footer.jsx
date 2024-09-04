@@ -131,7 +131,7 @@ export default function Footer() {
 
   return (
     <div>
-      <div className='footer  py-[100px]'>
+      <div className='footer  pt-[100px]'>
        
           <div className="grid max-w-[1416px] mx-auto grid-cols-2 xl:px-[10px] sm:px-[30px] px-[22px]">
             <div className="col-span-1 leading-[57px]">
@@ -242,7 +242,7 @@ export default function Footer() {
           </div>
 
           <div className="max-w-[1416px] mx-auto relative md:block hidden">
-            <img src={bomb} className='FB absolute top-[-20px] left-[400px] w-[120px] h-[120px]' alt="" />
+            <img src={bomb} className='FB absolute top-[112px] left-[400px] w-[120px] h-[120px]' alt="" />
           </div>
 
           <div className='max-w-[1416px] mx-auto relative FT'>
