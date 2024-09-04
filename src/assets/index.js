@@ -467,11 +467,13 @@ import alotool from "./alotool-banner.webp";
 import kwshbanner from "./kwshbanner.webp";
 import hps from "./hps.webp";
 import business from "./business.png";
+import blogo from "./blogo.png";
 
 
 
 
 
+export{blogo};
 export{business};
 export{hps};
 export{kwshbanner};

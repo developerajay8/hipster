@@ -23,8 +23,8 @@ export default function Footer() {
 
   const Footer = [
     {
-      name: "About us",
-      url: "/ourwork"
+      name: "Who we are",
+      url: "/whoweare"
     },
     {
       name: "Process",
@@ -131,74 +131,9 @@ export default function Footer() {
 
   return (
     <div>
-      {/* <div className='bg-[#001e1d] py-[20px]  '>
-        <Container2>
-          <div className="grid grid-cols-1  box-border ">
-            <div className="flex items-center gap-1 xl:px-[0px] BTSP">
-              <img src={warning} alt="" />
-              <div className='text-[#FFFFFF] font-poppins text-[14px] truncate'>We have recently received complaints that members of the public are targeted by some agents through WhatsApp who claim to be from Hipster Private Limited and using our UEN ...
-              </div>
-              <button className=' text-[#FFFFFF] font-poppins font-semibold text-[14px]'>
-                <Link className='Read mx-auto pb-1' to={""}>Read More</Link>
-              </button>
-            </div>
-          </div>
-        </Container2>
-      </div> */}
-
-
-{/* <div className='bg-[#001e1d] py-[20px]'>
-      <Container2>
-        <div className="grid grid-cols-1 box-border">
-          <div className="flex items-center gap-1 xl:px-[0px] BTSP">
-            <img src={warning} alt="Warning" />
-            <div className='text-[#FFFFFF] font-poppins text-[14px] truncate'>
-              We have recently received complaints that members of the public are targeted by some agents through WhatsApp who claim to be from Hipster Private Limited and using our UEN ...
-            </div>
-            <button className='text-[#FFFFFF] w-[120px] font-poppins font-semibold text-[14px]'>
-              <Link className='Read mx-auto pb-1' to={""} onClick={handleReadMore}>Read More</Link>
-            </button>
-          </div>
-
-          {showContent && (
-            <div
-              style={{ position: 'absolute', top: position.top, left: '50%', transform: 'translateX(-50%)' }}
-              className="bg-white p-4 rounded-lg shadow-md z-50 max-w-[800px] w-full"
-            >
-              <h2 className="md:text-[20px] sm:text-[17px] text-[14px] font-semibold text-black">More Information</h2>
-              <p className="text-gray-700 my-4">
-              We have recently received complaints that members of the public are targeted by some agents through WhatsApp who claim to be from Hipster Private Limited and using our UEN number of Hipster Private Limited to prove that they are legit Singapore companies.
-              </p>
-
-              <p className="text-gray-700 my-4">
-              They also use a similar looking domain name, our logo, and address on the website to make it as similar & credible as possible.
-              </p>
-
-              <p className="text-gray-700 my-4">
-              We want to make it very clear that Our company doesn't appoint any agent/recruiter for this so call 'money earning by apps rating' or 'any Ponzi scheme' where you need to deposit any money to get jobs.
-
-              </p>
-
-              <p className="text-gray-700 my-4">
-              Our jobs are always posted on official company pages on social media such as Linkedin, Instagram, Facebook and WSG.
-              </p>
-              <button
-                className="bg-black text-white font-bold px-8 py-3 rounded-full"
-                onClick={closeContent}
-              >
-                Close
-              </button>
-            </div>
-          )}
-        </div>
-      </Container2>
-    </div> */}
-
-      
-
-      <div className='footer py-[100px]'>
-        <Container2>
-          <div className="grid grid-cols-2 xl:px-[10px] px-[20px]">
+      <div className='footer  py-[100px]'>
+       
+          <div className="grid max-w-[1416px] mx-auto grid-cols-2 xl:px-[10px] sm:px-[30px] px-[22px]">
             <div className="col-span-1 leading-[57px]">
               <h2 className='text-[50px] font-poppins text-[#FFFFFF]'>Have an idea ?</h2>
 
@@ -214,7 +149,7 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="mb-[20px] mt-[82px] grid grid-cols-4 gap-4 xl:px-[10px] px-[14px]">
+          <div className="mb-[20px] max-w-[1416px] mx-auto mt-[82px] grid grid-cols-4 gap-4 xl:px-[10px] px-[20px]">
             <div className="md:col-span-1 sm:col-span-2 col-span-4 md:px-[20px] ">
               <h4 className='font-bold text-[#FFFFFF] text-[16px] font-poppins mb-[16px]'>Company</h4>
               <ul className=' text-[#FFFFFFCC] text-[16px] font-poppins'>
@@ -279,7 +214,7 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="grid grid-cols-1 akak pb-7 xl:px-[10px] px-[14px]">
+          <div className="grid max-w-[1416px] mx-auto grid-cols-1 akak pb-7 xl:px-[10px] px-[20px]">
             <div className="">
               <img src={Ajay} className='max-w-[206px] max-h-[68px] pb-[20px]' alt="" />
             </div>
@@ -290,7 +225,7 @@ export default function Footer() {
             </div>
             <hr className='aman' />
           </div>
-          <div className="grid sm:grid-cols-2 grid-cols-1 gap-10 pt-[0px] xl:px-[10px] px-[14px] ">
+          <div className="grid sm:grid-cols-2 max-w-[1416px] mx-auto grid-cols-1 gap-10 pt-[0px] xl:px-[10px] px-[14px] ">
             <div className="col-span-1 text-[#FFFFFF] font-poppins"><Link to={""}>Privacy Policy</Link> <Link to={""}>Sitemap</Link> </div>
             <div className="sm:block hidden col-span-1 pb-[20px]">
               <ul className=' flex text-white lg:gap-[60px] md:gap-[40px] gap-[25px] float-right text-[18px] duration-700  font-poppins'>
@@ -310,18 +245,18 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className=" relative md:block hidden">
+          <div className="max-w-[1416px] mx-auto relative md:block hidden">
             <img src={bomb} className='FB absolute top-[-20px] left-[400px] w-[120px] h-[120px]' alt="" />
           </div>
 
-          <div className='relative FT'>
+          <div className='max-w-[1416px] mx-auto relative FT'>
             <img src={pencil3} className=' NGo w-[145px] h-[188px] absolute top-[-657px] right-[-10px]' alt="" />
           </div>
 
-          <div className="relative md:block hidden bts ">
+          <div className="max-w-[1416px] mx-auto relative md:block hidden bts ">
             <img src={two} className='w-[70px] h-[80px] top-[-770px] left-0 absolute' alt="" />
           </div>
-        </Container2>
+       
       </div>
 
     </div>

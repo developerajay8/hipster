@@ -192,6 +192,7 @@ export default function Home() {
       </div>
 
       <Allcomponent />
+<div className="">
       <Branding ref={ref} />
       <Social />
       <Marketing />
@@ -202,6 +203,7 @@ export default function Home() {
       <Clientsf />
       <Trusted />
       <Makeshipster />
+      </div>
     </>
   );
 }
@@ -369,7 +371,7 @@ function Branding() {
     <div className=" lg:block hidden xl:py-[100px] py-[80px] xl:px-0 px-[30px] overflow-hidden Second-bg ">
       <Link to={"./branding"}>
         <Container>
-          <div className="grid grid-cols-3 gap-4 relative max-w-[1300px] mx-auto">
+          <div className="grid grid-cols-3 gap-4 relative max-w-[1416px] mx-auto">
             <div className="lg:col-span-1 md:col-span-5 sm:col-span-5 col-span-6 lg:pb-0 pb-[30px]  pt-5">
               <div className="text-[#031a1b] text-[30px] font-poppins cursor-pointer fonts">
                 Branding
@@ -461,7 +463,7 @@ function Social() {
     <div className="lg:block hidden xl:py-[100px] py-[80px] xl:px-0 px-[30px] Share relative ">
       <Link to={"./socialmedia"}>
         <Container>
-          <div className="grid grid-cols-3 gap-4 max-w-[1300px] mx-auto">
+          <div className="grid grid-cols-3 gap-4 max-w-[1416px] mx-auto">
             <div className="lg:col-span-1 md:col-span-5 sm:col-span-5 col-span-6 lg:pb-0 pb-[30px] pt-5">
               <div className="text-[#031a1b] text-[30px] font-poppins cursor-pointer fonts">
               Social Media Management
@@ -539,7 +541,7 @@ function Marketing() {
     <div className=" lg:block hidden xl:py-[100px] py-[80px] xl:px-0 px-[30px] Common overflow-hidden ">
       <Link to={"./performancemarketing"}>
         <Container>
-          <div className="grid grid-cols-3 gap-4 max-w-[1300px] mx-auto">
+          <div className="grid grid-cols-3 gap-4 max-w-[1416px] mx-auto">
             <div className=" lg:col-span-1 md:col-span-5 sm:col-span-5 col-span-6 lg:pb-0 pb-[30px]  pt-5 my-auto">
               <div className="text-[#031a1b] text-[30px] font-poppins cursor-pointer fonts">
               Performance Marketing
@@ -616,7 +618,7 @@ function Designing() {
     <div className=" lg:block hidden Abroadly xl:py-[100px] py-[80px] xl:px-0 px-[30px]">
       <Link to={"./designingandediting"}>
         <Container>
-          <div className="grid grid-cols-3 gap-4 max-w-[1300px] mx-auto">
+          <div className="grid grid-cols-3 gap-4 max-w-[1416px] mx-auto">
             <div className="lg:col-span-1 md:col-span-5 sm:col-span-5 col-span-6 lg:pb-0 pb-[30px] pt-5 my-auto">
               <div className="text-[#FFFFFF] text-[30px] font-poppins cursor-pointer fonts">
               Designing and Editing
@@ -699,7 +701,7 @@ function Media() {
     <div className="w-full lg:block hidden Case overflow-hidden xl:pt-[100px] pb-[190px] pt-[80px] xl:px-0 px-[30px]">
       <Container>
         <Link to={"/mediaproduction"}>
-          <div className="grid grid-cols-3 gap-4 max-w-[1300px] mx-auto">
+          <div className="grid grid-cols-3 gap-4 max-w-[1416px] mx-auto">
             <div className=" lg:col-span-1 md:col-span-5 sm:col-span-5 col-span-6 lg:pb-0 pb-[30px] pt-5 my-auto ">
               <div className="text-[#031a1b] text-[30px] font-poppins cursor-pointer fonts">
               Media Production
@@ -758,9 +760,9 @@ function Media() {
 
 function Our_Services() {
   return (
-    <div className=" xl:block hidden max-w-[1416px] mx-auto Services ">
+    <div className=" xl:block hidden Services ">
       <div
-        className="grid grid-cols-1"
+        className="grid grid-cols-1 max-w-[1416px] mx-auto"
         data-aos="slide-down"
         data-aos-duration="2000"
       >
@@ -783,7 +785,7 @@ function Our_Services() {
 
         </div>
       </div> */}
-      <div>
+      <div className="max-w-[1416px] mx-auto">
         <MultipleSlider />
       </div>
     </div>
@@ -794,7 +796,7 @@ function Goalsec() {
   return (
     <div className=" our_goal py-[80px] lg:px-[80px] md:px-[60px] sm:px-[20px] px-[10px]   overflow-hidden">
       <Container2>
-        <div className="grid grid-cols-2  gap-4">
+        <div className="grid grid-cols-2 max-w-[1416px] mx-auto gap-4">
           <div className="lg:col-span-1 md:col-span-2 sm:col-span-2 col-span-2  ">
             <h2 className="xl:text-[50px] lg:text-[50px] md:text-[50px]  sm:text-[40px] text-[38px] text-[#ffffff] font-poppins mb-[15px] xl:leading-[62px] lg:leading-[52px] md:leading-[60px]">
               Achieve your goal <br className="lg:block hidden" /> with our
@@ -823,9 +825,9 @@ function Goalsec() {
 
 function Clientsf() {
   return (
-    <div className="client md:py-[100px] sm:py-[70px]  py-[30px] xl:px-[20px] md:px-[20px] sm:px-[15px] px-[15px]">
+    <div className="client  md:py-[100px] sm:py-[70px]  py-[30px] xl:px-[20px] md:px-[20px] sm:px-[15px] px-[15px]">
       <Container2>
-        <div className=" grid grid-cols-2">
+        <div className=" grid grid-cols-2 max-w-[1416px] mx-auto">
           <div className="relative lg:col-span-1 md:col-span-2 sm:col-span-2 col-span-2 pr-[80px]">
             <h2 className="text-[50px] text-[#FFFFFF] font-poppins mb-[15px]">
               What Our <br className="xl:block hidden" />
@@ -882,8 +884,8 @@ function Clientsf() {
 
 function Trusted() {
   return (
-    <div className="pt-[80px] pb-[120px] Truste">
-      <div className=" ">
+    <div className="pt-[80px]  pb-[120px] Truste">
+      <div className=" max-w-[1416px] mx-auto">
         <h2 className="text-[50px] text-[#FFFFFF] mb-[30px] font-poppins tr">
           Trusted by
         </h2>
@@ -1013,9 +1015,9 @@ function Trusted() {
 
 function Makeshipster() {
   return (
-    <div className="md:pt-[150px] sm:pt-[90px] pt-[40px] md:pb-[100px] sm:pb-[80px] pb-[40px] Makes relative">
-      <Container2>
-        <div className="grid grid-cols-1  ">
+    <div className="md:pt-[150px]  sm:pt-[90px] pt-[40px] md:pb-[100px] sm:pb-[80px] pb-[40px] Makes relative">
+      
+        <div className="grid grid-cols-1 max-w-[1416px] mx-auto ">
           <div className="lg:px-[20px] md:px-[25px] sm:px-[30px] px-[20px]">
             <h2 className="text-[50px] mb-[15px] text-[#000000] font-poppins">
               What Makes Business
@@ -1084,7 +1086,7 @@ function Makeshipster() {
             />
           </div>
         </div>
-      </Container2>
+      
     </div>
   );
 }
