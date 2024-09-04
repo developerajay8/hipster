@@ -468,11 +468,13 @@ import kwshbanner from "./kwshbanner.webp";
 import hps from "./hps.webp";
 import business from "./business.png";
 import blogo from "./blogo.png";
+import blogos from "./b10xwhitelogo.png";
 
 
 
 
 
+export{blogos};
 export{blogo};
 export{business};
 export{hps};

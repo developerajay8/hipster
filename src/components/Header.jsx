@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { blogo, business, first, fourth, logo, second, third } from "../assets";
+import { blogo, blogos, business, first, fourth, logo, second, third } from "../assets";
 import { Link, useLocation } from "react-router-dom";
 import { HiMenu } from "react-icons/hi";
 import { IoMdClose } from "react-icons/io";
@@ -169,7 +169,7 @@ export default function Header() {
       <nav className="  ">
         <div className="flex  px-[20px] py-[16px] justify-between items-center">
           <div className="px-[20px]">
-            <Link to={'/'}><img src={business} alt=""  className="w-[120px] h-[34px]"/></Link>
+            <Link to={'/'}><img src={blogos} alt=""  className="w-[120px] h-[34px]"/></Link>
           </div>
           <ul className="relative">
             <li className=" px-[20px] items-center gap-3 flex text-[18px] font-[500] text-[#FFFFFF] font-poppins">

@@ -368,7 +368,7 @@ function Allcomponent() {
 
 function Branding() {
   return (
-    <div className=" lg:block hidden xl:py-[100px] py-[80px] xl:px-0 px-[30px] overflow-hidden Second-bg ">
+    <div className=" lg:block hidden xl:py-[100px] py-[80px] xl:px-[20px] px-[30px] overflow-hidden Second-bg ">
       <Link to={"./branding"}>
         <Container>
           <div className="grid grid-cols-3 gap-4 relative max-w-[1416px] mx-auto">
@@ -460,7 +460,7 @@ function Branding() {
 
 function Social() {
   return (
-    <div className="lg:block hidden xl:py-[100px] py-[80px] xl:px-0 px-[30px] Share relative ">
+    <div className="lg:block hidden xl:py-[100px] py-[80px] xl:px-5 px-[30px] Share relative ">
       <Link to={"./socialmedia"}>
         <Container>
           <div className="grid grid-cols-3 gap-4 max-w-[1416px] mx-auto">
@@ -538,7 +538,7 @@ function Social() {
 
 function Marketing() {
   return (
-    <div className=" lg:block hidden xl:py-[100px] py-[80px] xl:px-0 px-[30px] Common overflow-hidden ">
+    <div className=" lg:block hidden xl:py-[100px] py-[80px] xl:px-5 px-[30px] Common overflow-hidden ">
       <Link to={"./performancemarketing"}>
         <Container>
           <div className="grid grid-cols-3 gap-4 max-w-[1416px] mx-auto">
@@ -615,7 +615,7 @@ function Marketing() {
 
 function Designing() {
   return (
-    <div className=" lg:block hidden Abroadly xl:py-[100px] py-[80px] xl:px-0 px-[30px]">
+    <div className=" lg:block hidden Abroadly xl:py-[100px] py-[80px] xl:px-5 px-[30px]">
       <Link to={"./designingandediting"}>
         <Container>
           <div className="grid grid-cols-3 gap-4 max-w-[1416px] mx-auto">
@@ -698,7 +698,7 @@ function Designing() {
 
 function Media() {
   return (
-    <div className="w-full lg:block hidden Case overflow-hidden xl:pt-[100px] pb-[190px] pt-[80px] xl:px-0 px-[30px]">
+    <div className="w-full lg:block hidden Case overflow-hidden xl:pt-[100px] pb-[190px] pt-[80px] xl:px-5 px-[30px]">
       <Container>
         <Link to={"/mediaproduction"}>
           <div className="grid grid-cols-3 gap-4 max-w-[1416px] mx-auto">
@@ -760,7 +760,7 @@ function Media() {
 
 function Our_Services() {
   return (
-    <div className=" xl:block hidden Services ">
+    <div className=" xl:block hidden Services xl:px-5 px-[20px]">
       <div
         className="grid grid-cols-1 max-w-[1416px] mx-auto"
         data-aos="slide-down"
@@ -884,7 +884,7 @@ function Clientsf() {
 
 function Trusted() {
   return (
-    <div className="pt-[80px]  pb-[120px] Truste">
+    <div className="pt-[80px] xl:px-5 px-[20px] pb-[120px] Truste">
       <div className=" max-w-[1416px] mx-auto">
         <h2 className="text-[50px] text-[#FFFFFF] mb-[30px] font-poppins tr">
           Trusted by
@@ -1015,7 +1015,7 @@ function Trusted() {
 
 function Makeshipster() {
   return (
-    <div className="md:pt-[150px]  sm:pt-[90px] pt-[40px] md:pb-[100px] sm:pb-[80px] pb-[40px] Makes relative">
+    <div className="md:pt-[150px]  sm:pt-[90px] pt-[40px] md:pb-[100px] sm:pb-[80px] pb-[40px] Makes relative px-[20px] xl:px-5">
       
         <div className="grid grid-cols-1 max-w-[1416px] mx-auto ">
           <div className="lg:px-[20px] md:px-[25px] sm:px-[30px] px-[20px]">
