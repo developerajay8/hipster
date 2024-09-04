@@ -8,26 +8,7 @@ import { TiArrowRight } from "react-icons/ti";
 import { Link } from 'react-router-dom'
 
 export default function Clients() {
-    // const Clients = [
-    //     {
-    //         image: "bettr_logo.svg"
-    //     },
-    //     {
-    //         image: "assets/cl1"
-    //     },
-    //     {
-    //         image: "assets/cl1"
-    //     },
-    //     {
-    //         image: "assets/cl1"
-    //     },
-    //     {
-    //         image: "assets/cl1"
-    //     },
-    //     {
-    //         image: "assets/cl1"
-    //     }
-    // ]
+   
     return (
         <>
             <div className='pt-[100px]  pb-[80px]  xl:mx-[0px] lg:mx-[60px] md:mx-[40px] sm:mx-[30px] mx-[20px]'>
@@ -245,39 +226,7 @@ export default function Clients() {
                 </Container2>
             </div>
 
-            {/* <div className='pt-[150px] pb-[100px] Makes relative'>
-                <Container2>
-                    <div className="grid grid-cols-1  ">
-                        <div className='lg:px-[20px] md:px-[25px] sm:px-[30px] px-[30px]'>
-                            <h2 className='text-[50px] mb-[15px] text-[#000000] font-poppins'>What makes
-                                <br className='md:block hidden' /> Hipster hip?</h2>
-                            <p className='text-[16px] font-poppins text-[#706b6b] mb-[30px] leading-[26px] xl:max-w-[60%]'>Hipster was founded in 2016 by Nikhil and Bok after a dinner discussion in a hawker center. Back then, they did most of the work out of a HDB flat. As a pragmatic entrepreneur, Nikhil believes that technology only makes sense when it is commercially viable. We might not always tell you what you want to hear,  but we definitely problem-solve with you.</p>
-                            <p className='text-[16px] font-poppins text-[#706b6b] mb-[30px] xl:max-w-[60%]'>Today, we have two main offices, Singapore and India. We don't follow corporate conventions such as a work dress code, but we take our work seriously.</p>
-                            <div className='flex justify-between'>
-                                <Link to={""} className='border py-[13px] font-poppins font-semibold px-[45px] rounded-full' >Let's Talk</Link>
-                                <img src={descriptionlogo} className='max-w-[191px] max-h-[62px]' alt="" />
-                            </div>
-                        </div>
-
-
-                        <div className='relative MATAKA sm:block hidden'>
-                            <img src={pencil} className='absolute top-[-460px] right-[-72px]' alt="" />
-                            <img src={pencil2} className='absolute top-[-430px] right-[0px] our' alt="" />
-                        </div>
-                        <div className='relative sm:block hidden'>
-                            <img src={pencil3} className='absolute top-[-440px] right-[-20px] NERW' alt="" />
-                        </div>
-
-
-
-                        <div className='PENCIL'>
-                            <img src={polygonball} className='absolute top-[-100px] left-[30px]' alt="" />
-                            <img src={watch2} className='absolute top-[-143px] left-[60px]' alt="" />
-                            <img src={bagicon} className='absolute top-[-37px] left-[122px]' alt="" />
-                        </div>
-                    </div>
-                </Container2>
-            </div> */}
+            
 
             <Makeshipster/>
 
@@ -314,12 +263,12 @@ function Makeshipster() {
                     <Link to={"/contact"}>Let's Talk</Link>
                   </span>
                 </button>
-                <img
-                  src={descriptionlogo}
+                {/* <img
+                //   src={descriptionlogo}
                   // src={business}
                   className="max-w-[191px] max-h-[62px] sm:block hidden"
                   alt=""
-                />
+                /> */}
               </div>
             </div>
   

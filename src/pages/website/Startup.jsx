@@ -77,8 +77,7 @@ const Startup = () => {
             </div>
           </div>
 
-          {/* componant  */}
-          <Portfolio/>
+          
         </div>
       </Container6>
     </div>

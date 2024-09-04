@@ -64,7 +64,7 @@ export default function Performancemarkating() {
               <p className='lg:text-[20px] text-[16px] text-[#596868] font-poppins '> Business10X carefully manages and optimizes marketing budgets to ensure that every dollar spent delivers maximum value. They focus on reducing waste and increasing efficiency, leading to better ROI for clients.</p>
             </div>
             <div className="col-span-1 lg:pl-[60px] pl-[12px] pt-[48px] pr-[12px]" data-aos="slide-left" data-aos-duration="1000">
-              <img src={Mirror} alt="" />
+              <img src={notched} alt="" />
               <h3 className='lg:text-[28px] text-[22px] font-poppins mb-[16px] text-[#000000] font-semibold'>Data-Driven  <br />
               Campaign Strategy:</h3>
               <p className='lg:text-[20px] text-[16px] text-[#596868] font-poppins '>Business10X starts by conducting thorough market research to understand the client’s industry, competitors, and target audience. This research informs the development of a tailored performance marketing strategy designed to reach the right people at the right time.
@@ -98,99 +98,7 @@ export default function Performancemarkating() {
         </div>
       </div>
 
-      {/* <div className="py-[80px]">
-        <Container4>
-          <div className="grid grid-cols-1 xl:px-[0px] lg:px-[10px] md:px-[70px] sm:px-[40px] px-[12px]">
-            <h2 className=' lg:text-[46px] md:text-[38px] text-[34px]  font-poppins text-[#000000] font-semibold'>Our work</h2>
-            <h3 className='lg:text-[32px] md:text-[24px] text-[22px] max-w-[700px] lg:leading-[45px] md:leading-[30px] md:mt-[25px] mt-[15px] font-poppins text-[#000000]'>Explore websites created for our clients all around the world and across industries</h3>
-          </div>
-
-          <div className="pt-[60px]">
-            <div className="grid md:grid-cols-2 grid-cols-1 gap-[80px] xl:px-[0px] lg:px-[14px] md:px-[20px] sm:px-[100px] px-[20px]" data-aos="slide-up" data-aos-duration="1000">
-              <div className="col-span-1 ">
-                <Link to={"/lhommes"}>
-                <img src={Fx} alt="" />
-                </Link>
-                <Link to={"/lhommes"}>
-                <div className="py-[25px]">
-                  <h4 className='mb-[12px] text-[24px] font-poppins text-[#001817]'>L’Hommes — Fashion E-commerce</h4>
-                  <h3 className='lg:text-[32px] text-[24px] font-poppins font-bold text-[#001817]'>Custom suits e-commerce platform with fit visualization</h3>
-                  <ul classNameclassName='mt-[20px]'>
-                    <li className='text-[14px] font-poppins text-[#000000]'>Personalized Fashion</li>
-                  </ul>
-                </div>
-                </Link>
-              </div>
-              <div className="col-span-1  mb-[17px]">
-                <div className='lg:pt-[92px] md:pt-[72px]'>
-                <Link to={'/mintutor'}>
-                  <img src={Sx} alt="" />
-                  </Link>
-                    <Link to={'/mintutor'}>
-                  <div className="py-[25px]">
-                    <h4 className='mb-[12px] text-[24px] font-poppins text-[#001817]'>10-min Tutor — Edutech</h4>
-                    <h3 className='lg:text-[32px] text-[24px] font-semibold font-poppins text-[#001817]'>On-demand tutor app with video-telephony & marketplace functionalities</h3>
-                    <ul className='mt-[20px]'>
-                      <li className='text-[14px] font-poppins text-[#000000]'>On-Demand Video Solutions, Education Tech</li>
-                    </ul>
-                    
-                  </div>
-                  </Link>
-                </div>
-              </div>
-            </div>
-            <div className="grid md:grid-cols-2 grid-cols-1 gap-[80px] xl:px-[0px] lg:px-[14px] md:px-[20px] sm:px-[100px] px-[20px]" data-aos="slide-up"data-aos-duration="1000">
-              <div className="col-span-1 ">
-              <Link to={'/tueetoredutech'}>
-                <img src={edt} alt="" />
-                </Link>
-                <Link to={'/tueetoredutech'}>
-                <div className="py-[25px]">
-                  <h4 className='mb-[12px] text-[24px] font-poppins text-[#001817]'>Tueetor — Edutech</h4>
-                  <h3 className='lg:text-[32px] text-[24px] font-poppins font-bold text-[#001817]'>Online platform for finding digital tutors</h3>
-                  <ul classNameclassName='mt-[20px]'>
-                    <li className='text-[14px] font-poppins text-[#000000]'>Match Making Platform, Education Tech</li>
-                  </ul>
-                </div>
-                </Link>
-              </div>
-              <div className="col-span-1  mb-[17px]">
-                <div className='lg:pt-[92px] md:pt-[72px]'>
-                <Link to={'/accesetsingapore'}>
-                  <img src={ast} alt="" />
-                  </Link>
-                  <Link to={'/accesetsingapore'}>
-                  <div className="py-[25px]">
-                    <h4 className='mb-[12px] text-[24px] font-poppins text-[#001817]'>Acceset Singapore — Mental Health Care</h4>
-                    <h3 className='lg:text-[32px] text-[24px] font-semibold font-poppins text-[#001817]'>Transforming mental health care through anonymous online text-based therapy.</h3>
-                    <ul className='mt-[20px]'>
-                      <li className='text-[14px] font-poppins text-[#000000]'>Mental Health</li>
-                    </ul>
-                  </div>
-                  </Link>
-                </div>
-              </div>
-            </div>
-            <div className=" grid md:grid-cols-2 grid-cols-1 gap-[80px] xl:px-[0px] lg:px-[14px] md:px-[20px] sm:px-[100px] px-[20px]" data-aos="slide-up"data-aos-duration="1000">
-              <div className="col-span-1 ">
-              <Link to={'/abroadly'}>
-                <img src={atn} alt="" />
-                </Link>
-                <Link to={'/abroadly'}>
-                <div className="py-[25px]">
-                  <h4 className='mb-[12px] text-[24px] font-poppins text-[#001817]'>Abroadly — Travel</h4>
-                  <h3 className='lg:text-[32px] text-[24px] font-poppins font-bold text-[#001817]'>An interactive "Home away from Home" community for backpackers, travellers and hosts</h3>
-                  <ul classNameclassName='mt-[20px]'>
-                    <li className='text-[14px] font-poppins text-[#000000]'>Match Making Platform, Mobile Apps, Web App, Admin Panel / Dashboard, UI/UX Design</li>
-                  </ul>
-                </div>
-                </Link>
-              </div>
-            </div>
-          </div>
-
-        </Container4>
-      </div> */}
+      
 
       
 

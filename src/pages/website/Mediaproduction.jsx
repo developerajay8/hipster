@@ -69,7 +69,7 @@ export default function Mediaproduction() {
               <p className='lg:text-[20px] text-[16px] text-[#596868] font-poppins '>Business10X creates animated videos and motion graphics that bring ideas to life. These dynamic visuals are particularly effective for explaining complex concepts, demonstrating product features, or adding a creative touch to marketing campaigns.</p>
             </div>
             <div className="col-span-1 lg:pl-[60px] pl-[12px] pt-[48px] pr-[12px]" data-aos="slide-left" data-aos-duration="500">
-              <img src={Mirror} alt="" />
+              <img src={Nimble} alt="" />
               <h3 className='lg:text-[28px] text-[22px] font-poppins mb-[16px] text-[#000000] font-semibold'>Branded Content Creation:</h3>
               <p className='lg:text-[20px] text-[16px] text-[#596868] font-poppins '>Business10X specializes in creating branded content that aligns with the client’s messaging and objectives. This content is designed to resonate with the target audience, building brand affinity and encouraging customer loyalty.</p>
             </div>

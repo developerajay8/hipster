@@ -15,13 +15,7 @@ import SimpleSlider from './SimpleSlider';
 
 
 export default function CGI() {
-  const accordElems = Data.map(
-    (d, i) => {
-      // console.log(d,i);
-      return <Accord key={i} title={d.title} body={d.body} seo={d.seo} sep={d.sep} seps={d.seps} />
-
-    }
-  )
+  
   return (
     <div>
       <Container4>
@@ -71,7 +65,7 @@ export default function CGI() {
               </p>
             </div>
             <div className="col-span-1 lg:pl-[60px] pl-[12px] pt-[48px] pr-[12px]" data-aos="slide-left" data-aos-duration="500">
-              <img src={Mirror} alt="" />
+              <img src={notched} alt="" />
               <h3 className='lg:text-[28px] text-[22px] font-poppins mb-[16px] text-[#000000] font-semibold'>Virtual and Augmented Reality (VR/AR): </h3>
               <p className='lg:text-[20px] text-[16px] text-[#596868] font-poppins '>Business10X leverages 3D and CGI technology to create augmented reality experiences that allow customers to interact with products or environments in a virtual space. AR experiences can be used in mobile apps, websites, or in-store displays, enhancing customer engagement and providing a unique selling point.</p>
             </div>

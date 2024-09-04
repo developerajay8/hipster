@@ -238,7 +238,7 @@ export default function Header() {
                 </div>
                 {SItems.map((Sitem, index) => {
                   return (
-                    <li key={index} className="text-[18px] pb-[10px] leading-4">
+                    <li key={index} className="text-[18px] pb-[10px] leading-6">
                       <Link onClick={closeMenu} to={Sitem.url}>
                         {Sitem.name}
                       </Link>
@@ -254,7 +254,7 @@ export default function Header() {
                   return (
                     <li
                       key={index}
-                      className="hover:text-gray-500 duration-700 text-[18px] pb-[10px] leading-4"
+                      className="hover:text-gray-500 duration-700 text-[18px] pb-[10px] leading-6"
                     >
                       <Link onClick={closeMenu} to={Titem.url}>
                         {Titem.name}
@@ -269,7 +269,7 @@ export default function Header() {
                 </div>
                 {FItems.map((Fitem, index) => {
                   return (
-                    <li key={index} className="text-[18px] pb-[10px] leading-4">
+                    <li key={index} className="text-[18px] pb-[10px] leading-6">
                       <div className="cursor-pointer">
                         {Fitem.name}
                       </div>
@@ -283,7 +283,7 @@ export default function Header() {
                 </div>
                 {FIItems.map((Fiitem, index) => {
                   return (
-                    <li key={index} className="text-[18px] pb-[4px] leading-5">
+                    <li key={index} className="text-[18px] pb-[4px] leading-6">
                       <Link className="cursor-pointer">
                         {Fiitem.name}
                       </Link>

@@ -97,7 +97,7 @@ const Mvpdigital = () => {
           
         </div>
 
-        <Portfolio />
+        
       </Container6>
     </div>
   );

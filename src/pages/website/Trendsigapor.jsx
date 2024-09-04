@@ -135,7 +135,7 @@ const Trendsigapor = () => {
               
             </div>
           </div>
-          <Portfolio/>
+          
         </div>
       </Container6>
     </div>

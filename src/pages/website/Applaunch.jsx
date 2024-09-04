@@ -121,19 +121,7 @@ const Applaunch = () => {
             })}
           </div>
 
-          {/* <div className="px-[15px] mt-[25px] max-w-[1024px] ">
-            <div className="hispterLink w-full font-poppins mb-[30px] p-2">
-              <h2 className="text-[#006a83]">Hipster Link Preview</h2>
-              <h3 className="text-[#5e5e5] uppercase pt-[10px] pb-1">
-                HIPSTER-INC.COM
-              </h3>
-              <p className="text-[#006a83] text-[14px] font-[900]">
-                How to Make Your Company Pandemic Proof in 2021 | Hipster
-              </p>
-            </div>
-          </div> */}
-          {/* componant  */}
-          <Portfolio />
+
         </div>
       </Container6>
     </div>

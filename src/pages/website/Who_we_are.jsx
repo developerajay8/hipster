@@ -251,12 +251,7 @@ function Makeshipster() {
                   <Link to={"/contact"}>Let's Talk</Link>
                 </span>
               </button>
-              <img
-                src={descriptionlogo}
-                // src={business}
-                className="max-w-[191px] max-h-[62px] sm:block hidden"
-                alt=""
-              />
+              
             </div>
           </div>
 

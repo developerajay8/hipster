@@ -64,7 +64,7 @@ export default function Website_and_app_development() {
               </p>
             </div>
             <div className="col-span-1 lg:pl-[60px] pl-[12px] pt-[48px] pr-[12px]" data-aos="slide-left" data-aos-duration="500">
-              <img src={Mirror} alt="" />
+              <img src={notched} alt="" />
               <h3 className='lg:text-[28px] text-[22px] font-poppins mb-[16px] text-[#000000] font-semibold'>Ongoing Support and Maintenance: </h3>
               <p className='lg:text-[20px] text-[16px] text-[#596868] font-poppins '>Beyond development, Business10X offers continuous support to ensure that clients' websites remain up-to-date, secure, and optimized.</p>
             </div>

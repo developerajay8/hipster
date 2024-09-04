@@ -68,7 +68,7 @@ Designing and Editing
               </p>
             </div>
             <div className="col-span-1 lg:pl-[60px] pl-[12px] pt-[48px] pr-[12px]" data-aos="slide-left" data-aos-duration="500">
-              <img src={Mirror} alt="" />
+              <img src={Nimble} alt="" />
               <h3 className='lg:text-[28px] text-[22px] font-poppins mb-[16px] text-[#000000] font-semibold'>Infographics and Data Visualization:</h3>
               <p className='lg:text-[20px] text-[16px] text-[#596868] font-poppins '>Business10X creates infographics and data visualizations that simplify complex information, making it easy for the audience to understand and engage with. This is particularly useful for clients in industries where conveying data and insights is crucial to their messaging.</p>
             </div>
@@ -78,74 +78,7 @@ Designing and Editing
 
 
 
-      {/* <div className="py-[80px]">
-        <Container4>
-          <div className="grid grid-cols-1 xl:px-[0px] lg:px-[10px] md:px-[70px] sm:px-[40px] px-[12px]">
-            <h2 className=' lg:text-[46px] md:text-[38px] text-[34px]  font-poppins text-[#000000] font-semibold'>Our work</h2>
-            <h3 className='lg:text-[32px] md:text-[24px] text-[22px] max-w-[700px] lg:leading-[45px] md:leading-[30px] md:mt-[25px] mt-[15px] font-poppins text-[#000000]'>Explore websites created for our clients all around the world and across industries</h3>
-          </div>
-
-          <div className="pt-[60px]">
-            <div className="grid md:grid-cols-2 grid-cols-1 gap-[80px] xl:px-[0px] lg:px-[14px] md:px-[20px] sm:px-[100px] px-[20px]" data-aos="slide-up" data-aos-duration="500">
-              <div className="col-span-1 ">
-                <Link to={"/tueetoredutech"}>
-                <img src={edt} alt="" />
-                <div className="py-[25px]">
-                  <h4 className='mb-[12px] text-[24px] font-poppins text-[#001817]'>Tueetor — Edutech</h4>
-                  <h3 className='lg:text-[32px] text-[24px] font-poppins font-bold text-[#001817]'>Online platform for finding digital tutors</h3>
-                  <ul classNameclassName='mt-[20px]'>
-                    <li className='text-[14px] font-poppins text-[#000000]'>Match Making Platform, Education Tech</li>
-                  </ul>
-                </div>
-                </Link>
-              </div>
-              <div className="col-span-1  mb-[17px]">
-                <Link to={'/mintutor'}>
-                <div className='lg:pt-[92px] md:pt-[72px]'>
-                  <img src={Sx} alt="" />
-                  <div className="py-[25px]">
-                    <h4 className='mb-[12px] text-[24px] font-poppins text-[#001817]'>10-min Tutor — Edutech</h4>
-                    <h3 className='lg:text-[32px] text-[24px] font-semibold font-poppins text-[#001817]'>On-demand tutor app with video-telephony & marketplace functionalities</h3>
-                    <ul className='mt-[20px]'>
-                      <li className='text-[14px] font-poppins text-[#000000]'>On-Demand Video Solutions, Education Tech</li>
-                    </ul>
-                  </div>
-                </div>
-                </Link>
-              </div>
-            </div>
-            <div className="grid md:grid-cols-2 grid-cols-1 gap-[80px] xl:px-[0px] lg:px-[14px] md:px-[20px] sm:px-[100px] px-[20px]" data-aos="slide-up" data-aos-duration="500">
-              <div className="col-span-1 ">
-              <Link to={"/physicleteam"}>
-                <img src={SS} alt="" />
-                <div className="py-[25px]">
-                  <h4 className='mb-[12px] text-[24px] font-poppins text-[#001817]'>Tbit — Team Engagement</h4>
-                  <h3 className='lg:text-[32px] text-[24px] font-poppins font-bold text-[#001817]'>A physical team-building app: say no to boring activities!</h3>
-                  <ul classNameclassName='mt-[20px]'>
-                    <li className='text-[14px] font-poppins text-[#000000]'>Gamification in Tech, Event Management</li>
-                  </ul>
-                </div>
-                </Link>
-              </div>
-              <div className="col-span-1  mb-[17px]">
-                <Link to={'/wsg'}>
-                <div className='lg:pt-[92px] md:pt-[72px]'>
-                  <img src={gm} alt="" />
-                  <div className="py-[25px]">
-                    <h4 className='mb-[12px] text-[24px] font-poppins text-[#001817]'>WSG — Workforce Singapore — Career Guidance</h4>
-                    <h3 className='lg:text-[32px] text-[24px] font-semibold font-poppins text-[#001817]'>Pilot of Mobile Kiosks.</h3>
-                    <ul className='mt-[20px]'>
-                      <li className='text-[14px] font-poppins text-[#000000]'>On-Demand Video Solutions, Mobile Apps, Web App, Admin Panel / Dashboard, UI/UX Design</li>
-                    </ul>
-                  </div>
-                </div>
-                </Link>
-              </div>
-            </div>
-          </div>
-
-        </Container4>
-      </div> */}
+      
 
       <div className="">
         <div className="grid md:grid-cols-5 grid-cols-1">

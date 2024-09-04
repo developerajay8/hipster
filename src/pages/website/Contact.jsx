@@ -18,6 +18,15 @@ export default function Contact() {
     "Others",
   ];
 
+  const buttonName = [
+    "<10k",
+    "10-30k",
+    ">80k",
+    "Prefer not to share",
+    "Unsure, can you quote?"
+   
+  ];
+
   const handleClick = (index) => {
     if (clickedButtons.includes(index)) {
       setClickedButtons(clickedButtons.filter((i) => i !== index));
@@ -25,6 +34,15 @@ export default function Contact() {
       setClickedButtons([...clickedButtons, index]);
     }
   };
+
+  const [clickedButton, setClickedButton] = useState([]);
+
+  const handleClic = (index) => {
+    if (!clickedButton.includes(index)) {
+      setClickedButton([...clickedButton, index]);
+    }
+  };
+  
 
   return (
     <>
@@ -64,29 +82,21 @@ export default function Contact() {
                   Project budget (SGD)*{" "}
                 </span>
                 <div className=" pb-[20px]">
-                  <div
-                    htmlFor=""
-                    className="mt-[20px] mr-[10px] flex flex-wrap gap-2"
-                  >
-                    <span className="px-[20px] py-[12px] label text-[18px] font-semibold rounded-full ">
-                      ./10k
-                    </span>
-                    <span className="px-[20px] py-[12px] label text-[18px] font-semibold rounded-full ">
-                      10-30k
-                    </span>
-                    <span className="px-[20px] py-[12px] label text-[18px] font-semibold rounded-full ">
-                      30-80k
-                    </span>
-                    <span className="px-[20px] py-[12px] label text-[18px] font-semibold rounded-full ">
-                      80k
-                    </span>
-                    <span className="px-[20px] py-[12px] label text-[18px] font-semibold rounded-full ">
-                      Prefer not to share
-                    </span>
-                    <span className="px-[20px] py-[12px] label text-[18px] font-semibold rounded-full ">
-                      Unsure, can you quote?
-                    </span>{" "}
-                  </div>
+                <div className="flex flex-wrap">
+      {buttonName.map((name, index) => (
+        <button
+          key={index}
+          className={`m-2 px-4 py-2 label rounded-full text-[14px] text-black ${
+            clickedButton.includes(index)
+              ? "bg-black text-white"
+              : "bg-white"
+          } transition-colors duration-300 ease-in-out`}
+          onClick={() => handleClic(index)}
+        >
+          {name}
+        </button>
+      ))}
+    </div>
                 </div>
               </div>
 

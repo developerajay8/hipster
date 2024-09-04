@@ -26,35 +26,7 @@ const BlogOne = () => {
           In the digital age, crafting compelling blog posts is an art form that can significantly impact website traffic and engagement. As an adept content writer well-versed in SEO strategies, I’m here to guide you through the essential steps to create impactful blog content that not only captivates your audience but also optimizes your website for search engine visibility.
           </h1>
 
-          {/* <div>
-            <h2 className=" text-[28px] md:text-[32px] font-bolder mt-[40px] mb-[20px]">
-              <strong>Understanding Your Audience and Keywords</strong>
-            </h2>
-            <ul className="listStyeleo md:text-[20px] text-[16px] leading-[28px] md:leading-[1.3em]">
-              <li>
-                <span className="spancolor">
-                  AI-Powered Learning Management Systems
-                </span>
-              </li>
-              <li>
-                <span className="spancolor">Personalized Learning</span>
-              </li>
-              <li>
-                <span className="spancolor">
-                  Chatbots and Virtual Assistants
-                </span>
-              </li>
-              <li>
-                <span className="spancolor">Gamification of Learning</span>
-              </li>
-              <li>
-                <span className="spancolor">AI-Powered Assessment</span>
-              </li>
-              <li>
-                <span className="spancolor">FAQs</span>
-              </li>
-            </ul>
-          </div> */}
+          
 
           <div className="font-[poppins]">
             <h2 className="mt-[40px] mb-[20px] text-[28px] md:text-[2rem] font-medium">
@@ -132,15 +104,7 @@ const BlogOne = () => {
          
         </div>
 
-        {/* next blog  componant start */}
-        {/* <div className="mt-[50px]">
-          <PastSolution />
-        </div> */}
-
-        {/*  ............ componant download ................ */}
-        <div>
-          <Portfolio />
-        </div>
+        
       </Container6>
     </div>
   );
@@ -148,87 +112,4 @@ const BlogOne = () => {
 
 export default BlogOne;
 
-// const PastSolution = () => {
-//   //componant PastSolution
 
-//   const pastData = [
-//     {
-//       data: "All",
-//     },
-//     {
-//       data: "Personalized Fashion",
-//     },
-//     {
-//       data: "Gamification in Tech",
-//     },
-//     {
-//       data: "On-Demand Video Solutions",
-//     },
-//     {
-//       data: "F&B",
-//     },
-//     {
-//       data: "Match Making Platform",
-//     },
-//     {
-//       data: "Education Tech",
-//     },
-//     {
-//       data: "Sustainability",
-//     },
-//     {
-//       data: "Mental Health",
-//     },
-//     {
-//       data: "Event Management",
-//     },
-//   ];
-//   return (
-//     <div className="font-poppins px-[15px] ">
-//       <h2 className="md:text-[32px]  text-[28px] mb-[24px]  font-medium md:leading-[1.2] leading-[28px]">
-//         Past Solutions
-//       </h2>
-
-//       <ul className="md:text-[20px] text-[14px] font-normal cursor-pointer flex md:gap-3 gap-[5px] flex-wrap">
-//         {pastData.map((data, i) => {
-//           return (
-//             <li className="pastHover" key={i}>
-//               {data.data}
-//               <div className="hoverColorg "></div>
-//             </li>
-//           );
-//         })}
-//       </ul>
-//     </div>
-//   );
-// };
-
-// Download our portfolio componant
-
-// const DOWNLOAD = () => {
-//   return (
-//     <div className="flex  ">
-//       <div className="w-[390px] h-[368px] px-[15px] ">
-//         <div className="animationBlog  mx-auto my-[20px]">
-//           <h3 className="text-[#fff] text-[28px] font-medium leading-[1.2] mb-[24px] ">
-//             Download Our Portfolio{" "}
-//           </h3>
-//           <div className="w-[246px] animationIMG">
-//             <img className="w-full" src={portf} alt="" />
-//           </div>
-//         </div>
-//       </div>
-//       <div className="flex items-center">
-//         <div>
-//           <h2 className="text-[24px] font-medium py-[10px]">Let's Connect!</h2>
-//           <p className="text-[#001817]  text-[18px] mb-[10px] font-normal">
-//             Together, we'll scale milestones for your next business idea.
-//           </p>
-//           <button className="text-[#fff] bg-[#32373c] rounded-[30px] py-[12px] px-[22px] mt-[24px] buttonclg ">
-//             Send Message
-//           </button>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };

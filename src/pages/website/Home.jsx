@@ -107,11 +107,13 @@ export default function Home() {
                 <br className="xl:block hidden" />
                 {/* ecosystem that keeps you ahead of the <br className="xl:block hidden"/> competition. Business10X delivers measurable <br className="xl:block hidden"/> results with processes you can trust. Our proven <br className="xl:block hidden"/> track record and commitment to transparency<br className="xl:block hidden"/> ensure your investments drive lasting growth. */}
               </p>
+              <Link to={"/contact"}>
               <button className="list-none py-[14px] bg-white px-[40px] xl:rounded-full rounded-full text-[#05201f] font-poppins">
-                <li className="transform">
-                  <Link to={"/contact"}>Contact us</Link>
-                </li>
+                  Contact us
               </button>
+              </Link>
+
+              
             </div>
             <div className="col-span-7 xl:block hidden relative">
               <div id="ONE" className=" absolute PP top-[-180px] right-[100px]">

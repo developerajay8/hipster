@@ -109,11 +109,6 @@ const SoftwareDev = () => {
           
         </div>
 
-        {/* portfolio componant add here  ................................ page response page*/}
-
-
-
-        <Portfolio />
       </Container6>
     </div>
   );

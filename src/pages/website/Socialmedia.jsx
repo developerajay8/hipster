@@ -65,119 +65,7 @@ export default function Socialmedia() {
 
       <div className="ni lg:min-h-[800px] md:min-h-[500px] min-h-[300px]"></div>
 
-      {/* <div className="py-[80px]">
-        <Container4>
-          <div className="grid grid-cols-1 xl:px-[0px] lg:px-[10px] md:px-[70px] sm:px-[40px] px-[12px]">
-            <h2 className=" lg:text-[46px] md:text-[38px] text-[34px]  font-poppins text-[#000000] font-semibold">
-              Our work
-            </h2>
-            <h3 className="lg:text-[32px] md:text-[24px] text-[22px] max-w-[700px] lg:leading-[45px] md:leading-[30px] md:mt-[25px] mt-[15px] font-poppins text-[#000000]">
-              Explore websites created for our clients all around the world and
-              across industries
-            </h3>
-          </div>
-
-          <div className="pt-[60px]">
-            <div
-              className="grid md:grid-cols-2 grid-cols-1 gap-[80px] xl:px-[0px] lg:px-[14px] md:px-[20px] sm:px-[100px] px-[20px]"
-              data-aos="slide-up"
-              data-aos-duration="700"
-            >
-              <div className="col-span-1 ">
-                <Link to={'/tueetoredutech'}>
-                <img src={edt} alt="" />
-                </Link>
-                <Link to={'/tueetoredutech'}>
-                <div className="py-[25px]">
-                  <h4 className="mb-[12px] text-[24px] font-poppins text-[#001817]">
-                    Tueetor — Edutech
-                  </h4>
-                  <h3 className="lg:text-[32px] text-[24px] font-poppins font-bold text-[#001817]">
-                    Online platform for finding digital tutors
-                  </h3>
-                  <ul classNameclassName="mt-[20px]">
-                    <li className="text-[14px] font-poppins text-[#000000]">
-                      Match Making Platform, Education Tech
-                    </li>
-                  </ul>
-                </div>
-                </Link>
-              </div>
-              <div className="col-span-1  mb-[17px]">
-                <div className="lg:pt-[92px] md:pt-[72px]">
-                <Link to={'/mintutor'}>
-                  <img src={Sx} alt="" />
-                  </Link>
-                  <Link to={'/mintutor'}>
-                  <div className="py-[25px]">
-                    <h4 className="mb-[12px] text-[24px] font-poppins text-[#001817]">
-                      10-min Tutor — Edutech
-                    </h4>
-                    <h3 className="lg:text-[32px] text-[24px] font-semibold font-poppins text-[#001817]">
-                      On-demand tutor app with video-telephony & marketplace
-                      functionalities
-                    </h3>
-                    <ul className="mt-[20px]">
-                      <li className="text-[14px] font-poppins text-[#000000]">
-                        On-Demand Video Solutions, Education Tech
-                      </li>
-                    </ul>
-                  </div>
-                  </Link>
-                </div>
-              </div>
-            </div>
-            <div
-              className="grid md:grid-cols-2 grid-cols-1 gap-[80px] xl:px-[0px] lg:px-[14px] md:px-[20px] sm:px-[100px] px-[20px]"
-              data-aos="slide-up"
-              data-aos-duration="700"
-            >
-              <div className="col-span-1 ">
-              <Link to={'/physicleteam'}>
-                <img src={SS} alt="" />
-                </Link>
-                <Link to={'/physicleteam'}>
-                <div className="py-[25px]">
-                  <h4 className="mb-[12px] text-[24px] font-poppins text-[#001817]">
-                    Tbit — Team Engagement
-                  </h4>
-                  <h3 className="lg:text-[32px] text-[24px] font-poppins font-bold text-[#001817]">
-                    A physical team-building app: say no to boring activities!
-                  </h3>
-                  <ul classNameclassName="mt-[20px]">
-                    <li className="text-[14px] font-poppins text-[#000000]">
-                      Gamification in Tech, Event Management
-                    </li>
-                  </ul>
-                </div>
-                </Link>
-              </div>
-              <div className="col-span-1  mb-[17px]">
-                <div className="lg:pt-[92px] md:pt-[72px]">
-                <Link to={'/lhommes'}>
-                  <img src={olm} alt="" />
-                  </Link>
-                  <Link to={'/lhommes'}>
-                  <div className="py-[25px]">
-                    <h4 className="mb-[12px] text-[24px] font-poppins text-[#001817]">
-                      L’Hommes — Fashion E-commerce
-                    </h4>
-                    <h3 className="lg:text-[32px] text-[24px] font-semibold font-poppins text-[#001817]">
-                      Custom suits e-commerce platform with fit visualization
-                    </h3>
-                    <ul className="mt-[20px]">
-                      <li className="text-[14px] font-poppins text-[#000000]">
-                        Personalized Fashion
-                      </li>
-                    </ul>
-                  </div>
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
-        </Container4>
-      </div> */}
+      
 
 <div className="py-[80px]">
         <Container4>
@@ -213,7 +101,7 @@ export default function Socialmedia() {
               </p>
             </div>
             <div className="col-span-1 lg:pl-[60px] pl-[12px] pt-[48px] pr-[12px]" data-aos="slide-left" data-aos-duration="500">
-              <img src={Mirror} alt="" />
+              <img src={notched} alt="" />
               <h3 className='lg:text-[28px] text-[22px] font-poppins mb-[16px] text-[#000000] font-semibold'>Social Media Campaigns and Contests:  </h3>
               <p className='lg:text-[20px] text-[16px] text-[#596868] font-poppins '>Her we create and manage social media campaigns, such as product launches, promotions, and contests, that generate buzz and excitement around the client’s brand. These campaigns are designed to increase brand visibility, attract new followers, and drive conversions.</p>
             </div>

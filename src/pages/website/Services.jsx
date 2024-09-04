@@ -34,7 +34,9 @@ export default function Services() {
               data-aos="slide-up"
               data-aos-duration="1000"
             >
-              Unlock your growth potential with our comprehensive range of tailored digital services: driving online visibility, engaging audiences, and delivering measurable results.{" "}
+              Unlock your growth potential with our comprehensive range of
+              tailored digital services: driving online visibility, engaging
+              audiences, and delivering measurable results.{" "}
             </h2>
           </div>
         </div>
@@ -45,15 +47,21 @@ export default function Services() {
         </div>
 
         <div className="col-span-3 my-auto xl:py-[80px] sm:py-[40px] py-[40px] xl:pl-[80px] pl-[20px] sm:pl-[40px]  xl:pr-[80px] sm:pr-[40px] pr-[20px]">
-          
-            <h2 className="text-[32px] font-poppins mb-[15px] text-[#ffffff]">
-            No, we don't sell services. We sell solutions tailored according to your need. 
-            </h2>
+          <h2 className="text-[32px] font-poppins mb-[15px] text-[#ffffff]">
+            No, we don't sell services. We sell solutions tailored according to
+            your need.
+          </h2>
 
-            <p className="sm:text-[18px] text-[16px] font-poppins  text-[#ffffff] mb-[19px]">
-              At Business10X, we don’t just offer services—we deliver solutions precisely tailored to your unique needs. As a marketing agency, our focus is on understanding the distinct challenges faced by your business and crafting strategies that drive growth. Whether it’s enhancing your digital presence or optimizing your performance, we provide customized solutions that are as dynamic and versatile as the businesses we serve. With Business10X, you’re not just investing in services; you’re investing in growth, innovation, and success.
-            </p>
-          
+          <p className="sm:text-[18px] text-[16px] font-poppins  text-[#ffffff] mb-[19px]">
+            At Business10X, we don’t just offer services—we deliver solutions
+            precisely tailored to your unique needs. As a marketing agency, our
+            focus is on understanding the distinct challenges faced by your
+            business and crafting strategies that drive growth. Whether it’s
+            enhancing your digital presence or optimizing your performance, we
+            provide customized solutions that are as dynamic and versatile as
+            the businesses we serve. With Business10X, you’re not just investing
+            in services; you’re investing in growth, innovation, and success.
+          </p>
         </div>
       </div>
       <Container4>
@@ -61,20 +69,17 @@ export default function Services() {
           <div className="lg:col-span-2  col-span-2 my-auto  lg:pb-[0px] pb-[20px]">
             <div className="md:pr-[65px] pr-[0px]">
               <h2 className="text-[32px] font-poppins text-[#000000] mb-[16px] fo">
-              Branding
+                Branding
               </h2>
               <p className="text-[#657676] xl:text-[20px] sm:text-[18px] text-[16px] mb-[16px] font-poppins">
-              Build a distinctive brand identity that resonates with your audience. Our branding services encompass market research, brand strategy, and visual identity design, ensuring that your brand stands out in the competitive landscape.
-
+                Build a distinctive brand identity that resonates with your
+                audience. Our branding services encompass market research, brand
+                strategy, and visual identity design, ensuring that your brand
+                stands out in the competitive landscape.
               </p>
-              <button className="bg-black hover:bg-gray-900 duration-700 py-3 rounded-full items-center">
-                <Link
-                  to={"/branding"}
-                  className="text-[#dedede] duration-700 hover:text-[#adadad] px-[20px] font-semibold"
-                >
-                  Explore More
-                </Link>
-              </button>
+              <Link to={'/branding'}>
+                <button className="text-[#dedede] duration-700 hover:text-[#adadad] px-[20px] font-semibold bg-black hover:bg-gray-900 py-3 rounded-full items-center">Explore more</button>
+              </Link>
             </div>
           </div>
           <div className="lg:col-span-3  col-span-2  lg:ml-auto  max-w-[643px] max-h-[468px] lg:mx-auto  ">
@@ -99,19 +104,17 @@ export default function Services() {
           <div className="lg:col-span-2  col-span-2 my-auto lg:mt-0 lg-mt-[16px]">
             <div className="lg:pl-[65px] md:pr-[65px] lg:pr-[0px] pl-[0px]">
               <h2 className="text-[32px] font-poppins text-[#000000] mb-[16px] fo">
-              Social Media Management
+                Social Media Management
               </h2>
               <p className="text-[#657676] xl:text-[20px] sm:text-[18px] text-[16px] mb-[16px] font-poppins">
-              Cultivate a vibrant social media presence with our expert management services. From content creation to community engagement, we help you leverage social platforms to enhance brand visibility and connect with your audience.
+                Cultivate a vibrant social media presence with our expert
+                management services. From content creation to community
+                engagement, we help you leverage social platforms to enhance
+                brand visibility and connect with your audience.
               </p>
-              <button className="bg-black hover:bg-gray-900 duration-700 py-3 rounded-full items-center">
-                <Link
-                  to={"/socialmedia"}
-                  className="text-[#dedede] duration-700 hover:text-[#adadad] px-[20px] font-semibold"
-                >
-                  Explore More
-                </Link>
-              </button>
+              <Link to={'/socialmedia'}>
+                <button className="text-[#dedede] duration-700 hover:text-[#adadad] px-[20px] font-semibold bg-black hover:bg-gray-900 py-3 rounded-full items-center">Explore more</button>
+              </Link>
             </div>
           </div>
         </div>
@@ -122,19 +125,17 @@ export default function Services() {
           <div className="lg:col-span-2  col-span-2 lg:pb-[0px] pb-[20px] my-auto  ">
             <div className="md:pr-[65px] pr-[0px]">
               <h2 className="text-[32px] font-poppins text-[#000000] mb-[16px] fo">
-              Performance Marketing
+                Performance Marketing
               </h2>
               <p className="text-[#657676] xl:text-[20px] sm:text-[18px] text-[16px] mb-[16px] font-poppins">
-              Amplify your online reach and drive conversions through targeted performance marketing strategies. Our team leverages data-driven insights to craft campaigns that maximize ROI and deliver measurable results.
+                Amplify your online reach and drive conversions through targeted
+                performance marketing strategies. Our team leverages data-driven
+                insights to craft campaigns that maximize ROI and deliver
+                measurable results.
               </p>
-              <button className="bg-black hover:bg-gray-900 duration-700 py-3 rounded-full items-center">
-                <Link
-                  to={"/performancemarketing"}
-                  className="text-[#dedede] duration-700 hover:text-[#adadad] px-[20px] font-semibold"
-                >
-                  Explore More
-                </Link>
-              </button>
+              <Link to={'/performancemarketing'}>
+                <button className="text-[#dedede] duration-700 hover:text-[#adadad] px-[20px] font-semibold bg-black hover:bg-gray-900 py-3 rounded-full items-center">Explore more</button>
+              </Link>
             </div>
           </div>
           <div className="lg:col-span-3 col-span-2  lg:ml-auto  max-w-[643px] max-h-[468px] lg:mx-auto  ">
@@ -159,45 +160,42 @@ export default function Services() {
           <div className="lg:col-span-2  col-span-2 my-auto lg:mt-0 lg-mt-[16px]">
             <div className="lg:pl-[65px] md:pr-[65px] lg:pr-[0px] pl-[0px]">
               <h2 className="text-[32px] font-poppins text-[#000000] mb-[16px] fo">
-              Designing and Editing
+                Designing and Editing
               </h2>
               <p className="text-[#657676] xl:text-[20px] sm:text-[18px] text-[16px] mb-[16px] font-poppins">
-              Elevate your visual presence with captivating design and precision editing. Our talented team brings your creative vision to life through impactful imagery, graphics, and visual storytelling.
+                Elevate your visual presence with captivating design and
+                precision editing. Our talented team brings your creative vision
+                to life through impactful imagery, graphics, and visual
+                storytelling.
               </p>
+
               
-              <button className="bg-black hover:bg-gray-900 duration-700 py-3 rounded-full items-center">
-                <Link
-                  to={"/designingandediting"}
-                  className="text-[#dedede] duration-700 hover:text-[#adadad] px-[20px] font-semibold"
-                >
-                  Explore More
-                </Link>
-              </button>
+
+              <Link to={'/designingandediting'}>
+                <button className="text-[#dedede] duration-700 hover:text-[#adadad] px-[20px] font-semibold bg-black hover:bg-gray-900 py-3 rounded-full items-center">Explore more</button>
+              </Link>
             </div>
           </div>
         </div>
       </Container4>
-
 
       <Container4>
         <div className="xl:py-[80px] py-[40px] xl:px-0 px-[20px] grid lg:grid-cols-5 grid-cols-2">
           <div className="lg:col-span-2  col-span-2 my-auto  lg:pb-[0px] pb-[20px]">
             <div className="md:pr-[65px] pr-[0px]">
               <h2 className="text-[32px] font-poppins text-[#000000] mb-[16px] fo">
-              Media Production
+                Media Production
               </h2>
               <p className="text-[#657676] xl:text-[20px] sm:text-[18px] text-[16px] mb-[16px] font-poppins">
-              From concept to execution, our media production services encompass video, audio, and multimedia content creation, ensuring compelling storytelling that captivates your audience.
-
+                From concept to execution, our media production services
+                encompass video, audio, and multimedia content creation,
+                ensuring compelling storytelling that captivates your audience.
               </p>
-              <button className="bg-black hover:bg-gray-900 duration-700 py-3 rounded-full items-center">
-                <Link
-                  to={"/mediaproduction"}
-                  className="text-[#dedede] duration-700 hover:text-[#adadad] px-[20px] font-semibold"
-                >
-                  Explore More
-                </Link>
-              </button>
+             
+
+              <Link to={'/mediaproduction'}>
+                <button className="text-[#dedede] duration-700 hover:text-[#adadad] px-[20px] font-semibold bg-black hover:bg-gray-900 py-3 rounded-full items-center">Explore more</button>
+              </Link>
             </div>
           </div>
           <div className="lg:col-span-3  col-span-2  lg:ml-auto  max-w-[643px] max-h-[468px] lg:mx-auto  ">
@@ -222,19 +220,18 @@ export default function Services() {
           <div className="lg:col-span-2  col-span-2 my-auto lg:mt-0 lg-mt-[16px]">
             <div className="lg:pl-[65px] md:pr-[65px] lg:pr-[0px] pl-[0px]">
               <h2 className="text-[32px] font-poppins text-[#000000] mb-[16px] fo">
-              Creative Production
+                Creative Production
               </h2>
               <p className="text-[#657676] xl:text-[20px] sm:text-[18px] text-[16px] mb-[16px] font-poppins">
-              Immerse your audience in captivating narratives with our creative production services, spanning from ideation to execution, delivering innovative and engaging content.
+                Immerse your audience in captivating narratives with our
+                creative production services, spanning from ideation to
+                execution, delivering innovative and engaging content.
               </p>
-              <button className="bg-black hover:bg-gray-900 duration-700 py-3 rounded-full items-center">
-                <Link
-                  to={"/creativeproduction"}
-                  className="text-[#dedede] duration-700 hover:text-[#adadad] px-[20px] font-semibold"
-                >
-                  Explore More
-                </Link>
-              </button>
+              
+
+              <Link to={'/creativeproduction'}>
+                <button className="text-[#dedede] duration-700 hover:text-[#adadad] px-[20px] font-semibold bg-black hover:bg-gray-900 py-3 rounded-full items-center">Explore more</button>
+              </Link>
             </div>
           </div>
         </div>
@@ -245,19 +242,93 @@ export default function Services() {
           <div className="lg:col-span-2  col-span-2 lg:pb-[0px] pb-[20px] my-auto  ">
             <div className="md:pr-[65px] pr-[0px]">
               <h2 className="text-[32px] font-poppins text-[#000000] mb-[16px] fo">
-              CGI & 2D, 3D
+                CGI & 2D, 3D
               </h2>
               <p className="text-[#657676] xl:text-[20px] sm:text-[18px] text-[16px] mb-[16px] font-poppins">
-              Achieve immersive visual experiences with our cutting-edge CGI and 2D/3D animation services. We bring imagination to life, creating stunning visual content that captivates and enthralls.
+                Achieve immersive visual experiences with our cutting-edge CGI
+                and 2D/3D animation services. We bring imagination to life,
+                creating stunning visual content that captivates and enthralls.
               </p>
-              <button className="bg-black hover:bg-gray-900 duration-700 py-3 rounded-full items-center">
-                <Link
-                  to={"/cgi"}
-                  className="text-[#dedede] duration-700 hover:text-[#adadad] px-[20px] font-semibold"
-                >
-                  Explore More
-                </Link>
-              </button>
+              
+
+              <Link to={'/cgi'}>
+                <button className="text-[#dedede] duration-700 hover:text-[#adadad] px-[20px] font-semibold bg-black hover:bg-gray-900 py-3 rounded-full items-center">Explore more</button>
+              </Link>
+            </div>
+          </div>
+          <div className="lg:col-span-3 col-span-2  lg:ml-auto  max-w-[643px] max-h-[468px] lg:mx-auto  ">
+            <img
+              src={img3}
+              className="w-[100%] h-[100%]  md:mb-0 my-auto xl:mt-0 mt-[20px]"
+              alt=""
+            />
+          </div>
+        </div>
+      </Container4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <Container4>
+        <div className="xl:py-[80px] py-[40px] xl:px-0 px-[20px] grid lg:grid-cols-5 grid-cols-2">
+          <div className="lg:col-span-3  col-span-2 lg:mr-auto lg:mb-0 mb-[20px] max-w-[643px] max-h-[468px] lg:mx-auto  ">
+            <img
+              src={img4}
+              className="w-[100%] h-[100%]  lg:mb-0  my-auto "
+              alt=""
+            />
+          </div>
+          <div className="lg:col-span-2  col-span-2 my-auto lg:mt-0 lg-mt-[16px]">
+            <div className="lg:pl-[65px] md:pr-[65px] lg:pr-[0px] pl-[0px]">
+              <h2 className="text-[32px] font-poppins text-[#000000] mb-[16px] fo">
+                Website and App Development
+              </h2>
+              <p className="text-[#657676] xl:text-[20px] sm:text-[18px] text-[16px] mb-[16px] font-poppins">
+                Leverage responsive and user-centric design with our website and
+                app development services. Our expert team delivers seamless
+                digital experiences that drive engagement and conversions.
+              </p>
+
+              
+
+              <Link to={'/websiteandappdevelopment'}>
+                <button className="text-[#dedede] duration-700 hover:text-[#adadad] px-[20px] font-semibold bg-black hover:bg-gray-900 py-3 rounded-full items-center">Explore more</button>
+              </Link>
+            </div>
+          </div>
+        </div>
+      </Container4>
+
+      <Container4>
+        <div className="xl:py-[80px] py-[40px] xl:px-0 px-[20px] grid lg:grid-cols-5 grid-cols-2">
+          <div className="lg:col-span-2  col-span-2 lg:pb-[0px] pb-[20px] my-auto  ">
+            <div className="md:pr-[65px] pr-[0px]">
+              <h2 className="text-[32px] font-poppins text-[#000000] mb-[16px] fo">
+                Web Application
+              </h2>
+              <p className="text-[#657676] xl:text-[20px] sm:text-[18px] text-[16px] mb-[16px] font-poppins">
+                Streamline your business operations with custom web applications
+                tailored to your specific needs. Our solutions enhance
+                efficiency, productivity, and user experience.
+              </p>
+              
+
+              <Link to={'/webapplication'}>
+                <button className="text-[#dedede] duration-700 hover:text-[#adadad] px-[20px] font-semibold bg-black hover:bg-gray-900 py-3 rounded-full items-center">Explore more</button>
+              </Link>
             </div>
           </div>
           <div className="lg:col-span-3 col-span-2  lg:ml-auto  max-w-[643px] max-h-[468px] lg:mx-auto  ">
@@ -282,87 +353,23 @@ export default function Services() {
           <div className="lg:col-span-2  col-span-2 my-auto lg:mt-0 lg-mt-[16px]">
             <div className="lg:pl-[65px] md:pr-[65px] lg:pr-[0px] pl-[0px]">
               <h2 className="text-[32px] font-poppins text-[#000000] mb-[16px] fo">
-               Website and App Development
+                ERP (Enterprise Resource Planning)
               </h2>
               <p className="text-[#657676] xl:text-[20px] sm:text-[18px] text-[16px] mb-[16px] font-poppins">
-              Leverage responsive and user-centric design with our website and app development services. Our expert team delivers seamless digital experiences that drive engagement and conversions.
+                Optimize your business processes and data management with our
+                ERP solutions, helping you integrate and manage core business
+                functions seamlessly.
               </p>
-              
-              <button className="bg-black hover:bg-gray-900 duration-700 py-3 rounded-full items-center">
-                <Link
-                  to={"/websiteandappdevelopment"}
-                  className="text-[#dedede] duration-700 hover:text-[#adadad] px-[20px] font-semibold"
-                >
-                  Explore More
-                </Link>
-              </button>
+
+             
+
+              <Link to={'/erps'}>
+                <button className="text-[#dedede] duration-700 hover:text-[#adadad] px-[20px] font-semibold bg-black hover:bg-gray-900 py-3 rounded-full items-center">Explore more</button>
+              </Link>
             </div>
           </div>
         </div>
       </Container4>
-
-      <Container4>
-        <div className="xl:py-[80px] py-[40px] xl:px-0 px-[20px] grid lg:grid-cols-5 grid-cols-2">
-          <div className="lg:col-span-2  col-span-2 lg:pb-[0px] pb-[20px] my-auto  ">
-            <div className="md:pr-[65px] pr-[0px]">
-              <h2 className="text-[32px] font-poppins text-[#000000] mb-[16px] fo">
-              Web Application
-              </h2>
-              <p className="text-[#657676] xl:text-[20px] sm:text-[18px] text-[16px] mb-[16px] font-poppins">
-              Streamline your business operations with custom web applications tailored to your specific needs. Our solutions enhance efficiency, productivity, and user experience.
-              </p>
-              <button className="bg-black hover:bg-gray-900 duration-700 py-3 rounded-full items-center">
-                <Link
-                  to={"/webapplication"}
-                  className="text-[#dedede] duration-700 hover:text-[#adadad] px-[20px] font-semibold"
-                >
-                  Explore More
-                </Link>
-              </button>
-            </div>
-          </div>
-          <div className="lg:col-span-3 col-span-2  lg:ml-auto  max-w-[643px] max-h-[468px] lg:mx-auto  ">
-            <img
-              src={img3}
-              className="w-[100%] h-[100%]  md:mb-0 my-auto xl:mt-0 mt-[20px]"
-              alt=""
-            />
-          </div>
-        </div>
-      </Container4>
-
-      <Container4>
-        <div className="xl:py-[80px] py-[40px] xl:px-0 px-[20px] grid lg:grid-cols-5 grid-cols-2">
-          <div className="lg:col-span-3  col-span-2 lg:mr-auto lg:mb-0 mb-[20px] max-w-[643px] max-h-[468px] lg:mx-auto  ">
-            <img
-              src={img4}
-              className="w-[100%] h-[100%]  lg:mb-0  my-auto "
-              alt=""
-            />
-          </div>
-          <div className="lg:col-span-2  col-span-2 my-auto lg:mt-0 lg-mt-[16px]">
-            <div className="lg:pl-[65px] md:pr-[65px] lg:pr-[0px] pl-[0px]">
-              <h2 className="text-[32px] font-poppins text-[#000000] mb-[16px] fo">
-              ERP (Enterprise Resource Planning)
-              </h2> 
-              <p className="text-[#657676] xl:text-[20px] sm:text-[18px] text-[16px] mb-[16px] font-poppins">
-              Optimize your business processes and data management with our ERP solutions, helping you integrate and manage core business functions seamlessly.
-              </p>
-              
-              <button className="bg-black hover:bg-gray-900 duration-700 py-3 rounded-full items-center">
-                <Link
-                  to={"/erps"}
-                  className="text-[#dedede] duration-700 hover:text-[#adadad] px-[20px] font-semibold"
-                >
-                  Explore More
-                </Link>
-              </button>
-            </div>
-          </div>
-        </div>
-      </Container4>
-
-      
 
       {/* <div className="grid grid-cols-2 gap-6 xl:pb-[0px] pb-[20px] ">
         <div className="col-span-1 lg:block hidden max-w-[750px] max-h-[497px]">

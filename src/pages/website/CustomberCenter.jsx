@@ -80,7 +80,7 @@ const CustomberCenter = () => {
           })}
         </div>
         {/* add componant add here  */}
-        <Portfolio />
+        
       </Container6>
     </div>
   );

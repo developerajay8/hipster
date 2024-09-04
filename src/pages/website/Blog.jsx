@@ -36,7 +36,7 @@ export default function Blog() {
       <Container4>
         <div className=" grid lg:grid-cols-5 grid-cols-1 mb-[40px] xl:px-[0px] lg:px-[38px] md:px-[50px] sm:px-[30px] px-[0px]">
           <div className="lg:col-span-3 col-span-1 my-auto ">
-            <Link to={''}>
+            <Link to={'/blogone'}>
               <div className='px-[15px] mb-[24px]'>
                 <img src={top5} className='rounded-xl' alt="" />
               </div>
@@ -189,7 +189,7 @@ export default function Blog() {
                 <img src={blog4} className='rounded-2xl' alt="" />
               </Link>
               <div className="flex flex-wrap mt-[20px]">
-                <Link className=' xl:text-[16px] sm:text-[15px] text-[14px] font-poppins mr-[12px] mb-[5px] xl:px-[20px] px-[15px] rounded-full xl:py-[7px] py-[4px] bg-[#00b1ac33] border' to={'/'}>Blog</Link>
+                <Link className=' xl:text-[16px] sm:text-[15px] text-[14px] font-poppins mr-[12px] mb-[5px] xl:px-[20px] px-[15px] rounded-full xl:py-[7px] py-[4px] bg-[#00b1ac33] border' to={''}>Blog</Link>
 
 
               </div>
@@ -224,7 +224,6 @@ export default function Blog() {
               </Link>
               <div className="flex flex-wrap mt-[20px]">
                 <Link className=' xl:text-[16px] sm:text-[15px] text-[14px] font-poppins mr-[12px] mb-[5px] xl:px-[20px] px-[15px] rounded-full xl:py-[7px] py-[4px] bg-[#00b1ac33] border' to={''}>Blog</Link>
-
 
               </div>
               <h4 className='mb-[16px] sm:mt-[0] mt-[7px]'>
