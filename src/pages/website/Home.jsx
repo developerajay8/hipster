@@ -875,8 +875,8 @@ function Clientsf() {
 
 function Trusted() {
   return (
-    <div className="pt-[80px] sm:px-[100px] px-[20px] pb-[120px] Truste">
-      <div className=" max-w-[1416px] mx-auto">
+    <div className="pt-[80px] pb-[120px] bg-[#000]">
+      <div className=" ">
         <h2 className="text-[50px] text-[#FFFFFF] mb-[30px] font-poppins tr">
           Trusted by
         </h2>
