@@ -16,13 +16,8 @@ import SimpleSlider from './SimpleSlider';
 
 
 export default function Creativeproducation() {
-  const accordElems = Data.map(
-    (d, i) => {
-      // console.log(d,i);
-      return <Accord key={i} title={d.title} body={d.body} seo={d.seo} sep={d.sep} seps={d.seps} />
+  
 
-    }
-  )
   return (
     <div>
       <Container4>
@@ -69,18 +64,14 @@ export default function Creativeproducation() {
               <h3 className='lg:text-[28px] text-[22px] font-poppins mb-[16px] text-[#000000] font-semibold'>Audience-Centric Approach: </h3>
               <p className='lg:text-[20px] text-[16px] text-[#596868] font-poppins '>Business10X tailors creative production strategies to meet the specific needs and preferences of the client’s target audience. By understanding the audience's demographics, interests, and behaviors, the agency creates content that resonates on a deeper level, driving higher engagement and conversion rates.
               </p>
-              <div className="my-[20px]">
-                <Link className='px-[20px] rounded-full py-[14px] bg-dark text-[#efecec] font-poppins' to={'/kwsh'}>Explore more</Link>
-              </div>
+              
             </div>
             <div className="col-span-1 lg:pl-[60px] pl-[12px] pt-[48px] pr-[12px]"data-aos="slide-left" data-aos-duration="500">
               <img src={s} alt="" />
               <h3 className='lg:text-[28px] text-[22px] font-poppins mb-[16px] text-[#000000] font-semibold'>Brand Consistency and Identity:</h3>
               <p className='lg:text-[20px] text-[16px] text-[#596868] font-poppins '> Through creative production, Business10X ensures that all content reflects the client’s brand identity and values. This consistency across all creative outputs strengthens brand recognition and builds trust with the audience.
               </p>
-              <div className="my-[20px]">
-                <Link className='px-[20px] rounded-full py-[14px] bg-dark text-[#efecec] font-poppins' to={'https://virtualbreaker.com/'}>Explore more</Link>
-              </div>
+              
             </div>
           </div>
 
@@ -92,9 +83,7 @@ export default function Creativeproducation() {
               </h3>
               <p className='lg:text-[20px] text-[16px] text-[#596868] font-poppins '>Business10X leverages the latest technology and creative tools to produce high-quality content that is both innovative and effective. From state-of-the-art video production equipment to advanced design software, the agency ensures that every creative project is executed to the highest standards.
               </p>
-              <div className="my-[20px]">
-                <Link className='px-[20px] rounded-full py-[14px] bg-dark text-[#efecec] font-poppins' to={'/tueetoredutech'}>Explore more</Link>
-              </div>
+              
             </div>
             <div className="col-span-1 lg:pl-[60px] pl-[12px] pt-[48px] pr-[12px]" data-aos="slide-left" data-aos-duration="500">
               <img src={fo} alt="" />
@@ -102,30 +91,11 @@ export default function Creativeproducation() {
               </h3>
               <p className='lg:text-[20px] text-[16px] text-[#596868] font-poppins '>Business10X offers end-to-end creative production services, from concept development to final execution. This comprehensive approach ensures that every aspect of the creative process is managed seamlessly, resulting in a polished and professional final product.</p>
               
-              <div className="my-[20px]">
-                <Link className='px-[20px] rounded-full py-[14px] bg-dark text-[#efecec] font-poppins' to={''}>Explore more</Link>
-              </div>
+             
             </div>
           </div>
 
-          {/* <div className="grid md:grid-cols-2 grid-cols-1 gap-6 lg:px-[0px] md:px-[60px] sm:px-[100px] px-[10px]">
-            <div className="col-span-1 lg:pr-[60px] pr-[12px] pt-[48px] pl-[12px]" data-aos="slide-right" data-aos-duration="500">
-              <img src={fi} alt="" />
-              <h3 className='lg:text-[28px] text-[22px] font-poppins mb-[16px] text-[#000000] font-semibold'>Feedback App</h3>
-              <p className='lg:text-[20px] text-[16px] text-[#596868] font-poppins '>Create your own white label feedback app to capture your customers’ feedback about your business through an iPad or QR code. This app gives you the most valuable insights and data analytics about your business and consumers.</p>
-              <div className="my-[20px]">
-                <Link className='px-[20px] rounded-full py-[14px] bg-dark text-[#efecec] font-poppins' to={''}>Explore more</Link>
-              </div>
-            </div>
-            <div className="col-span-1 lg:pl-[60px] pl-[12px] pt-[48px] pr-[12px]"data-aos="slide-left" data-aos-duration="500" >                                          
-              <img src={si} alt="" />
-              <h3 className='lg:text-[28px] text-[22px] font-poppins mb-[16px] text-[#000000] font-semibold'>Virtual call assistant</h3>
-              <p className='lg:text-[20px] text-[16px] text-[#596868] font-poppins '>Want a system to connect your customers to customer service representatives virtually? Hipster’s virtual call assistant app offers video calls, text, estimated queue time, content to browse while waiting, and feedback rating at the end of the call. Administrators can track data and access customer feedback. Use our easy-to-navigate system to mold your service for the next growth phase.</p>
-              <div className="my-[20px]">
-                <Link className='px-[20px] rounded-full py-[14px] bg-dark text-[#efecec] font-poppins' to={''}>Explore more</Link>
-              </div>
-            </div>
-          </div> */}
+          
 
         </Container4>
       </div>

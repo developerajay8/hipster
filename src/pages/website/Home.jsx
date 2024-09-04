@@ -7,6 +7,7 @@ import {
   Process,
   abroadly,
   bagicon,
+  blogo,
   blogos,
   bomb,
   business,
@@ -175,18 +176,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="Box">
-                <li className="list-none">
-                  <Link
-                    onClick={handleClick}
-                    // to="ajay"
-                    // spy={true}
-                    // offset={50}
-                  >
-                    Scroll Down
-                  </Link>
-                </li>
-              </div>
+              
             </div>
           </div>
         </div>
@@ -212,12 +202,10 @@ export default function Home() {
 function Allcomponent() {
   return (
     <div className=" lg:hidden block py-[48px] sm:px-[20px]">
-      <h2 className="text-[#000000] pl-[40px] text-[35px] font-poppins mb-[15px]">
-        Featured Projects
-      </h2>
+      
       <div className="grid md:grid-cols-2 md:px-[0px] sm:px-[50px] px-[18px]   gap-4">
         <div className="col-span-1  sm:mb-[50px] mb-[28px]">
-          <Link to={"./Near"}>
+          <Link to={"./branding"}>
             <img src={new1} className="rounded-[25px] " alt="" />
             <div className="">
               <h4 className="font-poppins text-[#001817] text-[20px] mt-[24px] mb-[12px]">
@@ -253,7 +241,7 @@ function Allcomponent() {
         </div>
 
         <div className="col-span-1  sm:mb-[50px] mb-[28px]">
-          <Link to={"./ShareApp"}>
+          <Link to={"./socialmedia"}>
             <img src={new2} className="rounded-[25px] " alt="" />
             <div className="">
               <h4 className="font-poppins text-[#001817] text-[24px] mt-[24px] mb-[12px]">
@@ -304,7 +292,7 @@ function Allcomponent() {
         </div>
 
         <div className="col-span-1  sm:mb-[50px] mb-[28px]">
-          <Link to={"./CommonSuits"}>
+          <Link to={"./performancemarketing"}>
             <img src={new3} className="rounded-[25px] " alt="" />
             <div className="">
               <h4 className="font-poppins text-[#001817] text-[24px] mt-[24px] mb-[12px]">
@@ -324,7 +312,7 @@ function Allcomponent() {
         </div>
 
         <div className="col-span-1  sm:mb-[50px] mb-[28px]">
-          <Link to={"./Abroadly"}>
+          <Link to={"./designingandediting"}>
             <img src={new4} className="rounded-[25px] " alt="" />
             <div className="">
               <h4 className="font-poppins text-[#001817] text-[24px] mt-[24px] mb-[12px]">
@@ -344,7 +332,7 @@ function Allcomponent() {
         </div>
 
         <div className="col-span-1  sm:mb-[50px] mb-[28px]">
-          <Link to={"/Case"}>
+          <Link to={"/mediaproduction"}>
             <img src={new5} className="rounded-[25px] " alt="" />
             <div className="">
               <h4 className="font-poppins text-[#001817] text-[24px] mt-[24px] mb-[12px]">
@@ -724,7 +712,7 @@ function Media() {
 
               <div className="absolute xl:block hidden bottom-[-160px] left-[140px] bord list-none mx-auto">
                 <li className="py-[16px] px-[40px]">
-                  <Link to={"/ourwork"}>View all projects</Link>
+                  <Link to={"/services"}>View all projects</Link>
                 </li>
               </div>
             </div>
@@ -1040,12 +1028,12 @@ function Makeshipster() {
                   <Link to={"/contact"}>Let's Talk</Link>
                 </span>
               </button>
-              <img
-                // src={descriptionlogo}
-                src={blogos}
+              {/* <img
+                src={descriptionlogo}
+                src={blogo}
                 className="max-w-[191px] max-h-[62px] sm:block hidden"
                 alt=""
-              />
+              /> */}
             </div>
           </div>
 

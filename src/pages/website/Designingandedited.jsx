@@ -2,7 +2,7 @@
 
 import React from 'react'
 import Container4 from '../../components/Container4'
-import { Focus, Fx, Mirror, warning, Ajay, bomb, Nimble, Sx, groups, invalidname, notched, pencil3, two, rep, edt, ast, atn, SS, gm } from '../../assets'
+import { Focus, Fx, Mirror, warning, Ajay, bomb, Nimble, Sx, groups, invalidname, notched, pencil3, two, rep, edt, ast, atn, SS, gm ,m7, m6, m5, m4, m3, m2, m1, setting, clientcircle} from '../../assets'
 import { TiArrowRight } from "react-icons/ti";
 
 
@@ -12,6 +12,7 @@ import { Link } from 'react-router-dom'
 import Container2 from '../../components/Container2'
 import SimpleSlider from './SimpleSlider';
 import Trusted from './Trusted';
+import Marquee from 'react-fast-marquee';
 
 
 
@@ -171,7 +172,134 @@ Designing and Editing
 
       
 
-      <Trusted />
+  
+    <div className="pt-[80px] sm:px-[100px] px-[20px] pb-[120px] Truste">
+      <div className=" max-w-[1416px] mx-auto">
+        <h2 className="text-[50px] text-[#FFFFFF] mb-[30px] font-poppins tr">
+          Trusted by
+        </h2>
+        <div className="relative sm:block hidden THID">
+          <img
+            src={clientcircle}
+            className="absolute top-[-253px] right-0"
+            alt=""
+          />
+          <img
+            src={setting}
+            className="absolute top-[-179px] right-[122px]"
+            alt=""
+          />
+        </div>
+
+        <div className="w-full ">
+          <div className="w-[100%] flex flex-col">
+            <Marquee autoFill pauseOnHover>
+              <div className=" m-1 rounded-xl  sm:space-x-5 space-x-3 cursor-pointer text-sky-400">
+                <img
+                  className="lg:w-[180px] md:w-[140px] sm:w-[100px] w-[80px] lg:h-[100px] md:h-[70px] sm:h-[50px] h-[35px] mx-[25px]"
+                  src={m1}
+                  alt=""
+                />
+              </div>
+              <div className=" m-1 rounded-xl  sm:space-x-5 space-x-3 cursor-pointer text-sky-400">
+                <img
+                  className="lg:w-[180px] md:w-[140px] sm:w-[100px] w-[80px] lg:h-[100px] md:h-[70px] sm:h-[50px] h-[35px] mx-[25px]"
+                  src={m2}
+                  alt=""
+                />
+              </div>
+              <div className=" m-1 rounded-xl  sm:space-x-5 space-x-3 cursor-pointer text-sky-400">
+                <img
+                  className="lg:w-[180px] md:w-[140px] sm:w-[100px] w-[80px] lg:h-[100px] md:h-[70px] sm:h-[50px] h-[35px] mx-[25px]"
+                  src={m3}
+                  alt=""
+                />
+              </div>
+              <div className=" m-1 rounded-xl  sm:space-x-5 space-x-3 cursor-pointer text-sky-400">
+                <img
+                  className="lg:w-[180px] md:w-[140px] sm:w-[100px] w-[80px] lg:h-[100px] md:h-[70px] sm:h-[50px] h-[35px] mx-[25px]"
+                  src={m4}
+                  alt=""
+                />
+              </div>
+              <div className=" m-1 rounded-xl  sm:space-x-5 space-x-3 cursor-pointer text-sky-400">
+                <img
+                  className="lg:w-[180px] md:w-[140px] sm:w-[100px] w-[80px] lg:h-[100px] md:h-[70px] sm:h-[50px] h-[35px] mx-[25px]"
+                  src={m5}
+                  alt=""
+                />
+              </div>
+              <div className=" m-1 rounded-xl  sm:space-x-5 space-x-3 cursor-pointer text-sky-400">
+                <img
+                  className="lg:w-[180px] md:w-[140px] sm:w-[100px] w-[80px] lg:h-[100px] md:h-[70px] sm:h-[50px] h-[35px] mx-[25px]"
+                  src={m6}
+                  alt=""
+                />
+              </div>
+              <div className=" m-1 rounded-xl  sm:space-x-5 space-x-3 cursor-pointer text-sky-400">
+                <img
+                  className="lg:w-[180px] md:w-[140px] sm:w-[100px] w-[80px] lg:h-[100px] md:h-[70px] sm:h-[50px] h-[35px] mx-[25px]"
+                  src={m7}
+                  alt=""
+                />
+              </div>
+            </Marquee>
+            <Marquee autoFill pauseOnHover direction="right">
+              <div className=" m-1 rounded-xl  sm:space-x-5 space-x-3 cursor-pointer text-sky-400">
+                <img
+                  className="lg:w-[180px] md:w-[140px] sm:w-[100px] w-[80px] lg:h-[100px] md:h-[70px] sm:h-[50px] h-[35px] mx-[25px]"
+                  src={m1}
+                  alt=""
+                />
+              </div>
+              <div className=" m-1 rounded-xl  sm:space-x-5 space-x-3 cursor-pointer text-sky-400">
+                <img
+                  className="lg:w-[180px] md:w-[140px] sm:w-[100px] w-[80px] lg:h-[100px] md:h-[70px] sm:h-[50px] h-[35px] mx-[25px]"
+                  src={m2}
+                  alt=""
+                />
+              </div>
+              <div className=" m-1 rounded-xl  sm:space-x-5 space-x-3 cursor-pointer text-sky-400">
+                <img
+                  className="lg:w-[180px] md:w-[140px] sm:w-[100px] w-[80px] lg:h-[100px] md:h-[70px] sm:h-[50px] h-[35px] mx-[25px]"
+                  src={m3}
+                  alt=""
+                />
+              </div>
+              <div className=" m-1 rounded-xl  sm:space-x-5 space-x-3 cursor-pointer text-sky-400">
+                <img
+                  className="lg:w-[180px] md:w-[140px] sm:w-[100px] w-[80px] lg:h-[100px] md:h-[70px] sm:h-[50px] h-[35px] mx-[25px]"
+                  src={m4}
+                  alt=""
+                />
+              </div>
+              <div className=" m-1 rounded-xl  sm:space-x-5 space-x-3 cursor-pointer text-sky-400">
+                <img
+                  className="lg:w-[180px] md:w-[140px] sm:w-[100px] w-[80px] lg:h-[100px] md:h-[70px] sm:h-[50px] h-[35px] mx-[25px]"
+                  src={m5}
+                  alt=""
+                />
+              </div>
+              <div className=" m-1 rounded-xl  sm:space-x-5 space-x-3 cursor-pointer text-sky-400">
+                <img
+                  className="lg:w-[180px] md:w-[140px] sm:w-[100px] w-[80px] lg:h-[100px] md:h-[70px] sm:h-[50px] h-[35px] mx-[25px]"
+                  src={m6}
+                  alt=""
+                />
+              </div>
+              <div className=" m-1 rounded-xl  sm:space-x-5 space-x-3 cursor-pointer text-sky-400">
+                <img
+                  className="lg:w-[180px] md:w-[140px] sm:w-[100px] w-[80px] lg:h-[100px] md:h-[70px] sm:h-[50px] h-[35px] mx-[25px]"
+                  src={m7}
+                  alt=""
+                />
+              </div>
+            </Marquee>
+          </div>
+        </div>
+      </div>
+    </div>
+
 
 
       

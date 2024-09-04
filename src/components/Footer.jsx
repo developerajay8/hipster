@@ -144,7 +144,7 @@ export default function Footer() {
             </div>
             <div className="col-span-1 FTP">
               <div className='max-w-[500px] font-poppins text-[#FFF] text-[20px] text-right float-right'>
-                60 Kaki Bukit Place #10-14 Eunos Techpark Singapore 415979
+              Bhamashah Techno Hub Sansthan Path, Jhalana Gram, Malviya Nagar, Jaipur, Rajasthan 302017
               </div>
             </div>
           </div>
@@ -218,15 +218,11 @@ export default function Footer() {
             <div className="">
               <img src={blogos} className='max-w-[206px] max-h-[68px] pb-[20px]' alt="" />
             </div>
-            <div className='flex items-center '>
-              <p className='text-[#FFFFFF] font-poppins text-[20px]'>Subscribe to our newsletter </p>
-              <TiArrowRight className='text-[#FFFFFF] text-[30px]' />
-
-            </div>
+          
             <hr className='aman' />
           </div>
           <div className="grid sm:grid-cols-2 max-w-[1416px] mx-auto grid-cols-1 gap-10 pt-[0px] xl:px-[10px] px-[14px] ">
-            <div className="col-span-1 text-[#FFFFFF] font-poppins"><Link to={""}>Privacy Policy</Link> <Link to={""}>Sitemap</Link> </div>
+            <div className="col-span-1 text-[#FFFFFF] font-poppins"></div>
             <div className="sm:block hidden col-span-1 pb-[20px]">
               <ul className=' flex text-white lg:gap-[60px] md:gap-[40px] gap-[25px] float-right text-[18px] duration-700  font-poppins'>
                 <li className='hover:text-gray-800 duration-700'>

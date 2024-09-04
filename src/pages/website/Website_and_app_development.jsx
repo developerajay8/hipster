@@ -2,7 +2,7 @@
 
 import React from 'react'
 import Container4 from '../../components/Container4'
-import { Focus, Fx, Mirror, warning, Ajay, bomb, Nimble, Sx, groups, invalidname, notched, pencil3, two, rep, edt, ast, atn, SS, gm } from '../../assets'
+import { Focus, Fx, Mirror, warning, Ajay, bomb, Nimble, Sx, groups, invalidname, notched, pencil3, two, rep, edt, ast, atn, SS, gm, m7, m6, m5, m4, m3, m2, m1, setting, clientcircle } from '../../assets'
 import { TiArrowRight } from "react-icons/ti";
 
 
@@ -12,6 +12,7 @@ import { Link } from 'react-router-dom'
 import Container2 from '../../components/Container2'
 import SimpleSlider from './SimpleSlider';
 import Trusted from './Trusted';
+import Marquee from 'react-fast-marquee';
 
 
 export default function Website_and_app_development() {
@@ -95,81 +96,142 @@ export default function Website_and_app_development() {
         </div>
       </div>
 
-       {/* <div className="py-[80px]">
-        <Container4>
-          <div className="grid grid-cols-1 xl:px-[0px] lg:px-[10px] md:px-[70px] sm:px-[40px] px-[12px]">
-            <h2 className=' lg:text-[46px] md:text-[38px] text-[34px]  font-poppins text-[#000000] font-semibold'>Our work</h2>
-            <h3 className='lg:text-[32px] md:text-[24px] text-[22px] max-w-[700px] lg:leading-[45px] md:leading-[30px] md:mt-[25px] mt-[15px] font-poppins text-[#000000]'>Explore websites created for our clients all around the world and across industries</h3>
-          </div>
-
-          <div className="pt-[60px]">
-            <div className="grid md:grid-cols-2 grid-cols-1 gap-[80px] xl:px-[0px] lg:px-[14px] md:px-[20px] sm:px-[100px] px-[20px]" data-aos="slide-up" data-aos-duration="500">
-              <div className="col-span-1 ">
-                <Link to={"/tueetoredutech"}>
-                <img src={edt} alt="" />
-                <div className="py-[25px]">
-                  <h4 className='mb-[12px] text-[24px] font-poppins text-[#001817]'>Tueetor — Edutech</h4>
-                  <h3 className='lg:text-[32px] text-[24px] font-poppins font-bold text-[#001817]'>Online platform for finding digital tutors</h3>
-                  <ul classNameclassName='mt-[20px]'>
-                    <li className='text-[14px] font-poppins text-[#000000]'>Match Making Platform, Education Tech</li>
-                  </ul>
-                </div>
-                </Link>
-              </div>
-              <div className="col-span-1  mb-[17px]">
-                <Link to={'/mintutor'}>
-                <div className='lg:pt-[92px] md:pt-[72px]'>
-                  <img src={Sx} alt="" />
-                  <div className="py-[25px]">
-                    <h4 className='mb-[12px] text-[24px] font-poppins text-[#001817]'>10-min Tutor — Edutech</h4>
-                    <h3 className='lg:text-[32px] text-[24px] font-semibold font-poppins text-[#001817]'>On-demand tutor app with video-telephony & marketplace functionalities</h3>
-                    <ul className='mt-[20px]'>
-                      <li className='text-[14px] font-poppins text-[#000000]'>On-Demand Video Solutions, Education Tech</li>
-                    </ul>
-                  </div>
-                </div>
-                </Link>
-              </div>
-            </div>
-            <div className="grid md:grid-cols-2 grid-cols-1 gap-[80px] xl:px-[0px] lg:px-[14px] md:px-[20px] sm:px-[100px] px-[20px]" data-aos="slide-up" data-aos-duration="500">
-              <div className="col-span-1 ">
-              <Link to={"/physicleteam"}>
-                <img src={SS} alt="" />
-                <div className="py-[25px]">
-                  <h4 className='mb-[12px] text-[24px] font-poppins text-[#001817]'>Tbit — Team Engagement</h4>
-                  <h3 className='lg:text-[32px] text-[24px] font-poppins font-bold text-[#001817]'>A physical team-building app: say no to boring activities!</h3>
-                  <ul classNameclassName='mt-[20px]'>
-                    <li className='text-[14px] font-poppins text-[#000000]'>Gamification in Tech, Event Management</li>
-                  </ul>
-                </div>
-                </Link>
-              </div>
-              <div className="col-span-1  mb-[17px]">
-                <Link to={'/wsg'}>
-                <div className='lg:pt-[92px] md:pt-[72px]'>
-                  <img src={gm} alt="" />
-                  <div className="py-[25px]">
-                    <h4 className='mb-[12px] text-[24px] font-poppins text-[#001817]'>WSG — Workforce Singapore — Career Guidance</h4>
-                    <h3 className='lg:text-[32px] text-[24px] font-semibold font-poppins text-[#001817]'>Pilot of Mobile Kiosks.</h3>
-                    <ul className='mt-[20px]'>
-                      <li className='text-[14px] font-poppins text-[#000000]'>On-Demand Video Solutions, Mobile Apps, Web App, Admin Panel / Dashboard, UI/UX Design</li>
-                    </ul>
-                  </div>
-                </div>
-                </Link>
-              </div>
-            </div>
-          </div>
-
-        </Container4>
-      </div> */}
+       
 
 
       
 
       
 
-      <Trusted />
+
+    <div className="pt-[80px] sm:px-[100px] px-[20px] pb-[120px] Truste">
+      <div className=" max-w-[1416px] mx-auto">
+        <h2 className="text-[50px] text-[#FFFFFF] mb-[30px] font-poppins tr">
+          Trusted by
+        </h2>
+        <div className="relative sm:block hidden THID">
+          <img
+            src={clientcircle}
+            className="absolute top-[-253px] right-0"
+            alt=""
+          />
+          <img
+            src={setting}
+            className="absolute top-[-179px] right-[122px]"
+            alt=""
+          />
+        </div>
+
+        <div className="w-full ">
+          <div className="w-[100%] flex flex-col">
+            <Marquee autoFill pauseOnHover>
+              <div className=" m-1 rounded-xl  sm:space-x-5 space-x-3 cursor-pointer text-sky-400">
+                <img
+                  className="lg:w-[180px] md:w-[140px] sm:w-[100px] w-[80px] lg:h-[100px] md:h-[70px] sm:h-[50px] h-[35px] mx-[25px]"
+                  src={m1}
+                  alt=""
+                />
+              </div>
+              <div className=" m-1 rounded-xl  sm:space-x-5 space-x-3 cursor-pointer text-sky-400">
+                <img
+                  className="lg:w-[180px] md:w-[140px] sm:w-[100px] w-[80px] lg:h-[100px] md:h-[70px] sm:h-[50px] h-[35px] mx-[25px]"
+                  src={m2}
+                  alt=""
+                />
+              </div>
+              <div className=" m-1 rounded-xl  sm:space-x-5 space-x-3 cursor-pointer text-sky-400">
+                <img
+                  className="lg:w-[180px] md:w-[140px] sm:w-[100px] w-[80px] lg:h-[100px] md:h-[70px] sm:h-[50px] h-[35px] mx-[25px]"
+                  src={m3}
+                  alt=""
+                />
+              </div>
+              <div className=" m-1 rounded-xl  sm:space-x-5 space-x-3 cursor-pointer text-sky-400">
+                <img
+                  className="lg:w-[180px] md:w-[140px] sm:w-[100px] w-[80px] lg:h-[100px] md:h-[70px] sm:h-[50px] h-[35px] mx-[25px]"
+                  src={m4}
+                  alt=""
+                />
+              </div>
+              <div className=" m-1 rounded-xl  sm:space-x-5 space-x-3 cursor-pointer text-sky-400">
+                <img
+                  className="lg:w-[180px] md:w-[140px] sm:w-[100px] w-[80px] lg:h-[100px] md:h-[70px] sm:h-[50px] h-[35px] mx-[25px]"
+                  src={m5}
+                  alt=""
+                />
+              </div>
+              <div className=" m-1 rounded-xl  sm:space-x-5 space-x-3 cursor-pointer text-sky-400">
+                <img
+                  className="lg:w-[180px] md:w-[140px] sm:w-[100px] w-[80px] lg:h-[100px] md:h-[70px] sm:h-[50px] h-[35px] mx-[25px]"
+                  src={m6}
+                  alt=""
+                />
+              </div>
+              <div className=" m-1 rounded-xl  sm:space-x-5 space-x-3 cursor-pointer text-sky-400">
+                <img
+                  className="lg:w-[180px] md:w-[140px] sm:w-[100px] w-[80px] lg:h-[100px] md:h-[70px] sm:h-[50px] h-[35px] mx-[25px]"
+                  src={m7}
+                  alt=""
+                />
+              </div>
+            </Marquee>
+            <Marquee autoFill pauseOnHover direction="right">
+              <div className=" m-1 rounded-xl  sm:space-x-5 space-x-3 cursor-pointer text-sky-400">
+                <img
+                  className="lg:w-[180px] md:w-[140px] sm:w-[100px] w-[80px] lg:h-[100px] md:h-[70px] sm:h-[50px] h-[35px] mx-[25px]"
+                  src={m1}
+                  alt=""
+                />
+              </div>
+              <div className=" m-1 rounded-xl  sm:space-x-5 space-x-3 cursor-pointer text-sky-400">
+                <img
+                  className="lg:w-[180px] md:w-[140px] sm:w-[100px] w-[80px] lg:h-[100px] md:h-[70px] sm:h-[50px] h-[35px] mx-[25px]"
+                  src={m2}
+                  alt=""
+                />
+              </div>
+              <div className=" m-1 rounded-xl  sm:space-x-5 space-x-3 cursor-pointer text-sky-400">
+                <img
+                  className="lg:w-[180px] md:w-[140px] sm:w-[100px] w-[80px] lg:h-[100px] md:h-[70px] sm:h-[50px] h-[35px] mx-[25px]"
+                  src={m3}
+                  alt=""
+                />
+              </div>
+              <div className=" m-1 rounded-xl  sm:space-x-5 space-x-3 cursor-pointer text-sky-400">
+                <img
+                  className="lg:w-[180px] md:w-[140px] sm:w-[100px] w-[80px] lg:h-[100px] md:h-[70px] sm:h-[50px] h-[35px] mx-[25px]"
+                  src={m4}
+                  alt=""
+                />
+              </div>
+              <div className=" m-1 rounded-xl  sm:space-x-5 space-x-3 cursor-pointer text-sky-400">
+                <img
+                  className="lg:w-[180px] md:w-[140px] sm:w-[100px] w-[80px] lg:h-[100px] md:h-[70px] sm:h-[50px] h-[35px] mx-[25px]"
+                  src={m5}
+                  alt=""
+                />
+              </div>
+              <div className=" m-1 rounded-xl  sm:space-x-5 space-x-3 cursor-pointer text-sky-400">
+                <img
+                  className="lg:w-[180px] md:w-[140px] sm:w-[100px] w-[80px] lg:h-[100px] md:h-[70px] sm:h-[50px] h-[35px] mx-[25px]"
+                  src={m6}
+                  alt=""
+                />
+              </div>
+              <div className=" m-1 rounded-xl  sm:space-x-5 space-x-3 cursor-pointer text-sky-400">
+                <img
+                  className="lg:w-[180px] md:w-[140px] sm:w-[100px] w-[80px] lg:h-[100px] md:h-[70px] sm:h-[50px] h-[35px] mx-[25px]"
+                  src={m7}
+                  alt=""
+                />
+              </div>
+            </Marquee>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
 
 
       

@@ -284,7 +284,7 @@ export default function Header() {
                 {FIItems.map((Fiitem, index) => {
                   return (
                     <li key={index} className="text-[18px] pb-[4px] leading-5">
-                      <Link onClick={closeMenu} to={Fiitem.url}>
+                      <Link className="cursor-pointer">
                         {Fiitem.name}
                       </Link>
                     </li>
@@ -306,10 +306,10 @@ export default function Header() {
                 })}
 
                 <div className="text-[18px] cursor-pointer pb-[4px] leading-6">
-                  60 Kaki Bukit Place #10-14
+                Bhamashah Techno Hub
                 </div>
                 <div className="text-[18px] cursor-pointer pb-[4px] leading-6">
-                  Eunos Techpark, Singapore 415979
+                Sansthan Path, Jhalana Gram, Malviya Nagar, Jaipur, Rajasthan 302017
                 </div>
               </ul>
             </div>

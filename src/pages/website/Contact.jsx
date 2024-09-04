@@ -9,12 +9,12 @@ export default function Contact() {
   const [clickedButtons, setClickedButtons] = useState([]);
 
   const buttonNames = [
-    "Website name",
-    "Mobile app development",
-    "UI/UX design",
-    "Web app",
-    "General consultation",
-    "Improve existing software",
+    "Web Application",
+    "Website and App Development",
+    "CGI & 2D, 3D",
+    "Social Media Management",
+    "Branding",
+    "Performance marketing",
     "Others",
   ];
 
@@ -59,7 +59,7 @@ export default function Contact() {
                 </div>
               </div>
 
-              <div className="pt-[20px]">
+              <div className="pt-[20px] cursor-pointer">
                 <span className="text-[28px] text-[#000000] font-poppins mb-[10px] mt-[20px]">
                   Project budget (SGD)*{" "}
                 </span>
