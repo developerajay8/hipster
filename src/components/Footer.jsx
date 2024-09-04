@@ -132,8 +132,8 @@ export default function Footer() {
   return (
     <div>
       <div className='footer  pt-[100px]'>
-       
-          <div className="grid max-w-[1416px] mx-auto grid-cols-2 xl:px-[10px] sm:px-[30px] px-[22px]">
+       <div className="max-w-[1416px] mx-auto sm:px-[60px] px-[20px]">
+          <div className="grid  grid-cols-2 ">
             <div className="col-span-1 leading-[57px]">
               <h2 className='text-[50px] font-poppins text-[#FFFFFF]'>Have an idea ?</h2>
 
@@ -149,7 +149,7 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="mb-[20px] max-w-[1416px] mx-auto mt-[82px] grid grid-cols-4 gap-4 xl:px-[10px] px-[20px]">
+          <div className="mb-[20px]  mt-[82px] grid grid-cols-4 gap-4 ">
             <div className="md:col-span-1 sm:col-span-2 col-span-4 md:px-[20px] ">
               <h4 className='font-bold text-[#FFFFFF] text-[16px] font-poppins mb-[16px]'>Company</h4>
               <ul className=' text-[#FFFFFFCC] text-[16px] font-poppins'>
@@ -214,14 +214,14 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="grid max-w-[1416px] mx-auto grid-cols-1 akak pb-7 xl:px-[10px] px-[20px]">
+          <div className="grid  grid-cols-1 akak pb-7 ">
             <div className="">
               <img src={blogos} className='max-w-[206px] max-h-[68px] pb-[20px]' alt="" />
             </div>
           
             <hr className='aman' />
           </div>
-          <div className="grid sm:grid-cols-2 max-w-[1416px] mx-auto grid-cols-1 gap-10 pt-[0px] xl:px-[10px] px-[14px] ">
+          <div className="grid sm:grid-cols-2  grid-cols-1 gap-10 pt-[0px]  ">
             <div className="col-span-1 text-[#FFFFFF] font-poppins"></div>
             <div className="sm:block hidden col-span-1 pb-[20px]">
               <ul className=' flex text-white lg:gap-[60px] md:gap-[40px] gap-[25px] float-right text-[18px] duration-700  font-poppins'>
@@ -241,18 +241,18 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="max-w-[1416px] mx-auto relative md:block hidden">
+          <div className=" relative md:block hidden">
             <img src={bomb} className='FB absolute top-[112px] left-[400px] w-[120px] h-[120px]' alt="" />
           </div>
 
-          <div className='max-w-[1416px] mx-auto relative FT'>
+          <div className=' relative FT'>
             <img src={pencil3} className=' NGo w-[145px] h-[188px] absolute top-[-657px] right-[-10px]' alt="" />
           </div>
 
-          <div className="max-w-[1416px] mx-auto relative md:block hidden bts ">
+          <div className=" relative md:block hidden bts ">
             <img src={two} className='w-[70px] h-[80px] top-[-770px] left-0 absolute' alt="" />
           </div>
-       
+       </div>
       </div>
 
     </div>
