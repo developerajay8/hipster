@@ -187,9 +187,9 @@ export default function Home() {
       <Allcomponent />
 <div className="">
       <Branding ref={ref} />
-      <Social />
+      <Webapp />
       <Marketing />
-      <Designing />
+      <Websiteapp />
       <Media />
       <Our_Services />
       <Goalsec />
@@ -210,10 +210,10 @@ function Allcomponent() {
           <Link to={"./branding"}>
             <img src={new1} className="rounded-[25px] " alt="" />
             <div className="">
-              <h4 className="font-poppins text-[#001817] text-[20px] mt-[24px] mb-[12px]">
+              <h4 className="font-poppins text-[#001817] text-[24px] mt-[24px] mb-[12px]">
               Branding
               </h4>
-              <h3 className="font-poppins text-[#001817] text-[24px] font-medium">
+              <h3 className="font-poppins text-[#001817] text-[20px] font-medium">
               Build a distinctive brand identity that resonates with your audience. Our branding services encompass market research, brand strategy, and visual identity design, ensuring that your brand stands out in the competitive landscape.
               </h3>
               <ul className="font-poppins text-[14px] text-#000000] mt-[20px]">
@@ -243,14 +243,14 @@ function Allcomponent() {
         </div>
 
         <div className="col-span-1  sm:mb-[50px] mb-[28px]">
-          <Link to={"./socialmedia"}>
+          <Link to={"./webapplication"}>
             <img src={new2} className="rounded-[25px] " alt="" />
             <div className="">
               <h4 className="font-poppins text-[#001817] text-[24px] mt-[24px] mb-[12px]">
-              Social Media Management
+              Web Application
               </h4>
               <h3 className="font-poppins text-[#001817] text-[20px] font-medium">
-              Cultivate a vibrant social media presence with our expert management services. From content creation to community engagement, we help you leverage social platforms to enhance brand visibility and connect with your audience.
+              Streamline your business operations with custom web applications tailored to your specific needs. Our solutions enhance efficiency, productivity, and user experience.
               </h3>
               <ul className="font-poppins text-[14px] text-#000000] mt-[20px]">
                 <a>
@@ -314,14 +314,14 @@ function Allcomponent() {
         </div>
 
         <div className="col-span-1  sm:mb-[50px] mb-[28px]">
-          <Link to={"./designingandediting"}>
+          <Link to={"./websiteandappdevelopment"}>
             <img src={new4} className="rounded-[25px] " alt="" />
             <div className="">
               <h4 className="font-poppins text-[#001817] text-[24px] mt-[24px] mb-[12px]">
-              Designing and Editing
+              Website and App Development
               </h4>
               <h3 className="font-poppins text-[#001817] text-[20px] font-medium">
-              Elevate your visual presence with captivating design and precision editing. Our talented team brings your creative vision to life through impactful imagery, graphics, and visual storytelling.
+              Leverage responsive and user-centric design with our website and app development services. Our expert team delivers seamless digital experiences that drive engagement and conversions.
               </h3>
               <ul className="font-poppins text-[14px] text-#000000] mt-[20px]">
                 <a>
@@ -334,15 +334,15 @@ function Allcomponent() {
         </div>
 
         <div className="col-span-1  sm:mb-[50px] mb-[28px]">
-          <Link to={"/mediaproduction"}>
+          <Link to={"/cgi"}>
             <img src={new5} className="rounded-[25px] " alt="" />
             <div className="">
               <h4 className="font-poppins text-[#001817] text-[24px] mt-[24px] mb-[12px]">
                 {" "}
-                Media Production
+                CGI & 2D, 3D
               </h4>
               <h3 className="font-poppins text-[#001817] text-[20px] font-medium">
-              From concept to execution, our media production services encompass video, audio, and multimedia content creation, ensuring compelling storytelling that captivates your audience.
+              Achieve immersive visual experiences with our cutting-edge CGI and 2D/3D animation services. We bring imagination to life, creating stunning visual content that captivates and enthralls.
               </h3>
               <ul className="font-poppins text-[14px] text-#000000] mt-[20px]">
                 <a>
@@ -449,19 +449,19 @@ function Branding() {
   );
 }
 
-function Social() {
+function Webapp() {
   return (
     <div className="lg:block hidden xl:py-[100px] py-[80px] sm:px-[100px] px-[20px] Share relative ">
-      <Link to={"./socialmedia"}>
+      <Link to={"./webapplication"}>
         <Container>
           <div className="grid grid-cols-3 gap-4 max-w-[1416px] mx-auto">
             <div className="lg:col-span-1 md:col-span-5 sm:col-span-5 col-span-6 lg:pb-0 pb-[30px] pt-5">
               <div className="text-[#031a1b] text-[30px] font-poppins cursor-pointer fonts">
-              Social Media Management
+              Web Application
               </div>
               <h3 className="my-[30px] text-[#031a1b] text-[16px]  font-poppins font-semibold leading-[27px] ">
-                <Link to={"./socialmedia"}>
-                Cultivate a vibrant social media presence with our expert management services. From content creation to community engagement, we help you leverage social platforms to enhance brand visibility and connect with your audience.
+                <Link to={"./webapplication"}>
+                Streamline your business operations with custom web applications tailored to your specific needs. Our solutions enhance efficiency, productivity, and user experience.
                 </Link>
               </h3>
               <p className="text-[#334545] text-[14px] font-poppins">
@@ -604,19 +604,19 @@ function Marketing() {
   );
 }
 
-function Designing() {
+function Websiteapp() {
   return (
     <div className=" lg:block hidden Abroadly xl:py-[100px] py-[80px] sm:px-[100px] px-[20px]">
-      <Link to={"./designingandediting"}>
+      <Link to={"./websiteandappdevelopment"}>
         <Container>
           <div className="grid grid-cols-3 gap-4 max-w-[1416px] mx-auto">
             <div className="lg:col-span-1 md:col-span-5 sm:col-span-5 col-span-6 lg:pb-0 pb-[30px] pt-5 my-auto">
               <div className="text-[#FFFFFF] text-[30px] font-poppins cursor-pointer fonts">
-              Designing and Editing
+              Website and App Development
               </div>
               <h3 className="my-[30px] text-[#ffffff] text-[16px] font-poppins font-semibold leading-[27px] ">
-                <Link to={"./designingandediting"}>
-                Elevate your visual presence with captivating design and precision editing. Our talented team brings your creative vision to life through impactful imagery, graphics, and visual storytelling.
+                <Link to={"./websiteandappdevelopment"}>
+                Leverage responsive and user-centric design with our website and app development services. Our expert team delivers seamless digital experiences that drive engagement and conversions.
                 </Link>
               </h3>
               <p className="text-[#FFFFFF] text-[14px] font-poppins">
@@ -691,15 +691,15 @@ function Media() {
   return (
     <div className="w-full lg:block hidden Case overflow-hidden xl:pt-[100px] pb-[190px] pt-[80px] sm:px-[100px] px-[20px]">
       <Container>
-        <Link to={"/mediaproduction"}>
+        <Link to={"/cgi"}>
           <div className="grid grid-cols-3 gap-4 max-w-[1416px] mx-auto">
             <div className=" lg:col-span-1 md:col-span-5 sm:col-span-5 col-span-6 lg:pb-0 pb-[30px] pt-5 my-auto ">
               <div className="text-[#031a1b] text-[30px] font-poppins cursor-pointer fonts">
-              Media Production
+              CGI & 2D, 3D
               </div>
               <h3 className="my-[30px] text-[#031a1b] text-[16px]  font-poppins font-semibold leading-[27px] ">
-                <Link to={"./mediaproduction"}>
-                From concept to execution, our media production services encompass video, audio, and multimedia content creation, ensuring compelling storytelling that captivates your audience.
+                <Link to={"./cgi"}>
+                Achieve immersive visual experiences with our cutting-edge CGI and 2D/3D animation services. We bring imagination to life, creating stunning visual content that captivates and enthralls.
                 </Link>
               </h3>
               <p className="text-[#334545] text-[14px] font-poppins">

@@ -132,7 +132,7 @@ export default function Footer() {
   return (
     <div>
       <div className='footer  pt-[100px]'>
-       <div className="max-w-[1416px] mx-auto sm:px-[60px] px-[20px]">
+       <div className="max-w-[1416px] mx-auto sm:px-[40px] px-[20px]">
           <div className="grid  grid-cols-2 ">
             <div className="col-span-1 leading-[57px]">
               <h2 className='text-[50px] font-poppins text-[#FFFFFF]'>Have an idea ?</h2>
